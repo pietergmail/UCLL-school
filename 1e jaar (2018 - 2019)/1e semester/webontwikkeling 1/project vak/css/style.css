@@ -1,0 +1,335 @@
+@charset"UTF-8";
+*{font-family: Georgia, Times, serif;}
+
+header {
+    max-width: 1000px;
+    margin: auto;
+    background-image: linear-gradient(-90deg, rgb(51, 153, 51), rgb(102, 204, 102));
+}
+
+main h2 {
+    padding: 2vh;
+    font-size: 3vh;
+    text-align: start;
+}
+
+main h3 {
+    padding: 1vh;
+    text-align: center;
+    font-size: 3vh;
+}
+
+li {
+    text-decoration: none;
+    background-color: rgb(200, 200, 200);
+    height: 100%;
+    border: 1px solid black;
+    flex-grow: 1;
+    text-align: center;
+    line-height: 2.8vh;
+}
+
+li:active {
+    background-color: rgb(0, 204, 0);
+}
+
+article p{
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    width: 86%;
+    height: 50vh;
+    margin: auto;
+    padding: 2vh;
+}
+
+footer p{
+    margin-left: 3vh;
+}
+
+
+.radio {
+    width: 2vh;
+}
+
+a:focus {
+    color: #fff;
+    background: rgb(51, 204, 51);
+}
+
+input.fout {
+    border: 2px solid red;
+}
+
+.video{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+@media screen and (min-width:850px) {
+    body {
+        background-image: url("../img/background.JPG");
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 7.5vh;
+        padding-left: 4vh;
+        text-align: start;
+        align-self: center;
+    }
+
+    header div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    img {
+        border-radius: 50%;
+        opacity: 1;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2vh;
+    }
+
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    li {
+        line-height: 6.5vh;
+        width: 15%;
+    }
+
+    li:hover {
+        background-color: rgb(219, 219, 219);
+    }
+
+    a {
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        max-width: 1000px;
+        margin: auto;
+        background-color: rgba(219, 219, 219, 0.90);
+    }
+
+    main a {
+        display: inline;
+        color: blue;
+        text-decoration: underline;
+    }
+
+    main img {
+        text-align: center;
+        width: 35vh;
+        height: 30vh;
+    }
+
+    article {
+        padding: 2vh;
+    }
+
+    article p {
+        text-align: center;
+        padding: 2vh 2vh 1vh 0vh;
+        width: 100%;
+    }
+
+    main article p:nth-child(1) {
+        padding: 2vh;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        text-align: start;
+    }
+
+    main div img {
+        float: left;
+    }
+
+    main form article p {
+        text-align: start;
+        padding: 2vh;
+    }
+
+    main form article p input {
+        width: 95%;
+    }
+
+
+    textarea {
+        width: 95%;
+        resize: none;
+    }
+
+    footer {
+        margin: auto;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        align-items: center;
+        max-width: 1000px;
+        background-image: linear-gradient(rgba(219, 219, 219, 0.90), rgb(102, 204, 102));
+    }
+
+    .span {
+        margin: 2vh 4vh 0 4vh;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        text-align: start;
+    }
+
+    .inschrijvingen {
+        grid-template-columns: 52% 48%;
+        grid-template-rows: auto auto;
+    }
+
+    .square {
+        width: 40vh;
+        height: auto;
+        border-radius: 10%;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        padding: 2vh;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    body {
+        background-color: rgb(217, 242, 217);
+    }
+
+    header div {
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(-90deg, rgb(51, 153, 51), rgb(102, 204, 102));
+    }
+
+    header div img {
+        margin: auto;
+        width: 60%;
+    }
+
+    header div h1 {
+        align-items: center;
+        height: 5vh;
+        font-size: 3.5vh;
+        align-self: center;
+        margin: 2.5% auto auto auto;
+    }
+
+    nav ul {
+        display: flex;
+        align-content: space-around;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        background-color: rgb(153, 255, 153);
+        text-align: start;
+    }
+
+    nav ul li a {
+        font-size: 3vh;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        padding-left: 2vh;
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+    main {
+        background-color: rgb(217, 242, 217);
+        display: flex;
+        flex-direction: column;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-template-columns: auto;
+    }
+
+    main p{
+        padding: 0.5vh 2.5vh 0.5vh 2.5vh;
+    }
+
+    img{
+        margin: auto;
+        width: 100%;
+    }
+
+    main article {
+        max-width: 100%;
+        padding: 2.5%;
+    }
+
+    main article img {
+        border-radius: 2%;
+        justify-content: center;
+    }
+
+    main form article p {
+        margin: 2vh;
+        padding: 0;
+        text-align: start;
+    }
+
+    body main div{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    audio{
+        width: 80%;
+    }
+
+    textarea {
+        width: 100%;
+        resize: none;
+    }
+
+    input{
+        width: 100%;
+    }
+
+
+    iframe{
+        width: 100%;
+        margin-top: 2vh;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    footer {
+        height: 10vh;
+        background-image: linear-gradient(rgb(217, 242, 217), rgb(102, 204, 102));
+    }
+}
+
+@media screen and (max-width: 53.85vh) {
+    h1 {
+        padding-bottom: 8%;
+    }
+}
+
+@media screen and (max-width: 33.7vh) {
+    h1 {
+        padding-bottom: 20%;
+    }
+}
+

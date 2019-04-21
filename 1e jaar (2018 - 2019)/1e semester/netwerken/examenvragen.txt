@@ -1,0 +1,31 @@
+het osi model is een protocol suite, let het laatste woord uit.
+
+
+Beschrijf de functionaliteti van het TTL veld in het IPv4-pakket.
+
+
+leg uit hoe NAT  werkt. hoe het één ipv4 addres kan delen tussen meerdere gebruikers. wat als zelfde site terzelfde zette.
+
+
+Hebben routers IP-adressen? Zo ja, Hoeveel?
+
+
+Welke zijn de IPv6-adressen in het blok 2001:0200::/23?
+
+	Laagste addres: 2001:0200::
+	
+	Hoogste addres: 2001:03ff:ffff:ffff:ffff:ffff:ffff:ffff
+
+	
+wat is de kortste notatie van 2001:0000:0000:0006:0000:0000:0000:1002?
+
+2001:0000:0000:0006::1002
+
+Waaruit bestaat de minimale TCP/IP-configuratie op een pc(wat moet er zeker geconfigureerd worden om enkel met andere machines 
+op het netwerk te kunnen communiceren)?
+
+
+Het netwerk om subnetten 123.45.27.0/22. Routers SaoPaolo en RiodeJaneiro hebben elk 2 lans en zijn veboden door een seriële lijn. 
+Het aantal hosts op de lans zijn:
+	->SaoPaolo: 7 en 35
+	->RiodeJaneiro: .... verdere VLSM oefening (kijk naar u tussentijdse testen).

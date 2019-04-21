@@ -1,0 +1,4 @@
+SELECT datum, bedrag
+from boetes
+where bedrag < 75
+order by bedrag asc

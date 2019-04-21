@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Example</title>
+</head>
+<body>
+    <form method="POST" action="" id="form" enctype="multipart/form-data">
+        <legend>Information about me:</legend>
+        <p>
+            <label for="Uw naam">Uw naam</label>
+            <input type="text" name="Uw naam" id="Uw naam">
+        </p>
+        <p>
+            <label for="Telefoon">Telefoon</label>
+            <input type="tel" name="Telefoon" id="Telefoon">
+        </p>
+        <p>
+                <label for="E-mailadres">E-mailadres:</label>
+                <input type="tel" name="E-mailadres" id="E-mailadres">
+        </p>
+        <p>
+                <label for="Pizza's">Aantal pizza's:</label>
+                <input type="number" min="1" max="5" name="Pizza's" id="Pizza's">
+        </p>
+        <p>
+                <label for="datum">Dag van aflevering (bvb. 02/02/2014):</label>
+                <input type="date" name="E-mailadres" id="datum">
+        </p>
+        <p>
+                <label for="tijd">Tijdstip van aflevering (bvb. 12:45):</label>
+                <input type="time" name="E-mailadres" id="tijd">
+        </p>
+        <p>
+            <label for="Type">Welk soort pizza verkiest u?</label>
+            <select id="Type" title="Type of subject?">
+            <optgroup label="Nieuw">
+                <option value="Samourai">Pizza Samourai</option>
+                <option value="Hamburger">Pizza Hamburger</option>
+                <option value="Chicken Twist">Pizza Chicken Twist</option>
+            </optgroup>
+            <optgroup label="Vegetarisch">
+                <option value="Samourai">Pizza Margherita</option>
+                <option value="Hamburger">Pizza Garden Lovers</option>
+            </optgroup>
+            </select>
+        </p>
+        <fieldset>
+        <legend>Groote van de pizza:</legend>
+        <p>
+            <label for="klein">
+                <input type="radio" name="Groot" id="klein"> Klein </label>
+        </p>
+        <p>
+            <label for="Medium">
+                <input type="radio" name="Groot" id="Medium"> Medium </label>
+        </p>
+        <p>
+           <label for="Groot">
+           <input type="radio" name="Groot" id="Groot"> Groot </label>
+        </p>
+        </fieldset>
+        <fieldset>
+            <legend>Garinatuur:</legend>
+            <p>
+                <label for="Bacon">
+                    <input type="checkbox" name="Bacon" id="Bacon"> Bacon </label>
+            </p>
+            <p>
+                <label for="Extra kaas">
+                    <input type="checkbox" name="Extra kaas" id="Extra kaas"> Extra kaas </label>
+            </p>
+            <p>
+                <label for="Champignons">
+                    <input type="checkbox" name="Champignons" id="Champignons"> Champignons </label>
+            </p>
+        </fieldset>
+        <p>
+            Opmerkingen:
+
+
+            <textarea name="message" id="message" rows="10" cols="30">vul hier uw opmerkingen in</textarea>
+            </p>
+        <p><input type="submit" value="Bestel"></p>
+    </form>
+</body>
+</html>

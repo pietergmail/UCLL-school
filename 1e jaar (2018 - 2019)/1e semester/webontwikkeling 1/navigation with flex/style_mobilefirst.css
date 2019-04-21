@@ -1,0 +1,41 @@
+ul{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
+}
+a{
+    padding: 10px 0;
+}
+
+
+a{
+    background-color: grey;
+    display: block;
+}
+li{
+    border: 1px solid white;
+}
+a:link{
+    border: 1px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover{
+    background-color: darkblue;
+}
+
+a:active{
+    background-color: white;
+    color: black;
+}
+
+
+

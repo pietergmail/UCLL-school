@@ -1,0 +1,69 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, serif;
+  font-size: 100%;
+  background-color: white;
+  margin: 0;
+}
+
+/* link styles */
+a:link, a:visited { color: #DC6903; }
+a:focus, a:hover, a:active { color: #F9AB33; }
+
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  padding-bottom: .2em;
+}
+
+h2 {
+  font-family: 'Stint Ultra Expanded', Geprgia, serif;
+}
+
+/* main "products" styles */
+main {
+  font-family: 'Stint Ultra Expanded', Georgia, serif;
+  background-color: white;
+  line-height: 1.8em;
+  color: #555;
+  padding: 1em;
+  border: double 4px #EADDC4;
+  border-radius: 25px;
+  margin: 2.5%;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  color: #7A0002;
+  border-top: 1px solid;
+  border-left: 3px solid;
+  padding-left: 1em;
+  margin-top: 2.5em;
+}
+
+p.more {
+  font-family: verdana, sans-serif;
+  text-transform: uppercase; 
+  font-size: .8em;
+}
+
+/* add styles below */
+.brood{
+    shape-outside: url(../images/bread.png);
+    shape-image-threshold: 0.5;
+}
+
+.muffin{
+  shape-outside: url(../images/muffin.png);
+  shape-image-threshold: 0.5;
+}
+
+img{
+  float: left;
+}
+

@@ -1,0 +1,2 @@
+SELECT spelersnr, naam || ' ' || voorletters AS naam, jaartoe
+from spelers

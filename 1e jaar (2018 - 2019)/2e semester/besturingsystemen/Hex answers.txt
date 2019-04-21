@@ -1,0 +1,29 @@
+Signature EFI-Partition: 0x000200: EFI PART
+disk GUID: 0x000238: ×a}‡æ<F”¤ÆÃÈRZò
+max LBA size: 0x000228 => 0x000237: 4FDe - 22 + 1 = 4FBD = +-10MB
+single partition: 0x000254: 512
+
+0x000400
+
+the size: 0x800 of +-1MB
+first block: 0x4FDE
+offset: 0x1000000
+
+Partition Layout
+Number of fat copies: 2
+size of one fat: 0x48 sectors of 0x200*0x48 = 36864 bytes
+enteries in root directory: 200 items
+how large in bytes?: 512 * 32 = +-16Kb
+FAT 2: offset = 0x10A000
+Root Directory = 0x113000
+Data section = 0x117000
+
+Directory:
+
+
+
+
+
+
+
+

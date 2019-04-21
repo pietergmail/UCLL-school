@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="robots" content="noindex"/>
+    <meta name="Description" content="Inschrijvings pagina.">
+    <meta name="theme-color" content="#339933"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8"/>
+    <title>Vak</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/logo.png">
+</head>
+<body>
+<header>
+    <div>
+        <img src="img/logo.png" alt="logo vak">
+
+        <h1 lang="nl">Verbond voor Avontuurlijke Kampen</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="liedjes.html">Liedjes</a></li>
+            <li><a href="Geschiedenis.html">Geschiedenis</a></li>
+            <li><a href="over_ons.html">Over ons</a></li>
+            <li><a href="inschrijven.html">Inschrijven</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="inschrijvingen">
+
+            <p>
+                Wil jij jou jeugdige en avontuurlijke zelf bovenhalen? Dit kan tijdens deze enthousiaste en exclusieve evenementen die VAK organiseert. Deze evenementen variëren van daguitstappen tot een weekje weg in de wilde natuur. Doordat vak in een besloten kring werkt zal er altijd een vrolijke sfeer aanwezig zijn die je innerlijke zelf naar boven haalt!
+                Voor eventuele illustraties van vorige activiteiten kan je altijd de <a href="Geschiedenis.html">Geschiedenis pagina</a> bekijken.
+                Alles wat je moet om hieraan deel te nemen is onderstaande formulier invullen. Deze informatie blijft natuurlijk binnen de organisatie zelf.
+            </p>
+
+    <form method="POST" id="form" enctype="multipart/form-data">
+            <article>
+                <h2>Inschrijven voor volgende VAK</h2>
+            <p class="textfield">
+                <label for="naam">naam:</label>
+                <br>
+                <input type="text" name="naam" id="naam" required>
+            </p>
+            <p class="textfield">
+                <label for="voornaam">voornaam:</label>
+                <br>
+                <input type="text" name="voornaam" id="voornaam" required>
+            </p>
+            <p class="textfield">
+                <label for="date">geboortedatum:</label>
+                <br>
+                <input type="date" name="date" id="date"
+                min="1960-01-01" max="2002-12-31">
+            </p>
+            <p class="textfield">
+                <label for="adres">adres:</label>
+                <br>
+                <input type="text" name="adres" id="adres" required>
+            </p>
+            <p class="textfield">
+                <label for="email">email:</label>
+                <br>
+                <input type="email" name="email" id="email" required>
+            </p>
+            <p class="textfield">
+                <label for="telephone">telefoon:</label>
+                <br>
+                <input type="tel" name="telphone" id="telephone" required>
+            </p>
+            <p class="textfield">
+                <label for="noodnummer">noodnummer:</label>
+                <br>
+                <input type="tel" name="noodnummer" id="noodnummer">
+            </p>
+            <p>
+                Extra info:
+                <br>
+                <textarea name="message" id="message" rows="10" cols="30" required>allergieën, trauma's, tandpijn, . . .</textarea>
+            </p>
+            <p>
+                geslacht:
+            </p>
+                <p>
+                        <input class="radio" type="radio" name="contact" id="contacttel" checked> man
+                </p>
+                <p>
+                        <input class="radio" type="radio" name="contact" id="contactmail"> vrouw
+                </p>
+        <p><input type="submit" value="Send"/></p>
+            </article>
+    </form>
+
+    <div>
+        <img class="square" src="img/vakwantsyou.png" alt="we want you for VAK">
+    </div>
+
+    <div class="span">
+        <iframe height="300" title="VAK kamp" src="https://maps.google.com/maps?&amp;height=600&amp;hl=nl&amp;q=GROTE%20BAAN%2089.%2C%203150%20WESPELAAR+(Verbond%20voor%20Avontuurlijke%20Kampen)&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=B&amp;output=embed"></iframe>
+    </div>
+
+ </main>
+<footer>
+    <p>
+        Contactpersoon: Benjamin Delauré <br>
+        <br>
+        GROTE BAAN 89, 3150 WESPELAAR<br>
+        Mail: benjamindelaure@gmail.com<br>
+    </p>
+
+</footer>
+</body>

@@ -1,0 +1,5 @@
+Rationele wachtijd: (1/snelheid) / 2
+
+Sector leestijd: (1/snelheid)/sectoren
+
+debiet:	snelheid * sectoren/spoor * sector grootte

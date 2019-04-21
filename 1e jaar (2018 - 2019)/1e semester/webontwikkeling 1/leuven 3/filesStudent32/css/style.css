@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+/* Predefined style */
+
+footer,
+main,
+aside {
+    padding: 20px;
+}
+
+body {
+    margin: auto;
+    max-width: 960px;
+}
+
+article>aside {
+    padding: 0;
+}
+
+h2,
+h3 {
+    margin: 15px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+nav li {
+    margin: 10px 0;
+}
+
+header h1,
+header nav {
+    padding: 20px;
+}
+
+
+/* To be implemented by students */
+
+html {
+    font-family: "Gill Sans", verdana, sans-serif;
+}
+
+header {
+    background-image: url("../img/backgroundTitleSmall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1,
+h2 {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 140%;
+    line-height: 1.8;
+    text-align: right;
+}
+
+h1,
+header nav {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    color: #FFF;
+}
+
+h2 {
+    font-size: 140%;
+    font-variant: small-caps;
+}
+
+aside,
+article>nav>a {
+    font-size: 80%;
+}
+
+p,
+aside {
+    line-height: 1.4;
+}
+
+header nav a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: #FFF;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+aside h2 {
+    font-size: 125%;
+}
+
+main+aside {
+    background-color: #E2E3E4;
+}
+
+footer {
+    background-color: #394655;
+    color: #FFF;
+}
+
+h2 span,
+strong,
+a {
+    color: #476B9F;
+}
+
+article>nav {
+    text-align: right;
+}
+
+article ul li {
+    margin: 1em 0;
+}
+
+article ul.music li {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+article ul.football li {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+article ul.star li:not(:first-child):before {
+    content: "* ";
+}
+
+main a:visited {
+    color: #920b18;
+}
+
+header {
+    position: relative;
+    height: 425px;
+}
+
+H1 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+nav ul li {
+    flex: 1;
+    line-height: 20px;
+}
+
+nav ul {
+    display: flex;
+}
+
+footer {
+    position: relative;
+}
+
+footer img {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.FloatLeft {
+    float: left;
+    padding-right: 1rem;
+}
+
+.clear {
+    clear: both;
+}
+
+article {
+    padding-top: 4rem;
+    overflow: auto;
+    position: relative;
+}
+
+.toTop {
+    position: absolute;
+    bottom: 1px;
+    right: 0px;
+}
+
+li:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+a {
+    display: block;
+    text-decoration: none;
+
+}

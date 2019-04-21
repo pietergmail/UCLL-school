@@ -1,0 +1,321 @@
+/* Predefined style */
+
+html {}
+
+footer,
+main,
+aside {
+    padding: 20px;
+}
+
+article>aside {
+    padding: 0;
+}
+
+h2,
+h3 {
+    margin: 15px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+nav li {
+    margin: 10px 0;
+}
+
+header h1,
+header nav {
+    padding: 20px;
+}
+
+
+/* To be implemented by students */
+
+html {
+    font-family: "Gill Sans", verdana, sans-serif;
+}
+
+header {
+    background-image: url("../img/backgroundTitleSmall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1,
+h2 {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 140%;
+    line-height: 1.8;
+    text-align: right;
+}
+
+h1,
+header nav {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    color: #FFF;
+}
+
+h2 {
+    font-size: 140%;
+    font-variant: small-caps;
+}
+
+aside,
+article>nav>a {
+    font-size: 80%;
+}
+
+p,
+aside {
+    line-height: 1.4;
+}
+
+header nav a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: #FFF;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+aside h2 {
+    font-size: 125%;
+}
+
+main+aside {
+    background-color: #E2E3E4;
+}
+
+footer {
+    background-color: #394655;
+    color: #FFF;
+}
+
+h2 span,
+strong,
+a {
+    color: #476B9F;
+}
+
+main article nav {
+    text-align: right;
+}
+
+article ul li {
+    margin: 1em 0;
+}
+
+article ul.music li {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+article ul.football li {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+article ul.star li:not(:first-child):before {
+    content: "* ";
+}
+
+main a:visited {
+    color: #920b18;
+}
+
+
+/* 
+week 4
+*/
+
+header {
+    position: relative;
+    height: 425px;
+}
+
+header h1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+header nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+footer {
+    position: relative;
+}
+
+footer div.fb_iframe_widget {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+section>article>img {
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+section>article {
+    clear: both;
+    overflow: auto;
+}
+
+section>article>nav {
+    clear: both;
+}
+
+header>nav {
+    width: 100%;
+    padding: 0;
+}
+
+header>nav>ul {
+    display: flex;
+}
+
+header>nav>ul>li {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+header>nav>ul>li>a {
+    display: block;
+    padding: 30px 0;
+    box-sizing: border-box;
+    transition: background-color 2s;
+}
+
+header>nav>ul>li>a:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+}
+
+
+/* week 4 finished */
+
+
+/* start week 5 */
+
+body {
+    max-width: 960px;
+    margin: auto;
+}
+
+main {
+    padding: 20px 0;
+}
+
+header {
+    background-image: url("../img/backgroundTitleLarge.jpg");
+}
+
+header h1 {
+    width: 50%;
+}
+
+footer {
+    overflow: auto;
+    text-align: center;
+}
+
+footer address {
+    float: left;
+}
+
+footer p,
+footer div.fb_iframe_widget {
+    float: right;
+    margin: 0;
+    margin-bottom: 10px;
+    clear: right;
+}
+
+footer div.fb_iframe_widget {
+    position: static;
+}
+
+#home #wrapper,
+#famousInhabitants #wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 20px;
+}
+
+#home #wrapper aside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-template-rows: 4em auto;
+}
+
+#home #wrapper aside h2 {
+    grid-column: 1/-1;
+}
+
+#placesOfInterest #wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px
+}
+
+#placesOfInterest main nav {
+    display: none;
+}
+
+#famousInhabitants ul li {
+    list-style-type: none;
+}
+
+#famousInhabitants ul li::before {
+    content: "";
+}
+
+#famousInhabitants article {
+    overflow: auto;
+    clear: both;
+}
+
+#famousInhabitants article:nth-of-type(2n) ul li:first-child {
+    float: left;
+    padding-right: 20px;
+}
+
+#famousInhabitants article:nth-of-type(2n+1) ul li:first-child {
+    float: right;
+    padding-left: 20px;
+}
+
+#famousInhabitants aside ul li:NOT(:last-of-type) {
+    padding-bottom: 50px;
+    background-image: url("../img/swirl.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+#famousInhabitants aside ul li {
+    padding-top: 10px;
+}
+
+/* start here */
