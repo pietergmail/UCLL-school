@@ -18,40 +18,27 @@
 				<column name="id" />
 			</index>
 		</table>
-		<table name="sponser" >
-			<column name="id" type="integer" jt="4" mandatory="y" />
-			<column name="naam" type="integer" jt="4" />
-			<column name="startdatum" type="integer" jt="4" />
-			<column name="einddatum" type="integer" jt="4" />
-			<index name="pk_sponser_id" unique="PRIMARY_KEY" >
-				<column name="id" />
-			</index>
-		</table>
 		<table name="trainers" >
 			<column name="naam" type="varchar" jt="12" />
-			<column name="train_id" type="integer" jt="4" mandatory="y" />
-			<column name="begin_datum" type="integer" jt="4" />
-			<column name="eind_datum" type="integer" jt="4" />
-			<column name="functie" type="integer" jt="4" />
+			<column name="id" type="integer" jt="4" mandatory="y" />
 			<index name="pk_trainers_id" unique="PRIMARY_KEY" >
-				<column name="train_id" />
+				<column name="id" />
 			</index>
 		</table>
 		<table name="wedstrijden" >
 			<column name="datum" type="date" jt="91" />
-			<column name="trainer_id" type="integer" jt="4" mandatory="y" />
+			<column name="id" type="integer" jt="4" mandatory="y" />
 			<column name="gewonnen" type="bool" jt="-7" />
 			<column name="verloren" type="bool" jt="-7" />
 			<index name="pk_wedstrijden_id" unique="PRIMARY_KEY" >
-				<column name="trainer_id" />
+				<column name="id" />
 			</index>
 		</table>
 	</schema>
 	<layout name="Default Layout" id="Layout_3f3feab" show_relation="columns" >
-		<entity schema="boxing club" name="leden" color="C1D8EE" x="288" y="160" />
-		<entity schema="boxing club" name="betaling" color="C1D8EE" x="480" y="64" />
-		<entity schema="boxing club" name="sponser" color="C1D8EE" x="464" y="304" />
-		<entity schema="boxing club" name="wedstrijden" color="C1D8EE" x="48" y="288" />
-		<entity schema="boxing club" name="trainers" color="C1D8EE" x="48" y="48" />
+		<entity schema="boxing club" name="leden" color="C1D8EE" x="288" y="144" />
+		<entity schema="boxing club" name="trainers" color="C1D8EE" x="48" y="64" />
+		<entity schema="boxing club" name="betaling" color="C1D8EE" x="480" y="48" />
+		<entity schema="boxing club" name="wedstrijden" color="C1D8EE" x="48" y="272" />
 	</layout>
 </project>
