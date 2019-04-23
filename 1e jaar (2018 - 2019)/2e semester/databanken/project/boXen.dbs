@@ -3,55 +3,117 @@
 	<comment><![CDATA[Database die informatie over de leden en trainers van een boxingclub bij houd]]></comment>
 	<schema name="boxing club" schemaname="boxing club" >
 		<table name="betaling" >
-			<column name="kost" type="bigint" jt="-5" />
-			<column name="id" type="integer" jt="4" mandatory="y" />
+			<column name="betalingsnr" type="integer" jt="4" mandatory="y" />
+			<column name="bokser_id" type="integer" jt="4" />
+			<column name="bedrag" type="bigint" jt="-5" />
+			<column name="datum" type="date" jt="91" />
 			<index name="pk_betaling_id" unique="PRIMARY_KEY" >
-				<column name="id" />
+				<column name="betalingsnr" />
+			</index>
+			<index name="unq_betaling_bokser_id" unique="UNIQUE" >
+				<column name="bokser_id" />
 			</index>
 		</table>
-		<table name="leden" >
+		<table name="boksers" >
 			<comment><![CDATA[De leden van de club]]></comment>
+			<column name="bokser_id" type="integer" jt="4" mandatory="y" />
 			<column name="naam" type="varchar" jt="12" />
-			<column name="adres" type="varchar" jt="12" />
-			<column name="id" type="integer" jt="4" mandatory="y" />
+			<column name="woonplaats" type="varchar" jt="12" >
+				<comment><![CDATA[Wordt vaak gemeente mee bedoeld]]></comment>
+			</column>
+			<column name="geslacht" type="varchar" jt="12" />
+			<column name="gewicht" type="bigint" jt="-5" />
+			<column name="leeftijd" type="bigint" jt="-5" />
+			<column name="telefoonnr" type="bigint" jt="-5" />
 			<index name="pk_leden_id" unique="PRIMARY_KEY" >
-				<column name="id" />
+				<column name="bokser_id" />
 			</index>
+			<fk name="fk_boksers_betaling" to_schema="boxing club" to_table="betaling" >
+				<fk_column name="bokser_id" pk="bokser_id" />
+			</fk>
+			<fk name="fk_boksers_wedstrijden" to_schema="boxing club" to_table="wedstrijden" >
+				<fk_column name="bokser_id" pk="bokser_id" />
+			</fk>
+			<fk name="fk_boksers_trainers" to_schema="boxing club" to_table="trainers" >
+				<fk_column name="bokser_id" pk="bokser_id" />
+			</fk>
 		</table>
 		<table name="sponser" >
-			<column name="id" type="integer" jt="4" mandatory="y" />
-			<column name="naam" type="integer" jt="4" />
+			<column name="sponsor_id" type="integer" jt="4" mandatory="y" />
+			<column name="wedstrijdnr" type="integer" jt="4" />
+			<column name="bedrag" type="integer" jt="4" />
 			<column name="startdatum" type="integer" jt="4" />
 			<column name="einddatum" type="integer" jt="4" />
+			<column name="naam" type="integer" jt="4" />
 			<index name="pk_sponser_id" unique="PRIMARY_KEY" >
-				<column name="id" />
+				<column name="sponsor_id" />
+			</index>
+			<index name="unq_sponser_wedstrijdnr" unique="UNIQUE" >
+				<column name="wedstrijdnr" />
 			</index>
 		</table>
 		<table name="trainers" >
-			<column name="naam" type="varchar" jt="12" />
 			<column name="train_id" type="integer" jt="4" mandatory="y" />
+			<column name="bokser_id" type="integer" jt="4" />
+			<column name="naam" type="varchar" jt="12" />
 			<column name="begin_datum" type="integer" jt="4" />
 			<column name="eind_datum" type="integer" jt="4" />
 			<column name="functie" type="integer" jt="4" />
 			<index name="pk_trainers_id" unique="PRIMARY_KEY" >
 				<column name="train_id" />
 			</index>
-		</table>
-		<table name="wedstrijden" >
-			<column name="datum" type="date" jt="91" />
-			<column name="trainer_id" type="integer" jt="4" mandatory="y" />
-			<column name="gewonnen" type="bool" jt="-7" />
-			<column name="verloren" type="bool" jt="-7" />
-			<index name="pk_wedstrijden_id" unique="PRIMARY_KEY" >
-				<column name="trainer_id" />
+			<index name="unq_trainers_bokser_id" unique="UNIQUE" >
+				<column name="bokser_id" />
 			</index>
 		</table>
+		<table name="wedstrijden" >
+			<column name="wedstrijdnr" type="integer" jt="4" mandatory="y" />
+			<column name="bokser_id" type="integer" jt="4" />
+			<column name="datum" type="date" jt="91" />
+			<column name="locatie" type="varchar" jt="12" />
+			<column name="verloren" type="bool" jt="-7" />
+			<column name="gewonnen" type="bool" jt="-7" />
+			<index name="pk_wedstrijden_id" unique="PRIMARY_KEY" >
+				<column name="wedstrijdnr" />
+			</index>
+			<index name="unq_wedstrijden_bokser_id" unique="UNIQUE" >
+				<column name="bokser_id" />
+			</index>
+			<fk name="fk_wedstrijden_sponser" to_schema="boxing club" to_table="sponser" >
+				<fk_column name="wedstrijdnr" pk="wedstrijdnr" />
+			</fk>
+		</table>
 	</schema>
+	<connector name="" database="MySql" host="localhost" port="3306" user="root" />
 	<layout name="Default Layout" id="Layout_3f3feab" show_relation="columns" >
-		<entity schema="boxing club" name="leden" color="C1D8EE" x="288" y="160" />
-		<entity schema="boxing club" name="betaling" color="C1D8EE" x="480" y="64" />
 		<entity schema="boxing club" name="sponser" color="C1D8EE" x="464" y="304" />
 		<entity schema="boxing club" name="wedstrijden" color="C1D8EE" x="48" y="288" />
+		<entity schema="boxing club" name="boksers" color="C1D8EE" x="288" y="160" />
+		<entity schema="boxing club" name="betaling" color="C1D8EE" x="480" y="64" />
 		<entity schema="boxing club" name="trainers" color="C1D8EE" x="48" y="48" />
+		<browser id="Browse_56ee615" name="boksers" confirm_updates="y" >
+			<browse_table schema="boxing club" entity="boksers" x="20" y="20" width="400" height="300" />
+		</browser>
+		<browser id="Browse_1009605" name="fk_boksers_trainers" confirm_updates="y" >
+			<browse_table schema="boxing club" entity="trainers" x="20" y="20" width="400" height="300" >
+				<browse_table schema="boxing club" entity="boksers" fk="fk_boksers_trainers" x="460" y="20" width="500" height="350" />
+			</browse_table>
+		</browser>
+		<query id="Query_43b4391" name="boksers_001" >
+			<query_table schema="boxing club" name="boksers" alias="b" x="224" y="160" >
+				<column name="bokser_id" />
+				<column name="naam" />
+				<column name="woonplaats" />
+				<column name="geslacht" />
+				<column name="gewicht" />
+				<column name="leeftijd" />
+				<column name="telefoonnr" />
+				<query_table schema="boxing club" name="betaling" alias="b1" x="400" y="272" fk="fk_boksers_betaling" type="Inner Join" />
+				<query_table schema="boxing club" name="wedstrijden" alias="w" x="384" y="80" fk="fk_boksers_wedstrijden" type="Inner Join" >
+					<query_table schema="boxing club" name="sponser" alias="s" x="544" y="48" fk="fk_wedstrijden_sponser" type="Inner Join" />
+				</query_table>
+				<query_table schema="boxing club" name="trainers" alias="t" x="48" y="160" fk="fk_boksers_trainers" type="Inner Join" />
+			</query_table>
+		</query>
 	</layout>
 </project>
