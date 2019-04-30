@@ -2,24 +2,28 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="unnamed" />
+      <artifact name="Labo 8:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="797174b7-33f2-4919-9fa6-b50e908d21ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/apache_tomcat_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labo 8/.idea/libraries/apache_tomcat_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labo 8/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labo 8/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labo 8/web/more.jsp" afterDir="false" />
+    <list default="true" id="9983787c-2336-4da0-b6c8-872440f55241" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Labo 5/.idea/libraries/apache_tomcat_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Labo_8_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo8_v2/.idea/libraries/servlet_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo8_v2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo8_v2/src/ui/controller/Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo8_v2/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo8_v2/web/more.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../bop/ScoreBordProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bop/ScoreBordProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Labo 4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 4/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Labo 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/labo5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/labo5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 5/.idea/artifacts/unnamed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 5/.idea/labo5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 5/.idea/labo5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 5/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Labo 7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 7/.idea/workspace.xml" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +31,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-2055090746">
+    <session id="-1407537421">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
@@ -37,67 +41,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
-          <entry key="jpg" value="1" />
+          <entry key="java" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="1" />
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="java" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-817996909">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="JAVA" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ui/controller/StudentInformatie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="60" column="14" lean-forward="true" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/domain/db/StudentDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/domain/model/Student.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
@@ -105,8 +70,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/domain/db/StudentDB.java" />
-        <option value="$PROJECT_DIR$/ui/controller/StudentInformatie.java" />
+        <option value="$PROJECT_DIR$/src/ui/controller/Servlet.java" />
       </list>
     </option>
   </component>
@@ -123,9 +87,8 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="187" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -135,55 +98,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Labo 5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Labo 5" type="462c0819:PsiDirectoryNode" />
+              <item name="Labo 8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Labo 8" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Labo 5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Labo 5" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Labo 5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Labo 5" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Labo 5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Labo 5" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Labo 5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Labo 8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Labo 8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556540342990" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../apache-tomcat-9.0.16" />
-    <property name="nodejs.jest.jest_package" value="" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556544836718" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -198,11 +142,17 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment />
+      <deployment>
+        <artifact name="Labo 8:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_labo5" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Labo_8_2" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -210,7 +160,7 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="3884" />
+        <option name="DEBUG_PORT" value="6594" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -258,71 +208,9 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tomcat 9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="BROWSER_ID" value="577f7923-ea25-47f1-a524-55992bcc3ad1" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment />
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Labo_5" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="3884" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="BuildArtifacts" enabled="false" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Labo 8:war exploded" />
+        </option>
       </method>
     </configuration>
   </component>
@@ -331,41 +219,39 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="797174b7-33f2-4919-9fa6-b50e908d21ce" name="Default Changelist" comment="" />
-      <created>1553520306518</created>
+      <changelist id="9983787c-2336-4da0-b6c8-872440f55241" name="Default Changelist" comment="" />
+      <created>1556543169990</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1553520306518</updated>
-      <workItem from="1553520307858" duration="2670000" />
-      <workItem from="1556539986668" duration="35000" />
-      <workItem from="1556540311624" duration="67000" />
-      <workItem from="1556540445821" duration="1574000" />
+      <updated>1556543169990</updated>
+      <workItem from="1556543171430" duration="1295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4346000" />
+    <option name="totallyTimeSpent" value="1295000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="697" height="735" extended-state="0" />
     <layout>
+      <window_info id="Web" sideWeight="0.5008026" side_tool="true" visible="true" weight="1.0" />
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17057101" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49919742" visible="true" weight="1.0" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50073206" side_tool="true" visible="true" weight="0.32753164" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Application Servers" order="4" weight="0.32911393" />
       <window_info anchor="bottom" id="Messages" order="5" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49926794" weight="0.32753164" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.33226323" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -388,27 +274,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/student.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/controller/StudentInformatie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="60" column="14" lean-forward="true" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/db/StudentDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/model/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/ui/controller/Servlet.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
@@ -417,11 +283,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>unnamed</last-edited>
+          <last-edited>Labo 8:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -429,7 +296,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -441,6 +308,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>selenium-server-standalone-3.141.59 (1)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -464,7 +332,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>labo5</last-edited>
+          <last-edited>Web|Labo 8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -488,7 +356,6 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>apache-tomcat-9.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
