@@ -11,8 +11,8 @@
         <h1>Show me More</h1>
         <nav>
             <ul>
-                <li><a href="index.jsp">Home</a></li>
-                <li><a href="more.jsp">Read More</a></li>
+                <li><a href="Controller?command=home">Home</a></li>
+                <li><a href="Controller?command=more">Read More</a></li>
             </ul>
         </nav>
     </header>

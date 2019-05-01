@@ -5,7 +5,7 @@
     Student kristien = new Student("Melaerts", "Kristien", "Chemie", 21);
     Student elke = new Student("Steegmans", "Elke", "Vroedkunde", 16);
     Student jan = new Student("Van Hee", "Jan", "Verpleegkunde", 18);
-    Student Dennis = new Student("Winnepenincskx", "Dennis", "ok", 18);
+    Student Dennis = new Student("Winnepenincskx", "Dennis", "rondhangen en betaald worden", 18);
 
     ArrayList<Student> students = new ArrayList<Student>();
     students.add(greetje);
