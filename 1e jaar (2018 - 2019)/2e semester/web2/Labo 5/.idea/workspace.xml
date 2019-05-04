@@ -7,18 +7,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="797174b7-33f2-4919-9fa6-b50e908d21ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/apache_tomcat_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labo 8/.idea/libraries/apache_tomcat_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labo 8/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labo 8/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labo 8/web/more.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../bop/ScoreBordProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bop/ScoreBordProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labo 2a/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo8_v2/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1e semester/project 1/project-sorry-jonathan" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1e semester/project 1/project-sorry-jonathan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1e semester/webontwikkeling 1/flex/filesStudent" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1e semester/webontwikkeling 1/flex/filesStudent" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/RELEASE-NOTES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/asf-logo-wide.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/bg-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/bg-middle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/bg-nav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/bg-upper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/tomcat-power.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/tomcat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/tomcat.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/tomcat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/tomcat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 2a/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 2a/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 2a/labo 2a.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 2a/labo 2a.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 2b/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 2b/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 2b/out/artifacts/web_war_exploded/studentInfoOverzicht.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 2b/out/artifacts/web_war_exploded/studentInfoOverzicht.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Labo 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/labo5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/labo5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo8_v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo8_v2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo8_v2/labo8_v2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo8_v2/labo8_v2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo8_v2/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../labo8_v2/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Servlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo8_v2/out/production/labo8_v2/ui/controller/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../labo8_v2/out/production/labo8_v2/ui/controller/Servlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo8_v2/src/ui/controller/Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo8_v2/src/ui/controller/Servlet.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,14 +86,23 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="316645798">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ui/controller/StudentInformatie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="60" column="14" lean-forward="true" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+            <state relative-caret-position="884">
+              <caret line="54" column="8" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,11 +150,10 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="187" />
-    <option name="y" value="-8" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2873" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -136,6 +162,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,7 +195,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -176,7 +202,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556540342990" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../apache-tomcat-9.0.16" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Labo 7" />
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -340,14 +366,15 @@
       <workItem from="1556539986668" duration="35000" />
       <workItem from="1556540311624" duration="67000" />
       <workItem from="1556540445821" duration="1574000" />
+      <workItem from="1556624765788" duration="50000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4346000" />
+    <option name="totallyTimeSpent" value="4396000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="2873" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -355,17 +382,17 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17057101" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.35339168" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50073206" side_tool="true" visible="true" weight="0.32753164" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5021882" side_tool="true" visible="true" weight="0.32968238" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Application Servers" order="4" weight="0.32911393" />
       <window_info anchor="bottom" id="Messages" order="5" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49926794" weight="0.32753164" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49781182" weight="0.3274918" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -393,8 +420,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ui/controller/StudentInformatie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="60" column="14" lean-forward="true" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+        <state relative-caret-position="884">
+          <caret line="54" column="8" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
