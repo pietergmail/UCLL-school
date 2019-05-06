@@ -7,35 +7,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2457271-b1c7-4cb5-9755-2112c1f9f2da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Labo 2a/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo8_v2/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/OccurencesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/StudentInformatieTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/ValidHtmlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/controller/Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vak/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vak/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../1e semester/project 1/project-sorry-jonathan" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1e semester/project 1/project-sorry-jonathan" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../1e semester/webontwikkeling 1/flex/filesStudent" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1e semester/webontwikkeling 1/flex/filesStudent" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/RELEASE-NOTES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/asf-logo-wide.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/bg-button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/bg-middle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/bg-nav.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/bg-upper.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/tomcat-power.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/tomcat.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/tomcat.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/tomcat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.16/webapps/ROOT/tomcat.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 2a/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 2a/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 2a/labo 2a.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 2a/labo 2a.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 2b/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 2b/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 2b/out/artifacts/web_war_exploded/studentInfoOverzicht.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 2b/out/artifacts/web_war_exploded/studentInfoOverzicht.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../besturingsystemen/Hex answers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../besturingsystemen/Hex answers.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labo 3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/labo 3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 7/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../labo8_v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo8_v2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo8_v2/labo8_v2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo8_v2/labo8_v2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo8_v2/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../labo8_v2/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Servlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo8_v2/out/production/labo8_v2/ui/controller/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../labo8_v2/out/production/labo8_v2/ui/controller/Servlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo8_v2/src/ui/controller/Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo8_v2/src/ui/controller/Servlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo8_v2/out/artifacts/web_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo8_v2/out/artifacts/web_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo8_v2/src/ui/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo8_v2/src/ui/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo8_v2/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo8_v2/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vak/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vak/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vak/vak.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../vak/vak.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,29 +81,31 @@
     <session id="709672806">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/labo 3.iml">
+        <entry file="file://$PROJECT_DIR$/src/ui/controller/Servlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="238">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -196,7 +188,7 @@
       <list />
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2873" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -207,15 +199,31 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Labo 3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Labo 3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Labo 3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Labo 3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Labo 3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Labo 3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Labo 3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Labo 3" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -229,14 +237,15 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551527126457" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Labo 4" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556723190732" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dennis/Labo_3" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\herre\Documents\UCLL\1e jaar (2018 - 2019)\2e semester\web2\Labo 3\Test" />
       <recent name="C:\Users\herre\OneDrive\Documents\UCLL\1e jaar (2018 - 2019)\2e semester\webontwikkeling 2\labo 3\src\test" />
     </key>
   </component>
@@ -344,24 +353,25 @@
       <workItem from="1551705955705" duration="928000" />
       <workItem from="1551709459308" duration="12000" />
       <workItem from="1556624533395" duration="106000" />
+      <workItem from="1556722221340" duration="981000" />
+      <workItem from="1557128589580" duration="59000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11214000" />
+    <option name="totallyTimeSpent" value="12254000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2873" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8915663" visible="true" weight="0.2702407" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8893709" visible="true" weight="0.27771854" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.10843374" side_tool="true" weight="0.4493392" />
+      <window_info id="Web" order="7" sideWeight="0.11062907" side_tool="true" visible="true" weight="0.27771854" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32858709" />
@@ -410,7 +420,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/lid.java" />
     <entry file="file://$PROJECT_DIR$/src/ui/controller/Occurence.java" />
-    <entry file="file://$PROJECT_DIR$/src/ui/controller/Servlet.java" />
     <entry file="file://$PROJECT_DIR$/../../../../webontwerp 2/labo 3/src/test/ValidHtmlTest.java" />
     <entry file="file://$PROJECT_DIR$/../../../../webontwerp 2/labo 3/src/test/OccurencesTest.java" />
     <entry file="file://$PROJECT_DIR$/../../../../webontwerp 2/labo 3/web/result.jsp" />
@@ -431,8 +440,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/labo 3.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="578">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/StudentInformatieTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/OccurencesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/controller/Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>

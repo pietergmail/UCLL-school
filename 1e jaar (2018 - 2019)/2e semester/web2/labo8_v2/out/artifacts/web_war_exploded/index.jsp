@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <html>
 <head>
     <title>Cookies - Show a Quote</title>
@@ -23,7 +23,7 @@
             rizzle. Away dope shizzlin dizzle, pretium cool, mattis shizzle my nizzle crocodizzle, eleifend vitae, nunc.
             Go to hizzle suscipizzle. Daahng dawg semper velit sizzle bling bling.</p>
 
-        <form>
+        <form method="POST" action="Controller?command=home">
             <p>Do you want to see a quote?</p>
             <p>
 
@@ -36,7 +36,6 @@
         </form>
        
         <blockquote cite="Jim Hightower">
-            Even a dead fish can go with the flow.
         </blockquote>
         
     </main>
