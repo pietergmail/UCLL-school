@@ -24,21 +24,35 @@
             rizzle. Away dope shizzlin dizzle, pretium cool, mattis shizzle my nizzle crocodizzle, eleifend vitae, nunc.
             Go to hizzle suscipizzle. Daahng dawg semper velit sizzle bling bling.</p>
 
-        <form method="POST" action="Controller?command=home">
+        <form method="POST" action="Controller?command=quote">
             <p>Do you want to see a quote?</p>
             <p>
 
-                <input type="radio" value="yes" name="quote" id="quoteYes">
+                <input type="radio" value="yes" name="quote" id="quoteYes"
+                    <% if(request.getAttribute("value").equals("yes")){%>
+                       checked
+                    <% } %>
+                >
                 <label for="quoteYes">Yes</label>
-                <input type="radio" value="no" name="quote" id="quoteNo">
+                <input type="radio" value="no" name="quote" id="quoteNo"
+                    <% if(request.getAttribute("value").equals("no")){%>
+                       checked
+                    <% } %>
+                >
                 <label for="quoteNo">No</label>
             </p>
             <p><input type="submit" value="Send" id="submit"></p>
         </form>
-       
-        <blockquote cite="Jim Hightower">
-            Even a dead fish can go with the flow.
-        </blockquote>
+
+        <%
+            if(request.getAttribute("value").equals("yes")){
+                        %>
+                        <blockquote cite="Jim Hightower">
+                                Even a dead fish can go with the flow.
+                        </blockquote>
+                        <%
+        }
+        %>
         
     </main>
 </div>

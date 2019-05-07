@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -40,6 +41,8 @@ public class Controller extends HttpServlet {
             case "more" :
                 destination = more(request, response);
                 break;
+            case "quote":
+                destination = quote(request, response);
             default :
                 destination = home(request, response);
         }
@@ -47,17 +50,39 @@ public class Controller extends HttpServlet {
     }
 
     private String home (HttpServletRequest request, HttpServletResponse response) {
-        String answer = request.getParameter("quote");
-        if ("yes".equals(answer)) {
-            request.setAttribute(answer, "Even a dead fish can go with the flow");
-            return "index.jsp";
-        } else{
-            return "index.jsp";
-        }
+            if (getQuoteCookie(request) != null) {
+                Cookie cookie = getQuoteCookie(request);
+                String value = cookie.getValue();
+                request.setAttribute("value", value);
+            } else {
+                request.setAttribute("value", "value");
+            }
+        return "index.jsp";
+
     }
 
     private String more (HttpServletRequest request, HttpServletResponse response) {
         return "more.jsp";
+    }
+
+    private String quote (HttpServletRequest request, HttpServletResponse response){
+        String quote = request.getParameter("quote");
+        Cookie quoteCookie = new Cookie("quoteCookie", quote);
+        quoteCookie.setMaxAge(-1);
+        response.addCookie(quoteCookie);
+        String value = quoteCookie.getValue();
+
+        request.setAttribute("value", value);
+        return "index.jsp";
+    }
+
+    private Cookie getQuoteCookie(HttpServletRequest request){
+        for(Cookie cookie : request.getCookies()){
+            if (cookie.getName().equals("quoteCookie")){
+               return cookie;
+            }
+        }
+        return null;
     }
 }
 
