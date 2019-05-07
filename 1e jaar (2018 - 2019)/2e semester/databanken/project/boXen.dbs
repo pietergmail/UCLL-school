@@ -93,6 +93,7 @@
 		</table>
 	</schema>
 	<connector name="PostgreSQL" database="PostgreSQL" driver_class="org.postgresql.Driver" driver_jar="postgresql-42.2.2.jar" driver_desc="Heroku" host="localhost" port="5432" instance="postgres" user="postgres" />
+	<connector name="destieno" database="PostgreSQL" driver_class="org.postgresql.Driver" driver_jar="postgresql-42.2.2.jar" driver_desc="Standard" host="databanken.ucll.be" port="51819" instance="postgres" user="destieno" passwd="U3Rpam4yMDA=" sshEnable="true" sshHost="databanken.ucll.be" sshPort="51819" sshUser="destieno" sshUseKey="false" sshPassword="Stijn200" />
 	<layout name="Default Layout" id="Layout_3f3feab" show_relation="columns" >
 		<entity schema="boxing club" name="sponser" color="C1D8EE" x="560" y="416" />
 		<entity schema="boxing club" name="gesponserde wedstrijden" color="C1D8EE" x="224" y="448" />
@@ -108,7 +109,7 @@
 			<browse_table schema="boxing club" entity="trainers" x="20" y="20" width="400" height="300" />
 		</browser>
 		<query id="Query_43b4391" name="boksers_001" >
-			<query_table schema="boxing club" name="boksers" alias="b" x="224" y="160" >
+			<query_table schema="boxing club" name="boksers" alias="b" x="48" y="48" >
 				<column name="bokser_id" />
 				<column name="naam" />
 				<column name="woonplaats" />
