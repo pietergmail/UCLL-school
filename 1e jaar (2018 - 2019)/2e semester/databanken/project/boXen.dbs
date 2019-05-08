@@ -175,22 +175,5 @@ CREATE TABLE "boxing club".betaling (
  );
 ]]></string>
 		</script>
-		<browser id="Browse_56ee615" name="boksers" confirm_updates="y" >
-			<browse_table schema="boxing club" entity="boksers" x="20" y="20" width="400" height="300" />
-		</browser>
-		<browser id="Browse_1009605" name="fk_boksers_trainers" confirm_updates="y" >
-			<browse_table schema="boxing club" entity="trainers" x="20" y="20" width="400" height="300" />
-		</browser>
-		<query id="Query_43b4391" name="boksers_001" >
-			<query_table schema="boxing club" name="boksers" alias="b" x="48" y="48" >
-				<column name="bokser_id" />
-				<column name="naam" />
-				<column name="woonplaats" />
-				<column name="geslacht" />
-				<column name="gewicht" />
-				<column name="leeftijd" />
-				<column name="telefoonnr" />
-			</query_table>
-		</query>
 	</layout>
 </project>
