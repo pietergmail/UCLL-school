@@ -1,0 +1,5 @@
+insert into "boxing_clubV2".sponser   values (1, 10370, '26/3/2019', '18/10/2018', 'Mehetabel Gostick');
+insert into "boxing_clubV2".sponser   values (2, 18380, '16/6/2018', '27/12/2018', 'Sibylla McKinnon');
+insert into "boxing_clubV2".sponser   values (3, 14191, '14/11/2018', '6/3/2019', 'Eyde Attride');
+insert into "boxing_clubV2".sponser   values (4, 28408, '3/6/2018', '10/11/2018', 'Shirley Midlar');
+insert into "boxing_clubV2".sponser   values (5, 31100, '5/2/2019', '23/2/2019', 'Adi Greathead');
