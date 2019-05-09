@@ -1,0 +1,70 @@
+CREATE SCHEMA "boxing_club";
+
+CREATE TABLE "boxing_club".sponser ( 
+	sponsor_id           integer  NOT NULL ,
+	bedrag               integer   ,
+	startdatum           date   ,
+	einddatum            date   ,
+	naam                 integer   ,
+	CONSTRAINT pk_sponser_id PRIMARY KEY ( sponsor_id )
+ );
+
+CREATE TABLE "boxing_club".trainers ( 
+	train_id             integer  NOT NULL ,
+	naam                 varchar   ,
+	begin_datum          date   ,
+	eind_datum           date   ,
+	functie              integer   ,
+	CONSTRAINT pk_trainers_id PRIMARY KEY ( train_id )
+ );
+
+CREATE TABLE "boxing_club".wedstrijden ( 
+	wedstrijdnr          integer  NOT NULL ,
+	datum                date   ,
+	locatie              varchar   ,
+	gewonnen             bool   ,
+	CONSTRAINT pk_wedstrijden_id PRIMARY KEY ( wedstrijdnr )
+ );
+
+CREATE TABLE "boxing_club".boksers ( 
+	bokser_id            integer  NOT NULL ,
+	naam                 varchar   ,
+	woonplaats           varchar   ,
+	geslacht             varchar   ,
+	gewicht              bigint   ,
+	leeftijd             bigint   ,
+	telefoonnr           bigint   ,
+	train_id             integer  NOT NULL ,
+	CONSTRAINT pk_leden_id PRIMARY KEY ( bokser_id ),
+	CONSTRAINT fk_boksers_trainers FOREIGN KEY ( train_id ) REFERENCES "boxing_club".trainers( train_id )  
+ );
+
+COMMENT ON TABLE "boxing_club".boksers IS 'De leden van de club';
+
+COMMENT ON COLUMN "boxing_club".boksers.woonplaats IS 'Wordt vaak gemeente mee bedoeld';
+
+CREATE TABLE "boxing_club"."boksers_wedstrijden" ( 
+	bokser_id            integer  NOT NULL ,
+	wedstrijdnr          integer  NOT NULL ,
+	CONSTRAINT "idx_boksers_wedstrijden" PRIMARY KEY ( bokser_id, wedstrijdnr ),
+	CONSTRAINT "fk_boksers_wedstrijden_boksers" FOREIGN KEY ( bokser_id ) REFERENCES "boxing_club".boksers( bokser_id )  ,
+	CONSTRAINT "fk_boksers_wedstrijden_wedstrijden" FOREIGN KEY ( wedstrijdnr ) REFERENCES "boxing_club".wedstrijden( wedstrijdnr )  
+ );
+
+CREATE TABLE "boxing_club"."gesponserde_wedstrijden" ( 
+	wedstrijdnr          integer  NOT NULL ,
+	sponsor_id           integer  NOT NULL ,
+	CONSTRAINT "idx_gesponserde_wedstrijden" PRIMARY KEY ( wedstrijdnr, sponsor_id ),
+	CONSTRAINT "fk_gesponserde_wedstrijden_wedstrijden" FOREIGN KEY ( wedstrijdnr ) REFERENCES "boxing_club".wedstrijden( wedstrijdnr )  ,
+	CONSTRAINT "fk_gesponserde_wedstrijden_sponser" FOREIGN KEY ( sponsor_id ) REFERENCES "boxing_club".sponser( sponsor_id )  
+ );
+
+CREATE TABLE "boxing_club".betaling ( 
+	betalingsnr          integer  NOT NULL ,
+	bedrag               bigint   ,
+	datum                date   ,
+	bokser_id            integer  NOT NULL ,
+	CONSTRAINT pk_betaling_id PRIMARY KEY ( betalingsnr ),
+	CONSTRAINT fk_betaling_boksers FOREIGN KEY ( bokser_id ) REFERENCES "boxing_club".boksers( bokser_id )  
+ );
+

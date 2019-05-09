@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d38eb482-0e76-4705-a083-3fa324c44cfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../databanken/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../databanken/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web2/labo 9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../web2/labo 9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen" beforeDir="false" afterPath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +15,7 @@
     <session id="-419528871">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -47,7 +47,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/domain/WeightedGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
+            <state relative-caret-position="104">
               <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -59,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ui/FloydUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
+            <state relative-caret-position="204">
+              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,7 +116,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557307361144" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557318492674" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../oplossingen/Bomen_Grafen/Floyd" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -166,16 +166,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557301848053</updated>
-      <workItem from="1557301849337" duration="4125000" />
+      <workItem from="1557301849337" duration="4681000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4125000" />
+    <option name="totallyTimeSpent" value="4681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="735" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -192,7 +191,7 @@
       <window_info anchor="bottom" id="Messages" order="5" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.42696628" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.10593901" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -217,8 +216,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ui/FloydUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        <state relative-caret-position="204">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -227,7 +226,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/WeightedGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
+        <state relative-caret-position="104">
           <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />

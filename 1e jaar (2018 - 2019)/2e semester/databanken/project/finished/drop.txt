@@ -1,0 +1,7 @@
+drop table "boxing_club".betaling;
+drop table "boxing_club".gesponserde_wedstrijden;
+drop table "boxing_club".boksers_wedstrijden;
+drop table "boxing_club".sponser;
+drop table "boxing_club".wedstrijden;
+drop table "boxing_club".boksers;
+drop table "boxing_club".trainers;
