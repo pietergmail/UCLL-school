@@ -5,7 +5,7 @@ CREATE TABLE "boxing_club".sponser (
 	bedrag               integer   ,
 	startdatum           date   ,
 	einddatum            date   ,
-	naam                 integer   ,
+	naam                 varchar   ,
 	CONSTRAINT pk_sponser_id PRIMARY KEY ( sponsor_id )
  );
 
@@ -14,7 +14,7 @@ CREATE TABLE "boxing_club".trainers (
 	naam                 varchar   ,
 	begin_datum          date   ,
 	eind_datum           date   ,
-	functie              integer   ,
+	functie              varchar   ,
 	CONSTRAINT pk_trainers_id PRIMARY KEY ( train_id )
  );
 
