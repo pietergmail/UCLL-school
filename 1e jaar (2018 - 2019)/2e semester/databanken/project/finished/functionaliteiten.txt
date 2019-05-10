@@ -5,40 +5,48 @@ select geslacht
 	 , round(avg(gewicht),2) as mean_gewicht 
 	 , round(min(gewicht),2) as min_gewicht 				 
 	 , round(max(gewicht),2) as min_gewicht 				 			   
-	from "boxing_club".boksers
+	from "boxing_clubV3".boksers
 		where leeftijd > 20				 
 			group by geslacht
 			
 			
 select geslacht
-     , count(*) as aantal 
-	, case when gewicht >= 0  and gewicht < 60  then 0
-	      when gewicht >= 60  and gewicht < 80  then 60
-	       when gewicht >= 80  and gewicht < 100 then 100	  
-	 		  else 120
-	 		  end as "gewichts_klasse"
-		from "boxing_club".boksers
+	 , gewichts_klasse
+     , count(*) as count 
+	from ( select *
+		  		, case when gewicht >= 0  and gewicht < 60  then 0
+		  		       when gewicht >= 60  and gewicht < 80  then 60
+		  		       when gewicht >= 80  and gewicht < 100 then 100	  
+		  		  else 120
+		  		  end as "gewichts_klasse"
+			from "boxing_clubV3".boksers 
+		  ) as boksers
 		where leeftijd > 20				 
 			group by geslacht, gewichts_klasse
-						order by geslacht desc, gewichts_klasse asc	
+						order by geslacht desc, gewichts_klasse asc
 						
-select  boksers.naam as boksers_naam
-	 , trainers.*	
-	    from "boxing_club".trainers
-		right outer join
-		 "boxing_club".boksers 
-		 on (trainers.train_id=boksers.train_id)
-		 	order by 1,2
+						
+
+select  boksers.bokser_id,boksers.naam, boksers_wedstrijden.wedstrijdnr, gesponserde_wedstrijden.sponsor_id 
+
+from "boxing_clubV3".boksers_wedstrijden
+		inner join "boxing_clubV3".boksers 
+			on boksers_wedstrijden.bokser_id =  					boksers.bokser_id
+		right outer join 		"boxing_clubV3".gesponserde_wedstrijden
+			on boksers_wedstrijden.wedstrijdnr = 			gesponserde_wedstrijden.wedstrijdnr
+order by bokser_id
 			
+
+WE WILLEN WETEN WELKE BOKSERS DOOR WIE GESPONSERD ZIJN GEWEEST EN IN WELKE WEDSTRIJD DAT DUS WAS, GESORTEERD OP BOKSER ID
 select  boksers.naam as boksers_naam
 	 , trainers.*
 	 , bedrag
 	 , datum
-	    from "boxing_club".trainers
+	    from "boxing_clubV3".trainers
 		right outer join
-		 "boxing_club".boksers 
+		 "boxing_clubV3".boksers 
 		 on (trainers.train_id=boksers.train_id)
 		right outer join
-		 "boxing_club".betaling
+		 "boxing_clubV3".betaling
 		 		 on (betaling.bokser_id=boksers.bokser_id)
 		where datum > eind_datum			
