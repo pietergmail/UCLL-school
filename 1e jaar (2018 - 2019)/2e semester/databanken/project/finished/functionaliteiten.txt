@@ -11,20 +11,16 @@ select geslacht
 			
 			
 select geslacht
-	 , gewichts_klasse
-     , count(*) as count 
-	from ( select *
-		  		, case when gewicht >= 0  and gewicht < 60  then 0
-		  		       when gewicht >= 60  and gewicht < 80  then 60
-		  		       when gewicht >= 80  and gewicht < 100 then 100	  
-		  		  else 120
-		  		  end as "gewichts_klasse"
-			from "boxing_club".boksers 
-		  ) as boksers
+     , count(*) as aantal 
+	, case when gewicht >= 0  and gewicht < 60  then 0
+	      when gewicht >= 60  and gewicht < 80  then 60
+	       when gewicht >= 80  and gewicht < 100 then 100	  
+	 		  else 120
+	 		  end as "gewichts_klasse"
+		from "boxing_club".boksers
 		where leeftijd > 20				 
 			group by geslacht, gewichts_klasse
-						order by geslacht desc, gewichts_klasse asc
-						
+						order by geslacht desc, gewichts_klasse asc	
 						
 select  boksers.naam as boksers_naam
 	 , trainers.*	
