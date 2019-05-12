@@ -5,3 +5,4 @@ drop table "boxing_club".sponser;
 drop table "boxing_club".wedstrijden;
 drop table "boxing_club".boksers;
 drop table "boxing_club".trainers;
+drop schema "boxing_club";
