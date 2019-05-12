@@ -4,7 +4,7 @@ insert into "boxing_club".trainers  values (3, 'Jenni', '10/6/2015', '23/8/2018'
 insert into "boxing_club".trainers  values (4, 'Moria', '18/11/2015', null, 'assistent');
 insert into "boxing_club".trainers  values (5, 'Winona', '8/7/2015', null, 'trainer');
 insert into "boxing_club".trainers  values (6, 'Julianne', '14/11/2015', null, 'trainer');
-insert into "boxing_club".trainers  values (7, 'Myrtle', '13/2/2016', '7/11/2018', 'Buick');
+insert into "boxing_club".trainers  values (7, 'Myrtle', '13/2/2016', '7/11/2018', 'trainer');
 insert into "boxing_club".trainers  values (8, 'Nahum', '4/1/2016', null, 'stagair');
 insert into "boxing_club".trainers  values (9, 'Abran', '13/8/2015', null, 'stagair');
 insert into "boxing_club".trainers  values (10, 'Clarita', '19/7/2015', null, 'trainer');
