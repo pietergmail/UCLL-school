@@ -1,8 +1,8 @@
-drop table "boxing_club".betaling;
-drop table "boxing_club".gesponserde_wedstrijden;
-drop table "boxing_club".boksers_wedstrijden;
-drop table "boxing_club".sponser;
-drop table "boxing_club".wedstrijden;
-drop table "boxing_club".boksers;
-drop table "boxing_club".trainers;
-drop schema "boxing_club";
+drop table "boxing_clubV2".betaling;
+drop table "boxing_clubV2".gesponserde_wedstrijden;
+drop table "boxing_clubV2".boksers_wedstrijden;
+drop table "boxing_clubV2".sponser;
+drop table "boxing_clubV2".wedstrijden;
+drop table "boxing_clubV2".boksers;
+drop table "boxing_clubV2".trainers;
+drop schema "boxing_clubV2";

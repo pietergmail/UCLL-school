@@ -3,7 +3,7 @@ select geslacht
 	 , round(avg(gewicht),2) as mean_gewicht 
 	 , round(min(gewicht),2) as min_gewicht 				 
 	 , round(max(gewicht),2) as min_gewicht 				 			   
-	from "boxing_club".boksers
+	from "boxing_clubV2".boksers
 		where leeftijd > 20				 
 			group by geslacht
 			
@@ -18,7 +18,7 @@ select geslacht
 		  		       when gewicht >= 80  and gewicht < 100 then 100	  
 		  		  else 120
 		  		  end as "gewichts_klasse"
-			from "boxing_club".boksers 
+			from "boxing_clubV2".boksers 
 		  ) as boksers
 		where leeftijd > 20				 
 			group by geslacht, gewichts_klasse
@@ -30,10 +30,10 @@ WE WILLEN HET AANTAL BOXERS ZIEN MET HUN GESLACHT EN GEWICHTKLASSE ZIEN
 
 select  boksers.bokser_id,boksers.naam, boksers_wedstrijden.wedstrijdnr, gesponserde_wedstrijden.sponsor_id 
 
-from "boxing_club".boksers_wedstrijden
-		inner join "boxing_club".boksers 
+from "boxing_clubV2".boksers_wedstrijden
+		inner join "boxing_clubV2".boksers 
 			on boksers_wedstrijden.bokser_id =  					boksers.bokser_id
-		right outer join 		"boxing_club".gesponserde_wedstrijden
+		right outer join 		"boxing_clubV2".gesponserde_wedstrijden
 			on boksers_wedstrijden.wedstrijdnr = 			gesponserde_wedstrijden.wedstrijdnr
 order by bokser_id
 			
@@ -44,12 +44,12 @@ select  boksers.naam as boksers_naam
 	 , trainers.*
 	 , bedrag
 	 , datum
-	    from "boxing_club".trainers
+	    from "boxing_clubV2".trainers
 		right outer join
-		 "boxing_club".boksers 
+		 "boxing_clubV2".boksers 
 		 on (trainers.train_id=boksers.train_id)
 		right outer join
-		 "boxing_club".betaling
+		 "boxing_clubV2".betaling
 		 		 on (betaling.bokser_id=boksers.bokser_id)
 		where datum > eind_datum			
 		
