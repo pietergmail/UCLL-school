@@ -1,5 +1,4 @@
-<%@ page import="domain.model.Product" %>
-<%@ page import="java.util.ArrayList" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,12 +24,11 @@
 
     </header>
     <main>
-        <%
-            if (request.getAttribute("products") == null) {
-        %>
+        <c:choose>
+        <c:when test="${products == null || empty products}">
         <p>No products to show</p>
-        <%
-        } else { %>
+        </c:when>
+        <c:otherwise>
         <table>
             <tr>
                 <th>Product Id</th>
@@ -38,21 +36,21 @@
                 <th>Description</th>
                 <th>Price</th>
             </tr>
-            <% for (Product product : (ArrayList<Product>) (request.getAttribute("products"))) { %>
-            <tr>
-                <td><%= product.getProductId()%>
+            <c:forEach var="product" items="${products}"><tr>
+                <td>${product.productId}
                 </td>
-                <td><%= product.getName()%>
+                <td>${product.name}
                 </td>
-                <td><%= product.getDescription()%>
+                <td>${product.description}
                 </td>
-                <td><%= product.getPrice()%>
+                <td>${product.price}
                 </td>
             </tr>
-            <% } %>
+            </c:forEach>
             <caption>Product Overview</caption>
         </table>
-        <% } %>
+        </c:otherwise>
+        </c:choose>
     </main>
     <footer>
         &copy; Webontwikkeling 3, UC Leuven-Limburg

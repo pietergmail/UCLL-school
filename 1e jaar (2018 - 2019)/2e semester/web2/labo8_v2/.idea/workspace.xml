@@ -7,13 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="213241ba-b569-412a-a9e0-f626b7ddb046" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../labo 9/.idea/libraries/jstl_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 9/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 9/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bomen en Grafen/Les 9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bomen en Grafen/Les 9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bomen en Grafen/oplossingen/Bomen_Grafen" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bomen en Grafen/oplossingen/Bomen_Grafen" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../labo 9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 9/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 9/labo 9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 9/labo 9.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 9/out/artifacts/web_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 9/out/artifacts/web_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,9 +22,10 @@
     <session id="839454806">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -131,7 +128,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ui/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
+            <state relative-caret-position="986">
               <caret line="60" selection-start-line="60" selection-end-line="60" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -223,7 +220,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="2873" />
     <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -231,7 +228,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -272,6 +268,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -279,7 +276,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556718948585" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../labo 9" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -393,6 +390,8 @@
       <workItem from="1557134300762" duration="137000" />
       <workItem from="1557142190386" duration="5762000" />
       <workItem from="1557680885514" duration="738000" />
+      <workItem from="1557748066277" duration="69000" />
+      <workItem from="1557748145589" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="labo 8 verder werken">
       <created>1556703648312</created>
@@ -405,19 +404,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19143000" />
+    <option name="totallyTimeSpent" value="19215000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2873" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="2873" y="0" width="974" height="788" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.8247536" visible="true" weight="0.18490154" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.82100594" visible="true" weight="0.18475991" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info id="Web" order="7" sideWeight="0.17524645" side_tool="true" visible="true" weight="0.18490154" />
+      <window_info id="Web" order="7" sideWeight="0.17899409" side_tool="true" visible="true" weight="0.18475991" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
@@ -483,7 +483,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
+        <state relative-caret-position="986">
           <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="imports" expanded="true" />

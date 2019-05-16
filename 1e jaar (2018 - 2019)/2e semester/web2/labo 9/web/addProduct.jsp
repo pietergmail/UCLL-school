@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-         pageEncoding="UTF-8" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<c:import url="header.jsp" />
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,11 +25,15 @@
 
     </header>
     <main>
+        <c:if test="$(errors != null)">
         <div class="alert-danger">
             <ul>
-                <li>Some error</li>
+                <c:forEach var="errors" items="${errors}">
+                <li>${errors}</li>
+                </c:forEach>
             </ul>
         </div>
+        </c:if>
 
         <form method="post" action="Controller?command=addProduct" novalidate="novalidate">
             <!-- novalidate in order to be able to run tests correctly -->

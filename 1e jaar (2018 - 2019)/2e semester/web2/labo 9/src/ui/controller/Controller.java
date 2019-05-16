@@ -1,3 +1,5 @@
+package ui.controller;
+
 import domain.db.DbException;
 import domain.db.ProductDbInMemory;
 import domain.model.DomainException;
@@ -15,6 +17,7 @@ import java.util.ArrayList;
 @WebServlet("/Controller")
 public class Controller extends HttpServlet {
     // something missing
+    private ProductDbInMemory ProductDB = new ProductDbInMemory();
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         processRequest(request, response);
@@ -26,7 +29,12 @@ public class Controller extends HttpServlet {
 
     private void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
  	// to be completed
- 	        switch (command) {
+        String command = "home";
+        if (request.getParameter("command") != null){
+            command = request.getParameter("command");
+        }
+        String destination;
+        switch (command) {
             case "add":
                 destination = showAdd(request, response);
                 break;
@@ -40,6 +48,7 @@ public class Controller extends HttpServlet {
                 destination = showHome(request, response);
                 break;
         }
+        request.getRequestDispatcher(destination).forward(request, response);
 
     }
 
@@ -57,7 +66,7 @@ public class Controller extends HttpServlet {
 
         if (errors.size() == 0) {
             try {
-                productDb.add(product);
+                ProductDB.add(product);
                 return showOverview(request, response);
             } catch (DbException exc) {
                 request.setAttribute("error", exc.getMessage());
@@ -108,7 +117,7 @@ public class Controller extends HttpServlet {
     }
 
     private String showOverview(HttpServletRequest request, HttpServletResponse response) {
-        request.setAttribute("products", productDb.getAll());
+        request.setAttribute("products", ProductDB.getAll());
         return  "productOverview.jsp";
     }
 
