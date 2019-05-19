@@ -20,29 +20,41 @@ public class Controller extends HttpServlet {
     private ProductDbInMemory ProductDB = new ProductDbInMemory();
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        System.out.println("doPost");
         processRequest(request, response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        System.out.println("doGet");
         processRequest(request, response);
     }
 
     private void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
  	// to be completed
+        System.out.println("processRequest");
         String command = "home";
         if (request.getParameter("command") != null){
             command = request.getParameter("command");
         }
+        System.out.println(command);
         String destination;
         switch (command) {
-            case "add":
-                destination = showAdd(request, response);
+
+            case "DeleteConfirmation":
+                destination = DeleteConfirmation(request, response);
                 break;
             case "overview":
                 destination = showOverview(request, response);
                 break;
+            case "add":
+                destination = showAdd(request, response);
+                break;
+
             case "addProduct":
                 destination = showAddProduct(request, response);
+                break;
+            case  "Delete":
+                destination = delete(request, response);
                 break;
             default:
                 destination = showHome(request, response);
@@ -54,6 +66,12 @@ public class Controller extends HttpServlet {
 
     private String showHome(HttpServletRequest request, HttpServletResponse response) {
         return "index.jsp";
+    }
+
+    private String DeleteConfirmation(HttpServletRequest request, HttpServletResponse response){
+        String name = request.getParameter("name");
+        request.setAttribute("name", name);
+        return "DeleteConfirmation.jsp";
     }
 
     private String showAddProduct(HttpServletRequest request, HttpServletResponse response) {
@@ -123,5 +141,10 @@ public class Controller extends HttpServlet {
 
     private String showAdd(HttpServletRequest request, HttpServletResponse response) {
         return "addProduct.jsp";
+    }
+
+    private String delete(HttpServletRequest request, HttpServletResponse response){
+
+        return "index.jsp";
     }
 }

@@ -1,28 +1,18 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<c:set var="page" value="overview" />
 <!DOCTYPE html>
 <html>
+<body>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta charset="UTF-8">
-    <title>Users</title>
+    <title>Overview</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
 <div id="container">
-    <header>
-        <h1><span>Web shop</span></h1>
-        <nav>
-            <ul>
-                <li id="actual"><a href="Controller">Home</a></li>
-                <li><a href="Controller?command=overview">Overview</a></li>
-                <li><a href="Controller?command=add">Add Product</a></li>
-            </ul>
-        </nav>
-        <h2>
-            Product Overview
-        </h2>
-
-    </header>
+    <jsp:include page="header.jsp">
+        <jsp:param name="page" value="overview"/>
+    </jsp:include>
     <main>
         <c:choose>
         <c:when test="${products == null || empty products}">
@@ -45,6 +35,7 @@
                 </td>
                 <td>${product.price}
                 </td>
+                <td><a href="Controller?command=DeleteConfirmation">delete</a></td>
             </tr>
             </c:forEach>
             <caption>Product Overview</caption>

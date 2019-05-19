@@ -1,29 +1,19 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<c:set var="page" value="home" />
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Home</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<head>+
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
 	<div id="container">
-		<header>
-			<h1>
-				<span>Web shop</span>
-			</h1>
-			<nav>
-				<ul>
-					<li id="actual"><a href="Controller">Home</a></li>
-					<li><a href="Controller?command=overview">Overview</a></li>
-					<li><a href="Controller?command=add">Add Product</a></li>
-				</ul>
-			</nav>
-			<h2>Home</h2>
-
-		</header>
+		<jsp:include page="header.jsp">
+			<jsp:param name="page" value="index"/>
+		</jsp:include>
 		<main> Sed ut perspiciatis unde omnis iste natus error sit
 		voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
 		ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae

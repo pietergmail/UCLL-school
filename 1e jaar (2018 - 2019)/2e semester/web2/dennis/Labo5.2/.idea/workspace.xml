@@ -7,19 +7,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85a2ad35-5d11-48b2-a646-88e9af87489e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../labo 9/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../labo 9/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../labo 9/web/DeleteConfirmation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/Les 9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/Les 9/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/oplossingen/Bomen_Grafen" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/oplossingen/Bomen_Grafen" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Labo 8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../besturingsystemen/Hex answers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../besturingsystemen/Hex answers.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../labo 9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../labo 9/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../labo 9/labo 9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../labo 9/labo 9.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../labo 9/web/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../labo 9/src/ui/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../labo 9/web/DbException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../labo 9/web/DomainException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../labo 9/src/domain/model/DomainException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../labo 9/web/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../labo 9/src/domain/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../labo 9/web/ProductDbInMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../labo 9/src/domain/db/ProductDbInMemory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labo 9/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../labo 9/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labo 9/out/artifacts/web_war_exploded/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../labo 9/out/artifacts/web_war_exploded/addProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labo 9/out/artifacts/web_war_exploded/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../labo 9/out/artifacts/web_war_exploded/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labo 9/out/artifacts/web_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../labo 9/out/artifacts/web_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labo 9/out/artifacts/web_war_exploded/productOverview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../labo 9/out/artifacts/web_war_exploded/productOverview.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labo 9/out/production/labo 9/ui/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../labo 9/out/production/labo 9/ui/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labo 9/src/ui/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../labo 9/src/ui/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labo 9/web/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../labo 9/web/addProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labo 9/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../labo 9/web/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labo 9/web/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../labo 9/web/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labo 9/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../labo 9/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labo 9/web/productOverview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../labo 9/web/productOverview.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../labo8_v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../labo8_v2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vak/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../vak/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,9 +79,9 @@
     <session id="389172560">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -132,7 +138,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/zoekForm.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -141,11 +147,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ui/controller/StudentInformatie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="68">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -253,8 +259,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -264,7 +270,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -319,13 +324,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Labo6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -408,16 +414,18 @@
       <workItem from="1554101403138" duration="7000" />
       <workItem from="1557133836803" duration="47000" />
       <workItem from="1557748520894" duration="18000" />
+      <workItem from="1558283519158" duration="81000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4112000" />
+    <option name="totallyTimeSpent" value="4193000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="697" height="735" extended-state="0" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37004405" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26586434" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -427,7 +435,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19414316" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.12705366" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -509,13 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/zoekForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/studentOverview.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
@@ -539,8 +540,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/controller/StudentInformatie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="68">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/zoekForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
         </state>
       </provider>
     </entry>
