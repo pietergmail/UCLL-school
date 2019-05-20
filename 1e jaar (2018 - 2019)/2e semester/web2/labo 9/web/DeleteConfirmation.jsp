@@ -13,7 +13,7 @@
         <jsp:param name="page" value="overview"/>
     </jsp:include>
     <main>
-       <p>Are you sure you want to delete ${param.name}</p>
+       <p>Are you sure you want to delete <c:out value="${param.name}"/> </p>
         <form method="post" action="Controller?command=Delete" novalidate="novalidate">
             <!-- novalidate in order to be able to run tests correctly -->
 
