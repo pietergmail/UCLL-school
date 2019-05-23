@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a48da287-7597-49fc-9123-7637ed1368db" name="Default Changelist" comment="" />
+    <list default="true" id="a48da287-7597-49fc-9123-7637ed1368db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../scriptalen/ExamJanuary 2019/checker/check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scriptalen/ExamJanuary 2019/checker/tests/collapse-empty-lines/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scriptalen/ExamJanuary 2019/checker/tests/cyclic-list/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scriptalen/ExamJanuary 2019/checker/tests/find-keys/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scriptalen/ExamJanuary 2019/checker/tests/remove-duplicates/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scriptalen/ExamJanuary 2019/checker/tests/successors/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scriptalen/ExamJanuary 2019/checker/tests/zip-contains/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scriptalen/ExamJanuary 2019/exercises/collapse-empty-lines/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scriptalen/ExamJanuary 2019/exercises/collapse-empty-lines/student.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scriptalen/ExamJanuary 2019/exercises/collapse-empty-lines/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scriptalen/ExamJanuary 2019/exercises/cyclic-list/CyclicList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scriptalen/ExamJanuary 2019/exercises/cyclic-list/student.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scriptalen/ExamJanuary 2019/exercises/cyclic-list/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scriptalen/ExamJanuary 2019/exercises/finalize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scriptalen/ExamJanuary 2019/exercises/find-keys/student.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scriptalen/ExamJanuary 2019/exercises/find-keys/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scriptalen/ExamJanuary 2019/exercises/remove-duplicates/student.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scriptalen/ExamJanuary 2019/exercises/remove-duplicates/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scriptalen/ExamJanuary 2019/exercises/successors/student.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scriptalen/ExamJanuary 2019/exercises/successors/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scriptalen/ExamJanuary 2019/exercises/zip-contains/student.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scriptalen/ExamJanuary 2019/exercises/zip-contains/test.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scriptalen/ExamJanuary 2019/exercises/zip-contains/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Les 9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Les 9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web2/labo 9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../web2/labo 9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web2/labo 9/out/artifacts/web_war_exploded/DeleteConfirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../web2/labo 9/out/artifacts/web_war_exploded/DeleteConfirmation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web2/labo 9/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../web2/labo 9/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web2/labo 9/out/artifacts/web_war_exploded/productOverview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../web2/labo 9/out/artifacts/web_war_exploded/productOverview.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web2/labo 9/out/production/labo 9/ui/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../web2/labo 9/out/production/labo 9/ui/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web2/labo 9/src/ui/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../web2/labo 9/src/ui/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web2/labo 9/web/DeleteConfirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../web2/labo 9/web/DeleteConfirmation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web2/labo 9/web/productOverview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../web2/labo 9/web/productOverview.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web2/labo8_v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../web2/labo8_v2/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,23 +75,68 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-855365307">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="608" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="608" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ui/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/domain/Recursie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="19" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/domain/getal.java">
+        <entry file="file://$PROJECT_DIR$/test/RecursieTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/domain/domainexception.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -70,11 +150,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/domain/getal.java" />
         <option value="$PROJECT_DIR$/src/ui/Main.java" />
+        <option value="$PROJECT_DIR$/src/ui/fibonacci.java" />
+        <option value="$PROJECT_DIR$/test/RecursieTest.java" />
+        <option value="$PROJECT_DIR$/src/domain/Recursie.java" />
       </list>
     </option>
   </component>
@@ -84,16 +170,21 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,22 +206,28 @@
             <path>
               <item name="les 1" type="b2602c69:ProjectViewProjectNode" />
               <item name="les 1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550050142358" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558443778807" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/labo8" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\herre\Documents\UCLL\1e jaar (2018 - 2019)\2e semester\Bomen en Grafen\les 1" />
+      <recent name="C:\Users\herre\Documents\UCLL\1e jaar (2018 - 2019)\2e semester\Bomen en Grafen\les 1\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -144,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RecursieTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ui.Main" />
       <module name="les 1" />
@@ -155,6 +252,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RecursieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="les 1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RecursieTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.RecursieTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RecursieTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -168,16 +282,30 @@
       <updated>1550049817046</updated>
       <workItem from="1550049820207" duration="328000" />
       <workItem from="1550055865238" duration="44000" />
+      <workItem from="1558439384179" duration="2601000" />
+      <workItem from="1558462943153" duration="1199000" />
+      <workItem from="1558597892339" duration="863000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="RecursieTest - 2019.05.21 at 13h 58m 51s.xml">
+      <configuration name="RecursieTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecursieTest - 2019.05.21 at 14h 11m 52s.xml">
+      <configuration name="RecursieTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecursieTest - 2019.05.21 at 14h 12m 11s.xml">
+      <configuration name="RecursieTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="372000" />
+    <option name="totallyTimeSpent" value="5035000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="0" width="697" height="735" extended-state="0" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16005874" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09701493" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -186,7 +314,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32968238" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -195,6 +323,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -213,17 +342,30 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ui/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/ui/fibonacci.java" />
+    <entry file="file://$PROJECT_DIR$/src/domain/Recursie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="19" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/getal.java">
+    <entry file="file://$PROJECT_DIR$/test/RecursieTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/domainexception.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
