@@ -20,23 +20,19 @@ public class Controller extends HttpServlet {
     private ProductDbInMemory ProductDB = new ProductDbInMemory();
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("doPost");
         processRequest(request, response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("doGet");
         processRequest(request, response);
     }
 
     private void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
  	// to be completed
-        System.out.println("processRequest");
         String command = "home";
         if (request.getParameter("command") != null){
             command = request.getParameter("command");
         }
-        System.out.println(command);
         String destination;
         switch (command) {
 
@@ -68,11 +64,7 @@ public class Controller extends HttpServlet {
         return "index.jsp";
     }
 
-    private String DeleteConfirmation(HttpServletRequest request, HttpServletResponse response){
-        String name = request.getParameter("name");
-        request.setAttribute("name", name);
-        return "DeleteConfirmation.jsp";
-    }
+
 
     private String showAddProduct(HttpServletRequest request, HttpServletResponse response) {
         ArrayList<String> errors = new ArrayList<String>();
@@ -143,8 +135,26 @@ public class Controller extends HttpServlet {
         return "addProduct.jsp";
     }
 
-    private String delete(HttpServletRequest request, HttpServletResponse response){
+    private String DeleteConfirmation(HttpServletRequest request, HttpServletResponse response){
+        String name = request.getParameter("name");
+        String id = request.getParameter("id");
+        request.setAttribute("name", name);
+        request.setAttribute("id", id);
+        return "DeleteConfirmation.jsp";
+    }
 
-        return "index.jsp";
+    private String delete(HttpServletRequest request, HttpServletResponse response){
+        int id2 = Integer.parseInt(request.getParameter("id"));
+        int index = 0;
+        if(request.getParameter("delete").equals("yes")){
+            System.out.println("delete");
+            for(Product p : ProductDB.getAll()){
+                if(p.getProductId() == id2){
+                    index = p.getProductId();
+                }
+            }
+            ProductDB.delete(index);
+        }
+        return showOverview(request, response);
     }
 }

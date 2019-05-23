@@ -13,17 +13,13 @@
         <jsp:param name="page" value="overview"/>
     </jsp:include>
     <main>
-       <p>Are you sure you want to delete <c:out value="${param.name}"/> </p>
-        <form method="post" action="Controller?command=Delete" novalidate="novalidate">
+       <p>Are you sure you want to delete ${param.name} </p>
+        <form method="post" action="Controller?command=Delete&id=${param.id}" novalidate="novalidate">
             <!-- novalidate in order to be able to run tests correctly -->
 
-            <p><input type="radio" name="radio" value="yes" id="yes">
-            <label for="yes">Yes</label></p>
+            <p><input type="submit" value="yes" name="delete"></p>
 
-            <p><input type="radio" id="no" name="radio" value="no">
-            <label for="no">no</label></p>
-
-            <p><input type="submit" id="addProduct" value="Add Product"></p>
+            <p><input type="submit" value="no" name="delete"></p>
         </form>
 
         </form>
