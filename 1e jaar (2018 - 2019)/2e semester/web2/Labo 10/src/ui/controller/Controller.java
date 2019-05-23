@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 @WebServlet("/Controller")
@@ -55,6 +56,9 @@ public class Controller extends HttpServlet {
             case "shop":
                 destination = shop(request, response);
                 break;
+            case "addCart":
+                destination = addcart(request, response);
+                break;
             default:
                 destination = showHome(request, response);
                 break;
@@ -68,7 +72,21 @@ public class Controller extends HttpServlet {
     }
 
     private String shop(HttpServletRequest request, HttpServletResponse response) {
+        ArrayList<Product> userdb = (ArrayList<Product>)request.getSession().getAttribute("user");
+        request.getSession().setAttribute("user", userdb);
         return "shop.jsp";
+    }
+
+    private String addcart(HttpServletRequest request, HttpServletResponse response){
+        ArrayList<Product> userdb = (ArrayList<Product>)request.getSession().getAttribute("user");
+        if(userdb == null){
+            userdb = new ArrayList<Product>();
+        }
+        int id = Integer.parseInt(request.getParameter("id"));
+        userdb.add(ProductDB.get(id));
+
+        request.getSession().setAttribute("user", userdb);
+        return showOverview(request, response);
     }
 
 
@@ -151,16 +169,17 @@ public class Controller extends HttpServlet {
     }
 
     private String delete(HttpServletRequest request, HttpServletResponse response){
-        int id2 = Integer.parseInt(request.getParameter("id"));
+        ArrayList<Product> userdb = (ArrayList<Product>)request.getSession().getAttribute("user");
+        int id2 = Integer.parseInt(request.getParameter("id")) - 1;
         int index = 0;
         if(request.getParameter("delete").equals("yes")){
             System.out.println("delete");
-            for(Product p : ProductDB.getAll()){
+            for(Product p : userdb){
                 if(p.getProductId() == id2){
                     index = p.getProductId();
                 }
             }
-            ProductDB.delete(index);
+            userdb.remove(index);
         }
         return showOverview(request, response);
     }

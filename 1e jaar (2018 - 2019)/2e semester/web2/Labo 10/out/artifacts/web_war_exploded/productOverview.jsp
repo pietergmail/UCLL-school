@@ -35,7 +35,7 @@
                 </td>
                 <td>${product.price}
                 </td>
-                <td><a href="Controller?command=DeleteConfirmation&name=${product.name}&id=${product.productId}">delete</a></td>
+                <td><a href="Controller?command=addCart&id=${product.getProductId()}">add to cart</a></td>
             </tr>
             </c:forEach>
             <caption>Product Overview</caption>

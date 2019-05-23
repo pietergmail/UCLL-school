@@ -6,7 +6,7 @@
             <li ${param.page == 'index'? 'id="actual"':""} ><a href="Controller">Home</a></li>
             <li ${param.page == 'overview'? 'id="actual"':""}><a href="Controller?command=overview">Overview</a></li>
             <li ${param.page == 'add'? 'id="actual"':""}><a href="Controller?command=add">Add Product</a></li>
-            <li ${param.page == 'shop'? 'id="actual"':""}><a href="Controller?command=shop">Shopping Cart</a></li>
+            <li ${param.page == 'cart'? 'id="actual"':""}><a href="Controller?command=shop">Shopping Cart</a></li>
         </ul>
     </nav>
 </header>
