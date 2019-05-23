@@ -37,27 +37,29 @@ public class Graph {
         return this.verbindingsMatrix.length;
     }
 
-    private boolean isRechtrStraakseVerbinding(int huidige, int i){
+    private boolean isRechtStreekseVerbinding(int huidige, int i) {
         return (verbindingsMatrix[i-1][huidige-1]);
+
     }
 
-    private int[] findAncestors(int start, int destination) {// nummering van
-        int[] ancestors = new int[this.getAantalKnopen()];
-        initArray(ancestors, infty);
-        Queue<Integer> queue = new LinkedList<>();// verder uitzoeken wat een linked list is
-        queue.add(start);
+    private int[] findAncestors(int start, int destination) {
+        int aantalKnopen = this.getAantalKnopen();
+        int[] ancestors = new int[aantalKnopen]; initArray(ancestors, infty);
+        Queue<Integer> queue = new LinkedList<>(); queue.add(start);
         ancestors[start - 1] = 0;
         int huidig = queue.remove();
 
         while (huidig != destination) {
-            for (int i = 1; i <= getAantalKnopen(); i++) {
-                if (isRechtrStraakseVerbinding(huidig, i) && (ancestors[i - 1] == infty)) {
+            //zoek alle nog niet bezochte knooppunten vanuit huidig
+            for (int i = 1; i <= aantalKnopen; i++) {
+                if (isRechtStreekseVerbinding(huidig, i) && (ancestors[i - 1] == infty)) {
                     queue.add(i);
+                    //duid aan dat huidig de ouder is van i in ancestormatrix
                     ancestors[i - 1] = huidig;
                 }
             }
             if (!queue.isEmpty()) {
-                huidig = queue.remove();
+                huidig = queue.remove(); //of .poll() wat geen exception gooit
             } else {
                 break;
             }
@@ -69,7 +71,6 @@ public class Graph {
         if (start <= 0 || start > this.getAantalKnopen() || destination <= 0 || destination > this.getAantalKnopen())
             throw new IllegalArgumentException();
 
-        int[] ancestors = this.findAncestors(start, destination);
         List<Integer> path = new LinkedList<>();
 
         // oefening 1.5
