@@ -8,13 +8,13 @@ public class BreadthFirstSearchUI {
 
 	public static void main(String[] args) {
 
-		int data[][] = { 	{ 0, 1, 0, 1, 0, 0, 0 }, 
-							{ 0, 0, 1, 0, 0, 0, 0 }, 
-							{ 1, 0, 0, 1, 1, 0, 0 },
-							{ 0, 0, 0, 0, 1, 1, 0 }, 
-							{ 0, 1, 0, 0, 0, 0, 1 }, 
-							{ 0, 0, 0, 0, 0, 0, 1 }, 
-							{ 0, 0, 0, 0, 0, 0, 0 } }; // nabijheidsmatrix van graf  uit  figuur  1.5  van  cursus
+		int data[][] = { 	{ 0, 1, 0, 1, 0, 0, 0 },
+				{ 0, 0, 1, 0, 0, 0, 0 },
+				{ 1, 0, 0, 1, 1, 0, 0 },
+				{ 0, 0, 0, 0, 1, 1, 0 },
+				{ 0, 1, 0, 0, 0, 0, 1 },
+				{ 0, 0, 0, 0, 0, 0, 1 },
+				{ 0, 0, 0, 0, 0, 0, 0 } }; // nabijheidsmatrix van graf  uit  figuur  1.5  van  cursus
 		Graph bfs = new Graph(data);
 
 		int start = 1;

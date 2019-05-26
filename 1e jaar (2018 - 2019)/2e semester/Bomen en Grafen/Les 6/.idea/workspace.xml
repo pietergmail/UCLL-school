@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd92ddca-da6c-4758-be88-5c47f082f0bb" name="Default Changelist" comment="" />
+    <list default="true" id="bd92ddca-da6c-4758-be88-5c47f082f0bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Les 4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Versie 2/les 4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Versie 2/les3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Versie 2/les3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Versie 2/les3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Versie 2/les3/les3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../les 3/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Les 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Les 4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../les 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../les 3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../les 3/vak2/.idea/artifacts/web_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../les 3/vak2/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../les 3/vak2/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../les 3/vak2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../les 3/vak2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Versie 2/les3/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../les 3/vak2/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../les 3/vak2/.idea/scopes/scope_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../les 3/vak2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../les 3/vak2/src/src/domain/db/MemberDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../les 3/vak2/src/src/domain/model/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../les 3/vak2/src/src/ui/controller/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../les 3/vak2/vak2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../les 3/vak2/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen-master/Bin_search_tree/src/main/java/domain/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen-master/Bin_search_tree/src/main/java/domain/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen-master/Bin_search_tree/src/main/java/ui/BinarySearchTreeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen-master/Bin_search_tree/src/main/java/ui/BinarySearchTreeDriver.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,24 +68,23 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="793087932">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/domain/BinaryMinHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
+            <state relative-caret-position="1615">
               <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
-              <folding>
-                <element signature="e#2158#2159#0" expanded="true" />
-                <element signature="e#2187#2188#0" expanded="true" />
-                <element signature="e#2228#2229#0" expanded="true" />
-                <element signature="e#2257#2258#0" expanded="true" />
-                <element signature="e#2299#2300#0" expanded="true" />
-                <element signature="e#2352#2353#0" expanded="true" />
-                <element signature="e#2395#2396#0" expanded="true" />
-                <element signature="e#2449#2450#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -65,13 +92,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ui/BinaryMinHeapDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="119">
               <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -87,39 +117,37 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="x" value="2873" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Les6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Les6" type="462c0819:PsiDirectoryNode" />
+              <item name="Les 6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Les 6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Les6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Les6" type="462c0819:PsiDirectoryNode" />
+              <item name="Les 6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Les 6" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Les6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Les6" type="462c0819:PsiDirectoryNode" />
+              <item name="Les 6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Les 6" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Les6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Les6" type="462c0819:PsiDirectoryNode" />
+              <item name="Les 6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Les 6" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -127,13 +155,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553676350382" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Les4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
@@ -204,22 +235,22 @@
       <workItem from="1553676161098" duration="241000" />
       <workItem from="1553676471310" duration="252000" />
       <workItem from="1553677206965" duration="4154000" />
+      <workItem from="1558713702639" duration="27000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4647000" />
+    <option name="totallyTimeSpent" value="4674000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="0" width="697" height="735" extended-state="0" />
-    <editor active="true" />
+    <frame x="2873" y="0" width="974" height="1047" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.30543318" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.3118162" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -254,24 +285,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/domain/BinaryMinHeap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
+        <state relative-caret-position="1615">
           <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
-          <folding>
-            <element signature="e#2158#2159#0" expanded="true" />
-            <element signature="e#2187#2188#0" expanded="true" />
-            <element signature="e#2228#2229#0" expanded="true" />
-            <element signature="e#2257#2258#0" expanded="true" />
-            <element signature="e#2299#2300#0" expanded="true" />
-            <element signature="e#2352#2353#0" expanded="true" />
-            <element signature="e#2395#2396#0" expanded="true" />
-            <element signature="e#2449#2450#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/BinaryMinHeapDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="119">
           <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
         </state>
       </provider>
