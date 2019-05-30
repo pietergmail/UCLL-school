@@ -7,34 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3056f6b9-3b1e-4582-a37b-c7eaa6e6b045" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Labo 3/Test/OccurencesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Labo 3/Test/StudentInformatieTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Labo 3/Test/ValidHtmlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Labo 3/src/ui/controller/Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labo3_thuisopdracht/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labo3_thuisopdracht/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labo_3/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labo_3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labo_3/test/StudentInformatieTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labo_3/test/ValidHtmlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labo_3/test/ui/view/OccurencesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../vak/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../vak/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Labo 3/src/ui/controller/Occurence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../1e semester/project 1/project-sorry-jonathan" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1e semester/project 1/project-sorry-jonathan" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../1e semester/webontwikkeling 1/flex/filesStudent" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1e semester/webontwikkeling 1/flex/filesStudent" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../besturingsystemen/Hex answers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../besturingsystemen/Hex answers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labo 10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 10/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Labo 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Labo 3/labo 3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 3/labo 3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Labo 7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../labo8_v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../labo8_v2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../labo8_v2/out/artifacts/web_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../labo8_v2/out/artifacts/web_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../labo8_v2/src/ui/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../labo8_v2/src/ui/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../labo8_v2/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../labo8_v2/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vak/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../vak/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vak/vak.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../vak/vak.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labo 3/Test/OccurencesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 3/Test/OccurencesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labo 3/Test/StudentInformatieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 3/Test/StudentInformatieTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labo 3/Test/ValidHtmlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 3/Test/ValidHtmlTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labo 3/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Servlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labo 3/out/artifacts/web_war_exploded/tabel.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labo 3/out/production/labo 3/ui/controller/Servlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labo 3/out/test/labo 3/OccurencesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 3/out/test/labo 3/OccurencesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labo 3/out/test/labo 3/StudentInformatieTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 3/out/test/labo 3/StudentInformatieTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labo 3/out/test/labo 3/ValidHtmlTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 3/out/test/labo 3/ValidHtmlTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labo 3/src/ui/controller/Servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labo 3/web/tabel.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo3_thuisopdracht/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo3_thuisopdracht/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo_3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo_3/Labo_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo_3/web/Labo_3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo_3/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Occurence.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo_3/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Occurence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo_3/out/test/Labo_3/ValidHtmlTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo_3/out/test/Labo_3/ValidHtmlTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo_3/test/ValidHtmlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo_3/test/ValidHtmlTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,9 +73,9 @@
     <session id="456598880">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -118,7 +111,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ui/view/FxAppLetterCounter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="238">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -130,8 +123,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ui/view/LetterCounterApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="-47">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,11 +144,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ui/controller/Occurence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -259,8 +249,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -320,13 +308,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551708911746" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559131001624" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../labo5" />
   </component>
   <component name="RecentsManager">
@@ -378,6 +368,39 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="10087" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -422,17 +445,18 @@
       <updated>1551704271482</updated>
       <workItem from="1551704272684" duration="4660000" />
       <workItem from="1557132629088" duration="191000" />
+      <workItem from="1559130629799" duration="415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4851000" />
+    <option name="totallyTimeSpent" value="5266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.2560175" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.26148796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -477,15 +501,15 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ui/controller/Servlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/ui/view/FxAppLetterCounter.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/lettercounter.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/model/LetterCounter.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -504,20 +528,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/ui/view/FxAppLetterCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/lettercounter.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/view/LetterCounterApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="-47">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -526,11 +550,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/controller/Occurence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
         </state>
       </provider>
     </entry>

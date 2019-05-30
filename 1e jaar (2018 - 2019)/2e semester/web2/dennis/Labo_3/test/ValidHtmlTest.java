@@ -19,7 +19,7 @@ public class ValidHtmlTest {
 		// Voor Windows (vergeet "\" niet te escapen met een tweede "\")
 //		System.setProperty("webdriver.chrome.driver", "C:\\Users\\...\\chromedriver.exe");
 		// Voor mac: 
-		 System.setProperty("webdriver.chrome.driver", "/Applications/chromedriver");
+		 System.setProperty("webdriver.chrome.driver", "/chromedriver/chromedriver.exe");
         driver = new ChromeDriver();
 	}
 	

@@ -8,9 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="900dddba-5b08-49e5-8a5d-3381c778eac7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/Versie 2/les10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/Versie 2/les10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Labo 2a/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 2a/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Labo 2a/out/artifacts/web_war/web_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 2a/out/artifacts/web_war/web_war.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labo 10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 10/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Labo 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 3/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -136,9 +134,9 @@
     <session id="104562037">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -326,10 +324,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2389" />
-    <option name="y" value="-17" />
-    <option name="width" value="974" />
-    <option name="height" value="739" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -337,8 +335,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -378,14 +376,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552332674645" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Labo 8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Labo_3" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -511,11 +509,12 @@
       <workItem from="1552316483592" duration="5268000" />
       <workItem from="1557132477959" duration="150000" />
       <workItem from="1559040580824" duration="46000" />
+      <workItem from="1559127767344" duration="21000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16184000" />
+    <option name="totallyTimeSpent" value="16205000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -527,10 +526,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.23773988" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.24040511" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />

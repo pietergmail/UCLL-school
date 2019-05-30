@@ -7,17 +7,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b5f8ab3-92e0-4af1-84bf-e11bd25567b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../vak/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vak/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bomen en Grafen/Versie 2/labo5/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bomen en Grafen/Versie 2/labo5/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bomen en Grafen/Versie 2/labo5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bomen en Grafen/Versie 2/labo5/test/StudentRegistrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bomen en Grafen/Versie 2/labo5/web/gevonden.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bomen en Grafen/Versie 2/labo5/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bomen en Grafen/Versie 2/labo5/web/nietGevonden.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bomen en Grafen/Versie 2/labo5/web/studentForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bomen en Grafen/Versie 2/labo5/web/studentOverview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bomen en Grafen/Versie 2/labo5/web/verwijderBevestiging.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bomen en Grafen/Versie 2/labo5/web/zoekForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labo 3/src/ui/controller/Occurence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labo 5/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../V2/labo5/web/gevonden.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../V2/labo5/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../V2/labo5/web/nietGevonden.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../V2/labo5/web/studentForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../V2/labo5/web/studentOverview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../V2/labo5/web/verwijderBevestiging.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../V2/labo5/web/zoekForm.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1e semester/project 1/project-sorry-jonathan" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1e semester/project 1/project-sorry-jonathan" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1e semester/webontwikkeling 1/flex/filesStudent" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1e semester/webontwikkeling 1/flex/filesStudent" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 3/Test/OccurencesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 3/Test/OccurencesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 3/Test/StudentInformatieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 3/Test/StudentInformatieTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 3/Test/ValidHtmlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 3/Test/ValidHtmlTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 3/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Servlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 3/out/artifacts/web_war_exploded/tabel.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 3/out/production/labo 3/ui/controller/Servlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 3/out/test/labo 3/OccurencesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 3/out/test/labo 3/OccurencesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 3/out/test/labo 3/StudentInformatieTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 3/out/test/labo 3/StudentInformatieTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 3/out/test/labo 3/ValidHtmlTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 3/out/test/labo 3/ValidHtmlTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 3/src/ui/controller/Servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 3/web/tabel.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 5/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dennis/Labo3_thuisopdracht/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo3_thuisopdracht/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dennis/Labo4.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo4.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dennis/Labo5.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo5.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dennis/Labo5.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo5.2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dennis/Labo6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dennis/Labo_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo_3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dennis/Labo_3/Labo_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo_3/web/Labo_3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dennis/Labo_3/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Occurence.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo_3/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Occurence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dennis/Labo_3/out/test/Labo_3/ValidHtmlTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo_3/out/test/Labo_3/ValidHtmlTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dennis/Labo_3/test/ValidHtmlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo_3/test/ValidHtmlTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dennis/labo5/.idea/labo5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/labo5/.idea/labo5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dennis/labo5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/labo5/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../labo8_v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo8_v2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo8_v2/src/ui/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo8_v2/src/ui/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo8_v2/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo8_v2/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vak/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vak/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vak/vak.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../vak/vak.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,9 +100,9 @@
     <session id="-76381210">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="3" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -94,7 +133,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ui/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
+            <state relative-caret-position="918">
               <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -111,8 +150,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/add.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+            <state relative-caret-position="364">
+              <caret line="39" column="56" lean-forward="true" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -212,8 +251,9 @@
       <list />
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1913" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="147" />
+    <option name="y" value="-17" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -224,6 +264,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -300,15 +342,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553520517365" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vak" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Labo 8" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -348,6 +388,7 @@
       </method>
     </configuration>
     <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="web:war exploded">
@@ -444,6 +485,8 @@
       <workItem from="1556624816266" duration="49000" />
       <workItem from="1556704141397" duration="1214000" />
       <workItem from="1556706528952" duration="3196000" />
+      <workItem from="1559141300625" duration="64000" />
+      <workItem from="1559142222953" duration="646000" />
     </task>
     <servers />
   </component>
@@ -453,10 +496,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7192000" />
+    <option name="totallyTimeSpent" value="7902000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -464,7 +507,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.21881838" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.1098081" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
@@ -475,7 +518,7 @@
       <window_info anchor="bottom" id="Messages" order="5" weight="0.32911393" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.3274918" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.3264642" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -518,6 +561,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -539,23 +595,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/add.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+        <state relative-caret-position="364">
+          <caret line="39" column="56" lean-forward="true" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
         </state>
       </provider>
     </entry>
