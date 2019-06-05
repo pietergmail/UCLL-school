@@ -2,32 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ec0748e-e715-4324-acbc-f7ac69303848" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Les 4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../les3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../les3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../les3/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../les3/les3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../les 3/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Les 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Les 4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Les 4/out/production/BG_Les4/domain/BinarySearchTree$BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Les 4/out/production/BG_Les4/domain/BinarySearchTree$BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Les 4/out/production/BG_Les4/domain/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Les 4/out/production/BG_Les4/domain/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Les 4/out/production/BG_Les4/ui/BinarySearchTreeDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Les 4/out/production/BG_Les4/ui/BinarySearchTreeDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Les 4/src/domain/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Les 4/src/domain/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Les 4/src/ui/BinarySearchTreeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Les 4/src/ui/BinarySearchTreeDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Les 6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Les 6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../les3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../les3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../les7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../les7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../les7/out/production/les7/domain/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/../les7/out/production/les7/domain/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../les7/src/domain/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../les7/src/domain/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../les 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../les 3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../les 3/vak2/.idea/artifacts/web_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../les 3/vak2/.idea/copyright/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../les 3/vak2/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../les 3/vak2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../les 3/vak2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../les3/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../les 3/vak2/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../les 3/vak2/.idea/scopes/scope_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../les 3/vak2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../les 3/vak2/src/src/domain/db/MemberDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../les 3/vak2/src/src/domain/model/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../les 3/vak2/src/src/ui/controller/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../les 3/vak2/vak2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../les 3/vak2/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../les 3/BG_Les3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../les 3/BG_Les3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../les 3/BG_Les3/src/domain/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../les 3/BG_Les3/src/domain/BinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../oplossingen/Bomen_Grafen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oplossingen/Bomen_Grafen-master/BFS/src/main/java/domain/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../oplossingen/Bomen_Grafen-master/BFS/src/main/java/domain/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oplossingen/Bomen_Grafen-master/BFS/src/main/java/ui/BreadthFirstSearchUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../oplossingen/Bomen_Grafen-master/BFS/src/main/java/ui/BreadthFirstSearchUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../oplossingen/Bomen_Grafen-master/Bin_search_tree/src/main/java/domain/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../oplossingen/Bomen_Grafen-master/Bin_search_tree/src/main/java/domain/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../oplossingen/Bomen_Grafen-master/Bin_search_tree/src/main/java/ui/BinarySearchTreeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../oplossingen/Bomen_Grafen-master/Bin_search_tree/src/main/java/ui/BinarySearchTreeDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oplossingen/Bomen_Grafen-master/heap/src/main/java/domain/BinaryMinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../oplossingen/Bomen_Grafen-master/heap/src/main/java/domain/BinaryMinHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../web2/dennis/WinnepenninckxDennis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../web2/dennis/WinnepenninckxDennis/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,10 +36,10 @@
     <session id="1244227214">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -73,7 +69,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ui/BinarySearchTreeDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
+            <state relative-caret-position="476">
               <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
             </state>
           </provider>
@@ -82,16 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/domain/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="718">
-              <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
-              <folding>
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#3187#3188#0" expanded="true" />
-                <element signature="e#3207#3208#0" expanded="true" />
-                <element signature="e#3239#3240#0" expanded="true" />
-                <element signature="e#3259#3260#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1477">
+              <caret line="130" selection-start-line="130" selection-end-line="130" />
             </state>
           </provider>
         </entry>
@@ -126,7 +114,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2873" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -136,7 +124,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -166,14 +154,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558713681841" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Les 6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../oplossingen/Bomen_Grafen-master/Bin_search_tree" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -226,16 +214,17 @@
       <updated>1558692901470</updated>
       <workItem from="1558692903758" duration="773000" />
       <workItem from="1558699100455" duration="8906000" />
+      <workItem from="1559752789972" duration="50000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9679000" />
+    <option name="totallyTimeSpent" value="9729000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2873" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3129103" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.073304154" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -304,23 +293,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ui/BinarySearchTreeDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
+        <state relative-caret-position="476">
           <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
-          <folding>
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#3187#3188#0" expanded="true" />
-            <element signature="e#3207#3208#0" expanded="true" />
-            <element signature="e#3239#3240#0" expanded="true" />
-            <element signature="e#3259#3260#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1477">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
         </state>
       </provider>
     </entry>

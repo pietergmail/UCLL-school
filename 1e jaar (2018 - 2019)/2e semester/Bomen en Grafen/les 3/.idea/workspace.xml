@@ -2,27 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="270c2628-4f2b-4fbc-bd94-bed65bacc149" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Versie 2/les3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Versie 2/les3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Versie 2/les3/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Versie 2/les3/les3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Les 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Les 4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Les 4/out/production/BG_Les4/domain/BinarySearchTree$BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Les 4/out/production/BG_Les4/domain/BinarySearchTree$BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Les 4/out/production/BG_Les4/domain/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Les 4/out/production/BG_Les4/domain/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Les 4/out/production/BG_Les4/ui/BinarySearchTreeDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Les 4/out/production/BG_Les4/ui/BinarySearchTreeDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Les 4/src/domain/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Les 4/src/domain/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Les 4/src/ui/BinarySearchTreeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Les 4/src/ui/BinarySearchTreeDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Les 6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Les 6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Versie 2/les3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Versie 2/les3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Versie 2/les7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Versie 2/les7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Versie 2/les7/out/production/les7/domain/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Versie 2/les7/out/production/les7/domain/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Versie 2/les7/src/domain/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Versie 2/les7/src/domain/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vak2/.idea/artifacts/web_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vak2/.idea/copyright/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vak2/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vak2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vak2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Versie 2/les3/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vak2/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vak2/.idea/scopes/scope_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vak2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vak2/src/src/domain/db/MemberDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vak2/src/src/domain/model/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vak2/src/src/ui/controller/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vak2/vak2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vak2/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BG_Les3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BG_Les3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BG_Les3/src/domain/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/BG_Les3/src/domain/BinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen-master/BFS/src/main/java/domain/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen-master/BFS/src/main/java/domain/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen-master/BFS/src/main/java/ui/BreadthFirstSearchUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen-master/BFS/src/main/java/ui/BreadthFirstSearchUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen-master/Bin_search_tree/src/main/java/domain/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen-master/Bin_search_tree/src/main/java/domain/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen-master/Bin_search_tree/src/main/java/ui/BinarySearchTreeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen-master/Bin_search_tree/src/main/java/ui/BinarySearchTreeDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen-master/heap/src/main/java/domain/BinaryMinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen-master/heap/src/main/java/domain/BinaryMinHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web2/dennis/WinnepenninckxDennis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../web2/dennis/WinnepenninckxDennis/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,9 +55,9 @@
     <session id="-1248392276">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -75,7 +76,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BG_Les3/src/domain/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="-325">
               <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
             </state>
           </provider>
@@ -93,7 +94,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2873" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -103,9 +104,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,6 +123,12 @@
               <item name="les 3" type="b2602c69:ProjectViewProjectNode" />
               <item name="les 3" type="462c0819:PsiDirectoryNode" />
               <item name="BG_Les3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="les 3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="les 3" type="462c0819:PsiDirectoryNode" />
+              <item name="BG_Les3" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="les 3" type="b2602c69:ProjectViewProjectNode" />
@@ -152,8 +159,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558691284033" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559752762472" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Les 4" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -192,17 +199,20 @@
       <workItem from="1551862156648" duration="19000" />
       <workItem from="1552423516391" duration="126000" />
       <workItem from="1558683174434" duration="2651000" />
+      <workItem from="1559636305527" duration="722000" />
+      <workItem from="1559752678462" duration="13000" />
+      <workItem from="1559752709317" duration="11000" />
+      <workItem from="1559752733796" duration="36000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3138000" />
+    <option name="totallyTimeSpent" value="3920000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2873" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24179432" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25820568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -247,7 +257,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BG_Les3/src/domain/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="-325">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
         </state>
       </provider>

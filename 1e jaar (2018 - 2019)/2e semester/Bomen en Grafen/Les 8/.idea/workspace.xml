@@ -3,10 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="a13cb80c-45b8-489d-bcfb-f3ddf3abb36f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Les 8/domain/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Les 8/domain/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web2/labo 9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../web2/labo 9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Les 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Les 4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Les 4/out/production/BG_Les4/domain/BinarySearchTree$BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Les 4/out/production/BG_Les4/domain/BinarySearchTree$BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Les 4/out/production/BG_Les4/domain/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Les 4/out/production/BG_Les4/domain/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Les 4/out/production/BG_Les4/ui/BinarySearchTreeDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Les 4/out/production/BG_Les4/ui/BinarySearchTreeDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Les 4/src/domain/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Les 4/src/domain/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Les 4/src/ui/BinarySearchTreeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Les 4/src/ui/BinarySearchTreeDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Les 6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Les 6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Versie 2/les 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Versie 2/les 4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Versie 2/les3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Versie 2/les3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Versie 2/les7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Versie 2/les7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Versie 2/les7/out/production/les7/domain/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Versie 2/les7/out/production/les7/domain/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Versie 2/les7/src/domain/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Versie 2/les7/src/domain/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../les 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../les 3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../les 3/BG_Les3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../les 3/BG_Les3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../les 3/BG_Les3/src/domain/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../les 3/BG_Les3/src/domain/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen-master/BFS/src/main/java/domain/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen-master/BFS/src/main/java/domain/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen-master/BFS/src/main/java/ui/BreadthFirstSearchUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen-master/BFS/src/main/java/ui/BreadthFirstSearchUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen-master/Bin_search_tree/src/main/java/domain/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen-master/Bin_search_tree/src/main/java/domain/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen-master/Bin_search_tree/src/main/java/ui/BinarySearchTreeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen-master/Bin_search_tree/src/main/java/ui/BinarySearchTreeDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen-master/heap/src/main/java/domain/BinaryMinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oplossingen/Bomen_Grafen-master/heap/src/main/java/domain/BinaryMinHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web2/dennis/WinnepenninckxDennis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../web2/dennis/WinnepenninckxDennis/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,10 +68,10 @@
     <session id="400060900">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -73,12 +91,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/domain/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+            <state relative-caret-position="256">
+              <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1159#1160#0" expanded="true" />
-                <element signature="e#1202#1203#0" expanded="true" />
+                <element signature="e#1211#1212#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ui/BreadthFirstSearchUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="119">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -122,8 +140,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
+    <option name="x" value="964" />
+    <option name="width" value="963" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -132,7 +150,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,15 +178,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556102168626" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../les 1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../final/les 7" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -223,6 +241,7 @@
       <workItem from="1558426112145" duration="1151000" />
       <workItem from="1558432050609" duration="1639000" />
       <workItem from="1558434275169" duration="2091000" />
+      <workItem from="1559752916061" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="added bomen en graphen&#10;en herordening van bomen en graphen">
       <created>1556093344628</created>
@@ -242,17 +261,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9667000" />
+    <option name="totallyTimeSpent" value="9691000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="964" y="0" width="963" height="1047" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.21334793" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.28017718" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -323,19 +342,19 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/domain/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+        <state relative-caret-position="256">
+          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1159#1160#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
+            <element signature="e#1211#1212#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/BreadthFirstSearchUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="119">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />

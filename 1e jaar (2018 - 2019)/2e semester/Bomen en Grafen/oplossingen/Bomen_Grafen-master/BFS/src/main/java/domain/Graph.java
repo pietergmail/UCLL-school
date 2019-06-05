@@ -1,4 +1,4 @@
-package domain;
+package main.java.domain;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -46,41 +46,44 @@ public class Graph {
 	}
 
 	private int[] findAncestors(int start, int destination) {
-		int aantalKnopen = this.getAantalKnopen();
-		int[] ancestors = new int[aantalKnopen]; initArray(ancestors, infty);
-		Queue<Integer> queue = new LinkedList<>(); queue.add(start);
-		ancestors[start - 1] = 0;
-		int huidig = queue.remove();
+		int aantalKnopen = this.getAantalKnopen();//new int met aantal knopen in
+		int[] ancestors = new int[aantalKnopen];//nieuwe array met aantalknopen in
+		initArray(ancestors, infty);//maak een array vol met de waarde infry
+		Queue<Integer> queue = new LinkedList<>();//Linkedlist Queue wordt gemaakt met
+		queue.add(start);//voeg start toe aan de linkedlist
+		ancestors[start - 1] = 0;//0 wordt op de start van de ancestors arraylist gezet
+		int huidig = queue.remove();//de waarde huidig neemt devolgende waarde aan
 
-		while (huidig != destination) {
+		while (huidig != destination) {//zolang huidig niet gelijk is aan het eiden
 			//zoek alle nog niet bezochte knooppunten vanuit huidig
-			for (int i = 1; i <= aantalKnopen; i++) {
-				if (isRechtStreekseVerbinding(huidig, i) && (ancestors[i - 1] == infty)) {
-					queue.add(i);
+			for (int i = 1; i <= aantalKnopen; i++) {//ga door alle knopen
+				if (isRechtStreekseVerbinding(huidig, i) && (ancestors[i - 1] == infty)) {//checkt of er een verbinding is en de vorige waarde is infty
+					queue.add(i);//add waarde aan de queue
 					//duid aan dat huidig de ouder is van i in ancestormatrix
 					ancestors[i - 1] = huidig;
 				}
 			}
-			if (!queue.isEmpty()) {
+			if (!queue.isEmpty()) {//als er nog iets in de queue zit moet hij verwijderd worden
 				huidig = queue.remove(); //of .poll() wat geen exception gooit
 			} else {
 				break;
 			}
 		}
-		return ancestors;
+		return ancestors;//geef ancestors terug
 	}
 
 	public List<Integer> findPath(int start, int destination) {
-		if (start <= 0 || start > this.getAantalKnopen() || destination <= 0 || destination > this.getAantalKnopen())
-			throw new IllegalArgumentException();
-
-		int[] ancestors = this.findAncestors(start, destination); List<Integer> path = new LinkedList<>();
-		int ouder = ancestors[destination - 1]; while (ouder != 0 && ouder != infty) {
-			path.add(0, destination);
-			destination = ouder;
-			ouder = ancestors[destination - 1];
+		if (start <= 0 || start > this.getAantalKnopen() || destination <= 0 || destination > this.getAantalKnopen())//exception check
+    		throw new IllegalArgumentException();
+		int[] ancestors = this.findAncestors(start, destination);//vind de ancestors van de waardes
+		List<Integer> path = new LinkedList<>();//new list genaamd path
+		int ouder = ancestors[destination - 1];//ouder is eentje boven de destination
+		while (ouder != 0 && ouder != infty) {//zolang de ouder bestaat
+			path.add(0, destination);//add deze aan het pad
+			destination = ouder;//verander de destination naar ouder
+			ouder = ancestors[destination - 1];//nieuwe ouder een hoger
 		}
-		if (ouder == 0) {
+		if (ouder == 0) {//einde bereikt
 			path.add(0,destination);
 		}
 		return path;
@@ -101,7 +104,4 @@ public class Graph {
 
 		return res;
 	}
-
-
-
 }

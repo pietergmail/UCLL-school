@@ -14,13 +14,16 @@ public class BinarySearchTreeDriver {
 		boom.addNode(7);
 		boom.addNode(9);
 
+		boom.removeNode(9);
 		printBoomInfo(boom);
 
+		boom.cleanup();
 		
 	}
 
 	private static void printBoomInfo(BinarySearchTree<Integer> boom) {
-		System.out.println(boom.lookup(2));
+		System.out.println(boom.lookup(4));
+		System.out.println(boom.countNodes());
         if (boom == null) System.out.println("Lege boom");
 		else {
 			boom.printInOrder();

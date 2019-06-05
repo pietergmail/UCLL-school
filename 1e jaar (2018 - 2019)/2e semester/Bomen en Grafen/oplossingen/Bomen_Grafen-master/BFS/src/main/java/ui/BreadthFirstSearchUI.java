@@ -1,20 +1,21 @@
-package ui;
+package main.java.ui;
 
 import java.util.List;
 
-import domain.Graph;
+import main.java.domain.Graph;
 
 public class BreadthFirstSearchUI {
 
 	public static void main(String[] args) {
 
-		int data[][] = { 	{ 0, 1, 0, 1, 0, 0, 0 },
+		int data[][] = {
+				{ 0, 1, 0, 1, 0, 0, 0 },
 				{ 0, 0, 1, 0, 0, 0, 0 },
 				{ 1, 0, 0, 1, 1, 0, 0 },
 				{ 0, 0, 0, 0, 1, 1, 0 },
 				{ 0, 1, 0, 0, 0, 0, 1 },
 				{ 0, 0, 0, 0, 0, 0, 1 },
-				{ 0, 0, 0, 0, 0, 0, 0 } }; // nabijheidsmatrix van graf  uit  figuur  1.5  van  cursus
+				{ 0, 0, 0, 0, 0, 0, 0 } }; // verbindingsmatrix van graf  uit  figuur  1.5  van  cursus
 		Graph bfs = new Graph(data);
 
 		int start = 1;
