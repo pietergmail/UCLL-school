@@ -1,6 +1,6 @@
-package main.java.ui;
+package ui;
 
-import main.java.domain.GraphOplossing;
+import domain.Graph;
 
 public class UiDijkstra {
 
@@ -22,7 +22,7 @@ public class UiDijkstra {
 						Integer.MAX_VALUE },
 				{ 1, Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE,
 						Integer.MAX_VALUE, Integer.MAX_VALUE, 0 } };
-		GraphOplossing g = new GraphOplossing(gewichtenMatrix);
+		Graph g = new Graph(gewichtenMatrix);
 		System.out.println(g.berekenPaden(1));
 	}
 

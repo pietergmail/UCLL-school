@@ -1,11 +1,11 @@
-package domain;
+package main.java.domain;
 
 import java.util.ArrayList;
 
 public class GraphOplossing {
 	private final int[][] gewichtenMatrix;
 
-	public GraphOplossing(int[][] matrix) {
+	public GraphOplossing(int[][] matrix) {//nieuwe gewichtmatrix op basis van een matrix
 		if (matrix == null || matrix.length == 0 || matrix.length != matrix[0].length) {
 			throw new IllegalArgumentException();
 		}
@@ -13,33 +13,38 @@ public class GraphOplossing {
 		this.gewichtenMatrix = matrix.clone();
 	}
 
-	private int[][] initMatrixDijkstra(int vanKnoop) {
+	private int[][] initMatrixDijkstra(int vanKnoop) {//modeleert de gewichtsmatrix
 		int[][] res = new int[this.gewichtenMatrix.length + 1][this.gewichtenMatrix.length];
 		//initialiseer alle getallen op eerste rij nu op een grote waarde
 		// omdat de kortste afstanden nog niet gevonden zijn
 		for (int i = 0; i < this.gewichtenMatrix.length; i++)
 			res[0][i] = Integer.MAX_VALUE;
+		//stel alles op 0 gelijk aan MAX_VALUE
 		for (int i = 1; i <= this.gewichtenMatrix.length; i++) {
 			for (int j = 0; j < this.gewichtenMatrix.length; j++) {
+			    //voeg 0 aan res toe als de gewichtsmatrix gelijk is aan MAX_VALUE
 				if (this.gewichtenMatrix[i - 1][j] == Integer.MAX_VALUE){
 					res[i][j] = 0;
 				}
 				else{
+					//anders vervang het door de value in de gewichtsmatrix
 					res[i][j] = this.gewichtenMatrix[i - 1][j];
 				}
 			}
 		}
-
+		//verwijder alles vanuit de huidige knoop
 		for (int i = 0; i < this.gewichtenMatrix.length; i++) {
 			res[i][vanKnoop - 1] = 0;
 		}
-		return res;
+		return res;//return de res matrix
 	}
 
 	public int[][] Dijkstra(int vanKnoop) {
 		int[][] res = initMatrixDijkstra(vanKnoop);
+		//nieuwe initmatrixDijkstra genaamd res vanaf bepaalde knoop
 		System.out.println("Initiele matrix: \n");
 		printIntMatrix(res);
+		//printout
 		boolean ok = false; while (!ok) {
 			int indexKleinsteJ = 0;
 			int indexKleinsteI = 0;

@@ -1,6 +1,6 @@
-package ui;
+package main.java.ui;
 
-import domain.GraphOplossing;
+import main.java.domain.GraphOplossing;
 
 public class UiDijkstraOplossing {
 
