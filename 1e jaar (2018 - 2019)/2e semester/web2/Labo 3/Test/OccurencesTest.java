@@ -18,7 +18,7 @@ public class OccurencesTest {
 //		 Voor Windows (vergeet "\" niet te escapen met een tweede "\")
 //		System.setProperty("webdriver.chrome.driver", "C:\\Users\\...\\chromedriver.exe");
 //		 Voor mac: 
-		 System.setProperty("webdriver.chrome.driver", "../chromedriver/chromedriver");
+		 System.setProperty("webdriver.chrome.driver", "C:/Users/herre/Documents/UCLL/1e jaar (2018 - 2019)/2e semester/web2/chromedriver/chromedriver.exe");
 		driver = new ChromeDriver();
 	}
 
