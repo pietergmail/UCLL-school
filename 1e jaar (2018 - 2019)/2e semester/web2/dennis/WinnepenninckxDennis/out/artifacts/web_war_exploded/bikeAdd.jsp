@@ -38,7 +38,7 @@ and nothing mathers in this world
 
         </div>
         <h2>Voeg je bike toe</h2>
-        <form novalidate method="post" action="Servlet?command=addBike">
+        <form novalidate method="post" action="">
             <p>
                 <label class="control-label" for="itemId">Id:</label>
                 <input id="itemId" name="itemId" type="text" value="${previd}">
