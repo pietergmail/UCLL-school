@@ -7,27 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3056f6b9-3b1e-4582-a37b-c7eaa6e6b045" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Labo 3/src/ui/controller/Occurence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Labo 10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Bin_tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Bin_tree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labo 2a/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 2a/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labo 2a/src/view/EersteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 2a/src/view/EersteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labo 2b/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 2b/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labo 2b/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labo 2b/out/production/r0748117_JSP_StudentInfo/domain/model/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labo 2b/src/Student.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Labo 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Labo 3/Test/OccurencesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 3/Test/OccurencesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Labo 3/Test/StudentInformatieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 3/Test/StudentInformatieTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Labo 3/Test/ValidHtmlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 3/Test/ValidHtmlTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Labo 3/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Servlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Labo 3/out/artifacts/web_war_exploded/tabel.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Labo 3/out/production/labo 3/ui/controller/Servlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Labo 3/out/test/labo 3/OccurencesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 3/out/test/labo 3/OccurencesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Labo 3/out/test/labo 3/StudentInformatieTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 3/out/test/labo 3/StudentInformatieTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Labo 3/out/test/labo 3/ValidHtmlTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labo 3/out/test/labo 3/ValidHtmlTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Labo 3/src/ui/controller/Servlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Labo 3/web/tabel.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../V2/labo2b/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../V2/labo2b/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Labo3_thuisopdracht/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo3_thuisopdracht/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Labo_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo_3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo_3/Labo_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo_3/web/Labo_3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo_3/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Occurence.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo_3/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Occurence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo_3/out/test/Labo_3/ValidHtmlTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo_3/out/test/Labo_3/ValidHtmlTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo_3/test/ValidHtmlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo_3/test/ValidHtmlTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,9 +68,9 @@
     <session id="456598880">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -108,7 +103,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ui/view/FxAppLetterCounter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -123,7 +118,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ui/view/LetterCounterApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-47">
+            <state relative-caret-position="425">
               <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -141,11 +136,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ui/controller/Occurence.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -238,10 +233,11 @@
       <list />
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -309,15 +305,15 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559131001624" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../labo5" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560084276418" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Labo 4" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -338,7 +334,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.16">
+  <component name="RunManager" selected="Application.FxAppLetterCounter">
     <configuration name="FxAppLetterCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ui.view.FxAppLetterCounter" />
       <module name="Labo4.1" />
@@ -353,6 +349,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.16" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <deployment>
         <artifact name="web:war exploded">
           <settings>
@@ -446,17 +443,18 @@
       <workItem from="1551704272684" duration="4660000" />
       <workItem from="1557132629088" duration="191000" />
       <workItem from="1559130629799" duration="415000" />
+      <workItem from="1560084181531" duration="181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5266000" />
+    <option name="totallyTimeSpent" value="5447000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.26148796" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.13006397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -466,7 +464,7 @@
       <window_info id="Web" order="7" sideWeight="0.5010571" side_tool="true" weight="0.24966443" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32858709" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3275488" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -511,6 +509,16 @@
     <entry file="file://$PROJECT_DIR$/web/css/lettercounter.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/view/LetterCounterApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/model/LetterCounter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -528,6 +536,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/controller/Occurence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/view/FxAppLetterCounter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -535,23 +550,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/view/LetterCounterApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/controller/Occurence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
         </state>
       </provider>
     </entry>

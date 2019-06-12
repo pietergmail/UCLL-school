@@ -15,10 +15,10 @@ public class EersteServlet extends HttpServlet {
 
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {//aanvraag op webpagina
         PrintWriter out = response.getWriter();
-        Random random = new Random();
-        out.println("<!DOCTYPE html>");
+        Random random = new Random();//random
+        out.println("<!DOCTYPE html>");//aanmaken van html in de java server, ineficient
         out.println("<html>");
         out.println("<p>");
         out.println("the animal crackers are illusions");
