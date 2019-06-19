@@ -32,7 +32,7 @@ def hash_file(filename):
         10 eerste hex-cijfers van SHA256(a)
         10 eerste hex-cijfers van SHA256(b)
         10 eerste hex-cijfers van SHA256(c)
-
+                    
     Je zal merken dat je zal moeten specificeren welke encoding je moet gebruiken
     om de strings naar rauwe bytes om te zetten. Gebruik hiervoor ASCII.
 
