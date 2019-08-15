@@ -56,7 +56,7 @@ public class BinaryMinHeap<E extends Comparable<E>> {
 	    int index = 0;
 	    while(hasleftchild(index)){
 	        //zoek kleinste kind
-            int indexsmallestchild = indexleftchild(index);
+            int indexsmallestchild = (index);
 
             if (hasrightchild(index) && values.get(indexsmallestchild).compareTo(values.get(indexrightchild(index))) > 0){
                 indexsmallestchild = indexrightchild(index);

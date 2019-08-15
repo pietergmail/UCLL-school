@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3f689a1-fae7-4e4f-b59c-d6bba0f8085a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/dezdekke/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/Auto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/Garage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/app.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/AutoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/GarageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi/BMI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi2/src/domain/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi2/src/domain/praktijk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi2/src/ui/PraktijkApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../car/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../car/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../car/src/domain/Garage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../car/src/domain/car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../car/src/ui/carapp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iteratie/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iteratie/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iteratie/src/domain/Kaart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iteratie/src/ui/FxRaadDeKaart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iteratie/src/ui/RaadDeKaartKlasse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../orientatietest/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../orientatietest/src/domain/Asiel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../orientatietest/src/domain/Hond.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../orientatietest/src/ui/app.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pizzeria/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pizzeria/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pizzeria/src/domain/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pizzeria/src/domain/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pizzeria/src/ui/app.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectie/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectie/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectie/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectie/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectie/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectie/selectie.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectie/src/EvenOfOneven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sinterklaas/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sinterklaas/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sinterklaas/src/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sinterklaas/src/domain/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sinterklaas/src/domain/Gift_bag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sinterklaas/src/domain/Toy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sinterklaas/src/ui/app.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../web2/V2/selectie/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../web2/V2/selectie/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../web2/V2/selectie/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../web2/V2/selectie/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../web2/V2/selectie/selectie.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1e semester/probleem oplossend denken/scilab/les2.sce" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1e semester/probleem oplossend denken/scilab/les2.sce" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Bin_search_tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Bin_search_tree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Bin_search_tree/out/production/Bin_search_tree/main/java/domain/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Bin_search_tree/out/production/Bin_search_tree/main/java/domain/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Bin_search_tree/src/main/java/domain/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Bin_search_tree/src/main/java/domain/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Bin_tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Bin_tree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Dijkstra/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Dijkstra/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Dijkstra/out/production/BG_Les10/domain/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Dijkstra/out/production/BG_Les10/domain/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Floyd/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Floyd/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Floyd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Floyd/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Floyd/src/main/java/domain/WeightedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Floyd/src/main/java/domain/WeightedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/final/grafen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/final/grafen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/final/min_heap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/final/min_heap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/final/min_heap/src/domain/BinaryMinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/final/min_heap/src/domain/BinaryMinHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../besturingsystemen/Hoofdstuk 5.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../besturingsystemen/Hoofdstuk 5.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kaartspel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../kaartspel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kaartspel/src/domain/Kaart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../kaartspel/src/domain/Kaart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../les1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../les1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../les1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../les1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selectie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../selectie/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/test/GarageTest.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="541">
+                    <caret line="33" column="78" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="78" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/test/AutoTest.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="-289">
+                    <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1222009846">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="961" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="961" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/domain/Garage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#1116#1117#0" expanded="true" />
+                <element signature="e#1150#1151#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/domain/Auto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+              <folding>
+                <element signature="e#116#117#0" expanded="true" />
+                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ui/app.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>int</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/ui/app.java" />
+        <option value="$PROJECT_DIR$/src/domain/auto.java" />
+        <option value="$PROJECT_DIR$/test/AutoTest.java" />
+        <option value="$PROJECT_DIR$/test/GarageTest.java" />
+        <option value="$PROJECT_DIR$/src/domain/Auto.java" />
+        <option value="$PROJECT_DIR$/src/domain/Garage.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Garage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Garage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Garage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Garage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Garage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Garage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Garage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Garage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Garage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Garage" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565604602028" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\herre\Documents\UCLL\1e jaar (2018 - 2019)\2e semester\bop\2e zit\Garage\test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="AutoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Garage" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AutoTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AutoTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3f689a1-fae7-4e4f-b59c-d6bba0f8085a" name="Default Changelist" comment="" />
+      <created>1565601851232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565601851232</updated>
+      <workItem from="1565601854022" duration="2761000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2761000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24945295" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32968238" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24945295" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info active="true" anchor="bottom" id="Find" order="5" visible="true" weight="0.32968238" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ui/app.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/Auto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/AutoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-289">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/GarageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="33" column="78" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/Garage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

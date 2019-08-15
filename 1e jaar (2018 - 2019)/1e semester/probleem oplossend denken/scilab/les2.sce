@@ -9,7 +9,7 @@ endfunction
 //oef: schrijf functie oef1 due kwadraad van x  berekend als x negatief is en de vierkantswortel van x als het een positief getal is
 function res = oef1(a)
     if a < 0 then
-        res=aa
+        res=a
     else
         res=sqrt(a)
     end

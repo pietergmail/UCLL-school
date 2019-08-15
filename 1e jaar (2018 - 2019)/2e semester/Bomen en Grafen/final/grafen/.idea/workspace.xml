@@ -3,13 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="48e95653-1eb0-423d-a63e-215a13ca690d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bin_search_tree/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bin_search_tree/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1e semester/probleem oplossend denken/scilab/les2.sce" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1e semester/probleem oplossend denken/scilab/les2.sce" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Bin_search_tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bin_search_tree/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Bin_search_tree/out/production/Bin_search_tree/main/java/domain/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Bin_search_tree/out/production/Bin_search_tree/main/java/domain/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bin_search_tree/src/main/java/domain/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bin_search_tree/src/main/java/domain/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Bin_tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bin_tree/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../min_heap/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../min_heap/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../min_heap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../min_heap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../min_heap/src/domain/BinaryMinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../min_heap/src/domain/BinaryMinHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../besturingsystemen/Hoofdstuk 5.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../besturingsystemen/Hoofdstuk 5.docx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,21 +63,21 @@
     <session id="1811122840">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/domain/Graph.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ui/BreadthFirstSearchUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="101" column="77" selection-start-line="101" selection-start-column="77" selection-end-line="101" selection-end-column="77" />
+            <state relative-caret-position="136">
+              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ui/BreadthFirstSearchUI.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/domain/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="-968">
+              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,9 +124,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="964" />
-    <option name="width" value="963" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -133,27 +135,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="les7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="les7" type="462c0819:PsiDirectoryNode" />
+              <item name="grafen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grafen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="les7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="les7" type="462c0819:PsiDirectoryNode" />
+              <item name="grafen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grafen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="les7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="les7" type="462c0819:PsiDirectoryNode" />
+              <item name="grafen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grafen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="les7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="les7" type="462c0819:PsiDirectoryNode" />
+              <item name="grafen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grafen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -161,16 +164,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559752533632" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../oplossingen/Bomen_Grafen-master/Floyd" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565425802486" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -226,16 +228,18 @@
       <workItem from="1559752940767" duration="83000" />
       <workItem from="1559753217082" duration="11000" />
       <workItem from="1559804025794" duration="37000" />
+      <workItem from="1565365354826" duration="2555000" />
+      <workItem from="1565425586104" duration="229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9330000" />
+    <option name="totallyTimeSpent" value="12114000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1098081" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23304157" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -272,20 +276,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/domain/Graph.java">
+    <entry file="file://$PROJECT_DIR$/src/ui/BreadthFirstSearchUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="101" column="77" selection-start-line="101" selection-start-column="77" selection-end-line="101" selection-end-column="77" />
+        <state relative-caret-position="136">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/BreadthFirstSearchUI.java">
+    <entry file="file://$PROJECT_DIR$/src/domain/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="-968">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

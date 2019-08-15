@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c40d0cf1-789b-45ef-a309-ceb45ce2895c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1e semester/probleem oplossend denken/scilab/les2.sce" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1e semester/probleem oplossend denken/scilab/les2.sce" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bin_search_tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bin_search_tree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bin_search_tree/out/production/Bin_search_tree/main/java/domain/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Bin_search_tree/out/production/Bin_search_tree/main/java/domain/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bin_search_tree/src/main/java/domain/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bin_search_tree/src/main/java/domain/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bin_tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bin_tree/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oplossingen/Bomen_Grafen" beforeDir="false" afterPath="$PROJECT_DIR$/../../oplossingen/Bomen_Grafen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Floyd/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Floyd/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Floyd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Floyd/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Floyd/src/main/java/domain/WeightedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Floyd/src/main/java/domain/WeightedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grafen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../grafen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../min_heap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../min_heap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../min_heap/src/domain/BinaryMinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../min_heap/src/domain/BinaryMinHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../besturingsystemen/Hoofdstuk 5.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../besturingsystemen/Hoofdstuk 5.docx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,14 +53,23 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-212968076">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/domain/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="101" column="54" selection-start-line="101" selection-start-column="54" selection-end-line="101" selection-end-column="54" />
+            <state relative-caret-position="323">
+              <caret line="94" column="19" lean-forward="true" selection-start-line="94" selection-start-column="19" selection-end-line="94" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -89,8 +110,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -100,8 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,14 +149,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559824728060" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bin_search_tree" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../dezdekke" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -189,16 +210,17 @@
       <workItem from="1559251572758" duration="219000" />
       <workItem from="1559823479756" duration="1255000" />
       <workItem from="1559849602814" duration="756000" />
+      <workItem from="1565436774610" duration="1919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2230000" />
+    <option name="totallyTimeSpent" value="4149000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0014641288" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0021881838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -207,7 +229,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32968238" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -239,8 +261,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/domain/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="101" column="54" selection-start-line="101" selection-start-column="54" selection-end-line="101" selection-end-column="54" />
+        <state relative-caret-position="323">
+          <caret line="94" column="19" lean-forward="true" selection-start-line="94" selection-start-column="19" selection-end-line="94" selection-end-column="19" />
         </state>
       </provider>
     </entry>

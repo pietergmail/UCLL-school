@@ -22,15 +22,15 @@ public class BinarySearchTree<E extends Comparable<E>> {
 			}
 		}
 		
-		public boolean lookup(E data){
+		public boolean loopup(E data){
 			if ( data == null || this.data == null) return false;
 			else {
 				if (data.compareTo(this.data) == 0) return true;
 				else if (data.compareTo(this.data) <  0){
-					return (this.leftTree == null?false:leftTree.lookup(data));
+					return (this.leftTree == null?false:leftTree.loopup(data));
 				}
 				else {
-					return (this.rightTree == null? false: rightTree.lookup(data));
+					return (this.rightTree == null? false: rightTree.loopup(data));
 				}
 			}
 		}

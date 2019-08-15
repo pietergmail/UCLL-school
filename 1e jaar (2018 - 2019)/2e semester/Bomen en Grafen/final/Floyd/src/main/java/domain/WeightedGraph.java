@@ -37,7 +37,7 @@ public class WeightedGraph {
 			return pad;
 		} else {//pad is niet gevonden
 			int via = P[van - 1][tot - 1];
-			if (via == 0){//afstand tussen twee is niks
+			if (via == 0){//afstand tussen twee is nul
 				pad.add(van);//voeg van toe
 				pad.add(tot);//voeg tot toe
 			}
