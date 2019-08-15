@@ -1,4 +1,5 @@
 package domain;
+import domain.*;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Kaart{

@@ -2,13 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e68648cf-22d8-444d-8dda-fe8f4bfbe074" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SCoreBordVersie2VoorStudenten/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/speler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bomen en Grafen/dezdekke/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/bmi/BMI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/bmi2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/bmi2/src/domain/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/bmi2/src/domain/praktijk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/bmi2/src/ui/PraktijkApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/car/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/car/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/car/src/domain/Garage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/car/src/domain/car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/car/src/ui/carapp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/iteratie/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/iteratie/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/iteratie/src/domain/Kaart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/iteratie/src/ui/FxRaadDeKaart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/iteratie/src/ui/RaadDeKaartKlasse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/pizzeria/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/pizzeria/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/pizzeria/src/domain/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/pizzeria/src/domain/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/pizzeria/src/ui/app.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/selectie/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/selectie/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/selectie/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/selectie/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/selectie/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/selectie/selectie.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/selectie/src/EvenOfOneven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/sinterklaas/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/sinterklaas/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/sinterklaas/src/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/sinterklaas/src/domain/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/sinterklaas/src/domain/Gift_bag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/sinterklaas/src/domain/Toy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2e zit/sinterklaas/src/ui/app.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web2/V2/selectie/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web2/V2/selectie/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web2/V2/selectie/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web2/V2/selectie/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web2/V2/selectie/selectie.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1e semester/probleem oplossend denken/scilab/les2.sce" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1e semester/probleem oplossend denken/scilab/les2.sce" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bomen en Grafen/final/Bin_search_tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bomen en Grafen/final/Bin_search_tree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bomen en Grafen/final/Bin_search_tree/out/production/Bin_search_tree/main/java/domain/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bomen en Grafen/final/Bin_search_tree/out/production/Bin_search_tree/main/java/domain/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bomen en Grafen/final/Bin_search_tree/src/main/java/domain/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bomen en Grafen/final/Bin_search_tree/src/main/java/domain/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bomen en Grafen/final/Bin_tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bomen en Grafen/final/Bin_tree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bomen en Grafen/final/Dijkstra/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bomen en Grafen/final/Dijkstra/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bomen en Grafen/final/Dijkstra/out/production/BG_Les10/domain/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bomen en Grafen/final/Dijkstra/out/production/BG_Les10/domain/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bomen en Grafen/final/Floyd/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bomen en Grafen/final/Floyd/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bomen en Grafen/final/Floyd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bomen en Grafen/final/Floyd/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bomen en Grafen/final/Floyd/src/main/java/domain/WeightedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bomen en Grafen/final/Floyd/src/main/java/domain/WeightedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bomen en Grafen/final/grafen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bomen en Grafen/final/grafen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bomen en Grafen/final/min_heap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bomen en Grafen/final/min_heap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bomen en Grafen/final/min_heap/src/domain/BinaryMinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bomen en Grafen/final/min_heap/src/domain/BinaryMinHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../besturingsystemen/Hoofdstuk 5.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../besturingsystemen/Hoofdstuk 5.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web2/Labo 8/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../web2/Labo 8/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web2/Labo 8/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../web2/Labo 8/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web2/Labo 8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../web2/Labo 8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/Kaart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Kaart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../les1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../les1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../les1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../les1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../selectie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../selectie/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,14 +101,44 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-2002499454">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="22" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="22" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ui/FxRaadDeKaart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="391">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,7 +146,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/domain/Kaart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ui/RaadDeKaartKlasse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/domain/speler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -81,6 +185,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>geefinfo</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
@@ -88,6 +197,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/domain/speler.java" />
+        <option value="$PROJECT_DIR$/src/domain/Kaart.java" />
       </list>
     </option>
   </component>
@@ -99,8 +209,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -144,8 +254,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556638049261" />
-    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Documents/UCLL/Bing" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565455744365" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -159,7 +269,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FxRaadDeKaart">
+    <configuration name="FxRaadDeKaart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.FxRaadDeKaart" />
+      <module name="HelloWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="kaartspel" />
@@ -170,6 +293,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.FxRaadDeKaart" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FxRaadDeKaart" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -183,31 +315,36 @@
       <updated>1556636614781</updated>
       <workItem from="1556636617312" duration="1295000" />
       <workItem from="1556788535658" duration="30000" />
+      <workItem from="1565454125433" duration="1052000" />
+      <workItem from="1565511733807" duration="1490000" />
+      <workItem from="1565518079923" duration="17000" />
+      <workItem from="1565518279163" duration="2740000" />
+      <workItem from="1565530621183" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1325000" />
+    <option name="totallyTimeSpent" value="7223000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="697" height="735" extended-state="0" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20704846" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.15536106" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Application Servers" order="4" />
-      <window_info anchor="bottom" id="Messages" order="5" />
+      <window_info anchor="bottom" id="Messages" order="5" visible="true" weight="0.32968238" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.32905295" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32905295" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -231,13 +368,31 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_BMI.zip/BMI/src/ui/PraktijkApp.java" />
     <entry file="file://$PROJECT_DIR$/src/ui/FxRaadDeKaart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="391">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/Kaart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/RaadDeKaartKlasse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
     </entry>
