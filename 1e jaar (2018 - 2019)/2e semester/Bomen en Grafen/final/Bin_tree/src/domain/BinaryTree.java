@@ -61,6 +61,12 @@ public class BinaryTree<E> {
 
     public boolean isleaf(){return (this.leftTree == null && this.rightTree == null);}//checkt of het een leaf is (geen kinderen)
 
-
+    public int kinderSom(){
+	    int data = 0;
+        if (this.leftTree != null) this.leftTree.kinderSom();
+        data += this.data.hashCode();
+        if (this.rightTree != null) this.rightTree.kinderSom();
+        return data;
+    }
 
 }

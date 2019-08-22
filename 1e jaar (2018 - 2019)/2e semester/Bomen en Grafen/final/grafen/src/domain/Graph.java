@@ -51,21 +51,21 @@ public class Graph {
             //zoek alle nog niet bezochte knooppunten vanuit huidig
             for (int i = 1; i <= aantalKnopen; i++) {
                 if (rechtstreekseVerbinding(huidig, i) && (ancestors[i - 1] == infty)) {
-                //System.out.println("ja");
-                //voeg knoop i toe aan queue
-                    queue.add(i);
-                    //duid aan dat huidig de ouder is van i in ancestormatrix
-                    ancestors[i - 1] = huidig;
-                }
-            }
-            //voorste element van queue wordt nieuwe huidige knoop
-            if (!queue.isEmpty()) {//al er nog iets in de queue zit moet hij verwijderd wordt
-                huidig = queue.remove(); //of .poll() wat geen exception gooit
-            } else {
-            //queue is leeg, stop maar
-                break;
-            }
+            //System.out.println("ja");
+            //voeg knoop i toe aan queue
+            queue.add(i);
+            //duid aan dat huidig de ouder is van i in ancestormatrix
+            ancestors[i - 1] = huidig;
         }
+    }
+    //voorste element van queue wordt nieuwe huidige knoop
+            if (!queue.isEmpty()) {//al er nog iets in de queue zit moet hij verwijderd wordt
+        huidig = queue.remove(); //of .poll() wat geen exception gooit
+    } else {
+        //queue is leeg, stop maar
+        break;
+    }
+}
         return ancestors;
     }
 
