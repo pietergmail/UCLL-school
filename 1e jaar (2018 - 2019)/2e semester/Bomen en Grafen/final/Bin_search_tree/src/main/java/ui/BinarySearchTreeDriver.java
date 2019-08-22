@@ -1,4 +1,4 @@
-package ui;
+package main.java.ui;
 
 import main.java.domain.BinarySearchTree;
 

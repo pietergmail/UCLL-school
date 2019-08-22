@@ -28,6 +28,7 @@ public class BinaryTreeDriver {
         System.out.println(boom.aantalknopen());
         System.out.println(boom.diepte());
         System.out.println(boom.isleaf());
+        System.out.println(boom.kinderSom());
 
 	}
 }

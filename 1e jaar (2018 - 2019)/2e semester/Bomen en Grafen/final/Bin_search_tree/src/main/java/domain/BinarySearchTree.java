@@ -21,7 +21,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
 				if(rightTree!=null) rightTree.printInOrder();
 			}
 		}
-		
+
 		public boolean loopup(E data){
 			if ( data == null || this.data == null) return false;
 			else {
@@ -73,16 +73,16 @@ public class BinarySearchTree<E extends Comparable<E>> {
 				if (this.isLeaf()){
 					this.data = null;
 				}
-			else if (this.leftTree != null){
-				E grootsteLinks = leftTree.searchGreatest();
-				this.data = grootsteLinks;
-				this.leftTree.removeNode(grootsteLinks);
-			} else{
-				E kleinsteRechts = rightTree.searchSmallest();
-				this.data = kleinsteRechts;
-				this.rightTree.removeNode(kleinsteRechts);
-			}
-			return true;
+			    else if (this.leftTree != null){
+				    E grootsteLinks = leftTree.searchGreatest();
+				    this.data = grootsteLinks;
+				    this.leftTree.removeNode(grootsteLinks);
+			    } else{
+				    E kleinsteRechts = rightTree.searchSmallest();
+    				this.data = kleinsteRechts;
+    				this.rightTree.removeNode(kleinsteRechts);
+	    		}
+    			return true;
 
 			} else if (data.compareTo(this.data) < 0) {
 				if (this.leftTree == null)
