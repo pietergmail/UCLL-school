@@ -2,83 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a502b0f-31a1-45d9-ad6d-c7341173531d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/dezdekke/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Garage/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Garage/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Garage/src/domain/Auto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Garage/src/domain/Garage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Garage/src/ui/app.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Garage/test/AutoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Garage/test/GarageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bmi/BMI/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bmi2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bmi2/src/domain/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bmi2/src/domain/praktijk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bmi2/src/ui/PraktijkApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../car/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../car/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../car/src/domain/Garage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../car/src/domain/car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../car/src/ui/carapp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dobbelsteen/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dobbelsteen/src/domain/Dobbelsteen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../iteratie/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../iteratie/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../iteratie/src/domain/Kaart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../iteratie/src/ui/FxRaadDeKaart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../iteratie/src/ui/RaadDeKaartKlasse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../orientatietest/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../orientatietest/src/domain/Asiel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../orientatietest/src/domain/Hond.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../orientatietest/src/ui/app.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pizzeria/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pizzeria/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pizzeria/src/domain/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pizzeria/src/domain/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pizzeria/src/ui/app.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selectie/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selectie/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selectie/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selectie/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selectie/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selectie/selectie.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selectie/src/EvenOfOneven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sinterklaas/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sinterklaas/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sinterklaas/src/domain/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sinterklaas/src/domain/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sinterklaas/src/domain/Gift_bag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sinterklaas/src/domain/Toy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sinterklaas/src/ui/app.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Loper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Stratenloop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Tijdstip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/StratenloopApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../web2/V2/selectie/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../web2/V2/selectie/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../web2/V2/selectie/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../web2/V2/selectie/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../web2/V2/selectie/selectie.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/dezdekke/examen/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scoreBerekening/src/domain/Deelname.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scoreBerekening/src/domain/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scoreBerekening/src/domain/Verbetercode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scoreBerekening/src/ui/UI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../1e semester/probleem oplossend denken/scilab/les2.sce" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1e semester/probleem oplossend denken/scilab/les2.sce" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Bin_search_tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Bin_search_tree/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Bin_search_tree/out/production/Bin_search_tree/main/java/domain/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Bin_search_tree/out/production/Bin_search_tree/main/java/domain/BinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Bin_search_tree/src/main/java/domain/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Bin_search_tree/src/main/java/domain/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Bin_tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Bin_tree/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Dijkstra/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Dijkstra/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Dijkstra/out/production/BG_Les10/domain/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Dijkstra/out/production/BG_Les10/domain/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Floyd/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Floyd/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Floyd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Floyd/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Floyd/src/main/java/domain/WeightedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/final/Floyd/src/main/java/domain/WeightedGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/final/grafen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/final/grafen/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/final/min_heap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/final/min_heap/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/final/min_heap/src/domain/BinaryMinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/final/min_heap/src/domain/BinaryMinHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../besturingsystemen/Hoofdstuk 5.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../besturingsystemen/Hoofdstuk 5.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../kaartspel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../kaartspel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../kaartspel/src/domain/Kaart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../kaartspel/src/domain/Kaart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../les1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../les1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../les1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../les1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../selectie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../selectie/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/dezdekke/examen/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/dezdekke/examen/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Bomen en Grafen/dezdekke/examen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Bomen en Grafen/dezdekke/examen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,57 +33,27 @@
     <expand />
     <select />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/domain/Tijdstip.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="725">
-                    <caret line="75" column="53" lean-forward="true" selection-start-line="75" selection-start-column="53" selection-end-line="75" selection-end-column="53" />
-                    <folding>
-                      <element signature="e#107#108#0" expanded="true" />
-                      <element signature="e#133#134#0" expanded="true" />
-                      <element signature="e#168#169#0" expanded="true" />
-                      <element signature="e#198#199#0" expanded="true" />
-                      <element signature="e#225#226#0" expanded="true" />
-                      <element signature="e#251#252#0" expanded="true" />
-                      <element signature="e#286#287#0" expanded="true" />
-                      <element signature="e#316#317#0" expanded="true" />
-                      <element signature="e#345#346#0" expanded="true" />
-                      <element signature="e#373#374#0" expanded="true" />
-                      <element signature="e#412#413#0" expanded="true" />
-                      <element signature="e#446#447#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-626005990">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
+          <entry key="java" value="7" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="7" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -168,8 +70,8 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ui/StratenloopApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
@@ -178,31 +80,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/domain/Stratenloop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="50" column="42" lean-forward="true" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+            <state relative-caret-position="391">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#196#197#0" expanded="true" />
-                <element signature="e#228#229#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-                <element signature="e#556#557#0" expanded="true" />
-                <element signature="e#572#573#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-                <element signature="e#797#798#0" expanded="true" />
-                <element signature="e#864#865#0" expanded="true" />
-                <element signature="e#909#910#0" expanded="true" />
-                <element signature="e#957#958#0" expanded="true" />
-                <element signature="e#991#992#0" expanded="true" />
+                <element signature="e#614#615#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -211,27 +97,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/domain/Loper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
+            <state relative-caret-position="544">
               <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/domain/Tijdstip.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
               <folding>
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#650#651#0" expanded="true" />
-                <element signature="e#870#871#0" expanded="true" />
-                <element signature="e#901#902#0" expanded="true" />
-                <element signature="e#952#953#0" expanded="true" />
-                <element signature="e#1020#1021#0" expanded="true" />
-                <element signature="e#1058#1059#0" expanded="true" />
-                <element signature="e#1089#1090#0" expanded="true" />
-                <element signature="e#1336#1337#0" expanded="true" />
-                <element signature="e#1369#1370#0" expanded="true" />
-                <element signature="e#1657#1658#0" expanded="true" />
-                <element signature="e#1701#1702#0" expanded="true" />
-                <element signature="e#1818#1819#0" expanded="true" />
-                <element signature="e#1862#1863#0" expanded="true" />
-                <element signature="e#2034#2035#0" expanded="true" />
-                <element signature="e#2091#2092#0" expanded="true" />
+                <element signature="e#107#108#0" expanded="true" />
+                <element signature="e#133#134#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -249,6 +138,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>setstartijd</find>
+      <find>route</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -278,7 +168,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -307,45 +197,13 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="stratenloop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stratenloop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stratenloop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stratenloop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stratenloop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stratenloop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stratenloop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stratenloop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565636892636" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/OO/OO/week8/stratenloop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -372,27 +230,26 @@
       <option name="presentableId" value="Default" />
       <updated>1565614067073</updated>
       <workItem from="1565614070147" duration="12978000" />
+      <workItem from="1566721005210" duration="575000" />
+      <workItem from="1566723514349" duration="1217000" />
+      <workItem from="1566726752203" duration="2572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12978000" />
+    <option name="totallyTimeSpent" value="17342000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.24945295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -400,15 +257,19 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" weight="0.32995737" />
-      <window_info anchor="right" id="Maven Projects" weight="0.32995737" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.5131291" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32995737" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,10 +286,17 @@
     <entry file="file://E:/Games/U.B. Funkeys/RadicaGame/funkeys.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/Loper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/Tijdstip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="75" column="53" lean-forward="true" selection-start-line="75" selection-start-column="53" selection-end-line="75" selection-end-column="53" />
+        <state relative-caret-position="799">
+          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
           <folding>
             <element signature="e#107#108#0" expanded="true" />
             <element signature="e#133#134#0" expanded="true" />
@@ -446,29 +314,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/Loper.java">
+    <entry file="file://$PROJECT_DIR$/src/domain/Stratenloop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        <state relative-caret-position="391">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="13" />
           <folding>
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#1020#1021#0" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
-            <element signature="e#1089#1090#0" expanded="true" />
-            <element signature="e#1336#1337#0" expanded="true" />
-            <element signature="e#1369#1370#0" expanded="true" />
-            <element signature="e#1657#1658#0" expanded="true" />
-            <element signature="e#1701#1702#0" expanded="true" />
-            <element signature="e#1818#1819#0" expanded="true" />
-            <element signature="e#1862#1863#0" expanded="true" />
-            <element signature="e#2034#2035#0" expanded="true" />
-            <element signature="e#2091#2092#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -477,34 +330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="36" column="60" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/Stratenloop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="50" column="42" lean-forward="true" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#991#992#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
