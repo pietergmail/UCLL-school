@@ -1,0 +1,5 @@
+s = open("input.txt").read()
+s = s.replace(',', '\n')
+f = open("output.txt", 'w')
+f.write(s)
+f.close()
