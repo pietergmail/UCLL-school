@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <meta charset="utf-8"/>
+        <link href="reset.css" rel="stylesheet" />
+        <link href="boxbrothers2.css" rel="stylesheet" />
+        <script src = "boxjava2.js"></script> 
+        <title>Box Brothers</title>
+</head>
+
+<body class = "wrapper"> 
+          
+
+    <h1> <img class = "logo" src="logo.png" alt="Box_Brothers_Logo"/>Box Brothers</h1>
+    
+    <ul class ="navbar">
+        <li class="home"><a class ="home2" href="boxbrothers.html">Home</a></li>
+        <li class="formulier"><a  href="boxbrothers2.html">formulier</a></li>
+
+        <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Box Type</a>
+
+        <div class="dropdown-content">
+                <a href="boxtype1.html" class = "box1">box 1</a>
+                <a href="boxtype2.html" class = "box2">box 2</a>
+                <a href="boxtype3.html" class = "box3">box 3</a>
+        </div> 
+        </li>
+        <li class ="spacer"><p></p></li>
+
+        <li class ="extra" ><a class ="extra2" href="boxextra.html">extra</a></li>
+    </ul>
+    <div class ="cente">
+        <div class = "cent"><p class="groot">Bestelling<br/><br/></p> hiernaast is er invulformulier indien je een box wilt kopen of meer informatie wenst. <br>
+        <br>  </div>
+    </div>
+    <form class="formule" name="myForm" method = "post" action="mailto:maarten.herremans@hotmail.be" enctype="text/plain" onsubmit="return validateForm()">
+        <fieldset>
+            <legend><label class="header"> formulier </label></legend>
+
+                    <label for="voornaam">voornaam:<br/></label>
+                    <input type="text" name="voornaam" id="voornaam" value=""><br>
+                    <label for="achternaam">achternaam:<br/></label>
+                    <input type="text" name="achternaam" id="achternaam" value=""><br>
+                    <br>
+                    <label class ="dim">Dimensies:</label>  
+                    <label for="hoogte">hoogte:<br/></label>  
+                    <input type="number" name="hoogte" id="hoogte" value="" />(mm) <br>
+                    <label for="diepte">diepte:<br/></label>
+                    <input type="number" name="diepte" id="diepte" value="" />(mm)<br>
+                    <label for="breedte">breedte:<br/></label>
+                    <input type="number" name="breedte" id="breedte" value="" />(mm)<br>
+                    <br>
+                    <div class="slidecontainer">
+                            gewenste prijs:<br>
+                            <input type="range" min="1" max="400" value="100" class="slider" id="myRange">
+                            <p>waarde: <span id="prijs"></span></p>
+                    </div> 
+                    <br>
+                    USB poort gewenst? <label class="container2">
+                        <input type="checkbox" name="USB" id="usb" value="yes"/>
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <br>
+                    Extra opmrerkingen of vragen:<br>
+                    <input type="text" name="extra_opties" id="extra_opties" value=""/><br>
+                <br>
+                <div id ="fout" >Je hebt een veld fout ingevuld, kijk je even na?
+                </div>
+                <br>
+                <input type = "submit" id="test" />
+            
+        </fieldset>
+    </form>
+
+
+
+    <p class ="voet">Copyright &#169; Thomas More Mechelen&#45;Antwerpen vzw &#45; Campus De Nayer &#45; Professionele Bachelor Elektronica&#45;ICT &#45; 2019</p>
+
+</body>
+</html>
