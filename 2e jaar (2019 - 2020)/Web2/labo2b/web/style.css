@@ -1,0 +1,54 @@
+/* border */
+
+table, td, th {
+    border: 1px solid #000;
+    border-collapse: collapse; /* all borders are melted together: you don't see difference between several borders */
+}
+
+table {
+    table-layout: fixed;
+    box-sizing: border-box;
+}
+
+th {
+    text-align: left;
+}
+
+td, th {
+    padding: 1em;
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+    th {
+        display: none; /* hide table head */
+    }
+
+    td {
+        display: block; /* overwrite display: table property*/
+        width: auto;
+        border: none;
+    }
+
+    td:nth-of-type(1), td:nth-of-type(2) {
+        font-weight: bold; /* mark heading items of each cyclist */
+        display: inline-block;
+        width: auto;
+
+    }
+
+    td:nth-of-type(1) {
+        text-align: left; /* correction of basicTable */
+    }
+
+    td:nth-of-type(3)::before {
+        content: "Leeftijd: ";
+    }
+
+    td:nth-of-type(4)::before {
+        content: "Studierichting: ";
+    }
+
+}
