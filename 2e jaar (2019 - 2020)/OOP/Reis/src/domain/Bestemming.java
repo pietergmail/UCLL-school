@@ -1,6 +1,8 @@
 package domain;
+import domain.Bestemming;
+import domain.Reis;
 
-public class Reis {
+public class Bestemming {
     private String naam;
     private String locatie;
     private int capaciteit;
@@ -29,12 +31,12 @@ public class Reis {
         this.capaciteit = capaciteit;
     }
 
-    public Reis(String naam, String locatie) {
+    public Bestemming(String naam, String locatie) {
         this.setNaam(naam);
         this.setLocatie(locatie);
     }
 
-    public Reis(String naam, String locatie, int capaciteit) {
+    public Bestemming(String naam, String locatie, int capaciteit) {
         this.setNaam(naam);
         this.setLocatie(locatie);
         this.setCapaciteit(capaciteit);

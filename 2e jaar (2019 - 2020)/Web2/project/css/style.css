@@ -93,6 +93,11 @@ main {
     margin: auto;
 }
 
+main p{
+    text-align: center;
+    margin: 3vh;
+}
+
 main img {
     text-align: center;
     width: 35vh;
