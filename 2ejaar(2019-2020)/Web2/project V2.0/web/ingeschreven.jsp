@@ -1,3 +1,7 @@
+<%@ page import="domain.PersoonDB" %>
+<%@ page import="java.util.Collection" %>
+<%@ page import="domain.Persoon" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,10 +25,14 @@
         <ul>
             <li><a href="index.jsp">Home</a></li>
             <li><a href="inschrijven.jsp">Inschrijven</a></li>
-            <li><a href="ingeschreven.jsp">Ingeschreven</a></li>
+            <li><a href="Servlet">Ingeschreven</a></li>
         </ul>
     </nav>
 </header>
+<%
+    Collection<Persoon> personen = (Collection<Persoon>) request.getAttribute("personen");
+
+%>
 <main>
     <table class="span">
         <thead>
@@ -37,15 +45,21 @@
             <th>Verwijder</th>
         </tr>
         </thead>
+        <%
+            for (Persoon persoon : personen){
+        %>
         <tbody>
         <tr>
-            <td>Annemie Geeraerd</td>
-            <td>07/08/1978</td>
-            <td>Accordeon</td>
-            <td>Vrouw</td>
+            <td><%=persoon.getNaam()%></td>
+            <td><%=persoon.getGeboortedatum()%></td>
+            <td><%=persoon.getInstrument()%></td>
+            <td><%=persoon.getStringgeslacht()%></td>
             <td><a href="edit.jsp">edit</a></td>
             <td><a href="delete.jsp">Verwijder</a></td>
             </tr>
+        <%
+            }
+        %>
         </tbody>
     </table>
 

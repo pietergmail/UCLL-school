@@ -7,46 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="797174b7-33f2-4919-9fa6-b50e908d21ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Bomen en Grafen/Versie 2/labo5/.idea/artifacts/unnamed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bomen en Grafen/Versie 2/labo5/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bomen en Grafen/Versie 2/labo5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bomen en Grafen/Versie 2/labo5/test/StudentRegistrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bomen en Grafen/Versie 2/labo5/web/gevonden.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bomen en Grafen/Versie 2/labo5/web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bomen en Grafen/Versie 2/labo5/web/nietGevonden.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bomen en Grafen/Versie 2/labo5/web/studentForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bomen en Grafen/Versie 2/labo5/web/studentOverview.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bomen en Grafen/Versie 2/labo5/web/verwijderBevestiging.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bomen en Grafen/Versie 2/labo5/web/zoekForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labo 3/src/ui/controller/Occurence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/src/domain/Persoon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/src/domain/PersoonDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 10/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Labo 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 3/Test/OccurencesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 3/Test/OccurencesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 3/Test/StudentInformatieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 3/Test/StudentInformatieTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 3/Test/ValidHtmlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 3/Test/ValidHtmlTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 3/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Servlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 3/out/artifacts/web_war_exploded/tabel.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 3/out/production/labo 3/ui/controller/Servlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 3/out/test/labo 3/OccurencesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 3/out/test/labo 3/OccurencesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 3/out/test/labo 3/StudentInformatieTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 3/out/test/labo 3/StudentInformatieTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 3/out/test/labo 3/ValidHtmlTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 3/out/test/labo 3/ValidHtmlTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 3/src/ui/controller/Servlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 3/web/tabel.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dennis/Labo3_thuisopdracht/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo3_thuisopdracht/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dennis/Labo4.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo4.1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dennis/Labo5.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo5.1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dennis/Labo5.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo5.2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dennis/Labo6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dennis/Labo_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo_3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dennis/Labo_3/Labo_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo_3/web/Labo_3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dennis/Labo_3/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Occurence.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo_3/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Occurence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dennis/Labo_3/out/test/Labo_3/ValidHtmlTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo_3/out/test/Labo_3/ValidHtmlTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dennis/Labo_3/test/ValidHtmlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo_3/test/ValidHtmlTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dennis/labo5/.idea/labo5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/labo5/.idea/labo5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dennis/labo5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/labo5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../examen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/WEB-INF/classes/domain/Servlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/delete.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/ingeschreven.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/ingeschreven.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/inschrijven.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/inschrijven.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/production/project V2.0/domain/Servlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/src/domain/Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/src/ui/Servlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/web/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/web/delete.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/web/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/web/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/web/ingeschreven.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/web/ingeschreven.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/web/inschrijven.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/web/inschrijven.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,13 +88,36 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="947743290">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+          <entry key="java" value="1" />
+          <entry key="jsp" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="1" />
+          <entry key="JSP" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ui/controller/StudentInformatie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
+            <state relative-caret-position="715">
               <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -129,11 +135,49 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/domain/model/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="275">
               <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/verwijderBevestiging.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zoekForm.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-255" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StudentRegistrationTest.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studentForm.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-459" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/studentOverview.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="42" column="14" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -164,11 +208,10 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="775" />
-    <option name="y" value="-15" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
     <option name="width" value="974" />
-    <option name="height" value="788" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -176,6 +219,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,15 +248,28 @@
             </path>
             <path>
               <item name="Labo 5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Labo 5" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Labo 5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Labo 5" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Labo 5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Labo 5" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Labo 5" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -391,25 +450,27 @@
       <workItem from="1556624765788" duration="50000" />
       <workItem from="1557748566658" duration="13000" />
       <workItem from="1559133404893" duration="1674000" />
+      <workItem from="1570965491636" duration="1375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6083000" />
+    <option name="totallyTimeSpent" value="7458000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.17590618" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24507658" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5026652" side_tool="true" visible="true" weight="0.3264642" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5026652" side_tool="true" visible="true" weight="0.32968238" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Application Servers" order="4" weight="0.32911393" />
       <window_info anchor="bottom" id="Messages" order="5" />
@@ -441,15 +502,28 @@
     <entry file="file://$PROJECT_DIR$/images/student.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/controller/StudentInformatie.java">
+    <entry file="file://$PROJECT_DIR$/studentForm.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/model/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zoekForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentRegistrationTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/domain/db/StudentDB.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -458,10 +532,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain/model/Student.java">
+    <entry file="file://$PROJECT_DIR$/ui/controller/StudentInformatie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="715">
+          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verwijderBevestiging.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentOverview.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="42" column="14" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
         </state>
       </provider>
     </entry>
