@@ -21,7 +21,7 @@
         <ul>
             <li><a href="index.jsp">Home</a></li>
             <li><a href="inschrijven.jsp">Inschrijven</a></li>
-            <li><a href="ingeschreven.jsp">Ingeschreven</a></li>
+            <li><a href="Servlet">Ingeschreven</a></li>
         </ul>
     </nav>
 </header>
