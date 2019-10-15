@@ -1,6 +1,7 @@
 <%@ page import="domain.PersoonDB" %>
 <%@ page import="java.util.Collection" %>
 <%@ page import="domain.Persoon" %>
+<%@ page import="java.util.ArrayList" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -30,8 +31,8 @@
     </nav>
 </header>
 <%
-    Collection<Persoon> personen = (Collection<Persoon>) request.getAttribute("personen");
-
+    ArrayList<Persoon> list = new ArrayList<Persoon>();
+    list = (ArrayList<Persoon>) request.getAttribute("personen");
 %>
 <main>
     <table class="span">
@@ -46,7 +47,7 @@
         </tr>
         </thead>
         <%
-            for (Persoon persoon : personen){
+            for (Persoon persoon : list){
         %>
         <tbody>
         <tr>

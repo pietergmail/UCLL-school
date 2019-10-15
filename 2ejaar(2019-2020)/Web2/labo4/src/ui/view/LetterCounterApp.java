@@ -1,4 +1,4 @@
-package domain;
+package ui.view;
 
 import domain.model.LetterCounter;
 import javafx.application.Platform;
@@ -11,7 +11,7 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.text.Text;
 
 public class LetterCounterApp {
-    private final LetterCounter letterCounter = new LetterCounter();
+    private final LetterCounter letterCounter = new LetterCounter("placeholder");
 
     private final Label wordLabel = new Label("Word");
     private final TextField wordField = new TextField();
