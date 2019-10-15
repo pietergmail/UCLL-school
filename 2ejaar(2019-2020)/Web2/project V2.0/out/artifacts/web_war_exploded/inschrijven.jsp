@@ -31,16 +31,16 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis non repellendus voluptatem. Alias dolorem illum iusto, nisi numquam quas repellendus rerum veritatis! Cupiditate iusto nemo nisi possimus praesentium soluta ullam?
             </p>
 
-    <form method="POST" id="form" enctype="multipart/form-data" class="span">
+    <form action="Servlet" method="POST" class="span">
             <p class="textfield">
                 <label for="naam">Vul hier u naam in. (*)</label>
                 <br>
                 <input type="text" name="naam" id="naam" required>
             </p>
             <p class="textfield">
-                <label for="datum">Vul hier u geboortedatum in.</label>
+                <label for="age">Vul hier u leeftijd in.</label>
                 <br>
-                <input type="date" name="datum" id="datum">
+                <input type="number" name="age" id="age">
             </p>
 
             <p class="textfield">
@@ -48,17 +48,6 @@
                 <br>
                 <input type="text" name="instrument" id="instrument" required>
             </p>
-            <p>
-                Duid hier u geslacht aan.
-            </p>
-                <p>
-                    <label for="contacttel">man:</label>
-                    <input class="radio" type="radio" name="contact" id="contacttel" checked>
-                </p>
-                <p>
-                    <label for="contactmail">vrouw:</label>
-                    <input class="radio" type="radio" name="contact" id="contactmail">
-                </p>
         <p><input type="submit" value="Send"/></p>
                 <p>* betekent verplicht veld.</p>
     </form>

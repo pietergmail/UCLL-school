@@ -9,17 +9,23 @@ import domain.*;
 
 @WebServlet("/Servlet")
 public class Servlet extends javax.servlet.http.HttpServlet {
+    private PersoonDB personen = new PersoonDB();
     protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
 
+        if(request.getParameter("naam").trim().isEmpty() || request.getParameter("age").trim().isEmpty()||
+            request.getParameter("instrument").trim().isEmpty()){
+            RequestDispatcher view = request.getRequestDispatcher("ingeschreven.jsp");
+            view.forward(request, response);
+        }else{
+            int age = Integer.parseInt(request.getParameter("age"));
+            personen.add(new Persoon(request.getParameter("naam"), age, request.getParameter("instrument")));
+            RequestDispatcher view = request.getRequestDispatcher("ingeschreven.jsp");
+            view.forward(request, response);
+        }
     }
 
     protected void doGet(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
-
-        PersoonDB personen = new PersoonDB();
-
-        ArrayList<Persoon> personenArray = personen.getPersonen();
-        request.setAttribute("personen", personenArray);
-
+        request.setAttribute("db", personen.getPersonen());
         RequestDispatcher view = request.getRequestDispatcher("ingeschreven.jsp");
         view.forward(request, response);
     }
