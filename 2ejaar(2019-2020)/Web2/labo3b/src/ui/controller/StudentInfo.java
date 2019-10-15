@@ -51,10 +51,6 @@ public class StudentInfo extends HttpServlet {
 
             RequestDispatcher view = request.getRequestDispatcher("gevonden.jsp");
             view.forward(request, response);
-
-
-            //http://localhost:8080/StudentInfo?naam=Jongen&voornaam=Greetje
-
         }
         else{
 
@@ -62,9 +58,6 @@ public class StudentInfo extends HttpServlet {
 
             RequestDispatcher view = request.getRequestDispatcher("nietGevonden.jsp");
             view.forward(request, response);
-
-            //http://localhost:8080/StudentInfo?naam=Jongen&voornaam=Gree
-
         }
 
 

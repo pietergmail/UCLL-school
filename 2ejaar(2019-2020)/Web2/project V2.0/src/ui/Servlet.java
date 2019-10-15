@@ -3,6 +3,8 @@ package ui;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
+import java.util.ArrayList;
+
 import domain.*;
 
 @WebServlet("/Servlet")
@@ -15,7 +17,8 @@ public class Servlet extends javax.servlet.http.HttpServlet {
 
         PersoonDB personen = new PersoonDB();
 
-        request.setAttribute("personen", personen);
+        ArrayList<Persoon> personenArray = personen.getPersonen();
+        request.setAttribute("personen", personenArray);
 
         RequestDispatcher view = request.getRequestDispatcher("ingeschreven.jsp");
         view.forward(request, response);
