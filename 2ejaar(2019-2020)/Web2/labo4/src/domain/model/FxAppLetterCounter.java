@@ -1,4 +1,4 @@
-package domain;
+package domain.model;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
