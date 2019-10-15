@@ -5,15 +5,13 @@ import java.time.Period;
 
 public class Persoon {
     private String naam;
-    private LocalDate Geboortedatum;
+    private int age;
     private String Instrument;
-    private boolean Geslacht;
 
-    public Persoon(String naam, int year, int month, int days, String instrument, boolean geslacht) {
+    public Persoon(String naam, int age, String instrument) {
         this.setNaam(naam);
-        this.setGeboortedatum(year, month, days);
+        this.setAge(age);
         this.setInstrument(instrument);
-        this.setGeslacht(geslacht);
     }
 
     public String getNaam() {
@@ -24,12 +22,12 @@ public class Persoon {
         this.naam = naam;
     }
 
-    public LocalDate getGeboortedatum() {
-        return Geboortedatum;
+    public int getAge() {
+        return age;
     }
 
-    public void setGeboortedatum(int year, int month, int days) {
-        Geboortedatum = LocalDate.of(year, month, days);
+    public void setAge(int age) {
+        age = age;
     }
 
     public String getInstrument() {
@@ -40,27 +38,4 @@ public class Persoon {
         Instrument = instrument;
     }
 
-    public boolean isGeslacht() {
-        return Geslacht;
-    }
-
-    public void setGeslacht(boolean geslacht) {
-        Geslacht = geslacht;
-    }
-
-    public Integer getAge(){
-        return Period.between(this.getGeboortedatum(), LocalDate.now()).getDays();
-    }
-
-    public boolean getgeslacht(){
-        return this.Geslacht;
-    }
-
-    public String getStringgeslacht(){
-        if (this.getgeslacht()){
-            return "Man";
-        }else{
-            return "Vrouw";
-        }
-    }
 }

@@ -10,9 +10,9 @@ public class PersoonDB {
 private ArrayList<Persoon> personen;
     public PersoonDB() {
        personen = new ArrayList<Persoon>();
-        Persoon persoon1 = new Persoon("Pieter", 2000, 8, 7, "Keyboard", true);
-        Persoon persoon2 = new Persoon("annemie", 1978, 6, 21, "Accordeon", false);
-        Persoon persoon3 = new Persoon("Andre", 1960, 5, 20, "drum", true);
+        Persoon persoon1 = new Persoon("Pieter", 19, "Keyboard");
+        Persoon persoon2 = new Persoon("annemie", 43, "Accordeon");
+        Persoon persoon3 = new Persoon("Andre", 55, "drum");
         this.add(persoon1);
         this.add(persoon2);
         this.add(persoon3);
@@ -25,12 +25,10 @@ private ArrayList<Persoon> personen;
         personen.add(persoon);
     }
 
-    public void vervang(String naam, String instrument, int Year, int Month, int day, boolean Geslacht){
+    public void vervang(String naam, String instrument){
         for(Persoon persoon : personen){
             if(persoon.getNaam().equals(naam)){
                 persoon.setInstrument(instrument);
-                persoon.setGeslacht(Geslacht);
-                persoon.setGeboortedatum(Year, Month, day);
                 break;
             }
         }

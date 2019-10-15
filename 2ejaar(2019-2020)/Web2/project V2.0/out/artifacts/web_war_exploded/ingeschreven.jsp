@@ -32,7 +32,7 @@
 </header>
 <%
     ArrayList<Persoon> list = new ArrayList<Persoon>();
-    list = (ArrayList<Persoon>) request.getAttribute("personen");
+    list = (ArrayList<Persoon>) request.getAttribute("db");
 %>
 <main>
     <table class="span">
@@ -41,7 +41,6 @@
             <th>Naam</th>
             <th>Geboortedatum</th>
             <th>Instrument</th>
-            <th>Geslacht</th>
             <th>Edit</th>
             <th>Verwijder</th>
         </tr>
@@ -52,9 +51,8 @@
         <tbody>
         <tr>
             <td><%=persoon.getNaam()%></td>
-            <td><%=persoon.getGeboortedatum()%></td>
+            <td><%=persoon.getAge()%></td>
             <td><%=persoon.getInstrument()%></td>
-            <td><%=persoon.getStringgeslacht()%></td>
             <td><a href="edit.jsp">edit</a></td>
             <td><a href="delete.jsp">Verwijder</a></td>
             </tr>
