@@ -39,7 +39,7 @@
         <thead>
         <tr>
             <th>Naam</th>
-            <th>Geboortedatum</th>
+            <th>Leeftijd</th>
             <th>Instrument</th>
             <th>Edit</th>
             <th>Verwijder</th>
@@ -51,7 +51,7 @@
         <tbody>
         <tr>
             <td><%=persoon.getNaam()%></td>
-            <td><%=persoon.getAge()%></td>
+            <td><%=persoon.sAge()%></td>
             <td><%=persoon.getInstrument()%></td>
             <td><a href="edit.jsp">edit</a></td>
             <td><a href="delete.jsp">Verwijder</a></td>
@@ -61,8 +61,7 @@
         %>
         </tbody>
     </table>
-
-        <p class="span">De oudste persoon bij accordiona is *placeholder*</p>
+        <p class="span">De oudste persoon bij accordiona is <%=request.getAttribute("oldest")%></p>
 </main>
 <footer>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto assumenda atque consequuntur, deleniti, eum exercitationem facere libero maiores modi natus nemo, obcaecati officiis omnis optio quis ut veritatis vero voluptate.

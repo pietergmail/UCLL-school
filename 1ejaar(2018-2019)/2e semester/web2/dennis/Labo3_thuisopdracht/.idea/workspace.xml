@@ -9,7 +9,7 @@
     <list default="true" id="900dddba-5b08-49e5-8a5d-3381c778eac7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/StudentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/StudentInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/out/production/project V2.0/domain/Persoon.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/out/production/project V2.0/domain/Persoon.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/out/production/project V2.0/domain/PersoonDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/out/production/project V2.0/domain/PersoonDB.class" afterDir="false" />
@@ -17,9 +17,7 @@
       <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/src/domain/Persoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/src/domain/Persoon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/src/domain/PersoonDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/src/domain/PersoonDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/src/ui/Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/src/ui/Servlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/web/ingeschreven.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/web/ingeschreven.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/web/inschrijven.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/web/inschrijven.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -165,20 +163,31 @@
     <session id="1693011854">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/studentInfoOverzicht.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+            <state relative-caret-position="442">
+              <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -192,7 +201,7 @@
         <entry file="file://$PROJECT_DIR$/src/domain/StudentDB.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#800#801#0" expanded="true" />
                 <element signature="e#831#832#0" expanded="true" />
@@ -205,7 +214,7 @@
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -213,7 +222,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/domain/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-87">
+            <state relative-caret-position="-102">
               <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
@@ -232,16 +241,16 @@
         <entry file="file://$PROJECT_DIR$/web/gevonden.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+              <caret column="4" selection-start-column="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ui/StudentInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+            <state relative-caret-position="-125">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -253,7 +262,7 @@
         <entry file="file://$PROJECT_DIR$/web/studentForm.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -343,8 +352,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="950" />
-    <option name="width" value="977" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -353,9 +362,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -395,6 +403,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -529,11 +538,12 @@
       <workItem from="1559127767344" duration="21000" />
       <workItem from="1560076248123" duration="738000" />
       <workItem from="1571154662354" duration="5868000" />
+      <workItem from="1571236824146" duration="2504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22811000" />
+    <option name="totallyTimeSpent" value="25315000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -545,10 +555,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="950" y="0" width="977" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.24972737" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.2560175" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -558,7 +568,7 @@
       <window_info id="Web" order="7" sideWeight="0.50070924" side_tool="true" weight="0.29127517" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26615554" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26725084" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978093" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -599,24 +609,10 @@
     <entry file="file://$PROJECT_DIR$/r0748117_JSP_StudentInfo.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/studentInfoOverzicht.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/StudentDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#800#801#0" expanded="true" />
             <element signature="e#831#832#0" expanded="true" />
@@ -624,10 +620,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/gevonden.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -641,24 +637,38 @@
     <entry file="file://$PROJECT_DIR$/web/studentForm.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
+        <state relative-caret-position="-102">
           <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/StudentInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        <state relative-caret-position="-125">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/gevonden.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/studentInfoOverzicht.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
         </state>
       </provider>
     </entry>

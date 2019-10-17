@@ -14,6 +14,12 @@ public class Persoon {
         this.setInstrument(instrument);
     }
 
+    public Persoon(String naam, String instrument){
+        this.setNaam(naam);
+        this.setInstrument(instrument);
+        this.setAge(0);
+    }
+
     public String getNaam() {
         return naam;
     }
@@ -26,8 +32,12 @@ public class Persoon {
         return age;
     }
 
+    public String sAge(){
+        return Integer.toString(this.getAge());
+    }
+
     public void setAge(int age) {
-        age = age;
+        this.age = age;
     }
 
     public String getInstrument() {

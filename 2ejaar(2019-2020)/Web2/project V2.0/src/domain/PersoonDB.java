@@ -25,10 +25,11 @@ private ArrayList<Persoon> personen;
         personen.add(persoon);
     }
 
-    public void vervang(String naam, String instrument){
+    public void vervang(String naam, int age, String instrument){
         for(Persoon persoon : personen){
             if(persoon.getNaam().equals(naam)){
                 persoon.setInstrument(instrument);
+                persoon.setAge(age);
                 break;
             }
         }

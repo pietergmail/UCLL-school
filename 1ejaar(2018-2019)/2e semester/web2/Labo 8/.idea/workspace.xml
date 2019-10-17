@@ -8,28 +8,22 @@
   <component name="ChangeListManager">
     <list default="true" id="9983787c-2336-4da0-b6c8-872440f55241" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bomen en Grafen/final/Bin_tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bomen en Grafen/final/Bin_tree/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 2a/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 2a/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 2a/src/view/EersteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 2a/src/view/EersteServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 2b/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 2b/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 2b/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 2b/out/production/r0748117_JSP_StudentInfo/domain/model/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 2b/src/Student.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Labo 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 3/Test/OccurencesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 3/Test/OccurencesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 3/Test/StudentInformatieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 3/Test/StudentInformatieTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 3/Test/ValidHtmlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 3/Test/ValidHtmlTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 3/out/test/labo 3/OccurencesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 3/out/test/labo 3/OccurencesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../V2/labo2b/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../V2/labo2b/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dennis/Labo3_thuisopdracht/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo3_thuisopdracht/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dennis/Labo4.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo4.1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dennis/Labo6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dennis/Labo6/out/artifacts/web_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo6/out/artifacts/web_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dennis/Labo6/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo6/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dennis/Labo_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo_3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dennis/labo5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/labo5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dennis/Labo3_thuisopdracht/src/ui/StudentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo3_thuisopdracht/src/ui/StudentInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vak/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vak/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/WEB-INF/classes/domain/Persoon.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/WEB-INF/classes/domain/Persoon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/WEB-INF/classes/domain/PersoonDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/WEB-INF/classes/domain/PersoonDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/WEB-INF/classes/ui/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/WEB-INF/classes/ui/Servlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/ingeschreven.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/ingeschreven.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/production/project V2.0/domain/Persoon.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/production/project V2.0/domain/Persoon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/production/project V2.0/domain/PersoonDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/production/project V2.0/domain/PersoonDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/production/project V2.0/ui/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/production/project V2.0/ui/Servlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/src/domain/Persoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/src/domain/Persoon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/src/domain/PersoonDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/src/domain/PersoonDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/src/ui/Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/src/ui/Servlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/web/ingeschreven.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/web/ingeschreven.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,6 +72,15 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="358202778">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf />
@@ -105,9 +108,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2735" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="420" />
+    <option name="y" value="99" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -117,7 +120,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,15 +142,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556544836718" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../labo8_v2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dennis/WinnepenninckxDennis" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -257,21 +260,22 @@
       <workItem from="1559141365527" duration="9000" />
       <workItem from="1559143689733" duration="9000" />
       <workItem from="1560087132552" duration="6000" />
+      <workItem from="1571242487879" duration="14000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1988000" />
+    <option name="totallyTimeSpent" value="2002000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="420" y="99" width="974" height="1047" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49919742" visible="true" weight="0.28144988" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49919742" visible="true" weight="0.5842451" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Web" order="7" sideWeight="0.5008026" side_tool="true" visible="true" weight="1.0" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
