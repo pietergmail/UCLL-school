@@ -17,8 +17,7 @@ public class StudentInfo extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         if(request.getParameter("naam").trim().isEmpty() || request.getParameter("leeftijd").trim().isEmpty() ||
-        request.getParameter("richting").trim().isEmpty() || request.getParameter("voornaam").trim().isEmpty()){
-
+            request.getParameter("richting").trim().isEmpty() || request.getParameter("voornaam").trim().isEmpty()){
             RequestDispatcher view = request.getRequestDispatcher("studentForm.jsp"); //
             view.forward(request, response);
         }else{

@@ -10,16 +10,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2457271-b1c7-4cb5-9755-2112c1f9f2da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/src/domain/Persoon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/src/domain/PersoonDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labo 8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dennis/Labo3_thuisopdracht/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo3_thuisopdracht/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dennis/Labo3_thuisopdracht/src/ui/StudentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/Labo3_thuisopdracht/src/ui/StudentInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dennis/WinnepenninckxDennis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/WinnepenninckxDennis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dennis/WinnepenninckxDennis/out/artifacts/web_war_exploded/bikeAdd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../dennis/WinnepenninckxDennis/out/artifacts/web_war_exploded/bikeAdd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vak/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vak/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/WEB-INF/classes/domain/Servlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/production/project V2.0/domain/Servlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/src/domain/Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/src/ui/Servlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/WEB-INF/classes/domain/Persoon.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/WEB-INF/classes/domain/Persoon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/WEB-INF/classes/domain/PersoonDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/WEB-INF/classes/domain/PersoonDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/WEB-INF/classes/ui/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/WEB-INF/classes/ui/Servlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/ingeschreven.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/artifacts/web_war_exploded/ingeschreven.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/production/project V2.0/domain/Persoon.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/production/project V2.0/domain/Persoon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/production/project V2.0/domain/PersoonDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/production/project V2.0/domain/PersoonDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/production/project V2.0/ui/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/out/production/project V2.0/ui/Servlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/src/domain/Persoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/src/domain/Persoon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/src/domain/PersoonDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/src/domain/PersoonDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/src/ui/Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/src/ui/Servlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/web/ingeschreven.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2ejaar(2019-2020)/Web2/project V2.0/web/ingeschreven.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -115,9 +125,9 @@
     <session id="1340770298">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -128,7 +138,7 @@
         <entry file="file://$PROJECT_DIR$/src/ui/controller/Servlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -277,7 +287,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -310,6 +319,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -474,6 +484,7 @@
       <workItem from="1570635520301" duration="3213000" />
       <workItem from="1570897749894" duration="328000" />
       <workItem from="1570959391102" duration="948000" />
+      <workItem from="1571241805089" duration="622000" />
     </task>
     <servers />
   </component>
@@ -498,19 +509,20 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19034000" />
+    <option name="totallyTimeSpent" value="19656000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6549836" visible="true" weight="0.3107221" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6538883" visible="true" weight="0.31728664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.34501642" side_tool="true" visible="true" weight="0.3107221" />
+      <window_info id="Web" order="7" sideWeight="0.3461117" side_tool="true" visible="true" weight="0.31728664" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32858709" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3274918" />
@@ -573,7 +585,7 @@
     <entry file="file://$PROJECT_DIR$/src/ui/controller/Servlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
