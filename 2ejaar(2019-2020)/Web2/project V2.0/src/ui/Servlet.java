@@ -14,14 +14,7 @@ public class Servlet extends javax.servlet.http.HttpServlet {
 
         if(request.getParameter("naam").trim().isEmpty() || request.getParameter("age").trim().isEmpty()||
             request.getParameter("instrument").trim().isEmpty()){
-            RequestDispatcher view = request.getRequestDispatcher("ingeschreven.jsp");
-            view.forward(request, response);
-        }else if(request.getParameter("age").trim().isEmpty()){
-            personen.add(new Persoon(request.getParameter("naam"), request.getParameter("instrument")));
-            request.setAttribute("db", personen.getPersonen());
-            String oldest = personen.getoudste().getNaam();
-            request.setAttribute("oldest", oldest);
-            RequestDispatcher view = request.getRequestDispatcher("ingeschreven.jsp");
+            RequestDispatcher view = request.getRequestDispatcher("inschrijven.jsp");
             view.forward(request, response);
         }else{
             int age = Integer.parseInt(request.getParameter("age"));
