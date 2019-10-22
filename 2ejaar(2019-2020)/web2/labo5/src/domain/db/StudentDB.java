@@ -1,7 +1,8 @@
 package domain.db;
-import java.util.ArrayList;
 
 import domain.model.Student;
+
+import java.util.ArrayList;
 
 
 public class StudentDB {
