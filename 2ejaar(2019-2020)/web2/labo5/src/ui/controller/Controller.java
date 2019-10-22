@@ -16,7 +16,7 @@ import java.io.IOException;
 public class Controller extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
-	StudentDB klas=new StudentDB();
+	private StudentDB klas =new StudentDB();
        
     public Controller() {
         super();
@@ -34,7 +34,7 @@ public class Controller extends HttpServlet {
 		if (Request.getParameter("command") != null) {
 			command = Request.getParameter("command");
 		}
-		String destination;
+		String destination = "";
 		switch (command) {
 			case "home":
 				destination = home(Request, Response);

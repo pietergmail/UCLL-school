@@ -40,7 +40,7 @@
             <p class="textfield">
                 <label for="age">Vul hier u leeftijd in.</label>
                 <br>
-                <input type="number" name="age" id="age">
+                <input type="number" name="age" id="age" required>
             </p>
 
             <p class="textfield">
