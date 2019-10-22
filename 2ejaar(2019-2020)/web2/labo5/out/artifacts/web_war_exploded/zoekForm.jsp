@@ -26,7 +26,7 @@
 	<main id="container">
 	<article>
 		<h1>Zoek een student</h1>
-		<form method="Get" action="StudentInfo" novalidate>
+		<form method="POST" action="Controller?command=searchstudent" novalidate>
 			<p>Wie zoek je?</p>
 			<p class="form-group">
 				<label class="control-label" for="naam">Naam: </label> <input
