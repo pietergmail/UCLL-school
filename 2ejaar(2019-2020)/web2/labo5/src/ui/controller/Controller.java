@@ -94,7 +94,8 @@ public class Controller extends HttpServlet {
 	}
 
 	private String search(HttpServletRequest Request, HttpServletResponse Response){
-	return "zoekform.jsp";
+
+    	return "zoekForm.jsp";
 	}
 
 	private String searchstudent(HttpServletRequest Request, HttpServletResponse Response) {

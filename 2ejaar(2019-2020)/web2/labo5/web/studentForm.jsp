@@ -27,7 +27,7 @@
 	<main id="container">
 	<article>
 		<h2>Voeg een student toe</h2>
-		<form method="POST" action="StudentInfo" novalidate>
+		<form method="POST" action="Controller?command=addstudent" novalidate>
 			<fieldset>
 				<legend>Student informatie</legend>
 				<p class="form-group">
