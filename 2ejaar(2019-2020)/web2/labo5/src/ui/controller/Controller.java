@@ -12,13 +12,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/StudentInfo")
-public class StudentInformatie extends HttpServlet {
+@WebServlet("/Controller")
+public class Controller extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
-	StudentDB klas=new StudentDB();
+	private StudentDB klas =new StudentDB();
        
-    public StudentInformatie() {
+    public Controller() {
         super();
     }
 
@@ -31,10 +31,10 @@ public class StudentInformatie extends HttpServlet {
 	}
 	private void processRequest(HttpServletRequest Request, HttpServletResponse Response) throws  ServletException, IOException {
 		String command = "home";
-		if (Request.getParameter("commmand") != null) {
+		if (Request.getParameter("command") != null) {
 			command = Request.getParameter("command");
 		}
-		String destination;
+		String destination = "";
 		switch (command) {
 			case "home":
 				destination = home(Request, Response);
