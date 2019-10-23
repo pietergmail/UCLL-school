@@ -7,42 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16a53dda-d7ed-43c2-a253-d1df5d5e17e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../1ejaar(2018-2019)/2e semester/web2/dennis/Labo3_thuisopdracht/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1ejaar(2018-2019)/2e semester/web2/dennis/Labo3_thuisopdracht/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1ejaar(2018-2019)/2e semester/web2/dennis/Labo3_thuisopdracht/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1ejaar(2018-2019)/2e semester/web2/dennis/Labo3_thuisopdracht/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1ejaar(2018-2019)/2e semester/web2/dennis/Labo3_thuisopdracht/out/artifacts/web_war_exploded/WEB-INF/classes/ui/StudentInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1ejaar(2018-2019)/2e semester/web2/dennis/Labo3_thuisopdracht/out/artifacts/web_war_exploded/WEB-INF/classes/ui/StudentInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1ejaar(2018-2019)/2e semester/web2/dennis/Labo3_thuisopdracht/out/artifacts/web_war_exploded/studentForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1ejaar(2018-2019)/2e semester/web2/dennis/Labo3_thuisopdracht/out/artifacts/web_war_exploded/studentForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1ejaar(2018-2019)/2e semester/web2/dennis/Labo3_thuisopdracht/out/artifacts/web_war_exploded/studentInfoOverzicht.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1ejaar(2018-2019)/2e semester/web2/dennis/Labo3_thuisopdracht/out/artifacts/web_war_exploded/studentInfoOverzicht.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1ejaar(2018-2019)/2e semester/web2/dennis/Labo3_thuisopdracht/out/production/r0748117_JSP_StudentInfo/ui/StudentInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1ejaar(2018-2019)/2e semester/web2/dennis/Labo3_thuisopdracht/out/production/r0748117_JSP_StudentInfo/ui/StudentInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1ejaar(2018-2019)/2e semester/web2/dennis/Labo3_thuisopdracht/web/studentForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1ejaar(2018-2019)/2e semester/web2/dennis/Labo3_thuisopdracht/web/studentForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1ejaar(2018-2019)/2e semester/web2/dennis/Labo3_thuisopdracht/web/studentInfoOverzicht.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1ejaar(2018-2019)/2e semester/web2/dennis/Labo3_thuisopdracht/web/studentInfoOverzicht.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/labo2/src/domain/Arbeider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/labo2/src/domain/Personeel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/labo2/src/domain/PersoneelsLid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/labo2a/src/domain/Machine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/labo2a/src/domain/Nonalcolischedrankjes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/labo2a/src/domain/Nonfood.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/labo2a/src/domain/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/labo2a/src/domain/Snacks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/labo_3/src/ui/controller/servlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/labo_3/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/labo_3/web/result.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/les3/src/domain/Adres.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/les3/src/domain/Persoon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/model_reis/src/be/ucll/oop/Persoon.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HerremansPieter/.idea/artifacts/HerremansPieter_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HerremansPieter/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HerremansPieter/src/domain/Persoon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HerremansPieter/src/domain/PersoonDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HerremansPieter/src/ui/Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HerremansPieter/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HerremansPieter/web/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HerremansPieter/web/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HerremansPieter/web/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HerremansPieter/web/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HerremansPieter/web/img/foto1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HerremansPieter/web/img/foto2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HerremansPieter/web/img/foto3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HerremansPieter/web/img/foto4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HerremansPieter/web/img/foto5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HerremansPieter/web/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HerremansPieter/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HerremansPieter/web/ingeschreven.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HerremansPieter/web/inschrijven.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/ui/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/ui/Servlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/project V2.0/ui/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project V2.0/ui/Servlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Servlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/inschrijven.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/inschrijven.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/labo3_opgave/src/domain/Fornuis.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/labo3_opgave/src/domain/Fornuis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/labo3_opgave/src/domain/Keuken.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/labo3_opgave/src/domain/Keuken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/labo3_opgave/src/domain/Koelkast.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/labo3_opgave/src/domain/Koelkast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/labo3_opgave/src/domain/Microgolfoven.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/labo3_opgave/src/domain/Microgolfoven.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/labo3_opgave/src/domain/Werkblad.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/labo3_opgave/src/domain/Werkblad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/labo3_opgave/src/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/labo3_opgave/src/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/les3/src/domain/branstofw.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/les3/src/domain/branstofw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/les3/src/domain/wagen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/les3/src/domain/wagen.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +52,17 @@
     <expand />
     <select />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="244297125">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -79,6 +78,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -93,6 +98,11 @@
         <option name="failureBehavior" value="FAST" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectId" id="1SVmm66xRZIhkeGllfZ6GN7wiiM" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -119,10 +129,41 @@
     </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="project V2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project V2.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project V2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project V2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project V2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project V2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571161705663" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571855165022" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../labo4_model oplossing" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -159,11 +200,11 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_20_project_V2_0" />
       </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="2298" />
       </RunnerSettings>
@@ -219,7 +260,7 @@
         </option>
       </method>
     </configuration>
-    <configuration name="ingeschreven.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.20" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="ingeschreven.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.20" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ingeschreven.jsp" />
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <deployment>
@@ -232,11 +273,11 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="ingeschreven_jsp_project_V2_0" />
       </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="2480" />
       </RunnerSettings>
@@ -296,11 +337,6 @@
       <item itemvalue="Tomcat Server.Tomcat 9.0.20" />
       <item itemvalue="Tomcat Server.ingeschreven.jsp" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Tomcat Server.ingeschreven.jsp" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -322,8 +358,48 @@
       <workItem from="1571657297537" duration="1180000" />
       <workItem from="1571658692971" duration="556000" />
       <workItem from="1571659397447" duration="367000" />
+      <workItem from="1571854776351" duration="406000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="406000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945295" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32968238" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -334,6 +410,12 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -341,8 +423,89 @@
       </map>
     </option>
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>web:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>project V2.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Java EE 6-Java EE 6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
