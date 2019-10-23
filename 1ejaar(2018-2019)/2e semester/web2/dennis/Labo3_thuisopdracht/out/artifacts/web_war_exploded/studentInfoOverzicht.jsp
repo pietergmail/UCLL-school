@@ -25,6 +25,12 @@
     </style>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="/StudentInfo">overzicht</a></li>
+            <li><a href="studentForm.jsp">form</a></li>
+        </ul>
+    </nav>
     <table>
         <thead>
             <tr>

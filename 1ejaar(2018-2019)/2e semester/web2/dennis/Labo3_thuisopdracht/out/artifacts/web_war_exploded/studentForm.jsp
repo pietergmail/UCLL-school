@@ -11,6 +11,12 @@
     <title>form</title>
 </head>
 <body>
+<nav>
+    <ul>
+        <li><a href="/StudentInfo">overzicht</a></li>
+        <li><a href="studentForm.jsp">form</a></li>
+    </ul>
+</nav>
     <h1>form</h1>
     <article>
         <form action="StudentInfo" method="post">

@@ -7,267 +7,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="900dddba-5b08-49e5-8a5d-3381c778eac7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/StudentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/StudentInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/ui/StudentInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/ui/StudentInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/r0748117_JSP_StudentInfo/ui/StudentInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/r0748117_JSP_StudentInfo/ui/StudentInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/studentForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/studentForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/studentInfoOverzicht.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/studentInfoOverzicht.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/OOP/labo2/src/domain/Arbeider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/OOP/labo2/src/domain/Personeel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/OOP/labo2/src/domain/PersoneelsLid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/OOP/labo2a/src/domain/Machine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/OOP/labo2a/src/domain/Nonalcolischedrankjes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/OOP/labo2a/src/domain/Nonfood.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/OOP/labo2a/src/domain/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/OOP/labo2a/src/domain/Snacks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/OOP/labo_3/src/ui/controller/servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/OOP/labo_3/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/OOP/labo_3/web/result.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/OOP/les3/src/domain/Adres.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/OOP/les3/src/domain/Persoon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/OOP/model_reis/src/be/ucll/oop/Persoon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/out/production/project V2.0/domain/Persoon.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/out/production/project V2.0/domain/Persoon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/out/production/project V2.0/domain/PersoonDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/out/production/project V2.0/domain/PersoonDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/out/production/project V2.0/ui/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/out/production/project V2.0/ui/Servlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/src/domain/Persoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/src/domain/Persoon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/src/domain/PersoonDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/src/domain/PersoonDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/src/ui/Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/src/ui/Servlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/web/ingeschreven.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/web/ingeschreven.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/web/inschrijven.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/Web2/project V2.0/web/inschrijven.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/oop/labo3_opgave/src/domain/Fornuis.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/oop/labo3_opgave/src/domain/Fornuis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/oop/labo3_opgave/src/domain/Keuken.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/oop/labo3_opgave/src/domain/Keuken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/oop/labo3_opgave/src/domain/Koelkast.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/oop/labo3_opgave/src/domain/Koelkast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/oop/labo3_opgave/src/domain/Microgolfoven.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/oop/labo3_opgave/src/domain/Microgolfoven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/oop/labo3_opgave/src/domain/Werkblad.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/oop/labo3_opgave/src/domain/Werkblad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/oop/labo3_opgave/src/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/oop/labo3_opgave/src/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/oop/les3/src/domain/branstofw.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/oop/les3/src/domain/branstofw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/oop/les3/src/domain/wagen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/oop/les3/src/domain/wagen.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="300581002">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="11" />
-          <entry key="project.open.time.0" value="5" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="11" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="1" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="1" />
-          <entry key="jsp" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="1" />
-          <entry key="JSP" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="jsp" value="823" />
-          <entry key="xml" value="69" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JSP" value="823" />
-          <entry key="XML" value="69" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="1065943754">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="2" />
-          <entry key="jsp" value="3" />
-          <entry key="xhtml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="2" />
-          <entry key="JSP" value="3" />
-          <entry key="XHTML" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="601" />
-          <entry key="jsp" value="98" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="601" />
-          <entry key="JSP" value="98" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-368302996">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="561" />
-          <entry key="jsp" value="179" />
-          <entry key="xml" value="29" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="561" />
-          <entry key="JSP" value="179" />
-          <entry key="XML" value="29" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="2" />
-          <entry key="jsp" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="2" />
-          <entry key="JSP" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="104562037">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="4" />
-          <entry key="project.opened" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="iml" value="1" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="XML" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="1693011854">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/studentInfoOverzicht.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/r0748117_JSP_StudentInfo.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/domain/StudentDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#800#801#0" expanded="true" />
-                <element signature="e#831#832#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/domain/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/nietgevonden.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/gevonden.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ui/StudentInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/studentForm.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -285,27 +62,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/domain/Student.java" />
-        <option value="$PROJECT_DIR$/web/nietgevonden.xhtml" />
-        <option value="$PROJECT_DIR$/web/nietgevonden.jsp" />
-        <option value="$PROJECT_DIR$/web/gevonden.jsp" />
-        <option value="$PROJECT_DIR$/web/studentInfoOverzicht.jsp" />
-        <option value="$PROJECT_DIR$/web/studentForm.jsp" />
-        <option value="$PROJECT_DIR$/src/domain/StudentDB.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/ui/StudentInfo.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -351,61 +107,8 @@
       <list />
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
-  </component>
+  <component name="ProjectId" id="1SVpBwtUpgu7YyJZf8clUdtV9b3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Labo3_thuisopdracht" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Labo3_thuisopdracht" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Labo3_thuisopdracht" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Labo3_thuisopdracht" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Labo3_thuisopdracht" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Labo3_thuisopdracht" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Labo3_thuisopdracht" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Labo3_thuisopdracht" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Labo3_thuisopdracht" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Labo3_thuisopdracht" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Labo3_thuisopdracht" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Labo3_thuisopdracht" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -448,11 +151,11 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_16_r0748117_JSP_StudentInfo" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="4229" />
       </RunnerSettings>
@@ -539,11 +242,9 @@
       <workItem from="1560076248123" duration="738000" />
       <workItem from="1571154662354" duration="5868000" />
       <workItem from="1571236824146" duration="2504000" />
+      <workItem from="1571658487676" duration="702000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25315000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -554,124 +255,34 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.2560175" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.50070924" side_tool="true" weight="0.29127517" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26725084" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978093" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.30780143" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32907802" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32907802" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32907802" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ui/StudentInfo.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jrt://C:/Program Files/Java/jdk-10.0.2!/jdk.deploy/module-info.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/nietgevonden.xhtml" />
-    <entry file="file://$PROJECT_DIR$/r0748117_JSP_StudentInfo.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/StudentDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#800#801#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/nietgevonden.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/studentForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/StudentInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/gevonden.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/studentInfoOverzicht.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
