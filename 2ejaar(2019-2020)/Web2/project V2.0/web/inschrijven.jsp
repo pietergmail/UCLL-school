@@ -19,9 +19,9 @@
     </div>
     <nav>
         <ul>
-            <li><a href="index.jsp">Home</a></li>
-            <li><a href="inschrijven.jsp">Inschrijven</a></li>
-            <li><a href="Servlet">Ingeschreven</a></li>
+            <li><a href="Servlet?command=home">Home</a></li>
+            <li><a href="Servlet?command=inschrijven">Inschrijven</a></li>
+            <li><a href="Servlet?command=overview">Ingeschreven</a></li>
         </ul>
     </nav>
 </header>
@@ -31,7 +31,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis non repellendus voluptatem. Alias dolorem illum iusto, nisi numquam quas repellendus rerum veritatis! Cupiditate iusto nemo nisi possimus praesentium soluta ullam?
             </p>
 
-    <form action="Servlet" method="POST" class="span">
+    <form action="Servlet?command=add" method="POST" class="span">
             <p class="textfield">
                 <label for="naam">Vul hier u naam in. (*)</label>
                 <br>

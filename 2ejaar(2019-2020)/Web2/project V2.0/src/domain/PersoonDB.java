@@ -48,4 +48,10 @@ private ArrayList<Persoon> personen;
     public ArrayList<Persoon> getPersonen() {
         return personen;
     }
+
+    public void delete(int index){
+        personen.remove(index);
+    }
+
+
 }
