@@ -20,19 +20,21 @@
     </div>
     <nav>
         <ul>
-            <li><a href="index.jsp">Home</a></li>
-            <li><a href="inschrijven.jsp">Inschrijven</a></li>
-            <li><a href="Servlet">Ingeschreven</a></li>
+            <li><a href="Servlet?command=home">Home</a></li>
+            <li><a href="Servlet?command=inschrijven">Inschrijven</a></li>
+            <li><a href="Servlet?command=overview">Ingeschreven</a></li>
         </ul>
     </nav>
 </header>
 <main>
     <h2>Wijzig informatie over een persoon</h2>
-    <form method="POST" id="form" enctype="multipart/form-data" class="span" action="ingeschreven.jsp">
+    <form method="POST" id="form" enctype="multipart/form-data" class="span" action="Servlet?command=delete&naam=<%=request.getParameter("naam")%>" novalidate="novalidate">
         <article>
             <h2>Verwijder persoon</h2>
-            <p>Ben je zeker dat je deze persoon wilt verwijdern?</p>
-            <p><input type="submit" value="Ja"/><input type="submit" value="Neen"></p>
+            <p>Ben je zeker dat je <%=request.getParameter("naam")%> wilt verwijdern?</p>
+            <p><input type="submit" value="yes" name="delete"></p>
+
+            <p><input type="submit" value="no" name="delete"></p>
         </article>
     </form>
 </main>

@@ -24,9 +24,9 @@
     </div>
     <nav>
         <ul>
-            <li><a href="index.jsp">Home</a></li>
-            <li><a href="inschrijven.jsp">Inschrijven</a></li>
-            <li><a href="Servlet">Ingeschreven</a></li>
+            <li><a href="Servlet?command=home">Home</a></li>
+            <li><a href="Servlet?command=inschrijven">Inschrijven</a></li>
+            <li><a href="Servlet?command=overview">Ingeschreven</a></li>
         </ul>
     </nav>
 </header>
@@ -54,7 +54,7 @@
             <td><%=persoon.sAge()%></td>
             <td><%=persoon.getInstrument()%></td>
             <td><a href="edit.jsp">edit</a></td>
-            <td><a href="delete.jsp">Verwijder</a></td>
+            <td><a href="Servlet?command=deleteform&naam=<%=persoon.getNaam()%>">Verwijder</a></td>
             </tr>
         <%
             }

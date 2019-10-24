@@ -1,0 +1,140 @@
+/*Nav Mobile*/
+nav {
+    background-color: #dddddd;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+nav ul li {
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: #000000;
+    background-color: #dddddd;
+    font-size: 1.5em;
+    padding: .2em 0;
+}
+
+.actief {
+    color: #ffffff;
+    background-color: #333333;
+}
+
+nav ul li a:hover, nav ul li a:focus {
+    background-color: #888888;
+    color: #000;
+}
+/*Einde Navigation*/
+
+
+/*Opmaakt elementen*/
+h1 {
+    margin-left: .5em;
+}
+
+h2 {
+    margin-left: .7em;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+div {
+    margin-left: 1em;
+}
+
+p {
+    margin-left: 1em;
+}
+/*Eind Opmaak elementen*/
+
+
+/*Home Pagina*/
+div {
+    padding-bottom: 1em;
+}
+/*Eind Home Pagina*/
+
+/*Voeg Persoon Toe*/
+.versturen {
+    padding-left: 0;
+    margin-left: 3em;
+}
+
+.versturen li {
+    list-style-type: none;
+}
+
+.versturen li a {
+    padding: .5em 1em;
+    text-decoration: none;
+    border-style: solid;
+    border-color: #333333;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.versturen li a:hover, .versturen li a:focus {
+    background-color: #dddddd;
+    color: #000;
+}
+/*Eind Voeg Persoon Toe*/
+
+
+/*Overzicht*/
+#overzicht {
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+th {
+    text-align: left;
+}
+/*Eind Overzicht*/
+
+
+/*Begin Footer*/
+footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+    justify-content: center;
+    width: 100%;
+    background-color: #dddddd;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    margin: .5em 1em;
+
+}
+/*Einde Footer*/
+
+@media screen and (min-width: 48em) {
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    nav ul li a {
+        padding: .2em 1em;
+    }
+}
+
+@media screen and (min-width: 64em) {
+
+}
