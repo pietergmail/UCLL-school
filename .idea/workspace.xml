@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34387952-dac5-40b6-ac65-4acfd8e466e4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/arithmetic/student.js" beforeDir="false" afterPath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/arithmetic/student.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/arrays-2d/student.js" beforeDir="false" afterPath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/arrays-2d/student.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/arrays/student.js" beforeDir="false" afterPath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/arrays/student.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/booleans/student.js" beforeDir="false" afterPath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/booleans/student.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/conditionals/student.js" beforeDir="false" afterPath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/conditionals/student.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/imaging/student.js" beforeDir="false" afterPath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/imaging/student.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/lambdas/student.js" beforeDir="false" afterPath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/lambdas/student.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/loops/student.js" beforeDir="false" afterPath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/loops/student.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/objects/student.js" beforeDir="false" afterPath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/objects/student.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/parsing/student.js" beforeDir="false" afterPath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/parsing/student.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/patterns/student.js" beforeDir="false" afterPath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/patterns/student.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/recursion/student.js" beforeDir="false" afterPath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/recursion/student.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/strings/student.js" beforeDir="false" afterPath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/strings/student.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/tetris/student.js" beforeDir="false" afterPath="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/tetris/student.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-470449853">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/2ejaar(2019-2020)/OOP/labo4" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34387952-dac5-40b6-ac65-4acfd8e466e4" name="Default Changelist" comment="" />
+      <created>1573298317549</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573298317549</updated>
+      <workItem from="1573298319917" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="27000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945295" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
