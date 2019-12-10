@@ -1,9 +1,15 @@
 package domain;
 
-public class kip implements dier {
+public class Kip implements Dier {
     int gewicht;
     int eiren;
     int vlees;
+
+    public Kip(int gewicht, int eiren, int vlees) {
+        this.gewicht = gewicht;
+        this.eiren = eiren;
+        this.vlees = vlees;
+    }
 
     public int getGewicht() {
         return gewicht;
@@ -26,12 +32,6 @@ public class kip implements dier {
     }
 
     public void setVlees(int vlees) {
-        this.vlees = vlees;
-    }
-
-    public kip(int gewicht, int eiren, int vlees) {
-        this.gewicht = gewicht;
-        this.eiren = eiren;
         this.vlees = vlees;
     }
 
