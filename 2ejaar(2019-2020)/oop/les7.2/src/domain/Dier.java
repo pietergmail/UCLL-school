@@ -1,5 +1,5 @@
 package domain;
 
-public interface dier {
+public interface Dier {
     String tostring();
 }
