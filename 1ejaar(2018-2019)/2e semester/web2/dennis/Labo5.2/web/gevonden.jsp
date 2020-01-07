@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Gevonden</title>
-<link rel="stylesheet" href="../css/sample.css">
+	<link rel="stylesheet" href="css/sample.css">
 </head>
 <body>
 <header>
