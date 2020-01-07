@@ -1,0 +1,38 @@
+body {
+    font-family: garamond, serif;
+    background-color: #9fa8a3;
+    font-size: 120%;
+    line-height: 1.2em;
+}
+
+div#container {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    background-color: #e3e0cf;
+    color: #5b605d;
+}
+
+a {
+    color: #7f8f85;
+}
+
+h1 {
+    font-family: Copperplate, serif;
+}
+
+input#submit {
+    padding: 5px;
+    background-color:  #7f8f85;
+    color: #e3e0cf;
+    font-size: 100%;
+    border: none;
+    border-radius: 3px;
+    font-family: garamond, serif;
+}
+
+blockquote {
+    text-align: right;
+    font-family: Copperplate, serif;
+    font-size: 120%;
+}

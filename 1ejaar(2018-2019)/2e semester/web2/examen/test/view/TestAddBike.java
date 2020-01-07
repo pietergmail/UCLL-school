@@ -20,7 +20,7 @@ public class TestAddBike {
 	@Before
 	public void setUp() throws Exception {
 //		 Voor Windows (vergeet "\" niet te escapen met een tweede "\")
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\herre\\Documents\\UCLL\\1e jaar (2018 - 2019)\\2e semester\\web2\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\herre\\Documents\\UCLL\\2ejaar(2019-2020)\\Web2\\chromedriver\\chromedriver.exe");
 
 		driver = new ChromeDriver();
 		driver.get(url+"bikeAdd.jsp");
