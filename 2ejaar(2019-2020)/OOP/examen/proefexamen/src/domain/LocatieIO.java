@@ -7,6 +7,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Scanner;
 
+import domain.*;
+
 public class LocatieIO {
     public void writeLocaties (Collection<Locatie> locaties, String path){
         try (PrintWriter printWriter = new PrintWriter(new File(path))){
@@ -35,6 +37,7 @@ public class LocatieIO {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
+
         return locaties;
     }
 }
