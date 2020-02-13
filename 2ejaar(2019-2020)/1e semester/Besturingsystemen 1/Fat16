@@ -1,0 +1,110 @@
+Disk GUID: D7647D87E63C0D4694A4C6C3C8525AF2
+First usable LBA:0x4FDE
+Last Usable LBA:0x0022
+Max LBA size: Last LBA - First LBA + 1 = 0x4FDE - 0x0022 + 1 = 0x4FBD = 20413 blokken 
+20413 * 512 = 10451456 Byte of 9.96728515625 MB
+size of single partition entry: 0x0080 = 128 blokken
+
+
+0x0200
+
+size: 0x4FD - 0x0800 =18 398 = 9419776
+first block : 0x2048
+
+offset: 0x1000000
+
+copies of the FAT: 02
+size of one FAT: 0x48 sectors of 36864 bytes
+entries in de root directory: 1 block of 512 bytes
+
+FAT 2: offset = 0x101000 + 0x9000 = 0x10A000
+ROOT directory: 0x10A000 + 0x9000 = 0x113000
+Data section = 0x113000 + 0x4000 = 0x117000
+
+Filename: programs
+Attributes: directory
+Last write time: 36 33 hours:00110= 6 minutes:110001=25 seconds:10011=44
+Last write date: 33 5A years:0011001=2005 month: 10 day:26
+First cluster: 0x140
+file size = 0 bytes
+
+Name Attributes size first cluster
+HELLO.txt archive 12 bytes 0x2
+DOCS subdirectory 0 bytes 0x34A
+SYSTEM subdirectory 0 bytes 0x44A
+BUIDLING.JPG nothing 79829 bytes 0x25
+NALA.JPG read only 69508 bytes 0xC1
+BILL.JPG archive 13024 bytes 0x15E
+
+size: 13024 bytes of 26 clusters
+
+Calculate 0x101000 + (015E * 2) = location on disk
+1.0x015E	
+2.0x015F
+3.0x0160
+4.0x0161
+5.0x0162
+6.0x0163
+7.0x0164
+8.0x0165
+9.0x0166
+10.0x0167
+11.0x0168
+12.0x0169
+13.0x016A
+14.0x016B
+15.0x016C
+16.0x016D
+17.0x016E
+18.0x016F
+19.0x0170
+20.0x0171
+21.0x0172
+22.0x0173
+23.0x0174
+24.0x0175
+25.0x0176
+26.0x0177
+
+0x117000 + (0x015E - 2) * 0x200=
+0x1428000
+
+DOCS: 0x117200
+poem.txt 
+1.0x0151 I feel like i haven't been read right
+2. 0x01D6 - 0x151800 - For 10 years of drops from heights 
+3. 0x0195 - 0x149600 - Waiting for ScanDisk 
+4. 0x018a - 0x148000 - To repair me... 
+5. 0x15d - 0x142600 - Your OS says let's go 
+6. 0x1ae - 0x14c800 - But my boot sector says no
+7. 0x023a - 0x15e000 - If you want to read me, there's a proper way 
+8. 0x1fe - 0x156800 - I'm a floppy in a disk drive, you gotta format me the right way
+9. 0xFFFF
+
+short = QUESTI~1
+long = questions exam operating systems (2017)
+
+DirctX.log: first cluster: 20, 24
+logo.png: first cluster: 21, 22, 23
+
+reconstreuct fat and unmark as deleted in directory.
+theoretisch wel, praktisch is het vaak moeilijk als de file gefragment is.
+
+32MB
+64MB
+256MB
+
+128KB
+
+1980-01-01 to 2099-12-3
+
+3 = 1 mark as deleted + 1 fat update + 1 backup fat update
+4 = 1 move data + 1 update fat + 1 first cluster and file size in directory entry + 1 backup fat update
+4/6 = 1 data block + 1 first cluster and filesize in directory entry +1/2  fat update for last block of newly added filesize +1/2 backup fat
+3 = 1 (first cluster and filesize in directory entry + 1 fat update + 1 backup FAT update
+3/5 = 1 filesize in directory entry + 1/2 fat updates for old last block of file + 1/2 backup FAT update
+1 = 1 naam in directory entry
+2 = 1 directory entry in brondir verijderen + 1 directory entry aan doeldir toevoegen
+177 = 1 volume label in bootsector + 72 fat + 72 bakup fat + 32 root directory 
+
+
