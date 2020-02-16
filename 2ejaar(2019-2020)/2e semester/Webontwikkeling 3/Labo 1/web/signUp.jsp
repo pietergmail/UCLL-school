@@ -1,3 +1,4 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -14,9 +15,9 @@
 <h1><span>Web shop</span></h1>
 <nav>
 <ul>
-<li><a href="Controller">Home</a></li>
-<li><a href="Controller?command=overview">Overview</a></li>
-<li id="actual"><a href="Controller?command=signUp">Sign up</a></li>
+<li><a href="Servlet">Home</a></li>
+<li><a href="Servlet?command=overview">Overview</a></li>
+<li id="actual"><a href="Servlet?command=signUp">Sign up</a></li>
 </ul>
 </nav>
 <h2>
@@ -30,7 +31,7 @@ Sign Up
 		</ul>
 	</div>
 
-    <form novalidate="novalidate">
+    <form novalidate="novalidate" method="post" action="Servlet?command=addPerson">
     	<!-- novalidate in order to be able to run tests correctly -->
         <p><label for="userid">User id</label><input type="text" id="userid" name="userid"
          required > </p>

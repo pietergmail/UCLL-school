@@ -1,3 +1,6 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,9 +15,9 @@
 <h1><span>Web shop</span></h1>
 <nav>
 <ul>
-<li><a href="Controller">Home</a></li>
-<li id="actual"><a href="Controller?command=overview">Overview</a></li>
-<li><a href="Controller?command=signUp">Sign up</a></li>
+<li><a href="Servlet">Home</a></li>
+<li id="actual"><a href="Servlet?command=overview">Overview</a></li>
+<li><a href="Servlet?command=signUp">Sign up</a></li>
 </ul>
 </nav>
 <h2>
@@ -29,7 +32,9 @@ User Overview
 <th>Last Name</th>
 </tr>
 <tr>
-<td>jan.janssens@hotmail.com</td><td>Jan</td><td>Janssens</td>
+    <c:forEach items="${personen}" var="person">
+        <td>${person.getEmail()}</td><td>${person.getFirstName()}</td><td>${person.getLastName()}</td>
+    </c:forEach>
 </tr>
 
 <caption>Users Overview</caption>
