@@ -26,7 +26,8 @@
 			<table id="overview">
 				<thead>
 					<tr>
-						<th>Brand</th>
+						<th>Brand
+						</th>
 						<th>Category</th>
 						<th>details</th>
 					</tr>
