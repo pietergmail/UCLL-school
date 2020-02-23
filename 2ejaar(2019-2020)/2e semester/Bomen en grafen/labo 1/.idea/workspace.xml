@@ -2,136 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dce3527-e225-4120-b304-8ee339244fb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Recursie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/RecursieTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labo 1/Recursie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labo 1/Recursie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/labo 1/RecursieTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/labo 1/RecursieTest.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1845944217">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="2220" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="2220" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="3" />
-          <entry key="java" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="3" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Recursie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="752">
-              <caret line="140" column="1" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
-              <folding>
-                <element signature="e#3706#3714#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/RecursieTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="211" selection-start-line="211" selection-end-line="211" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-                <element signature="e#514#515#0" expanded="true" />
-                <element signature="e#542#543#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#776#777#0" expanded="true" />
-                <element signature="e#1174#1175#0" expanded="true" />
-                <element signature="e#1202#1203#0" expanded="true" />
-                <element signature="e#2173#2174#0" expanded="true" />
-                <element signature="e#2201#2202#0" expanded="true" />
-                <element signature="e#2265#2266#0" expanded="true" />
-                <element signature="e#2307#2308#0" expanded="true" />
-                <element signature="e#2666#2667#0" expanded="true" />
-                <element signature="e#2695#2696#0" expanded="true" />
-                <element signature="e#2898#2899#0" expanded="true" />
-                <element signature="e#2947#2948#0" expanded="true" />
-                <element signature="e#3020#3021#0" expanded="true" />
-                <element signature="e#3075#3076#0" expanded="true" />
-                <element signature="e#3190#3191#0" expanded="true" />
-                <element signature="e#3220#3221#0" expanded="true" />
-                <element signature="e#3626#3627#0" expanded="true" />
-                <element signature="e#3656#3657#0" expanded="true" />
-                <element signature="e#3944#3945#0" expanded="true" />
-                <element signature="e#3971#3972#0" expanded="true" />
-                <element signature="e#4077#4078#0" expanded="true" />
-                <element signature="e#4103#4104#0" expanded="true" />
-                <element signature="e#4156#4157#0" expanded="true" />
-                <element signature="e#4198#4199#0" expanded="true" />
-                <element signature="e#4271#4272#0" expanded="true" />
-                <element signature="e#4317#4318#0" expanded="true" />
-                <element signature="e#4436#4437#0" expanded="true" />
-                <element signature="e#4469#4470#0" expanded="true" />
-                <element signature="e#4762#4770#0" expanded="true" />
-                <element signature="e#4978#4986#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/Recursie.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1050" />
-  </component>
+  <component name="ProjectId" id="1XwHLZEsPfNQqGsAkqlXMJTzOMp" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -153,35 +37,10 @@
     </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="labo 1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="labo 1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="labo 1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="labo 1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="labo 1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="labo 1" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -190,7 +49,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581592715231" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/Bomen_Grafen_facebook/Recursie" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -198,23 +60,12 @@
       <recent name="C:\Users\herre\Documents\UCLL\2ejaar(2019-2020)\2e semester\Bomen en grafen\labo 1\src" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="JUnit.RecursieTest">
     <configuration name="RecursieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="labo 1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RecursieTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -287,175 +138,45 @@
       <option name="presentableId" value="Default" />
       <updated>1581586116140</updated>
       <workItem from="1581586118915" duration="6629000" />
+      <workItem from="1581950182817" duration="1085000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="RecursieTest - 2020.02.13 at 11h 52m 19s.xml">
-      <configuration name="RecursieTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RecursieTest - 2020.02.13 at 11h 56m 36s.xml">
-      <configuration name="RecursieTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RecursieTest - 2020.02.13 at 11h 56m 42s.xml">
-      <configuration name="RecursieTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RecursieTest - 2020.02.13 at 12h 16m 01s.xml">
-      <configuration name="RecursieTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RecursieTest - 2020.02.13 at 12h 16m 04s.xml">
-      <configuration name="RecursieTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RecursieTest_testOef10_FindSubstrings_String_Met_Lengte_Meer_Dan_1_geeft_arraylist_Met_Strings - 2020.02.13 at 12h 16m 17s.xml">
-      <configuration name="RecursieTest.testOef10_FindSubstrings_String_Met_Lengte_Meer_Dan_1_geeft_arraylist_Met_Strings" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RecursieTest_testOef10_FindSubstrings_String_Met_Lengte_Meer_Dan_1_geeft_arraylist_Met_Strings - 2020.02.13 at 12h 17m 19s.xml">
-      <configuration name="RecursieTest.testOef10_FindSubstrings_String_Met_Lengte_Meer_Dan_1_geeft_arraylist_Met_Strings" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RecursieTest_testOef10_FindSubstrings_String_Met_Lengte_Meer_Dan_1_geeft_arraylist_Met_Strings - 2020.02.13 at 12h 17m 48s.xml">
-      <configuration name="RecursieTest.testOef10_FindSubstrings_String_Met_Lengte_Meer_Dan_1_geeft_arraylist_Met_Strings" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RecursieTest_testOef10_FindSubstrings_String_Met_Lengte_Meer_Dan_1_geeft_arraylist_Met_Strings - 2020.02.13 at 12h 18m 30s.xml">
-      <configuration name="RecursieTest.testOef10_FindSubstrings_String_Met_Lengte_Meer_Dan_1_geeft_arraylist_Met_Strings" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RecursieTest - 2020.02.13 at 12h 18m 35s.xml">
-      <configuration name="RecursieTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6629000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1050" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945295" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32969433" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32969433" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995633" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#86#87#0" expanded="true" />
-            <element signature="e#99#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="203" selection-start-line="203" selection-end-line="203" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="237" selection-start-line="237" selection-end-line="237" />
-          <folding>
-            <element signature="e#8323#8324#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/RecursieTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="211" selection-start-line="211" selection-end-line="211" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-            <element signature="e#2173#2174#0" expanded="true" />
-            <element signature="e#2201#2202#0" expanded="true" />
-            <element signature="e#2265#2266#0" expanded="true" />
-            <element signature="e#2307#2308#0" expanded="true" />
-            <element signature="e#2666#2667#0" expanded="true" />
-            <element signature="e#2695#2696#0" expanded="true" />
-            <element signature="e#2898#2899#0" expanded="true" />
-            <element signature="e#2947#2948#0" expanded="true" />
-            <element signature="e#3020#3021#0" expanded="true" />
-            <element signature="e#3075#3076#0" expanded="true" />
-            <element signature="e#3190#3191#0" expanded="true" />
-            <element signature="e#3220#3221#0" expanded="true" />
-            <element signature="e#3626#3627#0" expanded="true" />
-            <element signature="e#3656#3657#0" expanded="true" />
-            <element signature="e#3944#3945#0" expanded="true" />
-            <element signature="e#3971#3972#0" expanded="true" />
-            <element signature="e#4077#4078#0" expanded="true" />
-            <element signature="e#4103#4104#0" expanded="true" />
-            <element signature="e#4156#4157#0" expanded="true" />
-            <element signature="e#4198#4199#0" expanded="true" />
-            <element signature="e#4271#4272#0" expanded="true" />
-            <element signature="e#4317#4318#0" expanded="true" />
-            <element signature="e#4436#4437#0" expanded="true" />
-            <element signature="e#4469#4470#0" expanded="true" />
-            <element signature="e#4762#4770#0" expanded="true" />
-            <element signature="e#4978#4986#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Recursie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="140" column="1" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
-          <folding>
-            <element signature="e#3706#3714#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="524" y="288" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581950202493">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="524" y="288" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.27.1366.741@0.27.1366.741" timestamp="1581950202493" />
+    <state x="461" y="141" width="424" height="513" key="FileChooserDialogImpl" timestamp="1581952969133">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="461" y="141" width="424" height="513" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1581952969133" />
+    <state width="1320" height="143" key="GridCell.Tab.0.bottom" timestamp="1581952972697">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="143" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1581952972697" />
+    <state width="1320" height="143" key="GridCell.Tab.0.center" timestamp="1581952972697">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="143" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1581952972697" />
+    <state width="1320" height="143" key="GridCell.Tab.0.left" timestamp="1581952972697">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="143" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1581952972697" />
+    <state width="1320" height="143" key="GridCell.Tab.0.right" timestamp="1581952972697">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="143" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1581952972697" />
+    <state x="166" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1581950215160">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="166" y="27" width="1024" height="741" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1581950215160" />
+    <state x="0" y="27" width="1356" height="741" key="new project wizard" timestamp="1581952971043">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="0" y="27" width="1356" height="741" key="new project wizard/0.27.1366.741@0.27.1366.741" timestamp="1581952971043" />
   </component>
 </project>

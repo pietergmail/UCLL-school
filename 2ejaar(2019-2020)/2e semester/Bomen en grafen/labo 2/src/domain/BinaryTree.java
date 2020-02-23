@@ -22,5 +22,54 @@ public class BinaryTree<E> {
 			if (this.leftTree != null) this.leftTree.printPreorder();
 			if (this.rightTree != null) this.rightTree.printPreorder();
 	}
+	public void printinorder(){
+
+		if (this.leftTree != null) this.leftTree.printPreorder();
+		System.out.print(this.data + " ");
+		if (this.rightTree != null) this.rightTree.printPreorder();
+	}
+	public void printpostorder(){
+
+		if (this.leftTree != null) this.leftTree.printPreorder();
+
+		if (this.rightTree != null) this.rightTree.printPreorder();
+
+		System.out.print(this.data + " ");
+	}
+
+	public int aantalKnopen() {
+		int totaal = 0;
+
+		if (this.leftTree != null) {
+			 totaal += this.leftTree.aantalKnopen();
+		}
+		if (this.rightTree != null) {
+			  totaal += this.rightTree.aantalKnopen();
+		}
+		return ++totaal;
+	}
+
+	public int diepte(){
+		int totaalLeftTree = 0;
+		int totaalRightTree = 0;
+		if (this.leftTree != null) {
+			totaalLeftTree += this.leftTree.diepte();
+		}
+		if (this.rightTree != null) {
+			totaalRightTree += this.rightTree.diepte();
+		}
+
+		return Math.max(++totaalLeftTree, ++totaalRightTree);
+	}
+	public boolean isleaf() {
+		return this.leftTree == null && this.rightTree == null;
+	}
+	public  int countLeaves() {
+		int data = 0;
+		if (this.leftTree != null) this.leftTree.countLeaves();
+		data += this.data.hashCode();
+		if (this.rightTree != null) this.rightTree.countLeaves();
+		return data;
+	}
 
 }
