@@ -7,98 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4df6a8dc-3b20-481d-8d06-a71a08afbc5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/Labo 1/.idea/libraries/jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/Labo 1/.idea/libraries/selenium_server_standalone_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/Labo 1/src/domain/db/DbException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/Labo 1/src/domain/db/PersonDbInMemory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/Labo 1/src/domain/db/ProductDbInMemory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/Labo 1/src/domain/model/DomainException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/Labo 1/src/domain/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/Labo 1/src/domain/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/Labo 1/src/domain/model/ShopService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/Labo 1/test/test/view/RegisterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/Labo 1/test/test/view/SeleniumWorksWellTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/Labo 1/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/Labo 1/web/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/Labo 1/web/images/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/Labo 1/web/images/bannerKlein.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/Labo 1/web/images/belgischHockeyTeam.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/Labo 1/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/Labo 1/web/personoverview.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/Labo 1/web/signUp.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Web2/examen/examen3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/Bin_tree/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/Bin_tree/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/Bin_tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/Bin_tree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/Bin_tree/out/production/BG_Les3/domain/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/Bin_tree/out/production/BG_Les3/domain/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/Bin_tree/out/production/BG_Les3/ui/BinaryTreeDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/Bin_tree/out/production/BG_Les3/ui/BinaryTreeDriver.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-33320092">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-302350970">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="HerremansPieter" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/domain/Persoon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ui/Servlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -112,12 +32,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -125,49 +39,12 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
-  </component>
   <component name="ProjectId" id="1SdzcQMRpNwPi3cJnt9imKPSokP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="HerremansPieter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HerremansPieter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HerremansPieter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HerremansPieter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HerremansPieter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HerremansPieter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HerremansPieter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HerremansPieter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="XHTML File" />
@@ -195,18 +72,6 @@
       <recent name="C:\Users\herre\Documents\UCLL\2ejaar(2019-2020)\Web2\HerremansPieter\src" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.20" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.20" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
@@ -221,11 +86,11 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_20_HerremansPieter_2" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="11730" />
       </RunnerSettings>
@@ -300,6 +165,7 @@
       <workItem from="1572967391290" duration="86000" />
       <workItem from="1578133948831" duration="16000" />
       <workItem from="1581852998417" duration="7000" />
+      <workItem from="1582042952455" duration="1345000" />
     </task>
     <task id="LOCAL-00001" summary="Added project PieterHerremans">
       <created>1571855223330</created>
@@ -311,45 +177,6 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2549234" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -359,12 +186,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -372,27 +193,14 @@
       </map>
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added project PieterHerremans" />
     <option name="LAST_COMMIT_MESSAGE" value="Added project PieterHerremans" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/domain/Persoon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/Servlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="865" y="288" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582042963828">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="865" y="288" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.27.1366.741@0.27.1366.741" timestamp="1582042963828" />
   </component>
 </project>
