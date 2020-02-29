@@ -27,6 +27,7 @@ public class BinarySearchTreeDriver {
 			if (!boom.isEmpty()) {
 				System.out.println("De grootste waarde uit deze boom = " + boom.searchGreatest());
 				System.out.println("De kleinste waarde uit deze boom = " + boom.searchSmallest());
+				System.out.println("Het pad naar 9 is = " + boom.getPath(9));
 			}
 		}
 
