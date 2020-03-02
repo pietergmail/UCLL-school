@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <welcome-file-list>
+        <welcome-file>Controller</welcome-file>
+    </welcome-file-list>
+    <error-page>
+        <exception-type>java.lang.Throwable</exception-type>
+        <location>/error.jsp</location>
+    </error-page>
+    <error-page>
+        <!-- Missing resource -->
+        <error-code>404</error-code>
+        <location>/error.jsp</location>
+    </error-page>
+
+    <context-param>
+        <param-name>url</param-name>
+        <param-value>
+            jdbc:postgresql://databanken.ucll.be:51920/2TX31?currentSchema=WinnepenninckxDennisWeb3
+        </param-value>
+    </context-param>
+    <context-param>
+        <param-name>user</param-name>
+        <param-value>local_r0748117</param-value>
+    </context-param>
+    <context-param>
+        <param-name>password</param-name>
+        <param-value>sm(ç6ù=-Hju376(</param-value>
+    </context-param>
+    <context-param>
+        <param-name>currentSchema</param-name>
+        <param-value>WinnepenninckxDennisWeb3</param-value>
+    </context-param>
+    <context-param>
+        <param-name>ssl</param-name>
+        <param-value>true</param-value>
+    </context-param>
+    <context-param>
+        <param-name>sslmode</param-name>
+        <param-value>prefer</param-value>
+    </context-param>
+    <context-param>
+        <param-name>sslfactory</param-name>
+        <param-value>org.postgresql.ssl.NonValidatingFactory</param-value>
+    </context-param>
+</web-app>

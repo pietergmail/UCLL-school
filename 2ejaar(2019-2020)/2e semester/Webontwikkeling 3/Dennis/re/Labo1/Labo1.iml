@@ -32,7 +32,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../jstl-1.2.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/jstl-1.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -41,7 +41,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../junit-4.13-beta-3.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/junit-4.13-beta-3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -50,13 +50,11 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../selenium-server-standalone-3.141.59.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-server-standalone-3.141.59.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="selenium-server-standalone-3.141.59 (1)" level="project" />
-    <orderEntry type="library" name="jstl-1.2.jar" level="project" />
   </component>
 </module>

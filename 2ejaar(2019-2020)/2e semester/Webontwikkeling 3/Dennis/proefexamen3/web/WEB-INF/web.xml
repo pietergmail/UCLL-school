@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <error-page>
+        <exception-type>java.lang.Throwable</exception-type>
+        <location>/error.jsp</location>
+    </error-page>
+    <error-page>
+        <error-code>404</error-code>
+        <location>/error.jsp</location>
+    </error-page>
+
+
+    <context-param>
+        <param-name>url</param-name>
+        <param-value>jdbc:postgresql://databanken.ucll.be:51920/r0748117</param-value>
+    </context-param>
+    <context-param>
+        <param-name>user</param-name>
+        <param-value>local_r0748117</param-value>
+    </context-param>
+    <context-param>
+        <param-name>password</param-name>
+        <param-value>xa9x!A)hç0²NK)b</param-value>
+    </context-param>
+    <context-param>
+        <param-name>currentSchema</param-name>
+        <param-value>r0748117</param-value>
+    </context-param>
+    <context-param>
+        <param-name>ssl</param-name>
+        <param-value>true</param-value>
+    </context-param>
+    <context-param>
+        <param-name>sslfactory</param-name>
+        <param-value>org.postgresql.ssl.NonValidatingFactory</param-value>
+    </context-param>
+    <context-param>
+        <param-name>sslmode</param-name>
+        <param-value>prefer</param-value>
+    </context-param>
+
+</web-app>
