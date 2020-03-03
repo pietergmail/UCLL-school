@@ -72,4 +72,12 @@ public class BinaryTree<E> {
 		return data;
 	}
 
+	public  int count(Character data) {
+		int count = 0;
+		if (this.data.hashCode() == data.hashCode()) count += 1;
+		if (this.leftTree != null) count = this.leftTree.count(data);
+		if (this.rightTree != null) count = this.rightTree.count(data);
+		return count;
+	}
+
 }

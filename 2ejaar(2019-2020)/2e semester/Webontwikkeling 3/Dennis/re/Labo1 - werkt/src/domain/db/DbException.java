@@ -18,6 +18,4 @@ public class DbException extends RuntimeException {
 	public DbException(Throwable exception) {
 		super(exception);
 	}
-	
-
 }

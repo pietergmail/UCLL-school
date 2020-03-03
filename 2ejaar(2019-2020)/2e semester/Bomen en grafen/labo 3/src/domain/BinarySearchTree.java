@@ -146,4 +146,8 @@ public class BinarySearchTree<E extends Comparable<E>> {
 		if (leftTree == null) return this.data;
 		return leftTree.searchSmallest();
 	}
+
+	public int count(){
+		if (leftTree != null) return this.leftTree.count();
+	}
 }

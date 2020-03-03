@@ -16,11 +16,7 @@ public class main {
     private static Statement statement;
 
     public static void main(String[] args) throws SQLException {
-        /*
-        * PersonDbSql p2 = new PersonDbSql();
-        Person p3 = new Person("test", "daan.heivers@gmail.com","dennis","daan","heivers");
 
-        p2.delete("id");
         String AskName = "Wat is de naam?";
         String AskSurname = "Wat is de voornaam?";
         String AskEmail = "Wat is het emailadress?";
@@ -46,19 +42,19 @@ public class main {
          }
         setup();
         statement = connection.createStatement();
-        statement.execute("INSERT INTO \"WinnepenninckxDennisWeb3\".\"Person\"(userid,email, firstname,lastname,password) " +"values('"+ uuid +"','"+fillemail+"','"+fillfirstname+"','"+filllastname+"','"+fillpassword+"')");
+        statement.execute("INSERT INTO \"herremanspieter\".\"Person\"(userid,email,password, firstname,lastname) " +"values('"+ uuid +"','"+fillemail+"','"+fillpassword+"','"+fillfirstname+"','"+filllastname+"')");
         close();
 
         setup();
         actions();
-        close();*/
+        close();
     }
 
     public static void setup() throws SQLException {
         Properties properties = new Properties();
-        String url = "jdbc:postgresql://databanken.ucll.be:51920/2TX31?currentSchema=WinnepenninckxDennisWeb3";
-        properties.setProperty("user", "local_r0748117");
-        properties.setProperty("password", "2!NO=0,mDàXWj7M");
+        String url = "jdbc:postgresql://databanken.ucll.be:61920/2TX31?currentSchema=herremanspieter";
+        properties.setProperty("user", "local_r0745616");
+        properties.setProperty("password", "XPMé6-4éibJtZE");
         properties.setProperty("ssl", "true");
         properties.setProperty("sslfactory", "org.postgresql.ssl.NonValidatingFactory");
         properties.setProperty("sslmode", "prefer");
@@ -68,7 +64,7 @@ public class main {
 
     public static void actions() throws SQLException {
         statement = connection.createStatement();
-        ResultSet result = statement.executeQuery("SELECT * FROM \"WinnepenninckxDennisWeb3\".\"Person\"");
+        ResultSet result = statement.executeQuery("SELECT * FROM \"herremanspieter\".\"Person\"");
 
         while (result.next()) {
             String firstname = result.getString("firstname");
