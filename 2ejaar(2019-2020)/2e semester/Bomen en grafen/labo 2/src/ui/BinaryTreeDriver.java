@@ -26,6 +26,7 @@ public class BinaryTreeDriver {
 		System.out.println("\n");
 		System.out.println(boom.diepte());
 		System.out.println(boom.countLeaves());
+		System.out.println(boom.count('A'));
 	}
 
 }
