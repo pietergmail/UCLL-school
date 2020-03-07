@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="002e6d4e-d873-4c8f-937b-b2a03a81dc75" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Bin_tree/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bin_tree/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Bin_tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bin_tree/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Bin_tree/out/production/BG_Les3/domain/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Bin_tree/out/production/BG_Les3/domain/BinaryTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Bin_tree/out/production/BG_Les3/ui/BinaryTreeDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Bin_tree/out/production/BG_Les3/ui/BinaryTreeDriver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Bin_tree/src/domain/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bin_tree/src/domain/BinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Bin_tree/src/ui/BinaryTreeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bin_tree/src/ui/BinaryTreeDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Webontwikkeling 3/Dennis/Javascript/week08_JS" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Webontwikkeling 3/Dennis/Javascript/week08_JS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Webontwikkeling 3/Labo 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Webontwikkeling 3/Labo 1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +98,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ui/BinarySearchTreeDriver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -109,10 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/domain/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="1428">
               <caret line="86" column="55" selection-start-line="86" selection-start-column="55" selection-end-line="86" selection-end-column="55" />
             </state>
           </provider>
@@ -156,9 +154,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-120" />
-    <option name="y" value="572" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -271,15 +268,15 @@
       <workItem from="1565349105352" duration="763000" />
       <workItem from="1566218610688" duration="3324000" />
       <workItem from="1582975179103" duration="1221000" />
-      <workItem from="1583592939615" duration="1214000" />
+      <workItem from="1583592939615" duration="2845000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26202000" />
+    <option name="totallyTimeSpent" value="27833000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-120" y="572" width="974" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19803064" />
@@ -319,17 +316,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="86" column="55" selection-start-line="86" selection-start-column="55" selection-end-line="86" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ui/BinarySearchTreeDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="86" column="55" selection-start-line="86" selection-start-column="55" selection-end-line="86" selection-end-column="55" />
         </state>
       </provider>
     </entry>
