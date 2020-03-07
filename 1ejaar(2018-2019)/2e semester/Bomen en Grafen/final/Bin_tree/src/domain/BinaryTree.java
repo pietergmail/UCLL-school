@@ -69,4 +69,12 @@ public class BinaryTree<E> {
         return data;
     }
 
+    public int count(E data){ //telt hoevaak data voorkomt in een binaire boom.
+	    int total = 0;
+	    if (this.data == data) total += 1;
+	    if (this.leftTree != null) total += this.leftTree.count(data);
+	    if (this.rightTree != null) total += this.rightTree.count(data);
+	    return total;
+    }
+
 }
