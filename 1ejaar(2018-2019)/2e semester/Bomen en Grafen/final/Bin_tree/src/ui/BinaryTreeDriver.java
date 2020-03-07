@@ -9,7 +9,7 @@ public class BinaryTreeDriver {
 		BinaryTree<String> nodeF = new BinaryTree<>("F");
 		BinaryTree<String> nodeB = new BinaryTree<>("B");
 		BinaryTree<String> nodeH = new BinaryTree<>("H");
-		
+
 		// knoop A heeft links D en rechts F
 		BinaryTree<String> nodeA = new BinaryTree<>("A",nodeD, nodeF);
 		// knoop E heeft links H
@@ -20,6 +20,7 @@ public class BinaryTreeDriver {
 		// boom heeft root C en heeft links A en rechts G
 		BinaryTree<String> boom = new BinaryTree<>("C",nodeA, nodeG);
 		boom.printPreorder();
+
         System.out.print("\n");
         boom.printInorder();
         System.out.print("\n");
@@ -30,6 +31,7 @@ public class BinaryTreeDriver {
         System.out.println(boom.isleaf());
         System.out.println(boom.kinderSom());
         System.out.println(boom.count("D"));
+		System.out.println(boom.getNodesAtDistance(0));
 
 	}
 }

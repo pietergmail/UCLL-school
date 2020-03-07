@@ -1,0 +1,298 @@
+elect klanten.klantnr,count(distinct(bezoeken.reisnr)) as aantal,max(verblijfsduur) as langstebezoek
+from klanten
+full outer join deelnames on deelnames.klantnr = klanten.klantnr
+left outer join reizen on reizen.reisnr = deelnames.reisnr
+left join bezoeken on bezoeken.reisnr = reizen.reisnr
+group by klanten.klantnr
+order by klantnr
+
+SELECT pp.objectnaam, pp.diameter, max(verblijfsduur) as maximale_verblijf
+FROM hemelobjecten pp
+left outer join hemelobjecten mm ON mm.satellietvan = pp.objectnaam
+inner join bezoeken b on b.objectnaam = pp.objectnaam
+group by pp.objectnaam
+having count(distinct mm.objectnaam) < 5
+order by pp.objectnaam
+
+select min(DATE_PART('year', vertrekdatum) - DATE_PART('year', geboortedatum) -1) as jongsteleeftijd
+from klanten
+inner join deelnames using (klantnr)
+inner join reizen using (reisnr)
+
+SELECT h.objectnaam AS planeet, h2.objectnaam AS maan
+FROM hemelobjecten AS h
+LEFT OUTER JOIN hemelobjecten AS h2 ON h2.satellietvan = h.objectnaam
+WHERE h.satellietvan = 'Zon'
+ORDER BY planeet, maan
+
+select ob2.objectnaam, count(hemelobjecten.objectnaam)
+from hemelobjecten
+inner join hemelobjecten ob2 on hemelobjecten.satellietvan = ob2.objectnaam
+group by ob2.objectnaam
+order by count(hemelobjecten.objectnaam) desc, ob2.objectnaam asc
+
+select distinct(klanten.naam) as klantnaam,klanten.geboortedatum
+from klanten
+inner join deelnames on klanten.klantnr = deelnames.klantnr
+inner join reizen on deelnames.reisnr = reizen.reisnr
+where DATE_PART('year', vertrekdatum) - DATE_PART('year', geboortedatum) =45
+order by geboortedatum asc
+
+SELECT reizen.reisnr
+FROM  reizen INNER JOIN bezoeken on reizen.reisnr = bezoeken.reisnr
+GROUP BY reizen.reisnr
+HAVING count(DISTINCT bezoeken.objectnaam) = 3
+ORDER BY reizen.reisnr
+
+select reizen.reisnr, vertrekdatum
+from reizen
+inner join bezoeken on bezoeken.reisnr = reizen.reisnr
+where objectnaam ilike 'maan' or objectnaam ilike 'mars'
+group by reizen.reisnr
+order by vertrekdatum
+
+select klanten.naam, sum(prijs)
+from klanten
+inner join deelnames on klanten.klantnr = deelnames.klantnr
+inner join reizen on reizen.reisnr = deelnames.reisnr
+where naam ilike 'G%s'
+group by klanten.naam
+
+select naam, count(prijs) as aantal_reizen
+from klanten
+inner join deelnames on deelnames.klantnr = klanten.klantnr
+inner join reizen on reizen.reisnr = deelnames.reisnr
+where prijs > 2.5
+group by klanten.klantnr
+having count(prijs) > 1
+order by naam
+
+subq1:
+
+select wedstrijdenGewonnen as aantal_gewonnen, count(wedstrijdenGewonnen) aantal_spelers
+	from (select spelersnr, count(*) as wedstrijdenGewonnen from wedstrijden where gewonnen > verloren group by spelersnr) as gewonnen
+	group by wedstrijdenGewonnen
+	order by wedstrijdenGewonnen
+
+select spelers.spelersnr, spelers.voorletters, spelers.naam
+from boetes
+inner join spelers using (spelersnr)
+where bedrag >= (select max(bedrag) from boetes )
+order by naam,voorletters
+
+SELECT s.spelersnr, s.naam, s.voorletters, round(jaartoe - (SELECT AVG(jaartoe) FROM spelers WHERE plaats = s.plaats), 3) AS numeric
+FROM spelers AS s
+ORDER BY 1
+
+select spelers.spelersnr,naam,voorletters,countBoetes as aantalboetes, teamsnr as aantalteams
+from spelers
+inner join (select spelersnr,count(*) as countBoetes from boetes group by spelersnr) as boetes using(spelersnr)
+inner join (select spelersnr, count(*) as teamsnr from teams group by spelersnr) as teams using (spelersnr)
+order by 1,5
+
+select spelersnr, naam, voorletters, (jaartoe - extract('year' from geb_datum))as toetredingsleeftijd
+from spelers
+where (jaartoe - extract('year' from geb_datum)) > 20
+order by spelersnr, naam,voorletters, (jaartoe - extract('year' from geb_datum))
+
+SELECT aantalboetes AS a, COUNT(spelersnr) 
+FROM (SELECT spelersnr, COUNT(boetes.spelersnr) AS aantalboetes FROM boetes GROUP BY spelersnr) AS boetes
+GROUP BY boetes.aantalboetes
+ORDER BY 1, 2
+
+SELECT s.spelersnr, s.naam, s.voorletters, round(jaartoe - (SELECT AVG(jaartoe) FROM spelers WHERE plaats = s.plaats), 3) AS numeric
+FROM spelers AS s
+ORDER BY 1;
+
+select wedstrijden.spelersnr, wedstrijden.wedstrijdnr
+from spelers
+right outer join wedstrijden using (spelersnr)
+where spelersnr not in (select spelersnr 
+						from bestuursleden
+						where functie ilike 'Penningmeester%')
+and gewonnen > verloren
+
+select distinct wedstrijden.spelersnr, aantalboetes
+from (select boetes.spelersnr, count(*) as aantalboetes from boetes group by spelersnr) as aantal
+right outer join wedstrijden using (spelersnr)
+order by aantalboetes, wedstrijden.spelersnr
+
+Subq 1 Verbreding
+
+select objectnaam, kleiner as aantalkleiner
+from(select hemelobjecten.objectnaam, count(objecten2.objectnaam) as kleiner
+	   from hemelobjecten
+	   inner join hemelobjecten as objecten2 on objecten2.diameter < hemelobjecten.diameter
+       group by hemelobjecten.objectnaam) as objecten
+WHERE kleiner = 1
+
+select objectnaam 
+from (select satellietvan as objectnaam, COUNT(objectnaam) as manen
+	 from hemelobjecten
+	 where satellietvan <> 'Zon'
+	 group by satellietvan) as manen
+where manen = (select MAX(manen) 
+	            from( select satellietvan as objectnaam, COUNT(objectnaam) as manen
+		              from hemelobjecten
+		              where satellietvan <> 'Zon'
+		              group by satellietvan) as manen)
+ORDER BY objectnaam
+
+SELECT r.reisnr, r.prijs, r.vertrekdatum 
+FROM    (
+    SELECT reisnr, SUM(verblijfsduur)/COUNT(volgnr) AS gem_duur
+    FROM bezoeken
+    GROUP BY reisnr
+    ) AS gemiddelde_duur
+INNER JOIN reizen AS r ON r.reisnr = gemiddelde_duur.reisnr
+WHERE gem_duur = (
+    SELECT MAX(gem_duur) 
+    FROM (
+        SELECT reisnr, SUM(verblijfsduur)/COUNT(volgnr) AS gem_duur
+        FROM bezoeken
+        GROUP BY reisnr
+        ) AS gemiddelde_duur
+    )
+	
+select objectnaam
+from bezoeken
+where volgnr = (select max(volgnr)
+					from bezoeken
+					where reisnr = (select reisnr 
+									from reizen
+									where vertrekdatum = (select max(vertrekdatum)
+															from reizen)))
+	and reisnr = (select reisnr 
+					from reizen
+					where vertrekdatum = (select max(vertrekdatum)
+											from reizen))
+select objectnaam,diameter
+from bezoeken
+inner join hemelobjecten using (objectnaam)
+group by objectnaam,diameter
+having count(*) > (select count(*)
+					from bezoeken
+					where objectnaam like 'Jupiter'
+					group by objectnaam)
+order by objectnaam
+
+select min(bondsnr) as bondsnr
+from spelers
+union
+select min(bondsnr)
+from spelers
+where bondsnr <> (select min(bondsnr)
+from spelers)
+
+select naam, voorletters, plaats
+from spelers
+where spelersnr in (select spelersnr
+from wedstrijden
+where teamnr in (select teamnr from teams where divisie like 'tweede')) and spelersnr not in(select spelersnr from boetes where datum < '1981-01-01')
+order by naam, voorletters,plaats
+
+select spelersnr
+from spelers
+where not exists
+        (select teamnr
+        from teams
+        where teamnr not in(select teamnr
+                            from wedstrijden
+                            where spelers.spelersnr = wedstrijden.spelersnr)
+        )
+
+select spelersnr, bedrag, age(datum)
+from boetes
+where bedrag in (select max(bedrag)
+                 from boetes b2
+                 where b2.spelersnr=boetes.spelersnr
+                 group by b2.spelersnr)
+order by bedrag desc, age
+			
+select spelersnr, naam
+from spelers
+where spelersnr not in (select spelersnr
+from wedstrijden
+where teamnr = 1
+group by spelersnr)
+order by naam, spelersnr
+
+select  naam, voorletters, geb_datum
+from spelers inner join (select spelersnr
+                         from boetes
+                         group by spelersnr
+                         having count(*) > (select count(*)
+                                            from wedstrijden
+                                            where wedstrijden.spelersnr = boetes.spelersnr
+        )
+) AS boete using(spelersnr)
+order by naam
+
+select spelersnr, naam
+from spelers 
+inner join boetes using(spelersnr)
+where plaats = 'Rijswijk' and (bedrag, datum) in (
+        select bedrag, datum
+        from boetes
+        where bedrag = 25 and extract (YEAR from datum) = 1980
+)
+group by  spelersnr
+order by spelersnr
+
+select spelers.spelersnr, naam, voorletters, count(boetes.bedrag) as aantalboetes, (select count(*) from teams where teams.spelersnr = spelers.spelersnr) as aantalteams
+from spelers
+inner join boetes using (spelersnr)
+where spelersnr in (select spelersnr
+					from teams)
+group by spelers.spelersnr
+
+select count(*) as aantal_boetes, round((select sum(bedrag) from boetes)) as totaal_bedrag,
+		round((select min(bedrag) from boetes)) as minimum, round((select max(bedrag) from boetes)) as maximum
+from boetes
+
+Joins 1
+
+select naam, voorletters, plaats
+from spelers
+where spelers.spelersnr in (select spelersnr
+from wedstrijden
+where teamnr in (select teamnr from teams where divisie ilike 'tweede'))
+and (select count(*) from boetes where boetes.spelersnr = spelers.spelersnr and datum < '01-01-1981') =0
+order by naam, voorletters,plaats
+
+SELECT spelersnr, naam
+FROM spelers
+WHERE spelersnr NOT IN (SELECT spelersnr FROM wedstrijden WHERE teamnr = 1)
+ORDER BY naam, spelersnr
+
+SELECT wedstrijdnr
+FROM wedstrijden
+WHERE teamnr IN (SELECT teamnr
+FROM teams
+WHERE spelersnr = 6)
+
+select begin_datum, naam, (straat || ' ' || huisnr || ' ' || plaats || ' ' ||postcode) as adres
+from spelers
+inner join bestuursleden on bestuursleden.spelersnr = spelers.spelersnr and lower(bestuursleden.functie) like 'voorzitter%'
+
+SELECT wedstrijdnr
+FROM wedstrijden
+WHERE teamnr IN (SELECT teamnr
+FROM teams
+WHERE spelersnr = 6)
+
+select begin_datum, naam, (straat || ' ' || huisnr || ' ' || plaats || ' ' ||postcode) as adres
+from spelers
+inner join bestuursleden on bestuursleden.spelersnr = spelers.spelersnr and lower(bestuursleden.functie) like 'voorzitter%'
+	
+select betalingsnr, bedrag, round(bedrag / (select sum(bedrag) from boetes)*100,2)as round
+from boetes
+order by 1,2,3
+
+SELECT naam, voorletters, plaats
+FROM spelers
+WHERE spelersnr IN
+(SELECT spelersnr
+FROM boetes
+WHERE bedrag > 50)
+order by 1,2,3

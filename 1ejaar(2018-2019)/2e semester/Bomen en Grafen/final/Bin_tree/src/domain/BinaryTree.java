@@ -1,5 +1,7 @@
 package domain;
 
+import java.util.ArrayList;
+
 public class BinaryTree<E> {
 	private E data;
 	private BinaryTree<E> leftTree, rightTree;
@@ -76,5 +78,18 @@ public class BinaryTree<E> {
 	    if (this.rightTree != null) total += this.rightTree.count(data);
 	    return total;
     }
+
+    public ArrayList<E> getNodesAtDistance(int k){
+        ArrayList<E> pad = new ArrayList<>();
+        if (k == 0) {
+            pad.add(this.data);
+            return pad;
+        }if (this.leftTree != null) pad.addAll(leftTree.getNodesAtDistance(k - 1));
+        if (this.rightTree != null) pad.addAll(rightTree.getNodesAtDistance(k - 1));
+
+        return pad;
+    }
+
+
 
 }
