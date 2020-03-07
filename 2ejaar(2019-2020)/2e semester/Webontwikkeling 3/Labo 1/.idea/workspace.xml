@@ -7,105 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1927fb9-b54e-48b6-95b7-3299e2c00867" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/.idea/libraries/selenium_server_standalone_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/src/domain/db/DbException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/src/domain/db/PersonDb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/src/domain/db/PersonDbInMemory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/src/domain/db/ProductDb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/src/domain/db/ProductDbInMemory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/src/domain/model/DomainException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/src/domain/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/src/domain/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/src/domain/model/ShopService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/src/ui/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/src/ui/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/web/activiteiten.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/web/addProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/web/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/web/deletePerson.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/web/deleteProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/web/editProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/web/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/web/images/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/web/images/bannerKlein.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/web/images/belgischHockeyTeam.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/web/personoverview.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/web/productenoverview.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/web/signUp.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/activiteiten.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/addProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/deletePerson.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/deleteProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/editProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/productenoverview.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/Labo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/Labo1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Labo1/Labo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Labo1/Labo1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/Javascript/week08_JS" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/Javascript/week08_JS" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/controller/Servlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/DbException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/DbException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/PersonDbInMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/PersonDbInMemory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/ProductDbInMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/ProductDbInMemory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/DomainException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/DomainException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/ShopService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/ShopService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/personoverview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/personoverview.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/signUp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/signUp.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/META-INF/untitled.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/controller/Servlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/domain/db/DbException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/domain/db/PersonDbInMemory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/domain/db/ProductDbInMemory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/domain/model/DomainException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/domain/model/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/domain/model/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/domain/model/ShopService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/untitled/test/view/RegisterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/untitled/test/view/SeleniumWorksWellTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/db/DbException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/db/DbException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/db/PersonDbInMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/db/PersonDbInMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/db/PersonDbSql.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/db/ProductDbInMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/db/ProductDbInMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/db/ProductdbSql.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/model/DomainException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/model/DomainException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/model/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/model/ShopService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/controller/Servlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/controller/handler/DeletePersonSubmitHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/controller/handler/DeleteSubmitHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/controller/handler/HandlerFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/controller/handler/RequestHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/controller/handler/activiteitenHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/controller/handler/addProductSubmitHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/controller/handler/addProductenHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/controller/handler/changeTeamHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/controller/handler/checkPasswordSubmitHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/controller/handler/editProductHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/controller/handler/editProductSubmitHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/controller/handler/homeHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/controller/handler/overviewHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/controller/handler/productenHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/controller/handler/signUpHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/controller/handler/signUpSubmitHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test/view/RegisterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test/view/SeleniumWorksWellTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/personoverview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/personoverview.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/signUp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/signUp.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -118,10 +21,12 @@
     <session id="-249371537">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -218,7 +123,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/domain/db/PersonDbInMemory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-112">
+            <state relative-caret-position="17">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
@@ -287,7 +192,7 @@
       <list />
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -465,16 +370,20 @@
       <updated>1582996990963</updated>
       <workItem from="1582996994312" duration="1937000" />
       <workItem from="1583004905086" duration="599000" />
+      <workItem from="1583141551598" duration="552000" />
+      <workItem from="1583592815105" duration="64000" />
+      <workItem from="1583592904736" duration="34000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2536000" />
+    <option name="totallyTimeSpent" value="3186000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="1" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945295" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26586434" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -587,7 +496,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/db/PersonDbInMemory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
+        <state relative-caret-position="17">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
