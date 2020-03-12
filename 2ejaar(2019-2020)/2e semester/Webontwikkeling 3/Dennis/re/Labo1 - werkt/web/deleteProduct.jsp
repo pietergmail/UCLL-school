@@ -27,7 +27,7 @@
         <form action="Controller?command=DeleteSubmit" method="post">
             <label for="submit">Are you sure to delete?</label>
             <input type="submit" id="submit">
-            <input type="hidden" name="id" value="${param.id}">
+            <input type="hidden" name="id" value="<c:out value='${param.id}'/>">
         </form>
         <a href="Controller?command=ProductOverview">cancel delete</a>
     </main>
