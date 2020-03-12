@@ -52,9 +52,9 @@ public class main {
 
     public static void setup() throws SQLException {
         Properties properties = new Properties();
-        String url = "jdbc:postgresql://databanken.ucll.be:61920/2TX31?currentSchema=herremanspieter";
+        String url = "jdbc:postgresql://databanken.ucll.be:61920/2TX32";
         properties.setProperty("user", "local_r0745616");
-        properties.setProperty("password", "XPMé6-4éibJtZE");
+        properties.setProperty("password", "K5b)W7-uOvàw4");
         properties.setProperty("ssl", "true");
         properties.setProperty("sslfactory", "org.postgresql.ssl.NonValidatingFactory");
         properties.setProperty("sslmode", "prefer");

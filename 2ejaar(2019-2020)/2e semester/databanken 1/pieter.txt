@@ -1,4 +1,4 @@
-elect klanten.klantnr,count(distinct(bezoeken.reisnr)) as aantal,max(verblijfsduur) as langstebezoek
+SELECT klanten.klantnr,count(distinct(bezoeken.reisnr)) as aantal,max(verblijfsduur) as langstebezoek
 from klanten
 full outer join deelnames on deelnames.klantnr = klanten.klantnr
 left outer join reizen on reizen.reisnr = deelnames.reisnr
