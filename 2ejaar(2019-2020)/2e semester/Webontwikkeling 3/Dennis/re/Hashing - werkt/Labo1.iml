@@ -56,5 +56,8 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="selenium-server-standalone-3.141.59" level="project" />
+    <orderEntry type="library" name="jstl-1.2" level="project" />
+    <orderEntry type="library" name="postgresql-42.2.10" level="project" />
   </component>
 </module>

@@ -20,16 +20,16 @@
     <context-param>
         <param-name>url</param-name>
         <param-value>
-            jdbc:postgresql://databanken.ucll.be:51920/2TX31?currentSchema=WinnepenninckxDennisWeb3
+            jdbc:postgresql://databanken.ucll.be:61920/2TX32
         </param-value>
     </context-param>
     <context-param>
         <param-name>user</param-name>
-        <param-value>local_r0748117</param-value>
+        <param-value>local_r0745616</param-value>
     </context-param>
     <context-param>
         <param-name>password</param-name>
-        <param-value>sm(ç6ù=-Hju376(</param-value>
+        <param-value>K5b)W7-uOvàw4</param-value>
     </context-param>
     <context-param>
         <param-name>currentSchema</param-name>

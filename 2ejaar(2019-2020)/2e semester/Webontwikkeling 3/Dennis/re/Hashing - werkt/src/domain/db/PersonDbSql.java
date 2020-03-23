@@ -30,7 +30,7 @@ public class PersonDbSql implements PersonDb {
 
         try (Connection connection = DriverManager.getConnection(url, properties);
              Statement statement = connection.createStatement()) {
-            result = statement.executeQuery("select * from \"WinnepenninckxDennisWeb3\".\"Person\" where userid = '" + personId+"'");
+            result = statement.executeQuery("select * from \"herremanspieter\".\"person\" where userid = '" + personId+"'");
             p = makePersonFromSet(result);
         } catch (Exception e) {
             e.printStackTrace();
@@ -44,7 +44,7 @@ public class PersonDbSql implements PersonDb {
         ArrayList list = new ArrayList();
         try (Connection connection = DriverManager.getConnection(url, properties);
              Statement statement = connection.createStatement()) {
-            result = statement.executeQuery("SELECT * FROM \"WinnepenninckxDennisWeb3\".\"Person\"");
+            result = statement.executeQuery("SELECT * FROM \"herremanspieter\".\"person\"");
             list = (ArrayList) makePersonsFromSet(result);
         } catch (Exception e) {
             e.printStackTrace();
@@ -56,18 +56,17 @@ public class PersonDbSql implements PersonDb {
     @Override
     public void add(Person person) {
 
-        String firstname = person.getFirstName();
-        String userid = person.getUserid();
-        String lastname = person.getLastName();
-        String email = person.getEmail();
-        String password = person.getPassword();
+        String fillfirstname = person.getFirstName();
+        String uuid= person.getUserid();
+        String filllastname = person.getLastName();
+        String fillemail = person.getEmail();
+        String fillpassword = person.getPassword();
 
 
 
         try (Connection connection = DriverManager.getConnection(url, properties);
              Statement statement = connection.createStatement()) {
-            statement.executeUpdate("insert into \"WinnepenninckxDennisWeb3\".\"Person\"(userid,firstname,lastname,email,password)\n" +
-                    "values('" + userid + "','" + firstname + "','" + lastname + "','" + email + "','" + password + "')");
+            statement.execute("INSERT INTO \"herremanspieter\".\"person\"(userid,email,password, firstname,lastname) " +"values('"+ uuid +"','"+fillemail+"','"+fillpassword+"','"+fillfirstname+"','"+filllastname+"')");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -84,7 +83,7 @@ public class PersonDbSql implements PersonDb {
 
         try (Connection connection = DriverManager.getConnection(url, properties);
              Statement statement = connection.createStatement()) {
-            statement.executeUpdate("UPDATE  \"WinnepenninckxDennisWeb3\".\"Person\" \n" +
+            statement.executeUpdate("UPDATE  \"herremanspieter\".\"person\" \n" +
                     "set firstname='" + firstname + "',lastname='" + lastname + "',email='" + email + "',password='"+ password +"' \n" +
                     "Where productid = '" + userid +"'");
         }catch (Exception e){
@@ -97,7 +96,7 @@ public class PersonDbSql implements PersonDb {
     public void delete(String personId) {
         try (Connection connection = DriverManager.getConnection(url, properties);
              Statement statement = connection.createStatement()) {
-            statement.executeUpdate("delete from \"WinnepenninckxDennisWeb3\".\"Person\" \n where  userid = '" + personId +"'");
+            statement.executeUpdate("delete from \"herremanspieter\".\"person\" \n where  userid = '" + personId +"'");
         }catch (Exception e){
             e.printStackTrace();
         }
