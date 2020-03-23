@@ -23,10 +23,10 @@
     </header>
     <main>
         <form action="Controller?command=editProductSubmit" method="post" novalidate>
-            <p><label for="name">name:</label><input type="text" id="name" name="name"required value="${Product.name}"></p>
-            <p><label for="description">description:</label><input type="text" id="description" name="desc" required value="${Product.description}"></p>
-            <p><label for="price">price:</label><input type="text" id="price" name="price" required value="${Product.price}"></p>
-            <input type="hidden" value="${Product.productId}" name="id">
+            <p><label for="name">name:</label><input type="text" id="name" name="name"required value="<c:out value='${Product.name}'/>"></p>
+            <p><label for="description">description:</label><input type="text" id="description" name="desc" required value="<c:out value='${Product.description}'/>"></p>
+            <p><label for="price">price:</label><input type="text" id="price" name="price" required value="<c:out value='${Product.pirce}'/>"></p>
+            <input type="hidden" value="<c:out value='${Product.productId}'/>">
             <input type="submit">
         </form>
     </main>

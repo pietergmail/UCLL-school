@@ -29,7 +29,7 @@ public class ProductdbSql implements ProductDb {
 
         try (Connection connection = DriverManager.getConnection(url, properties);
              Statement statement = connection.createStatement()) {
-            result = statement.executeQuery("select * from \"WinnepenninckxDennisWeb3\".\"Product\" where productid = " + id);
+            result = statement.executeQuery("select * from \"herremanspieter\".\"person\" where productid = " + id);
             p = makeProdFromSet(result);
         }catch (Exception e){
             e.printStackTrace();
@@ -44,7 +44,7 @@ public class ProductdbSql implements ProductDb {
         ArrayList list = new ArrayList();
         try (Connection connection = DriverManager.getConnection(url, properties);
              Statement statement = connection.createStatement()) {
-            result = statement.executeQuery("SELECT * FROM \"WinnepenninckxDennisWeb3\".\"Product\"");
+            result = statement.executeQuery("SELECT * FROM \"herremanspieter\".\"product\"");
             list = (ArrayList) makeProductsFromSet(result);
         }catch (Exception e){
             e.printStackTrace();
@@ -62,7 +62,7 @@ public class ProductdbSql implements ProductDb {
         double price = product.getPrice();
         try (Connection connection = DriverManager.getConnection(url, properties);
              Statement statement = connection.createStatement()) {
-            statement.executeUpdate("insert into \"WinnepenninckxDennisWeb3\".\"Product\"(productid, name,description,price)\n" +
+            statement.executeUpdate("insert into \"herremanspieter\".\"product\"(productid, name,description,price)\n" +
                     "values('" + id + "','" + name + "','" + description + "'," + price + ")");
         }catch (Exception e){
             e.printStackTrace();
@@ -79,7 +79,7 @@ public class ProductdbSql implements ProductDb {
 
         try (Connection connection = DriverManager.getConnection(url, properties);
              Statement statement = connection.createStatement()) {
-            statement.executeUpdate("UPDATE  \"WinnepenninckxDennisWeb3\".\"Product\" \n" +
+            statement.executeUpdate("UPDATE  \"herremanspieter\".\"product\" \n" +
                     "set name='" + name + "',description='" + description + "',price=" + price + "\n" +
                     "Where productid = '" + id +"'");
         }catch (Exception e){
@@ -92,7 +92,7 @@ public class ProductdbSql implements ProductDb {
     public void delete(String id) {
         try (Connection connection = DriverManager.getConnection(url, properties);
              Statement statement = connection.createStatement()) {
-            statement.executeUpdate("delete from \"WinnepenninckxDennisWeb3\".\"Product\" \n where  productid = '" + id +"'");
+            statement.executeUpdate("delete from \"herremanspieter\".\"product\" \n where  productid = '" + id +"'");
         }catch (Exception e){
             e.printStackTrace();
         }

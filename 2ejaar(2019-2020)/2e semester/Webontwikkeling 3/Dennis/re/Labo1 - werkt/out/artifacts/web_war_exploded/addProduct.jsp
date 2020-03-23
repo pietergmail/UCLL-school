@@ -36,12 +36,12 @@
         <form novalidate="novalidate" method="post" action="Controller?command=addProductSubmit">
             <!-- novalidate in order to be able to run tests correctly -->
             <p><label for="name">Name</label><input type="text" id="name" name="name"
-                                                         required value="${prevName}"></p>
+                                                         required value="<c:out value='${prevName}'/>"> </p>
 
             <p><label for="description">Description</label><input type="text" id="description" name="description"
-                                                               required value="${prevDescription}"></p>
+                                                               required value="<c:out value='${prevDescription}'/>"></p>
             <p><label for="price">Price</label><input type="text" id="price" name="price"
-                                                             required value="${prevPrice}"></p>
+                                                             required value="<c:out value='${prevPrice}'/>"></p>
 
             <p><input type="submit" id="signUp" value="Sign Up"></p>
 
