@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98713ec8-4f39-45fa-801d-8ee6322f7e30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/.idea/labo 5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/src/domain/BinaryMinHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/src/ui/BinaryMinHeapDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/.idea/libraries/jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/.idea/libraries/selenium_server_standalone_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 5/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 5/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 5/labo 5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo6/src/domain/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo6/src/ui/BreadthFirstSearchUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/grafen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/grafen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/min_heap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/min_heap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/min_heap/out/production/BG_Les6/domain/BinaryMinHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/min_heap/out/production/BG_Les6/domain/BinaryMinHeap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/out/production/labo 5/domain/BinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/out/production/labo 5/ui/BinaryTreeDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/Javascript/week08_JS" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/Javascript/week08_JS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/Labo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/Labo1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/DbException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/DbException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/PersonDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/PersonDb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/PersonDbInMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/PersonDbInMemory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/PersonDbSql.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/PersonDbSql.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/ProductDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/ProductDb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/ProductDbInMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/ProductDbInMemory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/ProductdbSql.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/ProductdbSql.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/DomainException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/DomainException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/ShopService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/ShopService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/ui/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/ui/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/META-INF/Labo1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/DbException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/DbException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/PersonDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/PersonDb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/PersonDbInMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/PersonDbInMemory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/PersonDbSql.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/PersonDbSql.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/ProductDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/ProductDb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/ProductDbInMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/ProductDbInMemory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/ProductdbSql.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/ProductdbSql.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/model/DomainException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/model/DomainException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/model/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/model/ShopService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/model/ShopService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/ui/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/ui/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/ui/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/ui/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/src/domain/db/PersonDbSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/src/domain/db/PersonDbSql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/src/domain/db/ProductdbSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/src/domain/db/ProductdbSql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/src/domain/db/DbException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/db/DbException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/src/domain/db/PersonDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/db/PersonDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/src/domain/db/PersonDbInMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/db/PersonDbInMemory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/src/domain/db/PersonDbSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/db/PersonDbSql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/src/domain/db/ProductDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/db/ProductDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/src/domain/db/ProductDbInMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/db/ProductDbInMemory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/src/domain/db/ProductDbSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/db/ProductDbSql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/src/domain/model/DomainException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/model/DomainException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/src/domain/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/src/domain/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/src/domain/service/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/service/ShopService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/src/ui/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/ui/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/src/ui/view/Desktop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/ui/view/Desktop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/test/test/view/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/test/test/view/RegisterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/test/test/view/SeleniumWorksWellTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/test/test/view/SeleniumWorksWellTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/web/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/web/error404.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/error404.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/web/error500.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/error500.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/web/images/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/images/banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/web/images/bannerKlein.png" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/images/bannerKlein.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/web/images/belgischHockeyTeam.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/images/belgischHockeyTeam.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/web/personoverview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/personoverview.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/web/productoverview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/productoverview.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/web/signUp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/signUp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/web/updateproduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/updateproduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/web/verwijderpersoon.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/verwijderpersoon.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/web/verwijderproduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/verwijderproduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 4/web/voegproducttoe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/voegproducttoe.jsp" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1240321175">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Labo 1" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98713ec8-4f39-45fa-801d-8ee6322f7e30" name="Default Changelist" comment="" />
+      <created>1584974353810</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584974353810</updated>
+      <workItem from="1584974354915" duration="7000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945295" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+</project>
