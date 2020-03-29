@@ -11,6 +11,8 @@
           <element id="file-copy" path="$PROJECT_DIR$/../../postgresql-42.2.8(1).jar" />
           <element id="file-copy" path="$USER_HOME$/Downloads/jstl-1.2.jar" />
           <element id="file-copy" path="$USER_HOME$/Downloads/junit-4.13-beta-3.jar" />
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="postgresql-42.2.10" />
         </element>
       </element>
     </root>

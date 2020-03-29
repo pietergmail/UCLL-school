@@ -86,7 +86,7 @@ public class Controller extends HttpServlet {
                 destination = addProducten(request, response);
                 break;
             case "addProductSubmit":
-                destination = addProductSubmit(request, response);
+                addProductSubmit(request, response);
                 break;
             case "editProduct":
                 destination = editProduct(request, response);
@@ -242,7 +242,7 @@ public class Controller extends HttpServlet {
         return "addProduct.jsp";
     }
 
-    protected String addProductSubmit(HttpServletRequest request, HttpServletResponse response) {
+    protected void addProductSubmit(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         Product p = new Product();
         ArrayList<String> errors = new ArrayList<>();
         UUID id = UUID.randomUUID();
@@ -253,10 +253,10 @@ public class Controller extends HttpServlet {
 
         if (errors.size() > 0) {
             request.setAttribute("errors", errors);
-            return "addProduct.jsp";
+            request.getRequestDispatcher("addProduct.jsp").forward(request, response);
         } else {
             service.addProduct(p);
-            return producten(request, response);
+            response.sendRedirect("Controller?action=producten");
         }
     }
 
