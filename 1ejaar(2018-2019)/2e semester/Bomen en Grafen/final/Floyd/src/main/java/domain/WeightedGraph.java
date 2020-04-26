@@ -18,7 +18,7 @@ public class WeightedGraph {
 		double[][] D = this.gewichtenMatrix.clone();//nieuwe matrix clone van gewichtenmatrix
 		int aantal = gewichtenMatrix.length;//aantal is lengte gewichtmatrix
 		for (int k = 0; k < aantal; k++) {//ga door de lengte
-			for (int i = 0; i < aantal; i++) {//ga door de lengtenog eens
+			for (int i = 0; i < aantal; i++) {//ga door de lengte nog eens
 				for (int j = 0; j < aantal; j++) {//ga door de lengte nog eens
 					if (D[i][k] + D[k][j] < D[i][j]) {//bepaalt pointermatrix (als deze korter is dan de huidige waarde)
 						D[i][j] = D[i][k] + D[k][j];//vervang de huidige waarde door nieuwe waarde
