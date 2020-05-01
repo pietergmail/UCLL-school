@@ -2,52 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20b7b557-144c-44d1-99b3-a5e31a3961cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/.idea/labo 5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/src/domain/BinaryMinHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/src/ui/BinaryMinHeapDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo 5/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo 5/labo 5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/BreadthFirstSearchUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/grafen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/grafen/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/min_heap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/min_heap/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/min_heap/out/production/BG_Les6/domain/BinaryMinHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/min_heap/out/production/BG_Les6/domain/BinaryMinHeap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/out/production/labo 5/domain/BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/out/production/labo 5/ui/BinaryTreeDriver.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week08_JS-master/assignments/03-05soreBord/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/scriptalen/examen-scripting/count-courses/student-solved.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/scriptalen/examen-scripting/count-courses/student-solved.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Dennis/Javascript/week08_JS" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/Javascript/week08_JS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/src/domain/db/DbException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/db/DbException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/src/domain/db/PersonDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/db/PersonDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/src/domain/db/PersonDbInMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/db/PersonDbInMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/src/domain/db/PersonDbSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/db/PersonDbSql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/src/domain/db/ProductDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/db/ProductDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/src/domain/db/ProductDbInMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/db/ProductDbInMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/src/domain/db/ProductDbSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/db/ProductDbSql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/src/domain/model/DomainException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/model/DomainException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/src/domain/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/src/domain/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/src/domain/service/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/service/ShopService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/src/ui/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/ui/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/src/ui/view/Desktop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/ui/view/Desktop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/test/test/view/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/test/test/view/RegisterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/test/test/view/SeleniumWorksWellTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/test/test/view/SeleniumWorksWellTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/web/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/error.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/web/error404.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/error404.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/web/error500.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/error500.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/web/images/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/images/banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/web/images/bannerKlein.png" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/images/bannerKlein.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/web/images/belgischHockeyTeam.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/images/belgischHockeyTeam.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/web/personoverview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/personoverview.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/web/productoverview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/productoverview.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/web/signUp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/signUp.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/web/updateproduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/updateproduct.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/web/verwijderpersoon.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/verwijderpersoon.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/web/verwijderproduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/verwijderproduct.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo 4/web/voegproducttoe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/voegproducttoe.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,10 +17,11 @@
     <session id="1322123011">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -102,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ui/BreadthFirstSearchUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -126,7 +84,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -137,6 +95,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,7 +129,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -244,16 +202,17 @@
       <workItem from="1584629008387" duration="1327000" />
       <workItem from="1584887032841" duration="599000" />
       <workItem from="1584973217769" duration="87000" />
+      <workItem from="1588265813772" duration="9000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2013000" />
+    <option name="totallyTimeSpent" value="2022000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2603939" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12953092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -300,8 +259,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/BreadthFirstSearchUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
         </state>
       </provider>
     </entry>

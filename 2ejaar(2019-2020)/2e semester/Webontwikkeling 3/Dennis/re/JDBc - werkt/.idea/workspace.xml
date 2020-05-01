@@ -7,35 +7,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2de7d86-e281-473d-b4bf-84ff49fff1cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../proefExamen2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../proefexamen/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hashing - werkt/src/ui/controller/ControllerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hashing - werkt/src/ui/controller/Controller_old.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hashing - werkt/src/ui/controller/DeletePersonSubmit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hashing - werkt/src/ui/controller/DeleteSubmit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hashing - werkt/src/ui/controller/Overview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hashing - werkt/src/ui/controller/RequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hashing - werkt/src/ui/controller/SignUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hashing - werkt/src/ui/controller/activiteiten.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hashing - werkt/src/ui/controller/addProducten.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hashing - werkt/src/ui/controller/addProductsubmit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hashing - werkt/src/ui/controller/changeTeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hashing - werkt/src/ui/controller/checkPasswordSubmit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hashing - werkt/src/ui/controller/editProductSubmit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hashing - werkt/src/ui/controller/home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hashing - werkt/src/ui/controller/producten.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hashing - werkt/src/ui/controller/signUpSubmit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/domain/db/DbException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/domain/db/PersonDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/domain/db/PersonDbInMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/domain/db/PersonDbSql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/domain/db/ProductDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/domain/db/ProductDbInMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/domain/db/ProductdbSql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/domain/model/DomainException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/domain/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/domain/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/domain/model/ShopService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/ControllerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/Controller_old.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/DeletePersonSubmit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/DeleteSubmit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/RequestHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/activiteiten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/addProducten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/addProductsubmit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/changeTeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/checkPasswordSubmit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/editProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/editProductSubmit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/overview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/producten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/signUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/signUpSubmit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/web/Labo1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/web/activiteiten.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/web/addProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/web/checkPass.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/web/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/web/deletePerson.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/web/deleteProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/web/editProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/web/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/web/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/web/images/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/web/images/bannerKlein.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/web/images/belgischHockeyTeam.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/web/images/oopsie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/web/personoverview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/web/productenoverview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../final/web/signUp.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week08_JS-master/assignments/03-05soreBord/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../1ejaar(2018-2019)/2e semester/scriptalen/examen-scripting/count-courses/student-solved.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../1ejaar(2018-2019)/2e semester/scriptalen/examen-scripting/count-courses/student-solved.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Javascript/week08_JS" beforeDir="false" afterPath="$PROJECT_DIR$/../../Javascript/week08_JS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../proefExamen2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../proefExamen2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../proefexamen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../proefexamen/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hashing - werkt/.idea/artifacts/web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hashing - werkt/.idea/artifacts/web_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hashing - werkt/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hashing - werkt/.idea/artifacts/web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hashing - werkt/.idea/artifacts/Labo1_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hashing - werkt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hashing - werkt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hashing - werkt/Labo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hashing - werkt/Labo1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hashing - werkt/out/production/Labo1/ui/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Hashing - werkt/out/production/Labo1/ui/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hashing - werkt/src/ui/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hashing - werkt/src/ui/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hashing - werkt/out/production/Labo1/ui/controller/Controllerold.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../labo 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../labo 2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../labo 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../labo 4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../labo 5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../labo 5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../labo6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../labo6/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,30 +85,39 @@
     <session id="-216826116">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="5" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ui/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2074">
+            <state relative-caret-position="-3960">
               <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ui/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -178,7 +224,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,7 +274,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -240,7 +286,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hashing - werkt" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -389,17 +435,18 @@
       <workItem from="1576488703779" duration="21000" />
       <workItem from="1584988352318" duration="38000" />
       <workItem from="1585043445121" duration="417000" />
+      <workItem from="1588322948817" duration="12000" />
+      <workItem from="1588348330052" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="455000" />
+    <option name="totallyTimeSpent" value="479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2549234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26586434" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -458,7 +505,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ui/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2074">
+        <state relative-caret-position="-3960">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
@@ -481,6 +528,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>

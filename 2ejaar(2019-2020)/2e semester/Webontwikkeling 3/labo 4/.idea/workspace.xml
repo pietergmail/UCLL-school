@@ -2,102 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90987436-d159-4070-bb23-665a893dc23f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/.idea/labo 5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/src/domain/BinaryMinHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/src/ui/BinaryMinHeapDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/.idea/libraries/jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/.idea/libraries/postgresql_42_2_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/.idea/libraries/selenium_server_standalone_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo 5/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo 5/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo 5/labo 5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo6/src/domain/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo6/src/ui/BreadthFirstSearchUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/grafen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/grafen/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/min_heap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/min_heap/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/min_heap/out/production/BG_Les6/domain/BinaryMinHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/min_heap/out/production/BG_Les6/domain/BinaryMinHeap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/out/production/labo 5/domain/BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bomen en grafen/labo 5/out/production/labo 5/ui/BinaryTreeDriver.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week08_JS-master/assignments/03-05soreBord/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/scriptalen/examen-scripting/count-courses/student-solved.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/scriptalen/examen-scripting/count-courses/student-solved.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Dennis/Javascript/week08_JS" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/Javascript/week08_JS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/Labo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/Labo1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/DbException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/DbException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/PersonDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/PersonDb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/PersonDbInMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/PersonDbInMemory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/PersonDbSql.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/PersonDbSql.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/ProductDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/ProductDb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/ProductDbInMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/ProductDbInMemory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/ProductdbSql.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/ProductdbSql.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/DomainException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/DomainException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/ShopService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/domain/model/ShopService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/ui/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/ui/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/artifacts/web_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/META-INF/Labo1.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/DbException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/DbException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/PersonDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/PersonDb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/PersonDbInMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/PersonDbInMemory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/PersonDbSql.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/PersonDbSql.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/ProductDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/ProductDb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/ProductDbInMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/ProductDbInMemory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/ProductdbSql.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/db/ProductdbSql.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/model/DomainException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/model/DomainException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/model/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/model/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/model/ShopService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/domain/model/ShopService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/ui/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/ui/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/ui/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/out/production/Labo1/ui/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/src/domain/db/PersonDbSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/src/domain/db/PersonDbSql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/src/domain/db/ProductdbSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/src/domain/db/ProductdbSql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/src/ui/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/src/ui/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Hashing - werkt/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/ui/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/out/artifacts/web_war_exploded/WEB-INF/classes/ui/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/out/artifacts/web_war_exploded/WEB-INF/lib/jstl.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/out/artifacts/web_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/out/artifacts/web_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/out/artifacts/web_war_exploded/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/out/artifacts/web_war_exploded/addProduct.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/out/artifacts/web_war_exploded/deletePerson.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/out/artifacts/web_war_exploded/deletePerson.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/out/artifacts/web_war_exploded/deleteProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/out/artifacts/web_war_exploded/deleteProduct.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/out/artifacts/web_war_exploded/editProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Dennis/re/Labo1 - werkt/out/artifacts/web_war_exploded/editProduct.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo 1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/db/DbException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/db/DbException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/db/PersonDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/db/PersonDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/db/PersonDbInMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/db/PersonDbInMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/db/PersonDbSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/db/PersonDbSql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/db/ProductDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/db/ProductDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/db/ProductDbInMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/db/ProductDbInMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/db/ProductDbSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/db/ProductDbSql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/model/DomainException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/model/DomainException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/service/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/service/ShopService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/ui/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/view/Desktop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/ui/view/Desktop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test/view/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/test/test/view/RegisterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test/view/SeleniumWorksWellTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/test/test/view/SeleniumWorksWellTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/error.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/error404.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/error404.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/error500.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/error500.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/images/banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/bannerKlein.png" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/images/bannerKlein.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/belgischHockeyTeam.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/images/belgischHockeyTeam.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/personoverview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/personoverview.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/productoverview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/productoverview.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/signUp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/signUp.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/updateproduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/updateproduct.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/verwijderpersoon.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/verwijderpersoon.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/verwijderproduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/verwijderproduct.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/voegproducttoe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/web/voegproducttoe.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo6/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -109,10 +18,10 @@
     <session id="-1633348183">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -137,6 +46,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,11 +54,45 @@
               <item name="labo 4" type="b2602c69:ProjectViewProjectNode" />
               <item name="labo 4" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="labo 4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labo 4" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labo 4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labo 4" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labo 4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labo 4" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="labo 4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labo 4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labo 4" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="labo 4" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labo 4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labo 4" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="labo 4" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -156,7 +100,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584024554669" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../labo 5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../labo 2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -185,11 +129,12 @@
       <workItem from="1584024541992" duration="16000" />
       <workItem from="1584024590529" duration="37000" />
       <workItem from="1584980567721" duration="6000" />
+      <workItem from="1588265987452" duration="15000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59000" />
+    <option name="totallyTimeSpent" value="74000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />

@@ -8,3 +8,4 @@ def count_courses(input):
         ret[student["studentId"]] = len(student["courses"])
 
     return ret
+
