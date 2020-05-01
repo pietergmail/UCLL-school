@@ -1,20 +1,18 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="web:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/web_war_exploded</output-path>
+  <artifact type="exploded-war" name="Labo1:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Labo1_war_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="Labo1/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="Labo1" />
         </element>
         <element id="directory" name="lib">
-          <element id="file-copy" path="$PROJECT_DIR$/../../postgresql-42.2.8(1).jar" />
-          <element id="file-copy" path="$USER_HOME$/Downloads/jstl-1.2.jar" />
-          <element id="file-copy" path="$USER_HOME$/Downloads/junit-4.13-beta-3.jar" />
           <element id="library" level="project" name="jstl-1.2" />
           <element id="library" level="project" name="postgresql-42.2.10" />
+          <element id="library" level="project" name="selenium-server-standalone-3.141.59" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="Labo1/web/Web" />
     </root>
   </artifact>
 </component>
