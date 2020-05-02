@@ -3,9 +3,11 @@ package domain.model;
 import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Array;
 import java.math.BigInteger;
+import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -15,15 +17,15 @@ public class Person {
 	private String password;
 	private String firstName;
 	private String lastName;
-	private String hashedPassword;
-	private ArrayList<Product> shoppingcart;
-	public Person(String userid, String email, String password, String firstName, String lastName) {
+	private String role;
+
+	public Person(String userid, String email, String password, String firstName, String lastName, String role) {
 		setUserid(userid);
 		setEmail(email);
 		setPassword(password);
 		setFirstName(firstName);
 		setLastName(lastName);
-		shoppingcart = new ArrayList<>();
+		setRole(role);
 	}
 
 	public Person() {
@@ -65,10 +67,6 @@ public class Person {
 		return password;
 	}
 
-	public String getHashedPassword() {
-		return hashedPassword;
-	}
-
 	public boolean isCorrectPassword(String password) {
 		if(password.isEmpty()){
 			throw new IllegalArgumentException("No password given");
@@ -87,21 +85,37 @@ public class Person {
 			throw new IllegalArgumentException("No password given");
 		}
 		try {
-			hashedPassword = hashPassword(password);
+			this.password = hashPassword(password);
 		} catch (NoSuchAlgorithmException e) {
 			e.printStackTrace();
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		}
 	}
-	private String hashPassword(String s) throws NoSuchAlgorithmException, UnsupportedEncodingException {
+	private String hashPassword(String password) throws NoSuchAlgorithmException, UnsupportedEncodingException {
 		MessageDigest crypt = MessageDigest.getInstance("SHA-512");
 		crypt.reset();
-		byte[] passwordBytes = s.getBytes("UTF-8");
-		crypt.update(passwordBytes);
-		byte[] digest = crypt.digest();
-		return new BigInteger(1, digest).toString(16);
+
+		// encrypts
+		crypt.update(password.getBytes("UTF-8"));
+
+		//16 hexadecimal system the sixteen digits are "0–9" followed by "A–F".
+		String hashedPassword = new BigInteger(1, crypt.digest()).toString(16);
+		System.out.println(hashedPassword.length());
+		return hashedPassword;
 	}
+
+	public String getRole(){return this.role;}
+
+	public void setRole(String role){
+	    if(role.equals("Admin") || role.equals("User")){
+            this.role = role;
+        }
+	    else{
+	        throw new IllegalArgumentException("Not a valid role");
+        }
+	}
+
 	public boolean isCorrectPasswordHashed(String s) throws NoSuchAlgorithmException, UnsupportedEncodingException {
 		return hashPassword(s).equals(password);
 	}
@@ -127,10 +141,30 @@ public class Person {
 		this.lastName = lastName;
 	}
 
-	public void addproduct(Product produ)
+	public boolean isValidPassword(String password){return password != null && password.length() > 2;}
+
+	public boolean isValidName(String name){return name != null && !name.isEmpty();}
+
+	public boolean isPasswordCorrect(String password){
+		try {
+			return this.password.equals(hashPassword(password));
+		} catch (NoSuchAlgorithmException e) {
+			e.printStackTrace();
+		} catch (UnsupportedEncodingException e) {
+			e.printStackTrace();
+		}
+		return false;
+	}
 
 	@Override
 	public String toString(){
 		return getFirstName() + " " + getLastName() + ": " + getUserid() + ", " + getEmail();
+	}
+
+
+	public Person getpersonIfAuthenticated(String password){
+		if(this != null && this.isPasswordCorrect(password))
+			return this;
+		return null;
 	}
 }

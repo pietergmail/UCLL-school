@@ -1,6 +1,7 @@
 package domain.db;
 
 import domain.model.Person;
+import domain.model.Product;
 
 import java.util.List;
 

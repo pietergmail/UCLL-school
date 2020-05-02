@@ -33,6 +33,8 @@
             </div>
         </c:if>
 
+
+
         <form novalidate="novalidate" method="post" action="Controller?command=addProductSubmit">
             <!-- novalidate in order to be able to run tests correctly -->
             <p><label for="name">Name</label><input type="text" id="name" name="name"

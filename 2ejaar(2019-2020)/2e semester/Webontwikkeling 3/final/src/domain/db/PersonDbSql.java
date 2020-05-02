@@ -1,6 +1,7 @@
 package domain.db;
 
 import domain.model.Person;
+import domain.model.Product;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -62,12 +63,12 @@ public class PersonDbSql implements PersonDb {
         String filllastname = person.getLastName();
         String fillemail = person.getEmail();
         String fillpassword = person.getPassword();
-
+        String role = person.getRole();
 
 
         try (Connection connection = DriverManager.getConnection(url, properties);
              Statement statement = connection.createStatement()) {
-            statement.execute("INSERT INTO \"herremanspieter\".\"person\"(userid,email,password, firstname,lastname) " +"values('"+ uuid +"','"+fillemail+"','"+fillpassword+"','"+fillfirstname+"','"+filllastname+"')");
+            statement.execute("INSERT INTO \"herremanspieter\".\"person\"(userid,email,password, firstname,lastname, role) " +"values('"+ uuid +"','"+fillemail+"','"+fillpassword+"','"+fillfirstname+"','"+filllastname+"','"+role+"')");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -117,8 +118,9 @@ public class PersonDbSql implements PersonDb {
             String lastname = result.getString("lastname");
             String email = result.getString("email");
             String password = result.getString("password");
+            String role = result.getString("role");
             try {    // validation of data stored in database
-                p = new Person(userid, email, password, fistname, lastname);
+                p = new Person(userid, email, password, fistname, lastname, role);
             } catch (IllegalArgumentException e) {
                 System.out.println(e.getMessage());
             }
@@ -140,8 +142,9 @@ public class PersonDbSql implements PersonDb {
                 String lastname = result.getString("lastname");
                 String email = result.getString("email");
                 String password = result.getString("password");
+                String role = result.getString("role");
                 try {    // validation of data stored in database
-                    p = new Person(userid, email, password, fistname, lastname);
+                    p = new Person(userid, email, password, fistname, lastname, role);
                     Persons.add(p);
                 } catch (IllegalArgumentException e) {
                     System.out.println(e.getMessage());

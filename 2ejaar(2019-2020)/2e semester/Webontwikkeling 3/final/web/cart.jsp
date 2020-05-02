@@ -22,11 +22,25 @@
     </header>
     <main>
         <table>
-            <tr>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Price</th>
-            </tr>
+            <c:choose>
+                <c:when test="${cart!= null}">
+                    <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                    <c:forEach items="${cart}" var="Product">
+                        <tr>
+                            <td>${Product.name}</td>
+                            <td>${Product.description}</td>
+                            <td>${Product.price}</td>
+                        </tr>
+                    </c:forEach>
+                </c:when>
+                <c:otherwise>
+                    <p>The cart is empty.</p>
+                </c:otherwise>
+            </c:choose>
             <caption>Product Overview</caption>
         </table>
     </main>

@@ -29,14 +29,32 @@
         aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
         qui ratione voluptatem sequi nesciunt.
         <br>
-        <a href="Controller?command=changeTeam">
-            <c:choose>
-                <c:when test="${IndexPicture == 'yes' or cookie.IndexPicture.value == 'yes'}">In the future, don't show this picture anymore</c:when>
-                <c:when test="${IndexPicture == 'no' or IndexPicture == null}">Please, show my team</c:when>
-            </c:choose>
-        </a>
         <c:choose>
-            <c:when test="${IndexPicture == 'yes' or cookie.IndexPicture.value == 'yes'}"><img src="images/belgischHockeyTeam.jpg" alt="hockey team"></c:when>
+            <c:when test="${person!=null}">
+                <p>Welcome, ${person.firstName}, ${person.role}</p>
+                <form action="Controller?command=LogOut" method="post">
+                    <input type="submit" value="Log Out">
+                </form>
+            </c:when>
+            <c:otherwise>
+                <p>Please log in</p>
+                <c:if test="${error != null}">
+                    <p class="error">
+                        ${error}
+                    </p>
+                </c:if>
+                <form action="Controller?command=Login" method="post">
+                    <p class="input">
+                        <label for="id">Your id</label>
+                        <input type="text" id="id" name="id">
+                    </p>
+                    <p class="input">
+                        <label for="password">Your password</label>
+                        <input type="text" id="password" name="password">
+                    </p>
+                    <input type="submit" value="Log In">
+                </form>
+            </c:otherwise>
         </c:choose>
     </main>
     <footer> &copy; Webontwikkeling 3, UC Leuven-Limburg</footer>

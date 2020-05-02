@@ -18,7 +18,7 @@
             <span>Activities</span>
         </h1>
         <jsp:include page="header.jsp">
-            <jsp:param name="current_page" value="activities"/>
+            <jsp:param name="page" value="activiteiten"/>
         </jsp:include>
         <h2>Activities</h2>
 

@@ -7,74 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2de7d86-e281-473d-b4bf-84ff49fff1cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../final/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/domain/db/DbException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/domain/db/PersonDb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/domain/db/PersonDbInMemory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/domain/db/PersonDbSql.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/domain/db/ProductDb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/domain/db/ProductDbInMemory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/domain/db/ProductdbSql.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/domain/model/DomainException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/domain/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/domain/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/domain/model/ShopService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/ControllerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/Controller_old.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/DeletePersonSubmit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/DeleteSubmit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/RequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/activiteiten.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/addProducten.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/addProductsubmit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/changeTeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/checkPasswordSubmit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/editProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/editProductSubmit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/overview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/producten.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/signUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/controller/signUpSubmit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/src/ui/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/web/Labo1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/web/activiteiten.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/web/addProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/web/cart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/web/checkPass.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/web/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/web/deletePerson.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/web/deleteProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/web/editProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/web/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/web/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/web/images/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/web/images/bannerKlein.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/web/images/belgischHockeyTeam.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/web/images/oopsie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/web/personoverview.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/web/productenoverview.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../final/web/signUp.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week08_JS-master/assignments/03-05soreBord/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../../1ejaar(2018-2019)/2e semester/scriptalen/examen-scripting/count-courses/student-solved.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../1ejaar(2018-2019)/2e semester/scriptalen/examen-scripting/count-courses/student-solved.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Javascript/week08_JS" beforeDir="false" afterPath="$PROJECT_DIR$/../../Javascript/week08_JS" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../proefexamen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../proefexamen/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Labo1_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/ui/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Labo1/ui/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Labo1/ui/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Labo1/ui/controller/Controllerold.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBc - werkt/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBc - werkt/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBc - werkt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBc - werkt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../labo 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../labo 2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../labo 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../labo 4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../labo 5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../labo 5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../labo6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../labo6/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,18 +57,18 @@
     <session id="-1813908994">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="48" />
+          <entry key="java" value="50" />
           <entry key="jsp" value="2" />
           <entry key="sql" value="2" />
           <entry key="xml" value="1" />
@@ -142,7 +76,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="48" />
+          <entry key="JAVA" value="50" />
           <entry key="JSP" value="2" />
           <entry key="Scratch" value="2" />
           <entry key="XML" value="1" />
@@ -170,30 +104,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ui/controller/Controller_old.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ui/controller/activiteiten.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="82" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ui/controller/editProductSubmit.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
@@ -208,7 +118,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ui/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="238">
               <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
             </state>
           </provider>
@@ -235,11 +145,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ui/main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
               <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ui/controller/producten.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="11" column="89" lean-forward="true" selection-start-line="11" selection-start-column="89" selection-end-line="11" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/domain/model/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -397,6 +325,26 @@
               <item name="Hashing - werkt" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hashing - werkt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hashing - werkt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hashing - werkt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hashing - werkt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hashing - werkt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hashing - werkt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hashing - werkt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hashing - werkt" type="b2602c69:ProjectViewProjectNode" />
@@ -576,6 +524,7 @@
       <workItem from="1585150571470" duration="599000" />
       <workItem from="1588322962423" duration="2154000" />
       <workItem from="1588348343615" duration="616000" />
+      <workItem from="1588352509296" duration="27000" />
     </task>
     <task id="LOCAL-00001" summary="hash tables work">
       <created>1584982529124</created>
@@ -588,7 +537,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23389000" />
+    <option name="totallyTimeSpent" value="23416000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -603,7 +552,7 @@
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38512036" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3938731" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -706,13 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/model/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/38c56a10-1939-4e55-acc6-102a51a2fd50/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -753,13 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/controller/producten.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="89" lean-forward="true" selection-start-line="11" selection-start-column="89" selection-end-line="11" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/controller/home.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -771,9 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="23" column="75" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -801,9 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -811,9 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -821,6 +747,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="519">
           <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/controller/Controller_old.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -841,6 +777,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -882,27 +825,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/controller/Controller_old.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/controller/producten.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="89" lean-forward="true" selection-start-line="11" selection-start-column="89" selection-end-line="11" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/model/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
