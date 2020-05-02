@@ -32,21 +32,41 @@
                 </ul>
             </div>
         </c:if>
+        <c:choose>
+            <c:when test="${person==null}">
+                <form novalidate="novalidate" method="post" action="Controller?command=signUpSubmit">
+                    <!-- novalidate in order to be able to run tests correctly -->
+                    <p><label for="userid">User id</label><input type="text" id="userid" name="userid"
+                                                                 required value="${prevId}"></p>
+                    <p><label for="firstName">First Name</label><input type="text" id="firstName" name="firstName"
+                                                                       required value="${prevFirstName}"></p>
+                    <p><label for="lastName">Last Name</label><input type="text" id="lastName" name="lastName"
+                                                                     required value="${prevLastName}"></p>
+                    <p><label for="email">Email</label><input type="email" id="email" name="email" required value="${prevEmail}"></p>
+                    <p><label for="password">Password</label><input type="password" id="password" name="password"
+                                                                    required value="${prevPassword}"></p>
+                    <p>please select the role:</p>
+                    <p>
+                        <input type="radio" id="User" name="role" value="User" checked>
+                    <label for="User">User</label>
+                    </p>
 
-        <form novalidate="novalidate" method="post" action="Controller?command=signUpSubmit">
-            <!-- novalidate in order to be able to run tests correctly -->
-            <p><label for="userid">User id</label><input type="text" id="userid" name="userid"
-                                                         required value="${prevId}"></p>
-            <p><label for="firstName">First Name</label><input type="text" id="firstName" name="firstName"
-                                                               required value="${prevFirstName}"></p>
-            <p><label for="lastName">Last Name</label><input type="text" id="lastName" name="lastName"
-                                                             required value="${prevLastName}"></p>
-            <p><label for="email">Email</label><input type="email" id="email" name="email" required value="${prevEmail}"></p>
-            <p><label for="password">Password</label><input type="password" id="password" name="password"
-                                                            required value="${prevPassword}"></p>
-            <p><input type="submit" id="signUp" value="Sign Up"></p>
+                    <p>
+                        <input type="radio" id="Admin" name="role" value="Admin">
+                        <label for="Admin">Admin</label>
+                    </p>
 
-        </form>
+
+                    <p><input type="submit" id="signUp" value="Sign Up"></p>
+
+                </form>
+            </c:when>
+            <c:otherwise>
+                <p>Name: ${person.firstName} ${person.lastName}</p>
+                <p>email: ${person.email}</p>
+                <p>role: ${person.role}</p>
+            </c:otherwise>
+        </c:choose>
     </main>
     <footer>
         &copy; Webontwikkeling 3, UC Leuven-Limburg

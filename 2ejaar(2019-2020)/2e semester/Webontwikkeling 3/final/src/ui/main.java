@@ -13,7 +13,7 @@ public class main {
 
     public static void main(String[] args) throws SQLException {
 
-        String AskName = "Wat is de naam?";
+        /*String AskName = "Wat is de naam?";
         String AskSurname = "Wat is de voornaam?";
         String AskEmail = "Wat is het emailadress?";
         String AskPassword = "Wat is het wachtwoord?";
@@ -31,7 +31,7 @@ public class main {
         UUID uuid=null;
         try {
             uuid = UUID.randomUUID();
-            Person p = new Person(uuid.toString(), fillemail, fillpassword, fillfirstname, filllastname);
+            Person p = new Person(uuid.toString(), fillemail, fillpassword, fillfirstname, filllastname,);
         } catch (IllegalArgumentException e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
             main(args);
@@ -80,6 +80,6 @@ public class main {
 
     public static void close() throws SQLException {
         statement.close();
-        connection.close();
+        connection.close();*/
     }
 }

@@ -18,7 +18,6 @@
         <h2>
             Product Overview
         </h2>
-
     </header>
     <main>
         <table>
@@ -29,15 +28,17 @@
             </tr>
             <c:forEach items="${producten}" var="Product">
                 <tr>
+                    <c:if test="${person.role == 'Admin'}">
                     <td><a href="Controller?command=editProduct&id=${Product.productId}">${Product.name}</a></td>
+                    </c:if>
                     <td>${Product.description}</td>
                     <td>${Product.price}</td>
+                    <c:if test="${person.role == 'Admin'}">
                     <td><a href="deleteProduct.jsp?id=<c:out value='${Product.productId}'></c:out>&name=<c:out value='${Product.name}'></c:out>">delete</a></td>
-                    <td><a href="Controller?command=addCart?id=<c:out value='${Product.productId}'></c:out>">add to cart</a></td>
+                    </c:if>
+                    <td><a href="Controller?command=addtocart&id=<c:out value='${Product.productId}'></c:out>">add to cart</a></td>
                 </tr>
-
             </c:forEach>
-
             <caption>Product Overview</caption>
         </table>
     </main>

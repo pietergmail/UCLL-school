@@ -11,9 +11,17 @@ public class PersonDbInMemory implements PersonDb {
 	private Map<String, Person> persons = new HashMap<>();
 	
 	public PersonDbInMemory () {
-		Person administrator = new Person("admin", "admin@ucll.be", "t", "Ad", "Ministrator");
+		Person administrator = new Person("admin", "admin@ucll.be", "t", "Ad", "Ministrator","Admin");
 		add(administrator);
 	}
+
+	/*public Person getUserIfAuthenticated(String name, String password){
+		Person person = findPerson(name);
+		if (person != null && person.isPasswordCorrect(password)){
+			return Person;
+		}
+		return null;
+	}*/
 	
 	@Override
 	public Person get(String personId){
@@ -30,6 +38,7 @@ public class PersonDbInMemory implements PersonDb {
 
 	@Override
 	public void add(Person person){
+
 		if(person == null){
 			throw new DbException("No person given");
 		}
@@ -62,4 +71,5 @@ public class PersonDbInMemory implements PersonDb {
 	public int getNumberOfPersons() {
 		return persons.size();
 	}
+
 }

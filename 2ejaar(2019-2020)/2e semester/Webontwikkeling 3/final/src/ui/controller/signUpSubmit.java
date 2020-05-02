@@ -19,6 +19,7 @@ public class signUpSubmit extends RequestHandler {
         setLastName(request, p, errors);
         setEmail(request, p, errors);
         setPassword(request, p, errors);
+        setRole(request, p, errors);
         try {
             service.addPerson(p);
         } catch (Exception e) {
@@ -79,6 +80,15 @@ public class signUpSubmit extends RequestHandler {
             p.setPasswordHashed(password);
             request.setAttribute("prevPassword", password);
         } catch (Exception e) {
+            errors.add(e.getMessage());
+        }
+    }
+
+    protected void setRole(HttpServletRequest request, Person p, ArrayList<String> errors){
+        String role = request.getParameter("role");
+        try{
+            p.setRole(role);
+        } catch (Exception e){
             errors.add(e.getMessage());
         }
     }
