@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="clock">
+    <!-- Time units wrapper -->
+    <span class="wrap-time">
+		<!-- Time unit - Day -->
+		<span class="time-unit">
+			<span class="large day">Mon</span>
+			<span class="small">DAY</span>
+		</span>
+        <!-- Time unit - Hours -->
+		<span class="time-unit">
+			<span class="large hours">00</span>
+			<span class="small">HOURS</span>
+		</span>
+		<span class="separator">:</span>
+        <!-- Time unit - Minutes -->
+		<span class="time-unit">
+			<span class="large minutes">00</span>
+			<span class="small">MINUTES</span>
+		</span>
+		<span class="separator">:</span>
+        <!-- Time unit - Seconds -->
+		<span class="time-unit">
+			<span class="large seconds">00</span>
+			<span class="small">SECONDS</span>
+		</span>
+        <!-- Time unit - Period -->
+		<span class="time-unit">
+			<span class="large period">AM</span>
+			<span class="small">PERIOD</span>
+		</span>
+	</span>
+</div>
+<script>
+    // The week days
+    const weekDays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+    function formatNumber(number) {
+        return number < 10 ? "0" + number : number;
+    }
+
+    window.addEventListener("load", initPage, false);
+        function initPage(){
+            let d = new Date();
+            document.getElementsByClassName("day")[0].innerHTML = weekDays[d.getDay()];
+            let hours = d.getHours();
+            if (hours > 12){
+                document.getElementsByClassName("hours")[0].innerHTML = formatNumber(hours%12);
+                document.getElementsByClassName("period")[0].innerHTML = "PM";
+            } else {
+                document.getElementsByClassName("hours")[0].innerHTML = formatNumber(hours);
+                document.getElementsByClassName("period")[0].innerHTML = "AM";
+            }
+            document.getElementsByClassName("minutes")[0].innerHTML = formatNumber(d.getMinutes());
+            document.getElementsByClassName("seconds")[0].innerHTML = formatNumber(d.getSeconds());
+
+            if (hours <= 8) {
+                document.getElementById("change").setAttribute("src", "http://www.bakfiets-family.net/wp-content/uploads/2015/01/IMAG1914.jpg");
+            }
+            else if(hours <= 16){
+                document.getElementById("change").setAttribute("src","https://i2.wp.com/earline.lt-magazine.nl/wp-content/uploads/sites/4/2019/10/earline-viron-10-2019.jpg?fit=750%2C375&ssl=1");
+            } else {
+                document.getElementById("change").setAttribute("src","https://images.pexels.com/photos/771883/pexels-photo-771883.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+            }
+            window.setTimeout(initPage, 1000)
+	}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Validating Form</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        div#container form {
+            width: 100%;
+        }
+
+        div#container form p {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 2fr;
+            grid-template-areas: "label input message";
+            grid-column-gap: 1em;
+            grid-row-gap: 1em;
+            justify-items: end;
+            box-sizing: border-box;
+        }
+
+        div#container form label {
+            grid-area: label;
+            line-height: 1.7em;
+        }
+
+        div#container form input {
+            grid-area: input;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        div#container form span {
+            grid-area: message;
+            width: 100%;
+            line-height: 1.7em;
+            font-size: 70%;
+            padding: 3px;
+        }
+
+        span.hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <h2>Validating form</h2>
+    <p>HTML is prepared with hidden span where error message can be put.</p>
+    <form action="index.html">
+        <p><label for="name">Your name</label>
+            <input type="text" id="name" name="name" required pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{3,20}$">
+            <span id="errorFor-name" class="hidden error"></span>
+        </p>
+
+        <p><label for="firstName">Your first name</label>
+            <input type="text" id="firstName" name="firstName" required pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{3,20}$">
+            <span id="errorFor-firstName" class="hidden error"></span>
+        </p>
+
+        <p><label for="age">Your age (minimal age: 10 year)</label>
+            <input type="number" id="age" name="age" required min="10">
+            <span id="errorFor-age" class="hidden error"></span>
+        </p>
+
+        <p><input type="submit" value="Register"></p>
+    </form>
+
+</div>
+<script>
+    window.addEventListener("load",initPage);
+
+    function initPage() {
+        /*
+         * voor alle input elementen die geen submit-knop zijn:
+         *      voeg click-event toe dat inputfield valideert
+         * voor submit-knop:
+         *      voeg click-event toe dat finale validatie uitvoert
+         */
+        for (let inputField of document.getElementsByTagName("input")) {
+            if (inputField.type != "submit")
+                inputField.addEventListener("blur",checkField);
+            else
+                inputField.addEventListener("click",finalValidation);
+        }
+
+    }
+
+
+    function finalValidation(event) {
+        let fields = event.target.elements;
+        let error, hasErrors;
+        for (let i = 0; i < fields.length; i++) {
+            error = hasError(fields[i]);
+            if (error) {
+                showError(fields[i], error);
+                if (!hasErrors) {
+                    hasErrors = fields[i];
+                }
+            }
+
+        }
+
+        if (hasErrors) {
+            event.preventDefault();
+            hasErrors.focus();
+        }
+    }
+
+    /**
+     * Validates the field of an event
+     * If an error occurs, shows the error message
+     * If any error, remove error message on that field
+     * @param event
+     *      The event that happens i.e. user changes focus of form field
+     */
+    function checkField(event) {
+        let error = hasError(event.target);
+        if (error)
+            showError(event.target, error);
+        else
+            removeError(event.target);
+    }
+
+    /**
+     * Checks whether the value of the given field contains an error
+     * (HTML5 validation, including patterns)
+     * @param field
+     *      The field to check
+     * @returns {string}
+     *      null if the field can't be checked or does not generate error
+     *      null if the field does not contain an error
+     *      error message if field does contain error
+     */
+    function hasError(field) {
+        if (field.disabled || field.type === "file" || field.type === "submit")
+            return;
+
+        let validity = field.validity;
+        if (validity == null || validity.valid) {
+            return;
+        }
+
+        if (validity.valueMissing) {
+            return "Please fill out a value";
+        }
+        if (validity.typeMismatch) {
+            return "Please use the correct input type";
+        }
+        if (validity.patternMismatch) {
+            if (field.type === "text") {
+                return "Your name must contain at least 4 characters";
+            }
+        }
+        if (validity.rangeUnderflow) {
+            return "The minimal age is 10 year";
+        }
+        return "Please complete the form correct";
+    }
+
+
+    /**
+     * Removes all error messages and signals related to the given field
+     * @param field
+     */
+    function removeError(field) {
+        let id = field.id;
+        let message = document.getElementById("errorFor-" + id);
+        if (message != null && message.classList != null) {
+            {
+                message.innerText = "";
+                message.classList.add("hidden");
+            }
+        }
+    }
+
+    /**
+     * Write error message with given text 'error' in the span of the given field
+     */
+    function showError(field, error) {
+        let id = field.id;
+        if (!id)
+            return;
+        // span belonging to field has id "errorFor-"+id, eg. errorFor-name
+        let message = document.getElementById("errorFor-" + id);
+        // make span visible
+        message.classList.remove("hidden");
+        // write error message
+        message.innerHTML = error;
+    }
+
+
+</script>
+
+</body>
+</html>

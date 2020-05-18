@@ -1,0 +1,22 @@
+div#container form p {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+}
+
+
+#error, .error {
+    color: #ff0a45;
+    grid-column-start: 3;
+    justify-self: start;
+    display: block;
+}
+
+form button#submit, form a#clear {
+    grid-column-start: 2;
+    width: 100%;
+
+}
+
+

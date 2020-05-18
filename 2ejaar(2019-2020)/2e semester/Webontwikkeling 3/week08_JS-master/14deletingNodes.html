@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Deleting Nodes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        div.action {
+            padding: 1em;
+            background-color: #000;
+            color: #FFF;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="deleteSecondParagraph" class="action">Click on the black region to delete the second paragraph</div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dolorum error officiis, unde ut vel. </p>
+    <p>Accusantium doloremque dolorum ea ex facere illum in, incidunt itaque maxime odio perspiciatis saepe veritatis.</p>
+    <p>Distinctio dolor earum, error esse id ipsa magnam maxime molestias, nihil pariatur possimus praesentium quaerat quam qui quo repellat, temporibus ut vitae?</p>
+</div>
+<script>
+    window.addEventListener("load",initFile,false);
+
+    function initFile() {
+        document.getElementById("deleteSecondParagraph").addEventListener("click",removeSecondParagraph,false);
+    }
+
+    function removeSecondParagraph() {
+        let allParagraphs = document.getElementsByTagName("p");
+        if (allParagraphs.length >1) {
+            let secondParagraph = allParagraphs[1];
+            document.getElementById("container").removeChild(secondParagraph);
+        }
+    }
+</script>
+</body>
+</html>

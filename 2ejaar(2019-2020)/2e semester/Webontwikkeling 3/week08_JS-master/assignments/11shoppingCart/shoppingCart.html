@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #000;
+            font-size: 1em;
+            font-family: droid-sans, sans-serif;
+        }
+
+        p {
+            margin: 1.5em 0.5em;
+            padding: 1em;
+            line-height: 1.5em;
+        }
+
+        div#container {
+            width: 90%;
+            margin: 10px auto;
+            background-color: #e6e6e6;
+            padding: 10px;
+            overflow: auto;
+        }
+        input:invalid {
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <h1>Shopping Cart</h1>
+    <p>Write JS such that user input in number of products is added to link "add to cart".</p>
+    <table>
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Number</th>
+            <th>Add to cart</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr id="rose">
+            <td>Rose</td>
+            <td><input type="number" min="0" max="10" value="1" required></td>
+            <td><a href="Servlet?id=rose&number=1">Add to cart</a></td>
+        </tr>
+        <tr id="daisy">
+            <td>Daisy</td>
+            <td><input type="number" min="0" max="10" value="1" required></td>
+            <td><a href="Servlet?id=daisy&number=1">Add to cart</a></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<script>
+    window.addEventListener("load", initPage, false);
+
+    function initPage() {
+        let inputFields = document.querySelectorAll("tbody>tr>td>input");
+        for (let inputField of inputFields) {
+            inputField.addEventListener("blur", updateNumber, true);
+        }
+        let links = document.querySelectorAll("tbody>tr>td>a");
+        for (let link of links) {
+            link.addEventListener("click", checkValidity, true);
+        }
+    }
+
+    function updateNumber(evt) {
+        if (!evt.target.validity.valid) {
+            alert("Fill out valid value");
+        } else {
+            let product = evt.target.parentNode.parentNode.id;
+            let link = document.querySelector("#" + product + " a");
+            let address = link.href;
+            let b = address.split("number=");
+            b[1] = evt.target.value;
+            link.href = b[0] + "number=" + b[1];
+        }
+    }
+
+    function checkValidity(evt) {
+        let product = evt.target.parentNode.parentNode.id;
+        let inputfield = document.querySelector("#" + product + " input");
+        if (!inputfield.validity.valid) {
+            evt.preventDefault();
+            alert("No valid value");
+        }
+    }
+</script>
+</body>
+
+</html>

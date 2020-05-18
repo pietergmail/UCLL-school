@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Element Properties and Methods</title>
+</head>
+<body>
+
+<h1 class="title">Five Reasons Not to Go to School</h1>
+<figure>
+    <img src="images/smiley.png" alt="smiley" height="100">
+</figure>
+<ol>
+    <li>Children sent to school are away from …</li>
+    <li>Compassion and kindness are not taught in schools.</li>
+    <li>Schools harbor drugs, violence, rape, …</li>
+    <li>Learning does not occur in schools.</li>
+    <li>Many important subjects are not taught in schools.</li>
+</ol>
+
+<script>
+    let image = document.querySelector("[alt=smiley]");
+    image.src = "images/smileySad.png";
+    image.height = 200;
+
+    let orderedList = document.getElementsByTagName("ol");
+    orderedList[0].firstElementChild.id = "special";
+    orderedList[0].lastElementChild.innerHTML = "All this is nonsense";
+    orderedList[0].lastElementChild.setAttribute("style", "font-weight: bold");
+</script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+</head>
+<body>
+<h1>About Me</h1>
+<ul>
+    <li>My name: <span id="name"></span></li>
+    <li>Hometown: <span id="hometown"></span></li>
+    <li>Date: <span id="date"></span></li>
+    <li>Sum of <span class="number">2</span> and <span class="number">3</span> is equal to <span id="sum"></span></li>
+</ul>
+
+<script>
+    window.addEventListener("load", initPage, false);
+
+    function initPage(){
+        setNameTo("Pieter");
+        setDateNow();
+        changeUnevenBackground();
+        calculateSum();
+    }
+
+    function setNameTo(name){
+        document.getElementById("name").innerHTML += name;
+    }
+
+    function setDateNow(){
+        var d = new Date();
+        document.getElementById("date").innerHTML = d.getHours() + "u" + d.getMinutes() + "min" + d.getSeconds() + "sec";
+    }
+
+    function changeUnevenBackground() {
+        let paragraphs = document.getElementsByTagName("li");
+        for (let i = 0; i < paragraphs.length; i++) {
+            if (i % 2 == 1) {
+                paragraphs[i].style = "background-color: #d3d3d3";
+            }
+        }
+    }
+
+    function calculateSum(){
+        let numbers = document.getElementsByClassName("number");
+        let total = 0;
+        for(let i = 0; i < numbers.length; i++){
+            numbers[i].innerHTML = Math.round(Math.random() * 10);
+            total += numbers[i].innerHTML - 0;//int casting because javascript is weird
+        }
+        document.getElementById("sum").innerHTML += total;
+    }
+
+
+
+</script>
+
+</body>
+</html>
+

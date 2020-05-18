@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adding Event Handler with onEvent</title>
+    <style>
+        #box {
+            width: 200px;
+            height: 200px;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+<div id="box"></div>
+<script>
+    document.getElementById("box").addEventListener("mouseover",mouseOver,false);
+    function mouseOver() {
+        document.getElementById("box").style = "background-color: pink;";
+    }
+    document.getElementById("box").addEventListener("mouseout",mouseOut,false);
+    function mouseOut() {
+        document.getElementById("box").style = "background-color: orange;";
+    }
+</script>
+</body>
+</html>

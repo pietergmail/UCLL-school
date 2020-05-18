@@ -1,0 +1,57 @@
+body {
+    background-color: #000;
+    color: #000;
+    font-size: 1em;
+    font-family: droid-sans, sans-serif;
+}
+
+p {
+    margin: 1.5em 0.5em;
+    padding: 1em;
+    line-height: 1.5em;
+}
+
+div#container {
+    width: 90%;
+    margin: 10px auto;
+    background-color: #e6e6e6;
+    padding: 10px;
+    overflow: auto;
+}
+div#container.small {
+    width: 50%;
+}
+
+div#container form {
+    width: 22em;
+    margin: auto;
+    overflow: auto;
+}
+
+input {
+    font-size: inherit;
+    width: 10em;
+}
+
+form p input {
+    float: right;
+}
+
+form p input[type="radio"] {
+    float: none;
+    width: auto;
+}
+
+form p {
+    clear: both;
+    margin: 1em 0;
+    overflow: auto;
+    line-height: 2em;
+}
+
+button {
+    /*width: 20em;*/
+    height: 40px;
+    /*background-color: #ffcfb8;*/
+    float: right;
+}

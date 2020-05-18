@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculate your BMI</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+        form p #submit, form p #clear {
+            grid-column-start: 2;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <h1>Calculate your BMI</h1>
+    <form id="form" action="#">
+        <p><label for="height">Your height in cm: </label><input type="number" id="height">
+        </p>
+        <p>
+            <label for="weight">Your weight in kg:</label> <input type="number" id="weight">
+        </p>
+        <p>
+            <button type="button" id="submit">Calculate my BMI</button>
+            <!-- Use attribute type="button" to prevent form of being submitted -->
+        </p>
+        <p>
+           <a href="#" id="clear">Clear form</a>
+        </p>
+    </form>
+    <p id="result"></p>
+
+</div>
+
+<script>
+    // Load all events when page is loaded
+    window.addEventListener("load",initPage, false);
+
+    /**
+     * Initializes events of page when loading
+     */
+    function initPage() {
+        //Show BMI when clicking button with id "submit"
+        document.getElementById("submit").addEventListener("click", showBMI);
+        // Clear form when clicking button with id "clear"
+        document.getElementById("clear").addEventListener("click", clearForm);
+    }
+
+    /**
+     * Adds text node to empty paragraph with id "result"
+     */
+    function showBMI(event) {
+        document.getElementById("result").innerText = generateResultingString();
+    }
+
+    /**
+     * Removes all values of form elements and text in resulting paragraph
+     */
+    function clearForm() {
+        document.getElementById("height").value = "";
+        document.getElementById("weight").value = "";
+        document.getElementById("result").innerText="";
+    }
+
+    /**
+     * Calculates the BMI according to the formula weight/(height*height)
+     * @param height in cm
+     * @param weight in kg
+     */
+    function calculateBMI(height, weight) {
+        return Math.round(weight / (height * height) * 10000);
+    }
+
+    /**
+     * Generates the response of this form as a string
+     */
+    function generateResultingString() {
+        let height = document.getElementById("height").value;
+        let weight = document.getElementById("weight").value;
+        if (height > 0 && weight > 0)
+            return "Your BMI is equal to " + calculateBMI(height, weight) + ".";
+        else
+            return "Fill out both fields."
+    }
+</script>
+</body>
+</html>

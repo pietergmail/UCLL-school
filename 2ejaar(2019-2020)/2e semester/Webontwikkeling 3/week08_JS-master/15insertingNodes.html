@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inserting Nodes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        div.action {
+            padding: 1em;
+            background-color: #000;
+            color: #FFF;
+            border: 1px solid #FFF;
+
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div class="action" id="insertBeforeSecond">
+        <form action="#">
+            <p>
+                <label for="place">Before which paragraph you want to add a new paragraph?</label>
+                <input type="number" id="place" min="1" max="10" value="2">
+            </p>
+            <p>
+                <label for="textArea">Please give some text to insert</label>
+                <textarea id="textArea" cols="30" rows="10">Dolore dolorem doloremque eligendi harum ipsa iste itaque non odio optio placeat praesentium quia similique unde vero!
+                </textarea>
+            </p>
+            <p>
+                <button type="button" id="insertBefore">Insert text before</button>
+            </p>
+        </form>
+    </div>
+    <div class="action" id="insertAfterSecond">
+        Click on this region to insert "Mama Mia" <strong>after</strong> the second paragraph.
+    </div>
+    <div id="paragraphs">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet aspernatur blanditiis corporis
+            dignissimos
+            doloremque ea earum eius et explicabo inventore laudantium maiores pariatur quasi, quod quos repellat saepe
+            voluptatem.</p>
+        <p>Alias aspernatur autem culpa dolor dolore, dolores earum enim esse, est fugiat id, labore neque nobis optio
+            pariatur quia tempore ut. Soluta.</p>
+    </div>
+</div>
+<script>
+    window.addEventListener("load", initActions, false);
+
+    function initActions() {
+        document.getElementById("insertBefore").addEventListener("click", insertBefore);
+        document.getElementById("insertAfterSecond").addEventListener("click", insertAfterSecond);
+    }
+
+    function insertBefore() {
+        //create paragraph with text from textarea
+        let paragraph = document.createElement("p");
+        paragraph.innerHTML = document.getElementById("textArea").value;
+        // select paragraph where node has to be inserted before
+        let nb = document.getElementById("place").value;
+        let selectedParagraph = document.querySelector("div#container>div#paragraphs>p:nth-of-type(" + nb + ")");
+        try {
+            document.getElementById("paragraphs").insertBefore(paragraph, selectedParagraph);
+        }
+        catch (e) {
+            console.log(e.message);
+        }
+
+    }
+
+    function insertAfterSecond() {
+        // create paragraph with text node
+        let paragraph = document.createElement("p");
+        paragraph.innerHTML = "Mama Mia";
+        // insert paragraph after second paragraph, if any
+        let allParagraphs = document.querySelectorAll("#paragraphs p");
+        // There are at least three paragraphs, so insert before third
+        if (allParagraphs.length > 2) {
+            document.getElementById("paragraphs").insertBefore(paragraph, allParagraphs[2]);
+        }
+        // There are just 2 paragraphs, so append after the second
+        else if (allParagraphs.length === 2) {
+            document.getElementById("paragraphs").appendChild(paragraph);
+        }
+    }
+</script>
+</body>
+</html>

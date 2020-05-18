@@ -1,0 +1,37 @@
+#clock {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: auto;
+    padding: 0.25em 1em;
+    border-radius: 5px;
+}
+
+/* Paragraph fix */
+#clock p {
+    margin: 5px;
+}
+
+/* Show time units and seprarator in a line */
+#clock .time-unit, #clock .separator {
+    display: inline-block;
+    text-align: center;
+}
+
+/* Show values using large text */
+#clock .time-unit .large {
+    display: block;
+    font-size: 2em;
+}
+
+/* Show values using smaller text */
+#clock .time-unit .small {
+    display: block;
+    font-size: 0.5em;
+}
+
+/* Align the separator with values */
+#clock .separator {
+    font-size: 2em;
+    vertical-align: top;
+}
