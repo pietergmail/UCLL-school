@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Object</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        figure {
+            padding: 0 2em 0 0;
+            margin: 0;
+            float: left;
+        }
+
+        footer {
+            background-color: #000;
+            color: #FFF;
+            clear: both;
+            text-align: right;
+        }
+
+        footer button {
+            font: inherit;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <header>
+        <h2>Event Object</h2>
+    </header>
+    <main>
+        <figure>
+            <img src="images/flower240x160.jpg" alt="">
+        </figure>
+        <p>Click on any part of this screen and see what happens.</p>
+        <p>Hic iusto molestias nemo neque provident quisquam repellat repellendus tempore voluptate voluptatibus.
+            Beatae, temporibus.</p>
+    </main>
+    <footer>
+        <button>Click on me and see what happens</button>
+    </footer>
+</div>
+
+<script>
+    function changeBackground(evt) {
+        let hue = Math.round(Math.random() * 360);
+        console.log("background-color: hsl(" + hue + ",50%,50%);");
+        evt.target.style = "background-color: hsl(" + hue + ",50%,50%);";
+    }
+
+    // Load all events when page is loaded
+    window.addEventListener("load", initPage, false);
+
+    function initPage() {
+        let elements = [
+            document.getElementsByTagName("h2")[0],
+            document.getElementsByTagName("figure")[0],
+            document.querySelector("p"),
+            document.querySelector("p:nth-of-type(2)"),
+            document.getElementsByTagName("button")[0]];
+        for (let element of elements) {
+            element.addEventListener("click", changeBackground, false);
+        }
+    }
+
+</script>
+</body>
+</html>

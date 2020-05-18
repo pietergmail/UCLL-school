@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adding nodes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        button {
+            float: none;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <form action="#">
+        <p>
+            <label for="textArea">Fill out your text</label>
+            <br>
+            <textarea id="textArea">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex iure molestiae quasi similique sint voluptate!
+            </textarea>
+        </p>
+        <p>
+            <button type="button" id="addText">Add some text to the page</button>
+        </p>
+    </form>
+</div>
+
+<script>
+    /* Causes the page to be uncached, and therefore, when one comes back, the load can happen */
+    window.addEventListener("unload", function () {}, false);
+
+    /* When the window loads, call the initAll function */
+    window.addEventListener("load", initAll, false);
+
+    function initAll() {
+        document.getElementById("addText").addEventListener("click", addNode);
+    }
+
+    /**
+     * Creates text node with value of textarea and appends node as paragraph to body
+     * @param evt: When the event occurs, an event object is passed to the function as the first parameter.
+     */
+    function addNode(evt) {
+        // create text node
+        let inText = document.getElementById("textArea").value;
+        let newText = document.createTextNode(inText);
+        // create element node p with text node as child
+        let newParagraph = document.createElement("p");
+        newParagraph.appendChild(newText);
+        // add element node as last element to div#container
+        let docContainer = document.getElementById("container");
+        docContainer.appendChild(newParagraph);
+
+    }
+</script>
+</body>
+</html>

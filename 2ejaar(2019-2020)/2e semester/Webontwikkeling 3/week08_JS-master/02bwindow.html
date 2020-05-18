@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The window object</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+        button {
+            float: none;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <h1>Manipulate the Browser Window</h1>
+    <p>
+        <button type="button" id="google">Go to Google</button>
+    </p>
+
+    <p>
+        <button type="button" id="goBack">Go Back to previous page</button>
+    </p>
+
+</div>
+<script>
+    /* Causes the page to be uncached, and therefore, when one comes back, the load can happen */
+    window.addEventListener("unload", function () {
+    }, false);
+    /* When the window is loaded, call the initForm function */
+    window.addEventListener("load", initPage, false);
+
+    function goToGoogle() {
+        window.location = "https://www.google.be/";
+    }
+
+    function goBack() {
+        window.history.back();
+    }
+
+    function initPage() {
+        document.getElementById("google").addEventListener("click", goToGoogle);
+        document.getElementById("goBack").addEventListener("click", goBack);
+    }
+</script>
+
+</body>
+</html>

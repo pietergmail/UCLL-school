@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="myStyle.css">
+</head>
+<!-- https://skillcrush.com/2018/06/18/projects-you-can-do-with-javascript/ -->
+<body>
+<main>
+    <div id="home">
+        <h2>Home</h2>
+        <p id="homeTotal">0</p>
+        <footer>
+            <button class="home plus">[+]</button>
+            <button class="home min">[-]</button>
+        </footer>
+    </div>
+    <div id="visitor">
+        <h2  id="h2" onclick="showInput()">Visitor</h2>
+        <div id="change" style="display: none">
+            <input type="text" id="input" >
+            <button onclick="updateVisitor()">
+                send
+            </button>
+        </div>
+        <p id="visitorTotal">0</p>
+        <footer>
+            <button class="visitor plus" >[+]</button>
+            <button class="visitor min">[-]</button>
+        </footer>
+    </div>
+</main>
+<script src="main.js">
+
+
+</script>
+</body>
+</html>

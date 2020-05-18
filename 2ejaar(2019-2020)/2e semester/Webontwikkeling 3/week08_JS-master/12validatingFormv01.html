@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Validationg Form - Basis</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        input:invalid {
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <h1>Validating Form</h1>
+    <p>Eenvoudig voorbeeld met alert. Niet-gevalideerd inputfield krijgt rode boord owv css-pseudo-selector "input:invalid".</p>
+    <form action="https://developer.mozilla.org">
+        <p><label for="name">Name:* </label>
+            <input type="text" required pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{3,20}$" id="name"></p>
+
+        <p><input type="submit" value="Verzend" id="button"></p>
+    </form>
+</div>
+<script>
+    window.addEventListener("load", initPage);
+    let inputField = document.getElementById("name");
+    let button = document.getElementById("button");
+
+    function initPage() {
+        // als input field focus verliest doordat gebruiker bijv op ander veld klikt of elders op de pagina
+        // wordt invoer onmiddellijk gevalideerd
+        inputField.addEventListener("blur", validateNameField, false);
+
+        // als gebruiker op submit button klikt
+        // wordt submit geblokkeerd als er nog fouten in het formulier staan
+        button.addEventListener("click", finalValidation, false);
+    }
+
+    /**
+     * Valideer de input die gebruiker ingevuld heeft in het input field "name"
+     * Als veld fout bevat, toont browser foutmelding als "alert"
+     */
+    function validateNameField() {
+        let message = getErrorMessage();
+        if (message != null)
+            alert(message);
+    }
+
+    /**
+     * Als invulvelden nog fouten bevatten, mag de browser geen httprequest versturen
+     * Browser toont foutmelding met "alert"
+     * @param event
+     *      impliciet object dat automatisch meegegeven wordt aan methode
+     *      bevat info over event waarop de methode betrekking heeft
+     */
+    function finalValidation(event) {
+        let message = getErrorMessage();
+        if (message != null) {
+            event.preventDefault();
+            alert("U kan het formulier pas versturen als alle velden correct zijn");
+        }
+    }
+
+    /**
+     * Detecteer in welke validity state het name field zich bevindt
+     * en return een foutboodschap aangepast aan die state
+     * @returns {string|null}
+     */
+    function getErrorMessage() {
+        let validity = inputField.validity;
+        if (validity == null || validity.valid)
+            return null;
+        if (validity.valueMissing) // vangt "required" op
+            return "Vul een waarde in";
+        else if (validity.patternMismatch) // vangt patroon op
+            return "Aantal karakters moet tussen 3 en 20 liggen";
+        else
+            return "U vulde het formulier niet juist in"
+    }
+</script>
+</body>
+</html>

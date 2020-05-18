@@ -1,0 +1,63 @@
+@CHARSET "UTF-8";
+
+html {
+	background-color: #333;
+	font-family: "Gill Sans", sans-serif;
+	height: 100vh;
+}
+
+body {
+	background-color: #EEE;
+	width: 600px;
+	margin: auto;
+	padding: 20px;
+	height: 100vh;
+	box-sizing: border-box;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	background-color: #333;
+	padding: 0;
+}
+
+nav ul li {
+	width: 100%;
+}
+
+nav ul li a {
+	display: block;
+	color: #EEE;
+	padding: 10px 0;
+	text-decoration: none;
+	text-align: center;
+}
+
+nav ul li a:hover {
+	color: #333;
+	background-color: #BBB;
+}
+
+form p.input {
+	padding-left: 20px;
+	display: flex;
+}
+
+form p.input label{
+	flex: 0 0 8em;
+	text-align: right;
+	padding-right: 1em;
+}
+
+form p.input input {
+	flex: 1 1 20em;
+}
+
+p.error {
+	border: 1px solid hsl(0,80%,80%);
+	border-radius: 5px;
+	background-color: hsl(0,50%, 50%); 
+	color: hsl(0,80%,95%);
+	padding: 10px;
+}

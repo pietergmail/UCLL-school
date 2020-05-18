@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prevent Default Behavior</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        div#container {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+<p>Lorem ipsum dolor sit amet, <a href="https://javascript.info/default-browser-action">consectetur adipisicing elit</a>. Aliquid, aspernatur culpa cum dignissimos ea, itaque maiores numquam quae, quaerat rem sunt ut voluptate voluptatibus? Deleniti eos illum maiores nisi ut?</p>
+    <p> <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#Preventing_default_behavior">Aliquid amet</a>, architecto aut commodi consectetur culpa delectus deleniti deserunt eligendi explicabo labore laborum libero necessitatibus neque odit quae quo repellendus tempora.</p>
+    <p>Aspernatur dolorem eius et ipsum laboriosam libero nihil sit temporibus. Adipisci autem consequuntur dignissimos explicabo id itaque labore saepe vero voluptatibus, voluptatum!</p>
+    <p> Asperiores et fugit laboriosam porro suscipit. Debitis distinctio enim esse, et facilis, inventore ipsam labore libero molestias nesciunt nulla placeat, ratione temporibus.</p>
+</div>
+
+<script>
+    function noDefaultAction(event) {
+        event.preventDefault();
+    }
+    let links = document.getElementsByTagName("a");
+    for (let i=0; i<links.length; i++ ) {
+        links[i].addEventListener("click", noDefaultAction, false);
+        console.log(links[i]);
+    }
+
+    window.addEventListener("wheel",noDefaultAction, false);
+    
+</script>
+
+</body>
+</html>

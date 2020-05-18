@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <title>LightBulb Example</title>
+</head>
+
+<body>
+<figure>
+    <img id="myImage" src="images/pic_bulboff.gif" width="100" height="180" alt="">
+    <figcaption>Click the light bulb to turn on/off the light</figcaption>
+</figure>
+
+<script>
+    /**
+     * Changes the src attribute of the image with id "myImage" from "bulbon" to "bulboff" and vice versa
+     */
+    function changeImage() {
+        // select image
+        let image = document.getElementById("myImage");
+        // change src attribute of the image
+        if (image.getAttribute("src").match("bulbon")) {
+            image.setAttribute("src", "images/pic_bulboff.gif");
+        } else {
+            image.setAttribute("src", "images/pic_bulbon.gif");
+        }
+    }
+
+    // add eventlistener to image: if the image is clicked on, method "changeImage" is called
+    document.getElementById('myImage').addEventListener("click", changeImage, false);
+
+</script>
+</body>
+
+
+</html>

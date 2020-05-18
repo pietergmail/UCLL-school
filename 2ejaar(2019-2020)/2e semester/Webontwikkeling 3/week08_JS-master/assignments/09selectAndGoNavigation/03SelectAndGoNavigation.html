@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Select-and-Go Navigation</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+<div id="container">
+
+    <form action="">
+        <label for="newLocation">Choose your location</label>
+        <select id="newLocation">
+            <option value="" disabled>Choose your location</option>
+            <option value="https://developer.mozilla.org/en-US/docs/Web/API/Element">Element</option>
+            <option value="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event">Change Event
+            </option>
+            <option value="https://developer.mozilla.org/en-US/docs/Web/API/Element/blur_event">Blur Event</option>
+            <option value="https://developer.mozilla.org/en-US/docs/Web/API/Element/focus_event">Focus Event</option>
+        </select>
+        <noscript>
+            <input type="submit" value="Go There">
+        </noscript>
+    </form>
+</div>
+
+<script>
+    /* Causes the page to be uncached, and therfore, when one comes back, the onload can happen */
+    window.addEventListener("unload", function () {
+    }, false);
+    /* When the window loads, call the initForm function */
+    window.addEventListener("load", initForm, false);
+
+    /**
+     * Forces the form to choose the first option as selected
+     * Adds change event to select element
+     */
+    function initForm() {
+        document.getElementById("newLocation").addEventListener("click",jumpPage)
+        // to be completed
+    }
+
+    /**
+     * Navigates to location as read from attribute "value"
+     */
+    function jumpPage() {
+        let newLocation = document.getElementById("newLocation");
+        // get the value of the selected option element
+        // ...
+        // navigate to the value of the selected option element
+        // ...
+    }
+
+</script>
+
+</body>
+</html>

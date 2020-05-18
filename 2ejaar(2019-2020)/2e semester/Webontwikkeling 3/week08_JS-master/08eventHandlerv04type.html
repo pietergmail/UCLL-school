@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Type</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="container">
+    <p>Press any key or click the mouse to get the event type.</p>
+    <p id="log"></p>
+</div>
+</body>
+<script>
+    /* Causes the page to be uncached, and therefore, when one comes back, the load can happen */
+    window.addEventListener("unload", function () {});
+    /* When the window loads, call the initForm function */
+    window.addEventListener("load", initPage, false);
+
+    function getEventType(event) {
+        let log = document.getElementById('log');
+        log.innerText = event.type + '\n' + log.innerText;
+    }
+
+    function initPage()
+    {
+        // Keyboard events
+        document.addEventListener('keydown', getEventType, false); // first
+        document.addEventListener('keypress', getEventType, false); // second
+        document.addEventListener('keyup', getEventType, false); // third
+
+        // Mouse events
+        document.addEventListener('mousedown', getEventType, false); // first
+        document.addEventListener('mouseup', getEventType, false); // second
+        document.addEventListener('click', getEventType, false); // third
+    }
+</script>
+</html>
