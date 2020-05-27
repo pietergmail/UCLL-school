@@ -26,30 +26,16 @@
 </div>
 
 <script>
-    /* Causes the page to be uncached, and therfore, when one comes back, the onload can happen */
     window.addEventListener("unload", function () {
     }, false);
-    /* When the window loads, call the initForm function */
     window.addEventListener("load", initForm, false);
 
-    /**
-     * Forces the form to choose the first option as selected
-     * Adds change event to select element
-     */
-    function initForm() {
-        document.getElementById("newLocation").addEventListener("click",jumpPage)
-        // to be completed
+    function initForm(){
+        document.getElementById("newLocation").addEventListener("click", jumpPage)
     }
 
-    /**
-     * Navigates to location as read from attribute "value"
-     */
-    function jumpPage() {
-        let newLocation = document.getElementById("newLocation");
-        // get the value of the selected option element
-        // ...
-        // navigate to the value of the selected option element
-        // ...
+    function jumpPage(){
+        window.location =  document.getElementById('newLocation').value;
     }
 
 </script>

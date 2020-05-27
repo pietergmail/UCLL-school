@@ -24,11 +24,11 @@ function result() {
     // global replacement of occurence of :insertx:
     newStory = newStory.replace(/:insertx:/g, xItem);
     newStory = newStory.replace(/:inserty:/g, yItem);
-    newStory = newStory.replace(/:insertx:/g, zItem);
+    newStory = newStory.replace(/:insertz:/g, zItem);
 
-    let numbers = newStory.match(/\d+/g).map(Number);
-    let number1 = numbers[0];
-    let number2 = numbers[1];
+    var numbers = newStory.match(/\d+/g).map(Number);
+    var number1 = numbers[0];
+    var number2 = numbers[1];
 
     if (document.getElementById("be").checked){
         number1 = convertFahrenheitToCentigrade(number1);
@@ -38,7 +38,9 @@ function result() {
     numbers[0] = number1;
     numbers[1] = number2;
 
+
     document.getElementsByClassName("story")[0].innerHTML = newStory;
+
 }
 
 function randomValueFromArray(array) {

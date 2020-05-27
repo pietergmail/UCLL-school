@@ -41,7 +41,7 @@
             <th>Add to cart</th>
         </tr>
         </thead>
-        <tbody>
+        <tbody id="body">
         <tr id="rose">
             <td>Rose</td>
             <td><input type="number" min="0" max="10" value="1" required></td>
@@ -56,38 +56,20 @@
     </table>
 </div>
 <script>
-    window.addEventListener("load", initPage, false);
+    var tbody = document.getElementById("body");
+    tbody.addEventListener('click', changeLink);
 
-    function initPage() {
-        let inputFields = document.querySelectorAll("tbody>tr>td>input");
-        for (let inputField of inputFields) {
-            inputField.addEventListener("blur", updateNumber, true);
-        }
-        let links = document.querySelectorAll("tbody>tr>td>a");
-        for (let link of links) {
-            link.addEventListener("click", checkValidity, true);
-        }
-    }
+    function changeLink(){
+        if (event.target.tagName == "A"){
+            let link = event.target;
+            let input = link.parentNode.parentNode.childNodes[3].firstChild.value;
 
-    function updateNumber(evt) {
-        if (!evt.target.validity.valid) {
-            alert("Fill out valid value");
-        } else {
-            let product = evt.target.parentNode.parentNode.id;
-            let link = document.querySelector("#" + product + " a");
-            let address = link.href;
-            let b = address.split("number=");
-            b[1] = evt.target.value;
-            link.href = b[0] + "number=" + b[1];
-        }
-    }
-
-    function checkValidity(evt) {
-        let product = evt.target.parentNode.parentNode.id;
-        let inputfield = document.querySelector("#" + product + " input");
-        if (!inputfield.validity.valid) {
-            evt.preventDefault();
-            alert("No valid value");
+            if (input > 0){
+                link.href += input;
+            }else {
+                window.alert("Ongeldig aantal")
+                event.preventDefault();
+            }
         }
     }
 </script>
