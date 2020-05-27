@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Validating Password</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../../css/style.css">
 </head>
 <style>
     div#container form {
@@ -34,20 +34,33 @@
 <body>
 <div id="container">
     <h1>Form Validation</h1>
-    <form action="../../index.html">
+    <form action="../../index.html" id="form">
         <label for="name">Your name</label>
         <input type="text" id="name" name="name" required pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{3,20}$">
 
         <label for="password">Choose a password</label>
         <input type="password" id="password" name="password" required value="aA12"
-               pattern="(?=^.{4,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"
-        >
+               pattern="(?=^.{4,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
 
         <label for="verifyPassword">Verify your password</label>
         <input type="password" id="verifyPassword" name="verifyPassword" required value="aA12">
 
-        <input type="submit" value="Register">
+        <input id="submit" type="submit" value="Register">
     </form>
 </div>
 </body>
+<script>
+    let name = document.getElementById("name");
+    let form = document.getElementById("form");
+    let password = document.getElementById("password");
+    let verifyPassword = document.getElementById("verifyPassword");
+    let submit = document.getElementById("submit");
+    submit.addEventListener('click', validation);
+    function validation() {
+        console.log(name)
+
+        event.preventDefault();
+    }
+    
+</script>
 </html>

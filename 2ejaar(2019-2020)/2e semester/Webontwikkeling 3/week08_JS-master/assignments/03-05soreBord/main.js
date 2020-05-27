@@ -5,47 +5,39 @@ document.getElementById("visitor").addEventListener("click", visitorhandler, fal
 function homehandler(event) {
     let doc = event.target;
     if (doc.innerHTML.includes("+"))
-        alterPoints("home",1);
-    else
-        alterPoints("home",-1);
+        alterPoints("home", 1);
+    else if (doc.innerHTML.includes("-"))
+        alterPoints("home", -1);
 }
 
-function visitorhandler(event) {
+function visitorhandler(event){
     let doc = event.target;
     if (doc.innerHTML.includes("+"))
-        visitorPlus();
+        alterPoints("visitor", 1);
     else if (doc.innerHTML.includes("-"))
-        visitorMin();
+        alterPoints("visitor", -1);
 }
-function alterPoints(team, point) {
+
+function alterPoints(team, point){
     let points = document.getElementById(team + "Total");
     let oldPoints = points.innerHTML;
-    points.innerHTML= ((oldPoints -0)+ point -0)-0;
+    points.innerHTML = ((oldPoints - 0) + point - 0);
 }
 
-function visitorPlus() {
-    document.getElementById("visitorTotal").innerHTML++;
-}
-
-function visitorMin() {
-    document.getElementById("visitorTotal").innerHTML--;
-}
-
-function showInput() {
+function showInput(){
     setDisplay("h2", "none");
     setDisplay("change", "block");
     document.getElementById("input").placeholder = document.getElementById("h2").innerText;
     document.getElementById("input").focus();
-
 }
 
-function updateVisitor() {
+function setDisplay(elementId, style){
+    document.getElementById(elementId).style.display = style;
+}
+
+function updateVisitor(){
     document.getElementById("h2").innerText = document.getElementById("input").value;
     setDisplay("h2", "block");
     setDisplay("change", "none");
 }
 
-function setDisplay(elementId, style) {
-    document.getElementById(elementId).style.display = style;
-
-}
