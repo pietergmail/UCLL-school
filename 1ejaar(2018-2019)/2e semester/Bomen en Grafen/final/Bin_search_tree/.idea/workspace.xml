@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="002e6d4e-d873-4c8f-937b-b2a03a81dc75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Webontwikkeling 3/test/src/domain/CD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Webontwikkeling 3/test/src/domain/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Webontwikkeling 3/test/src/domain/Radio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Webontwikkeling 3/test/src/domain/player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/Dijkstra/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/Dijkstra/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/floyd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/floyd/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 2/out/production/labo 2/domain/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 2/out/production/labo 2/domain/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 2/src/domain/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 2/src/domain/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 2/src/ui/BinaryTreeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 2/src/ui/BinaryTreeDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 3/out/production/labo 3/domain/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 3/out/production/labo 3/domain/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 3/src/domain/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 3/src/domain/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 6 - grafen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 6 - grafen/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Webontwikkeling 3/Dennis/Javascript/week08_JS" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Webontwikkeling 3/Dennis/Javascript/week08_JS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/databanken 1/Peter.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,10 +87,10 @@
     <session id="1958082251">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -95,7 +107,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ui/BinarySearchTreeDriver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -104,10 +116,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/domain/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
+            <state relative-caret-position="-594">
               <caret line="86" column="55" selection-start-line="86" selection-start-column="55" selection-end-line="86" selection-end-column="55" />
             </state>
           </provider>
@@ -162,6 +174,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,7 +211,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -206,7 +218,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566224724667" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../web2/examen" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bin_tree" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -267,16 +279,17 @@
       <workItem from="1582975179103" duration="1221000" />
       <workItem from="1583592939615" duration="2845000" />
       <workItem from="1583613914897" duration="31000" />
+      <workItem from="1591608598552" duration="795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27864000" />
+    <option name="totallyTimeSpent" value="28659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.202407" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20678337" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -322,7 +335,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domain/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
+        <state relative-caret-position="-594">
           <caret line="86" column="55" selection-start-line="86" selection-start-column="55" selection-end-line="86" selection-end-column="55" />
         </state>
       </provider>

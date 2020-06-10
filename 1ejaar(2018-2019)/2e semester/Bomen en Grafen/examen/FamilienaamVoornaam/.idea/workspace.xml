@@ -2,12 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d59b10dc-5b6d-423d-8b52-d1e12609f175" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/domain/BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/bst_driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Webontwikkeling 3/test/src/domain/CD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Webontwikkeling 3/test/src/domain/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Webontwikkeling 3/test/src/domain/Radio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Webontwikkeling 3/test/src/domain/player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bomen_Grafen_facebook" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bomen_Grafen_facebook" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../final/Bin_search_tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final/Bin_search_tree/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../final/Bin_tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final/Bin_tree/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../final/Dijkstra/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final/Dijkstra/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oplossingen/Bomen_Grafen" beforeDir="false" afterPath="$PROJECT_DIR$/../../oplossingen/Bomen_Grafen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final/min_heap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final/min_heap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final/min_heap/out/production/BG_Les6/domain/BinaryMinHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../final/min_heap/out/production/BG_Les6/domain/BinaryMinHeap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final/min_heap/src/domain/BinaryMinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../final/min_heap/src/domain/BinaryMinHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/Dijkstra/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/Dijkstra/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/floyd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/floyd/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 2/out/production/labo 2/domain/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 2/out/production/labo 2/domain/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 2/out/production/labo 2/ui/BinaryTreeDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 2/out/production/labo 2/ui/BinaryTreeDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 2/src/domain/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 2/src/domain/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 2/src/ui/BinaryTreeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 2/src/ui/BinaryTreeDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 3/out/production/labo 3/domain/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 3/out/production/labo 3/domain/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 3/src/domain/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 3/src/domain/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 6 - grafen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 6 - grafen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Webontwikkeling 3/Dennis/Javascript/week08_JS" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Webontwikkeling 3/Dennis/Javascript/week08_JS" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,9 +60,18 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-2047469242">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ui/bst_driver.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,17 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_FamilienaamVoornaam.zip/FamilienaamVoornaam/src/ui/bst_driver.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_FamilienaamVoornaam.zip/FamilienaamVoornaam/src/domain/BST.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/domain/BST.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="201">
@@ -118,11 +131,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -164,7 +176,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -172,7 +183,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559899207488" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../vorig examen/Examen_dijkstra-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -219,22 +230,22 @@
       <option name="presentableId" value="Default" />
       <updated>1559893925452</updated>
       <workItem from="1559893927999" duration="5212000" />
+      <workItem from="1591781322606" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5212000" />
+    <option name="totallyTimeSpent" value="5229000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.16544656" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.34354487" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -271,12 +282,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/domain/BST.java</url>
-          <line>62</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/domain/BST.java</url>
           <line>95</line>
           <properties />
           <option name="timeStamp" value="27" />
@@ -285,6 +290,15 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_FamilienaamVoornaam.zip/FamilienaamVoornaam/src/ui/bst_driver.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_FamilienaamVoornaam.zip/FamilienaamVoornaam/src/domain/BST.java" />
+    <entry file="file://$PROJECT_DIR$/src/ui/bst_driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/BST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -294,19 +308,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/bst_driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_FamilienaamVoornaam.zip/FamilienaamVoornaam/src/ui/bst_driver.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_FamilienaamVoornaam.zip/FamilienaamVoornaam/src/domain/BST.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

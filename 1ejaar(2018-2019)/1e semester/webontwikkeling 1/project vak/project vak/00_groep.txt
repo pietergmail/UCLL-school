@@ -1,0 +1,21 @@
+Naam: Niko Freier
+Groep: VAK
+Email: Niko.freier@student.ucll.be
+StudentenNr: r0758429
+
+
+Naam: Winnepenninckx Dennis
+Groep: VAK
+Email:dennis.winnepenninckx@student.ucll.be
+StudentenNr: r0748117
+
+
+Naam: Deveux Thomas
+Groep: VAK
+Email:thomas.deveux@student.ucll.be
+StudentenNr: r0665785
+
+Naam: Herremans Pieter
+Groep: VAK
+Email: pieter.herremans@student.ucll.be
+StudentenNr: r0745616

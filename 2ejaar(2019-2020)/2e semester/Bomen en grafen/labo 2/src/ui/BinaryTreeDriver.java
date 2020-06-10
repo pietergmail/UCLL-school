@@ -25,8 +25,9 @@ public class BinaryTreeDriver {
 		System.out.println(boom.aantalKnopen());
 		System.out.println("\n");
 		System.out.println(boom.diepte());
-		System.out.println(boom.countLeaves());
-		System.out.println(boom.count('A'));
+		System.out.println(boom.countLeaves());//gives weird data because A is not a valid number
+		System.out.println(boom.count("F"));
+		System.out.println(boom.getNodesAtDistance(3));
 	}
 
 }

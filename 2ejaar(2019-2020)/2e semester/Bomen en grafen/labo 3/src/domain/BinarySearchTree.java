@@ -16,6 +16,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
 	}
 
 	public void printInOrder() {
+
 		if (this.data!=null){
 			if (leftTree!=null) leftTree.printInOrder();
 			System.out.print(this.data + " ");
@@ -64,6 +65,20 @@ public class BinarySearchTree<E extends Comparable<E>> {
 			}
 			return true;
 		}
+	}
+
+	public int diepte(){
+		int totaalLeft = 0;
+		int totaalRight = 0;
+		if(this.leftTree != null){
+			totaalLeft += this.leftTree.diepte();
+		}
+
+		if(this.rightTree != null) {
+			totaalRight += this.rightTree.diepte();
+		}
+
+		return Math.max(++totaalLeft, ++totaalRight);
 	}
 
 	public boolean isLeaf(){
@@ -148,6 +163,10 @@ public class BinarySearchTree<E extends Comparable<E>> {
 	}
 
 	public int count(){
-		if (leftTree != null) return this.leftTree.count();
+		/*
+		if (leftTree != null) {
+			return this.leftTree.count();
+		}*/
+		return 1;
 	}
 }
