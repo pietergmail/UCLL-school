@@ -2,17 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c40d0cf1-789b-45ef-a309-ceb45ce2895c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/Dijkstra/src/domain/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/Dijkstra/src/ui/UiDijkstra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/Dijkstra/src/ui/uiOefeningPunt1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/floyd/src/domain/WeightedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/floyd/src/ui/FloydUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 6 - grafen/src/domain/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 6 - grafen/src/ui/BreadthFirstSearchUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bomen_Grafen_facebook" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bomen_Grafen_facebook" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dezdekke/examen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dezdekke/examen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bin_search_tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bin_search_tree/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Floyd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Floyd/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Floyd/src/main/java/domain/WeightedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Floyd/src/main/java/domain/WeightedGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../grafen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../grafen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../min_heap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../min_heap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/Dijkstra/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/Dijkstra/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/Dijkstra/src/domain/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/Dijkstra/src/domain/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/floyd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/floyd/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/floyd/src/domain/WeightedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/floyd/src/domain/WeightedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 2/out/production/labo 2/domain/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 2/out/production/labo 2/domain/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 2/out/production/labo 2/ui/BinaryTreeDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 2/out/production/labo 2/ui/BinaryTreeDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 2/src/domain/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 2/src/domain/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 2/src/ui/BinaryTreeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 2/src/ui/BinaryTreeDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 3/out/production/labo 3/domain/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 3/out/production/labo 3/domain/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 3/src/domain/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 3/src/domain/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 5/src/domain/BinaryMinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 5/src/domain/BinaryMinHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 6 - grafen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 6 - grafen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 6 - grafen/src/domain/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Bomen en grafen/labo 6 - grafen/src/domain/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Webontwikkeling 3/Dennis/Javascript/week08_JS" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2ejaar(2019-2020)/2e semester/Webontwikkeling 3/Dennis/Javascript/week08_JS" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -65,13 +75,13 @@
     <session id="-1065723862">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -91,8 +101,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/domain/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="822">
-              <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+            <state relative-caret-position="831">
+              <caret line="136" selection-start-line="136" selection-end-line="136" />
             </state>
           </provider>
         </entry>
@@ -133,8 +143,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2284" />
+    <option name="y" value="-18" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -144,6 +155,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,7 +184,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -180,7 +191,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587129796000" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../grafen" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -243,16 +254,19 @@
       <workItem from="1587405415992" duration="3000" />
       <workItem from="1587414551739" duration="599000" />
       <workItem from="1587547852606" duration="34000" />
+      <workItem from="1591804984453" duration="1310000" />
+      <workItem from="1591816328614" duration="2108000" />
+      <workItem from="1591857514732" duration="302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11181000" />
+    <option name="totallyTimeSpent" value="14901000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15426695" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07995736" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -261,7 +275,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32968238" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32968238" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -293,8 +307,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/domain/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="822">
-          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+        <state relative-caret-position="831">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
         </state>
       </provider>
     </entry>

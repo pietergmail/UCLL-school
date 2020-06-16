@@ -2,24 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7945390-1309-4aed-8e20-12e0ed714d14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Webontwikkeling 3/test/src/domain/CD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Webontwikkeling 3/test/src/domain/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Webontwikkeling 3/test/src/domain/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Webontwikkeling 3/test/src/domain/player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/Bomen_Grafen_facebook" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/Bomen_Grafen_facebook" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/dezdekke/examen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/dezdekke/examen/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/Bin_search_tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/Bin_search_tree/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/Bin_tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/Bin_tree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/Dijkstra/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/Dijkstra/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/grafen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/grafen/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/min_heap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/min_heap/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/min_heap/out/production/BG_Les6/domain/BinaryMinHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/min_heap/out/production/BG_Les6/domain/BinaryMinHeap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/min_heap/src/domain/BinaryMinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/min_heap/src/domain/BinaryMinHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../floyd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../floyd/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../labo 2/out/production/labo 2/domain/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 2/out/production/labo 2/domain/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 2/out/production/labo 2/ui/BinaryTreeDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 2/out/production/labo 2/ui/BinaryTreeDriver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../labo 2/src/domain/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 2/src/domain/BinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../labo 2/src/ui/BinaryTreeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 2/src/ui/BinaryTreeDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../labo 3/out/production/labo 3/domain/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 3/out/production/labo 3/domain/BinarySearchTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../labo 3/src/domain/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 3/src/domain/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 5/src/domain/BinaryMinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 5/src/domain/BinaryMinHeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../labo 6 - grafen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 6 - grafen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 6 - grafen/src/domain/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 6 - grafen/src/domain/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Webontwikkeling 3/Dennis/Javascript/week08_JS" beforeDir="false" afterPath="$PROJECT_DIR$/../../Webontwikkeling 3/Dennis/Javascript/week08_JS" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,12 +31,12 @@
     <session id="-1299782541">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -53,12 +51,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="701" />
+          <entry key="java" value="1049" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="701" />
+          <entry key="JAVA" value="1049" />
         </counts>
       </usages-collector>
     </session>
@@ -77,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/domain/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-441">
-              <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+            <state relative-caret-position="34">
+              <caret line="91" column="78" selection-start-line="91" selection-start-column="78" selection-end-line="91" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -101,7 +99,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -111,44 +109,13 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Dijkstra" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dijkstra" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dijkstra" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dijkstra" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dijkstra" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dijkstra" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dijkstra" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dijkstra" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590858894905" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../floyd" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -216,15 +183,15 @@
       <workItem from="1590856727527" duration="1926000" />
       <workItem from="1590921708447" duration="617000" />
       <workItem from="1591710115906" duration="1219000" />
+      <workItem from="1591804996997" duration="1291000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6376000" />
+    <option name="totallyTimeSpent" value="7667000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="1" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2713348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -280,8 +247,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-441">
-          <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        <state relative-caret-position="34">
+          <caret line="91" column="78" selection-start-line="91" selection-start-column="78" selection-end-line="91" selection-end-column="78" />
         </state>
       </provider>
     </entry>

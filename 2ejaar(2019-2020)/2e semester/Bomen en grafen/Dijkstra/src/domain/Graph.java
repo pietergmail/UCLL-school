@@ -41,13 +41,19 @@ public class Graph {
 		printIntMatrix(res);
 
 		for (int i = 0; i < getAantalKnopen() - 1; i++){
+		    //zoek nieuwe minimale afstand
 		    int min = inf;
 		    int[] knopenpaar = {inf, inf};
 		    for (int j = 0; j < getAantalKnopen(); j++){
+                // als knoop k+1 nog niet gevonden is,
+                // als er een verbinding is tussen knoop j+1 en knoop k+1
+                // en als de verbinding tussen deze knopen korter is
+                // dan het minimum tot nog toe
 		        if (res[getAantalKnopen()][j] != inf){
 		            for (int k = 0; k < getAantalKnopen(); k++){
                         if (res[getAantalKnopen()][k] == inf && res[j][k] != 0 &&
                                 res[getAantalKnopen()][j] + res[j][k] < min){
+                            //onthoud (index van) dit knopenpaar en hun minimum
                             knopenpaar[0] = j;
                             knopenpaar[1] = k;
                             min = res[getAantalKnopen()][j] + res[j][k];
@@ -56,8 +62,10 @@ public class Graph {
                 }
             }
             if (knopenpaar[0] != inf && knopenpaar[1] != inf){
+                //nieuwe minimum
                 res[getAantalKnopen()][knopenpaar[1]] = min;
                 for (int j = 0; j < getAantalKnopen() - 1; j++){
+                    //kolom op nul zetten, maar niet op plaats die het minimum aanlevert
                     if (j != knopenpaar[0]){
                         res[j][knopenpaar[1]] = 0;
                     }
@@ -74,12 +82,14 @@ public class Graph {
 		ArrayList<Integer> pad = new ArrayList<>();
 
 		pad.add(naarKnoop);
+		//zolang het niet bij naar knoop is
 		while(naarKnoop != vanKnoop){
 		    int k = 1;
+		    //zolang het niet nul is of het kleiner is dan aantal knopen
 		    while (k - 1 < getAantalKnopen() && res[k - 1][naarKnoop - 1] == 0)
 		        k++;
-		    pad.add(0, k);
-		    naarKnoop = k;
+		    pad.add(0, k);//voeg k toe
+		    naarKnoop = k;//K wordt de nieuwe knoop waar naartoe wordt gezocht
         }
 		return pad;
 	}

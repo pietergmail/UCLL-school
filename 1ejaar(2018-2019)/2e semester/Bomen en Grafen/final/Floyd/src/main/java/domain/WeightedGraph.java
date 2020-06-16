@@ -18,7 +18,7 @@ public class WeightedGraph {
 		double[][] D = this.gewichtenMatrix.clone();//nieuwe matrix clone van gewichtenmatrix
 		int aantal = gewichtenMatrix.length;//aantal is lengte gewichtmatrix
 		for (int k = 0; k < aantal; k++) {//ga door de lengte
-			for (int i = 0; i < aantal; i++) {//ga door de lengte nog eens
+			for (int i = 0; i < aantal; i++) {//ga door de lengte   p unog eens
 				for (int j = 0; j < aantal; j++) {//ga door de lengte nog eens
 					if (D[i][k] + D[k][j] < D[i][j]) {//bepaalt pointermatrix (als deze korter is dan de huidige waarde)
 						D[i][j] = D[i][k] + D[k][j];//vervang de huidige waarde door nieuwe waarde
@@ -36,7 +36,7 @@ public class WeightedGraph {
 		if (van == tot) {//kortste pad gevonden
 			return pad;
 		} else {//pad is niet gevonden
-			int via = P[van - 1][tot - 1];
+			int via = P[van - 1][tot - 1];//volgende punt zoeken waar er al een rechstreekse verbinding is
 			if (via == 0){//afstand tussen twee is nul
 				pad.add(van);//voeg van toe
 				pad.add(tot);//voeg tot toe
@@ -65,5 +65,4 @@ public class WeightedGraph {
 	
 		// oefening 2.5
 	}
-
 }

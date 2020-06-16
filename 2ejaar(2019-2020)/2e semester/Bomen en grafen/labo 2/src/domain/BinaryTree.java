@@ -140,5 +140,23 @@ public class BinaryTree<E> {
         return sublevel;
 	}
 
-	
+    public boolean  kindersom(){
+	    boolean last;
+	    if (this.rightTree != null && this.leftTree != null) {
+            last = this.data.hashCode() == this.leftTree.hashCode() + this.rightTree.hashCode();
+        }else{
+	        //bottom of the tree reached.
+            return true;
+        }
+        //links checken
+	    if(this.leftTree != null){
+	        last = this.leftTree.kindersom();
+        }
+        //rechts checken
+        if (this.rightTree != null){
+            last = this.rightTree.kindersom();
+        }
+
+        return last;
+    }
 }

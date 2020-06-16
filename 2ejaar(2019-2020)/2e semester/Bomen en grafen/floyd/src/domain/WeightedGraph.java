@@ -22,12 +22,12 @@ public class WeightedGraph {
         int[][] path = new int[getAantalKnopen()][getAantalKnopen()];
         double[][] distanceMatrix = this.gewichtenMatrix.clone();
         int aantal = gewichtenMatrix.length;//lengte van de gewichtsmatrix
-        for (int k = 0; k < aantal; k++){
-            for (int i = 0; i < aantal; i++){
-                for (int j = 0; j < aantal; j++){
-                    if (distanceMatrix[i][k] + distanceMatrix[k][j] < distanceMatrix[i][j]){
-                        distanceMatrix[i][j] = distanceMatrix[i][k] + distanceMatrix[k][j];
-                        path[i][j] = k + 1;
+        for (int k = 0; k < aantal; k++){//ga door de lengte
+            for (int i = 0; i < aantal; i++){//2X
+                for (int j = 0; j < aantal; j++){//3X
+                    if (distanceMatrix[i][k] + distanceMatrix[k][j] < distanceMatrix[i][j]){//bepaalt distancematrix
+                        distanceMatrix[i][j] = distanceMatrix[i][k] + distanceMatrix[k][j];//vervang waarden
+                        path[i][j] = k + 1;//wordt in het pad opgeslagen
                     }
                 }
             }
@@ -45,10 +45,10 @@ public class WeightedGraph {
 		    if (via == 0){//van en tot liggen naast elkaar
 		        res.add(van);
 		        res.add(tot);
-            } else {
-		        res = getShortestPath(van, via, path);
-		        res.remove(res.size() - 1);
-		        res.addAll(getShortestPath(via, tot, path));
+            } else {//geen rechstreekse verbinding tussen van en tot
+		        res = getShortestPath(van, via, path);//herhalen tot dat er een korter pad is gevonden
+		        res.remove(res.size() - 1);//remove from pad
+		        res.addAll(getShortestPath(via, tot, path));//voeg alles toe aan pad
             }
         }
 		return res;
@@ -57,8 +57,8 @@ public class WeightedGraph {
 
 	public int berekenLengte(List<Integer> pad) {
 		int som = 0;
-		int aantalKnopen = pad.size();
-		int huidigeKnoop, volgendeKnoop;
+		int aantalKnopen = pad.size();//aantal knopen is de grote van het pad
+		int huidigeKnoop, volgendeKnoop;//declaratie twee knopen
 		for (int i = 0; i < aantalKnopen - 1; i++){
 		    huidigeKnoop = pad.get(i);
 		    volgendeKnoop = pad.get(i + 1);

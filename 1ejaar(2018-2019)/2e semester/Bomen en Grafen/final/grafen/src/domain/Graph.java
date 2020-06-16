@@ -58,9 +58,9 @@ public class Graph {
             ancestors[i - 1] = huidig;
         }
     }
-    //voorste element van queue wordt nieuwe huidige knoop
-            if (!queue.isEmpty()) {//al er nog iets in de queue zit moet hij verwijderd wordt
-        huidig = queue.remove(); //of .poll() wat geen exception gooit
+    //voorste element van queue wordt nieuwe huidige knoo
+    if (!queue.isEmpty()) {//al er nog iets in de queue zit moet hij verwijderd wordt
+         huidig = queue.remove(); //of .poll() wat geen exception gooit
     } else {
         //queue is leeg, stop maar
         break;

@@ -49,29 +49,29 @@
 
 	window.addEventListener("load", initPage, false);
 
-	function initPage(){
-	    let d = new Date();
-	    document.getElementsByClassName("day")[0].innerHTML = weekDays[d.getDay()];
-		let hours = d.getHours();
-	    if(hours > 12){
-	        document.getElementsByClassName("hours")[0].innerHTML = formatNumber(hours%12);
+	function initPage() {
+        let d = new Date();
+        document.getElementsByClassName("day")[0].innerHTML = weekDays[d.getDay()];
+        let hours = d.getHours();
+        if (hours > 12) {
+            document.getElementsByClassName("hours")[0].innerHTML = formatNumber(hours % 12);
             document.getElementsByClassName("period")[0].innerHTML = "PM";
-		}else{
+        } else {
             document.getElementsByClassName("hours")[0].innerHTML = formatNumber(hours);
             document.getElementsByClassName("period")[0].innerHTML = "AM";
-		}
-        document.getElementsByClassName("minutes")[0].innerHTML = formatNumber(d.getMinutes());
+        }
+        document.getElementsByClassName("minutes")[0].innerHTML = formatNumber((d.getMinutes()));
         document.getElementsByClassName("seconds")[0].innerHTML = formatNumber(d.getSeconds());
 
-        if (hours <= 8){
+        if (hours <= 8) {
             document.getElementById("change").setAttribute("src", "src\",\"http://www.bakfiets-family.net/wp-content/uploads/2015/01/IMAG1914.jpg");
-		}else if(hours <= 16){
-            document.getElementById("change").setAttribute("src","https://i2.wp.com/earline.lt-magazine.nl/wp-content/uploads/sites/4/2019/10/earline-viron-10-2019.jpg?fit=750%2C375&ssl=1");
-		}else{
+        } else if (hours <= 16) {
+            document.getElementById("change").setAttribute("src", "https://i2.wp.com/earline.lt-magazine.nl/wp-content/uploads/sites/4/2019/10/earline-viron-10-2019.jpg?fit=750%2C375&ssl=1");
+        } else {
             document.getElementById("change").setAttribute("src", "https://images.pexels.com/photos/771883/pexels-photo-771883.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
-		}
-		window.setTimeout(initPage, 1000);
-	}
+        }
+        window.setTimeout(initPage, 1000);
+    }
 
 </script>
 </body>

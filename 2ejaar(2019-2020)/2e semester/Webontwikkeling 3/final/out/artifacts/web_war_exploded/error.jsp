@@ -24,9 +24,10 @@
     </header>
     <main>
 
-        <article><h1 style="font-size: 48px">Oopsie Poopsie !</h1>
+        <article><h1 style="font-size: 48px">I am error!</h1>
             <p>You caused a ${pageContext.exception} on the server!</p>
-            <img src="images/oopsie.png" alt="oopsie" width="300px">
+            <P>You are not supposed to do that, now the server crashed</P>
+            <p>thx.</p>
             <p>
                 <a href="Controller">Home</a></p>
         </article>

@@ -3,10 +3,7 @@ package domain.db;
 import domain.model.Person;
 import domain.model.Product;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
@@ -29,24 +26,29 @@ public class PersonDbSql implements PersonDb {
     public Person get(String personId) {
         Person p = new Person();
         ResultSet result = null;
+        String SQL = "select * from \"herremanspieter\".\"person\" where userid = ?";
+
 
         try (Connection connection = DriverManager.getConnection(url, properties);
-             Statement statement = connection.createStatement()) {
-            result = statement.executeQuery("select * from \"herremanspieter\".\"person\" where userid = '" + personId+"'");
+             PreparedStatement getuser = connection.prepareStatement(SQL)){
+            getuser.setString(1, personId);
+            result = getuser.executeQuery();
             p = makePersonFromSet(result);
-        } catch (Exception e) {
-            e.printStackTrace();
+        } catch (SQLException e1) {
+            e1.printStackTrace();
         }
         return p;
-    }
+}
 
     @Override
     public List<Person> getAll() {
         ResultSet result = null;
         ArrayList list = new ArrayList();
+        String SQL = "SELECT * FROM \"herremanspieter\".\"person\"";
+
         try (Connection connection = DriverManager.getConnection(url, properties);
-             Statement statement = connection.createStatement()) {
-            result = statement.executeQuery("SELECT * FROM \"herremanspieter\".\"person\"");
+             PreparedStatement statement = connection.prepareStatement(SQL)) {
+            result = statement.executeQuery();
             list = (ArrayList) makePersonsFromSet(result);
         } catch (Exception e) {
             e.printStackTrace();

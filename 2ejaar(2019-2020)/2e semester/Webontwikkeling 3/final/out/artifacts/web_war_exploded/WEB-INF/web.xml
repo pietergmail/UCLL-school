@@ -7,8 +7,15 @@
     <welcome-file-list>
         <welcome-file>Controller</welcome-file>
     </welcome-file-list>
-
-
+    <error-page>
+        <exception-type>java.lang.Throwable</exception-type>
+        <location>/error.jsp</location>
+    </error-page>
+    <error-page>
+        <!-- Missing resource -->
+        <error-code>404</error-code>
+        <location>/error.jsp</location>
+    </error-page>
     <context-param>
         <param-name>url</param-name>
         <param-value>

@@ -29,7 +29,7 @@
             </c:forEach>
         </table>
        
-        <p><a href="#">Go home.</a></p>
+        <p><a href="Servlet?command=Home">Go home.</a></p>
     </article>
 </main>
 </body>

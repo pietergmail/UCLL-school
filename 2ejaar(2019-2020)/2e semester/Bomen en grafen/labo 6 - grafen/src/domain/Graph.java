@@ -19,13 +19,14 @@ public class Graph {
     }
 
     private boolean isGeldigeVerbindingsMatrix(int[][] matrix) {
+        //als matrix niet viierkant is of niet bestaand
         if (matrix == null || matrix.length != matrix[0].length)
             return false;
-
+        //verbindingsmatrix moet overal 0 zijn op de diagonaal
         for (int i = 0; i < matrix.length; i++)
             if (matrix[i][i] != 0)
                 return false;
-
+        //het is een niet gerichte graaf dus rij-kolom moet gelijk zijn aan kolom-rij
         for (int i = 0; i < matrix.length; i++)
             for (int j = 0; j < matrix.length; j++)
                 if (matrix[i][j] != 0 && matrix[i][j] != 1)
@@ -48,21 +49,25 @@ public class Graph {
 
     private int[] findAncestors(int start, int destination) {// nummering van
         // start-knoop
-        int aantalknopen = this.getAantalKnopen();
-        int[] ancestors = new int[aantalknopen];
-        initArray(ancestors, infty);
-        Queue<Integer> queue = new LinkedList<>();
-        queue.add(start);
-        ancestors[start - 1] = 0;
-        int huidig = queue.remove();
+        int aantalknopen = this.getAantalKnopen();//new int met aantal knopen
+        int[] ancestors = new int[aantalknopen];//nieuwe array ancestors met aantalknopen in
+        initArray(ancestors, infty);//maak een array vol met de waarde infty
+        Queue<Integer> queue = new LinkedList<>();//linkedlist Queue wordt gemaakt
+        queue.add(start);//voeg start toe aan de linked list
+        ancestors[start - 1] = 0;//0 wordt op de start van de ancestors arraylist gezet
+        int huidig = queue.remove();//de waarde huidig neemt de volgende waarde aan
         while (huidig != destination) {
+            //zoek alle nog niet bezochte knooppunten vanuit huidig
             for (int i = 1; i <= aantalknopen; i++) {
+                //voeg toe als er een rechstreeks verbinding is
                 if (rechtstreekseVerbinding(huidig, i) && (ancestors[i - 1] == infty)) {
+                    //voeg knoop i toe aan de queue
                     queue.add(i);
+                    //duid aan dat huidig de ouder is van i in ancestormatrix
                     ancestors[i - 1] = huidig;
                 }
             }
-            if (!queue.isEmpty()) {
+            if (!queue.isEmpty()) {//queue moet leeg zijn
                 huidig = queue.remove();
             } else {
                 break;
@@ -76,15 +81,15 @@ public class Graph {
                 destination <= 0 ||
                 destination > this.getAantalKnopen())
             throw new IllegalArgumentException();
-        int[] ancestors = this.findAncestors(start, destination);
+        int[] ancestors = this.findAncestors(start, destination);//vind de ancestors van de waardes
         List<Integer> path = new LinkedList<>();
-        int ouder = ancestors[destination - 1];
-        while (ouder != 0 && ouder != infty){
-            path.add(0, destination);
-            destination = ouder;
-            ouder = ancestors[destination - 1];
+        int ouder = ancestors[destination - 1];//ouder bepalen
+        while (ouder != 0 && ouder != infty){//zolang de ouder bestaat
+            path.add(0, destination);//toevoegen aan pad
+            destination = ouder;//verander destination naar ouder
+            ouder = ancestors[destination - 1];//nieuw ouder en hoger
         }
-        if (ouder == 0){
+        if (ouder == 0){//einde bereikt
             path.add(0, destination);
         }
         return path;

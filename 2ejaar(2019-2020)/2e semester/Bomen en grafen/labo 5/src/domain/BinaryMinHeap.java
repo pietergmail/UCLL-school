@@ -92,13 +92,14 @@ BinaryMinHeap<E extends Comparable<E>> {
 
     public ArrayList<E> getPath(E value) {
         int index = this.values.indexOf(value);
+        //value zit niet in de heap
         if(index == -1){
             return null;
         }else{
             ArrayList<E> pad = new ArrayList<>();
             pad.add(value);
             while (index > 0){
-                index = (index - 1)/2;
+                index = (index - 1)/2;//parent
                 pad.add(0, this.values.get(index));
             }
             return pad;
