@@ -10,6 +10,17 @@
       <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/examen/examen.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/proefexamen/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/proefexamen/proefexamen.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/proefexamen/src/domain/db/DbException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/proefexamen/src/domain/db/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/proefexamen/src/domain/db/ProductRepositorySQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/proefexamen/src/domain/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/proefexamen/src/domain/model/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/proefexamen/src/domain/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/proefexamen/src/domain/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/proefexamen/src/ui/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/proefexamen/src/ui/controller/ControllerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/proefexamen/src/ui/controller/NotAuthorizedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/proefexamen/src/ui/controller/RequestHandler.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/proefexamen/web/WEB-INF/web.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/proefexamen/web/error.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/proefexamen/web/header.jsp" afterDir="false" />
@@ -28,6 +39,7 @@
       <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/grafen/src/domain/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/grafen/src/domain/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/grafen/src/ui/BreadthFirstSearchUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/grafen/src/ui/BreadthFirstSearchUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/min_heap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ejaar(2018-2019)/2e semester/Bomen en Grafen/final/min_heap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../labo8_new/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo8_new/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project V2.0/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project V2.0/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project V2.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project V2.0/.idea/workspace.xml" afterDir="false" />
@@ -45,6 +57,7 @@
       <change beforePath="$PROJECT_DIR$/../../../2e semester/Bomen en grafen/labo 6 - grafen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2e semester/Bomen en grafen/labo 6 - grafen/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../2e semester/Bomen en grafen/labo 6 - grafen/src/domain/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2e semester/Bomen en grafen/labo 6 - grafen/src/domain/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/Dennis/Javascript/week08_JS" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/Dennis/Javascript/week08_JS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/HerremansPieter/web/ledenOverview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/HerremansPieter/web/ledenOverview.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/final/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/final/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/final/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/PersonDbSql.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/final/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/PersonDbSql.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/final/out/artifacts/web_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2e semester/Webontwikkeling 3/final/out/artifacts/web_war_exploded/WEB-INF/web.xml" afterDir="false" />
@@ -356,7 +369,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
