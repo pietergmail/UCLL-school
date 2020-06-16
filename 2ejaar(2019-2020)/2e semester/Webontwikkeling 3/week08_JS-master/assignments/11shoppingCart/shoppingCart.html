@@ -56,18 +56,19 @@
     </table>
 </div>
 <script>
-    var tbody = document.getElementById("body");
-    tbody.addEventListener('click', changeLink);
 
-    function changeLink(){
+    var tbody = document.getElementById("body");
+    tbody.addEventListener('click', changelink);
+
+    function changelink(){
         if (event.target.tagName == "A"){
             let link = event.target;
-            let input = link.parentNode.parentNode.childNodes[3].firstChild.value;
+            let input = link.parent.childNodes[3].firstChild.value;
 
             if (input > 0){
                 link.href += input;
-            }else {
-                window.alert("Ongeldig aantal")
+            }else{
+                window.alert("Ongeldig aantal");
                 event.preventDefault();
             }
         }

@@ -31,8 +31,8 @@
                     <c:if test="${person.role == 'Admin'}">
                     <td><a href="Controller?command=editProduct&id=${Product.productId}">${Product.name}</a></td>
                     </c:if>
-                    <td>${Product.description}</td>
-                    <td>${Product.price}</td>
+                    <td><c:out value="${Product.description}"/></td>
+                    <td><c:out value="${Product.price}"/></td>
                     <c:if test="${person.role == 'Admin'}">
                     <td><a href="deleteProduct.jsp?id=<c:out value='${Product.productId}'></c:out>&name=<c:out value='${Product.name}'></c:out>">delete</a></td>
                     </c:if>

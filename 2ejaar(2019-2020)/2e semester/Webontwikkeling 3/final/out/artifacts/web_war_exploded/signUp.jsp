@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 
 <!DOCTYPE html>
 <html>
@@ -37,14 +38,14 @@
                 <form novalidate="novalidate" method="post" action="Controller?command=signUpSubmit">
                     <!-- novalidate in order to be able to run tests correctly -->
                     <p><label for="userid">User id</label><input type="text" id="userid" name="userid"
-                                                                 required value="${prevId}"></p>
+                                                                 required value="${fn:escapeXml(param.prevId)}"></p>
                     <p><label for="firstName">First Name</label><input type="text" id="firstName" name="firstName"
-                                                                       required value="${prevFirstName}"></p>
+                                                                       required value="${fn:escapeXml(param.prevFirstName)}"></p>
                     <p><label for="lastName">Last Name</label><input type="text" id="lastName" name="lastName"
-                                                                     required value="${prevLastName}"></p>
-                    <p><label for="email">Email</label><input type="email" id="email" name="email" required value="${prevEmail}"></p>
+                                                                     required value="${fn:escapeXml(param.prevLastName)}"></p>
+                    <p><label for="email">Email</label><input type="email" id="email" name="email" required value="${fn:escapeXml(param.prevEmail)}"></p>
                     <p><label for="password">Password</label><input type="password" id="password" name="password"
-                                                                    required value="${prevPassword}"></p>
+                                                                    required value="${fn:escapeXml(param.prevPassword)}"></p>
                     <p>please select the role:</p>
                     <p>
                         <input type="radio" id="User" name="role" value="User" checked>

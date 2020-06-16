@@ -12,7 +12,7 @@ public abstract class RequestHandler {
 	
 	private ProductService productService;
 	
-	public abstract void handleRequest (HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException;
+	public abstract String handleRequest (HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException;
 	
 	public void setModel (ProductService bookService) {
 		this.productService = bookService;

@@ -10,9 +10,11 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.Enumeration;
 import java.util.Properties;
+import java.util.TreeMap;
 
 @WebServlet("/Servlet")
 public class Servlet extends HttpServlet {
@@ -50,6 +52,7 @@ public class Servlet extends HttpServlet {
     }
 
     private void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         RequestHandler handler = factory.getHandler(request, response, wielerclub);
         
         RequestDispatcher view = request.getRequestDispatcher(handler.handleRequest(request, response));

@@ -10,7 +10,7 @@ import java.util.Properties;
 public class ProductRepositorySQL implements ProductRepository {
 
     private Properties properties = new Properties();
-    private String url = "jdbc:postgresql://databanken.ucll.be:51920/webontwerp";
+    private String url = "jdbc:postgresql://databanken.ucll.be:61920/2TX32";
 
     public ProductRepositorySQL(Properties properties) {
         this.properties = properties;

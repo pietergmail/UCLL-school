@@ -66,4 +66,14 @@ public class LedenDBSQL implements LedenDB {
         return leden;
     }
 
+    @Override
+    public List<Lid> getSortedLeden(){
+        try (Connection connection = DriverManager.getConnection(url, properties);
+             Statement statement = connection.createStatement()) {
+            ResultSet resultSet = statement.executeQuery("SELECT * FROM herremanspieter.leden ORDER BY 2 ");
+            return createListFromResultset(resultSet);
+        } catch (SQLException e) {
+            throw new DbException(e.getMessage(), e);
+        }
+    }
 }

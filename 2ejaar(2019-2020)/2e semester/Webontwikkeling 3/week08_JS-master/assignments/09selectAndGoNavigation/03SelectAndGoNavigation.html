@@ -26,8 +26,19 @@
 </div>
 
 <script>
-    window.addEventListener("unload", function () {
-    }, false);
+    window.addEventListener("unload", function () {}, false);
+    window.addEventListener("load", initForm, false);
+
+    function initForm(){
+        document.getElementById("newLocation").addEventListener("click", jumpPage)
+    }
+
+    function jumpPage(){
+        window.location = document.getElementById('newLocation').value;
+    }
+
+    /*
+    window.addEventListener("unload", function () {}, false);
     window.addEventListener("load", initForm, false);
 
     function initForm(){
@@ -36,7 +47,7 @@
 
     function jumpPage(){
         window.location =  document.getElementById('newLocation').value;
-    }
+    }*/
 
 </script>
 

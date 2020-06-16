@@ -8,4 +8,6 @@ public interface LedenDB {
     Lid geefLid(String email);
 
     List<Lid> geefAlleLeden();
+
+    List<Lid> getSortedLeden();
 }
