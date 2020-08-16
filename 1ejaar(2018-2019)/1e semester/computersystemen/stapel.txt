@@ -1,0 +1,7 @@
+eax: 4 bytes
+ax: 2 bytes
+ah: 1 byte
+al: 1 byte
+
+push: stapelwijzer omlaag
+pop: stapelwijzer omhoog

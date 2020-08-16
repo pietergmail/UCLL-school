@@ -1,0 +1,41 @@
+%include "gt.asm"
+covar
+    outarea: resb 70
+         db  0Dh, 0Ah
+    getal: resd 1
+    hulpd: resd 1
+    
+inleiding
+    cld
+    openuit
+    mov ecx, 70
+    mov al, ' '
+    mov edi, outarea
+    rep stosb
+    
+    inv [getal]
+    mov eax, [getal]
+    mov edi, outarea + 10
+    call berekening
+    mov [getal], eax
+    schrijf
+slot
+
+berekening:
+    push eax
+    push edi
+    mov ebx, 10
+    std
+    lus:
+        mov edx, 0
+        idiv ebx
+        add dl, 30h
+        xchg al, dl
+        stosb
+        xchg al, dl
+        cmp eax, 0
+        jne lus
+    pop eax
+    pop edi
+    ret
+

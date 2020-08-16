@@ -1,0 +1,13 @@
+movsb/stosb
+
+
+std: recht naar links
+cld: links naar rechts
+
+movsb:
+edi: destination
+esi: source
+
+stosb:
+edi: destination
+eax: source

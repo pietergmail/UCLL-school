@@ -1,0 +1,3 @@
+Debiet = Breedte * Snelheid
+Breedte = Debiet / Snelheid
+Snelheid = Debiet / Breedte

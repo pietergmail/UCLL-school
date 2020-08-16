@@ -1,0 +1,107 @@
+%include 'gt.asm'
+covar
+    inarea:         resb 70
+    outarea:        resb 70
+                    db 0Dh, 0Ah
+    bedrag:         resd 1
+    belastingen:    resd 1
+    
+    tien:           dd 10
+    twintig:        dd 20
+    veertig:        dd 40
+    honderd:        dd 100
+    
+inleiding
+    openin
+    openuit
+    
+    volgendelijn:
+        lees
+        cmp eax, 0
+        je einde
+        
+        cld
+        mov ecx, 70
+        mov al,' '
+        mov edi, outarea
+        rep stosb
+        
+        mov ecx, 40
+        mov esi, inarea
+        mov edi, outarea
+        rep movsb;inarea kopieren naar outarea
+        
+        call bedraglezen
+        uit [bedrag]
+        call belastingberekening
+        mov edi, outarea + 48
+        call ascii
+        jmp volgendelijn
+        
+    einde:
+slot
+
+bedraglezen:
+    mov ecx, 10
+    mov esi, inarea+30
+    tekstbin
+    mov [bedrag], eax
+    ret
+
+belastingberekening:
+    mov eax, [bedrag]
+    cmp eax, 2500
+    jle inkomen1
+    
+    cmp eax, 5000
+    jle inkomen2
+    
+    cmp eax, 10000
+    jle inkomen3
+    jg inkomen4
+    
+    inkomen1:
+        mov eax, 0
+        mov [belastingen], eax
+        jmp return
+        
+    inkomen2:
+        sub eax, 2500
+        imul dword [tien]
+        idiv dword [honderd]
+        mov [belastingen], eax
+        jmp return
+        
+    inkomen3:
+        sub eax, 5000
+        imul dword [twintig]
+        idiv dword [honderd]
+        add eax, 250
+        mov [belastingen], eax
+        jmp return
+        
+    inkomen4:
+        sub eax, 10000
+        imul dword [veertig]
+        idiv dword [honderd]
+        add eax, 1250
+        mov [belastingen], eax
+        jmp return
+        
+    return:
+        ret
+        
+ascii:
+    mov ebx, 10
+    std
+    lus:
+        mov edx, 0
+        idiv ebx;getal gedeeld door 10
+        or dl, 30h
+        xchg al, dl
+        stosb
+        xchg al, dl
+        cmp eax, 0
+        jne lus
+    schrijf
+    ret

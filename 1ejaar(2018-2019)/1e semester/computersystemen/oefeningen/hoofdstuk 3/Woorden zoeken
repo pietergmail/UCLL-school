@@ -1,0 +1,70 @@
+%include "gt.asm"
+covar
+    
+    teller:     dd 0
+    letters:    resd 10
+    inarea:     resb 70
+    
+inleiding
+    openin
+    lees
+    
+    mov ecx, 9
+    mov esi, inarea
+    sub edi, edi
+    
+    read
+        sub eax, eax
+        lodsb
+        mov [letters + edi], al
+        add edi, 4
+        loop read
+        
+    nietgelijk:
+        lees
+        mov esi, inarea
+        cmp eax, 0
+        je end
+        
+        lodsb
+        cmp al, [letters+0]
+        jne nietgelijk
+    
+        lodsb
+        cmp al, [letters+4]
+        jne nietgelijk
+    
+        lodsb
+        cmp al, [letters+8]
+        jne nietgelijk
+    
+        lodsb
+        cmp al, [letters+12]
+        jne nietgelijk
+    
+        lodsb
+        cmp al, [letters+16]
+        jne nietgelijk
+    
+        lodsb
+        cmp al, [letters+20]
+        jne nietgelijk
+        
+        lodsb
+        cmp al, [letters+24]
+        jne nietgelijk
+        jmp gelijk
+        terug:
+        
+jmp nietgelijk
+
+end:
+    uit [teller]
+slot
+
+gelijk:
+    sub eax, eax
+    mov eax, [teller]
+    add eax, 1
+    mov [teller], eax
+    jmp terug

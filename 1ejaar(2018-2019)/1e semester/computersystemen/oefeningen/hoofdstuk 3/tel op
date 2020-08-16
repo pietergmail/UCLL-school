@@ -1,0 +1,103 @@
+%include "gt.asm"
+covar
+    getal1:         resd 1
+    getal2:         resd 1
+    som:            resd 1
+    outarea:        resb 70
+                    db 0Dh, 0Ah
+    tekstgetal1:    DB 'HET EERSTE GETAL IS:'
+    tekstgetal2:    DB 'HET TWEEDE GETAL IS:'
+    lijn:           DB '==========================='
+    tekstsom:       DB 'DE SOM IS:'
+    
+inleiding
+    inv [getal1]
+    inv [getal2]
+    mov eax, [getal1]
+    add eax, [getal2]
+    mov [som], eax
+    uit [som]
+    
+    openuit 
+    cld
+    
+    mov ecx, 70
+    mov al, ' '
+    mov edi, outarea
+    rep stosb
+    
+    mov ecx, 20
+    mov esi, tekstgetal1
+    mov edi, outarea
+    rep movsb
+    
+    mov eax, [getal1]
+    call omzetascii
+    
+    schrijf
+    
+    mov ecx, 70
+    mov al, ' '
+    mov edi, outarea
+    rep stosb
+    
+    mov ecx, 20
+    mov esi, tekstgetal2
+    mov edi, outarea
+    rep movsb
+    
+    mov eax, [getal2]
+    call omzetascii
+    
+    schrijf
+    
+    mov ecx, 70
+    mov al, ' '
+    mov edi, outarea
+    rep stosb
+    
+    mov ecx, 27
+    mov esi, lijn
+    mov edi, outarea
+    rep movsb
+    
+    schrijf
+    
+    mov ecx, 70
+    mov al, ' '
+    mov edi, outarea
+    rep stosb
+    
+    mov ecx, 20
+    mov esi, tekstsom
+    mov edi, outarea
+    rep movsb
+    
+    mov eax, [som]
+    call omzetascii
+    
+    schrijf
+    
+    
+slot
+
+omzetascii:
+    mov edi, outarea + 26
+    std
+    mov ebx, 10
+    lus:
+        mov edx, 0
+        idiv ebx
+        add dl, 30h
+        xchg al, dl
+        stosb
+        xchg al, dl
+        cmp eax, 0
+    jne lus
+    cld
+    ret
+
+    
+    
+    
+    

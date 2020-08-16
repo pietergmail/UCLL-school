@@ -1,0 +1,44 @@
+%include "gt.asm"
+covar
+    getal1:     resd 1
+    getal2:     resd 1
+    getal11:    resd 1
+    getal22:    resd 1
+    nul:        resd 1
+    uitkomst:   resd 1
+    
+inleiding
+
+    inv [getal1]
+    inv [getal2]
+    
+    mov eax, [getal1]
+    mov [getal11], eax
+    
+    mov ebx, [getal2]
+    mov [getal22], ebx
+    
+    call berekening
+    uit [uitkomst]
+    
+slot
+
+berekening:
+    hoger:
+        mov eax, [getal22]
+        cmp eax, [nul]
+        je lager
+        sub edx, edx
+        mov eax, [getal11]
+        idiv dword [getal22]
+        mov eax, [getal22]
+        mov [getal11], eax
+        mov [getal22], edx
+        jmp hoger
+    lager:
+        mov eax, [getal1]
+        imul eax, [getal2]
+        sub edx, edx
+        idiv dword [getal11]
+        mov [uitkomst], eax
+    ret

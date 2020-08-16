@@ -1,0 +1,36 @@
+%include "gt.asm"
+covar
+inarea:     resb 70
+teller:     dd 0
+
+inleiding
+    openin
+    lees
+    mov esi, inarea
+    mov ecx, 70
+    
+    read:
+        lodsb
+        cmp al, 'a'
+        je tellerup
+        cmp al, 'e'
+        je tellerup
+        cmp al, 'o'
+        je tellerup
+        cmp al, 'u'
+        je tellerup
+        cmp al, 'i'
+        je tellerup
+        
+    terug:
+        loop read
+        uit [teller]
+        
+slot
+
+tellerup
+    sub eax, eax
+    mov eax, [teller]
+    add eax, 1
+    mov [teller], eax
+    jmp terug

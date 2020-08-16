@@ -1,0 +1,30 @@
+%include "gt.asm"
+covar
+    getal1:     resd 1
+    res:        resd 1
+    nul:        dd 0
+    
+inleiding
+    inv [getal1]
+    mov eax, [getal1]
+    mov [res], eax
+    call berekening
+    uit [res]
+    
+slot
+
+berekening:
+    mov eax, [getal1]
+    sub eax, 1
+    mov [getal1], eax
+    cmp eax, [nul]
+    je verder
+    imul dword [res]
+    mov [res], eax
+    call berekening
+        
+    verder:
+        ret
+        
+        
+    
