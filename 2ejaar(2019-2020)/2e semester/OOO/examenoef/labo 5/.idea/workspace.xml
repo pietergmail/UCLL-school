@@ -2,45 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0704f5f-d8d1-45bf-b6a3-23826dc71953" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../labo 2/src/domain/CeasarCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo 2/src/domain/CodeContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo 2/src/domain/CodeStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo 2/src/domain/CodeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo 2/src/domain/Spiegeling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo 2/src/launcer/CodeLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo 4/src/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo 4/src/domain/Auditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo 4/src/domain/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo 4/src/domain/Events.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo 4/src/domain/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo 4/src/domain/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo 4/src/domain/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo 4/src/ui/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Caesarcode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/CodeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/CodeStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/CodeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/DennisCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/RandomCypherAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Spiegeling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/codeContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/launcer/CodeLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/CodeFX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo1/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo1/src/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo1/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo1/src/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo1/src/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo1/src/Product_old.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo1/src/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo1/src/Shop_old.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo3/src/domain/Beschadigd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo3/src/domain/DBException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo3/src/domain/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo3/src/domain/ProductState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo3/src/domain/Uitgeleend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo3/src/domain/Uitleenbaar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo3/src/domain/Verwijderd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/domain/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/domain/CondimentDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/domain/DarkRoast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/domain/Decaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/domain/Expresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/domain/HouseBlend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/domain/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/domain/Mocha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/domain/Soy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/domain/Whip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/ui/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 4.2/src/application/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 4.2/src/application/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 4.2/src/model/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 4.2/src/model/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 4.2/src/model/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 4.2/src/model/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 4.2/src/view/PlayerView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 4.2/src/view/ScoreView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 3.1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 3.1/src/domain/Beschadigd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 3.1/src/domain/DBException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 3.1/src/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 3.1/src/domain/ProductState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 3.1/src/domain/Uitgeleend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 3.1/src/domain/Uitleenbaar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 3.1/src/domain/Verwijderd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 3.1/src/launcher/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 3.1/src/ui/ProductUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 4.1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 4.1/src/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 4.1/src/domain/Auditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 4.1/src/domain/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 4.1/src/domain/Events.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 4.1/src/domain/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 4.1/src/domain/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 4.1/src/domain/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 4.1/src/ui/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 6.1/src/FileLetterLezer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 6.1/src/HoofdletterDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 6.1/src/LetterLezer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 6.1/src/LetterLezerDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 6.1/src/LetterLezerLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 6.1/src/SpatieWegDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 6.1/src/SpatiesTussenDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 6.1/src/TekstLetterLezer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 6.1/src/decorator_classdiagram.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 6.1/src/letters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 6.2/src/FileLetterLezer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 6.2/src/HoofdletterDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 6.2/src/LetterLezer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 6.2/src/LetterLezerDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 6.2/src/LetterLezerLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 6.2/src/SpatiesTussenDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 6.2/src/TekstLetterLezer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 6.2/src/letters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo 6.2/src/spatieWegDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo4.1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo4.1/src/domain/Ceasarcode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo4.1/src/domain/CodeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo4.1/src/domain/CodeStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo4.1/src/domain/CodeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo4.1/src/domain/Spiegeling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labo4.1/src/domain/codeContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../1ejaar(2018-2019)/1e semester/computersystemen/magneetschijven.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../1ejaar(2018-2019)/1e semester/computersystemen/magneetschijven.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../1ejaar(2018-2019)/1e semester/computersystemen/oefeningen/hoofdstuk 3/Klinkers zoeken..." beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../1ejaar(2018-2019)/1e semester/computersystemen/oefeningen/hoofdstuk 3/Letters zoeken..." beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1e semester/Web2/HerremansPieter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1e semester/Web2/HerremansPieter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1e semester/Web2/examen/labo9/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1e semester/Web2/examen/labo9/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1e semester/Web2/examen/labo9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1e semester/Web2/examen/labo9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../backup/v2_Adriaenssens_Herremans_Sateur_Vanhaeren_KassaApp_2019_2020" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../backup/v2_Adriaenssens_Herremans_Sateur_Vanhaeren_KassaApp_2019_2020.7z" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,19 +90,22 @@
     <session id="-2083402350">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="12" />
+          <entry key="java" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="12" />
+          <entry key="JAVA" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -82,15 +122,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ui/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/domain/CodeStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,7 +152,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ui/CodeFX.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
+            <state relative-caret-position="68">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
@@ -136,11 +167,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/domain/DennisCode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/domain/CodeFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,9 +212,7 @@
             <state relative-caret-position="272">
               <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
               <folding>
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
-                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -213,7 +254,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -224,8 +265,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,13 +299,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597068843262" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../RandomCypher.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -336,27 +377,26 @@
       <option name="presentableId" value="Default" />
       <updated>1597062357317</updated>
       <workItem from="1597062359798" duration="3526000" />
+      <workItem from="1598038115735" duration="247000" />
+      <workItem from="1598787050831" duration="599000" />
+      <workItem from="1601213019101" duration="610000" />
+      <workItem from="1601224562690" duration="625000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3526000" />
+    <option name="totallyTimeSpent" value="5607000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945295" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3520468" />
@@ -364,15 +404,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,13 +427,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/domain/CodeFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/ui/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -399,36 +441,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/codeContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/Caesarcode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/CodeType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/Spiegeling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -439,16 +455,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/CodeFX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
+        <state relative-caret-position="68">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
@@ -464,6 +473,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/Spiegeling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/codeContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/CodeType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#476#477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/CodeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

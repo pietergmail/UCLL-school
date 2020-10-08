@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d727d32d-7a64-4d83-9a2b-0c1639444d76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/domain/CeasarCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/CodeContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/CodeStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/CodeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Spiegeling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/launcer/CodeLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo1/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo1/src/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo1/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo1/src/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo1/src/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo1/src/Product_old.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo1/src/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labo1/src/Shop_old.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../1ejaar(2018-2019)/1e semester/computersystemen/magneetschijven.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../1ejaar(2018-2019)/1e semester/computersystemen/magneetschijven.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../1ejaar(2018-2019)/1e semester/computersystemen/oefeningen/hoofdstuk 3/Klinkers zoeken..." beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../1ejaar(2018-2019)/1e semester/computersystemen/oefeningen/hoofdstuk 3/Letters zoeken..." beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1e semester/Web2/HerremansPieter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1e semester/Web2/HerremansPieter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1e semester/Web2/examen/labo9/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1e semester/Web2/examen/labo9/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1e semester/Web2/examen/labo9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1e semester/Web2/examen/labo9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo 6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo 6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../backup/v2_Adriaenssens_Herremans_Sateur_Vanhaeren_KassaApp_2019_2020" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../backup/v2_Adriaenssens_Herremans_Sateur_Vanhaeren_KassaApp_2019_2020.7z" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,10 +24,12 @@
     <session id="-1493861838">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -166,11 +164,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="width" value="976" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -212,14 +210,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596995907854" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../OOO/herremans_adriaenssens_Vanhaeren/Lab 1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -271,16 +270,19 @@
       <updated>1596993903227</updated>
       <workItem from="1596993905859" duration="1880000" />
       <workItem from="1597049549534" duration="149000" />
+      <workItem from="1597740270762" duration="2666000" />
+      <workItem from="1597777024106" duration="548000" />
+      <workItem from="1597833203243" duration="665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2029000" />
+    <option name="totallyTimeSpent" value="5908000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="976" height="1056" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12260128" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26419213" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -344,9 +346,7 @@
         <state relative-caret-position="238">
           <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
           </folding>
         </state>
       </provider>

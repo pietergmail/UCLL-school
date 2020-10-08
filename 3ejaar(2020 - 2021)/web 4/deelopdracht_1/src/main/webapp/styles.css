@@ -1,0 +1,15 @@
+body{
+    padding-inline: 20%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+form {
+    margin: auto;
+}

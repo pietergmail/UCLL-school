@@ -4,7 +4,3 @@ Sector leestijd: (1/snelheid)/sectoren
 
 debiet:	snelheid * sectoren/spoor * sector grootte
 
-bus schijven:
-
-debiet = bits * Megatransfers per seconde
-
