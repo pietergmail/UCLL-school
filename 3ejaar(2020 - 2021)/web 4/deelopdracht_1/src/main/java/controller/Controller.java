@@ -27,4 +27,19 @@ public class Controller extends HttpServlet {
         response.setContentType("application/json");
         response.getWriter().write(String.valueOf(persons));
     }
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response){
+        String fname = (String)request.getParameter("fname");
+        String lname = (String)request.getParameter("lname");
+        String email = (String)request.getParameter("email");
+        String GSM = (String)request.getParameter("GSM");
+        String date = (String)request.getParameter("date");
+        String room = (String)request.getParameter("room");
+        Person person = new Person(email, fname, lname, date, room, GSM);
+        try {
+            personRepository.add(person);
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
+    }
 }
