@@ -1,33 +1,23 @@
-package domain;
+package main.java.domain;
 
 import java.util.Date;
 
 public class Person {
 
-    private String userId;
     private String firstName;
     private String lastname;
-    private Date date;
+    private String date;
     private String room;
     private String email;
     private String gsm;
 
-    public Person(String userId, String firstName, String lastname, Date date, String room, String gsm) {
+    public Person(String email, String firstName, String lastname, String date, String room, String gsm) {
         setDate(date);
         setEmail(email);
         setFirstName(firstName);
         setGsm(gsm);
         setLastname(lastname);
         setRoom(room);
-        setUserId(userId);
-    }
-
-    public String getUserId() {
-        return userId;
-    }
-
-    public void setUserId(String userId) {
-        this.userId = userId;
     }
 
     public String getFirstName() {
@@ -46,11 +36,11 @@ public class Person {
         this.lastname = lastname;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 

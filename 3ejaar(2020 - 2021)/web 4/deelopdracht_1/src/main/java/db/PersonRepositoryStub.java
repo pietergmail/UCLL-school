@@ -1,14 +1,14 @@
-package db;
+package main.java.db;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import domain.Person;
+import main.java.domain.Person;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.*;
 
-public class PersonRepositoryStub implements PersonRepository{
+public class PersonRepositoryStub implements PersonRepository {
 
     ObjectMapper mapper = new ObjectMapper();
 
@@ -17,11 +17,11 @@ public class PersonRepositoryStub implements PersonRepository{
 
 
     public PersonRepositoryStub () {
-        Person test = new Person("test@ucll.be", "test", "testl", new Date(1970, Calendar.AUGUST, 8), "E102", "0497327892");
-        Person test2 = new Person("test@ucll.be", "test2", "testl2", new Date(1970, Calendar.AUGUST, 8), "E102", "0497327892");
-        Person test3 = new Person("test@ucll.be", "test3", "testl3", new Date(1970, Calendar.AUGUST, 8), "E102", "0497327892");
-        Person test4 = new Person("test@ucll.be", "test4", "testl4", new Date(1970, Calendar.AUGUST, 8), "E102", "0497327892");
-        Person test5 = new Person("test@ucll.be", "test5", "testl5", new Date(1970, Calendar.AUGUST, 8), "E102", "0497327892");
+        Person test = new Person("test@ucll.be", "test", "testl", "1970/07/08", "E102", "0497327862");
+        Person test2 = new Person("test@ucll.be", "test2", "testl2", "1974/07/08", "E102", "0497357892");
+        Person test3 = new Person("test@ucll.be", "test3", "testl3", "1971/07/08", "E103", "0497327892");
+        Person test4 = new Person("test@ucll.be", "test4", "testl4", "1972/07/08", "E102", "0497325892");
+        Person test5 = new Person("test@ucll.be", "test5", "testl5", "1973/07/08", "E103", "0497327892");
         persons.add(test);
         persons.add(test2);
         persons.add(test3);
@@ -39,14 +39,14 @@ public class PersonRepositoryStub implements PersonRepository{
     }
 
     @Override
-    public void delete(String userId) {
-        persons.removeIf(p -> p.getUserId().equals(userId));
+    public void delete(String email) {
+        persons.removeIf(p -> p.getEmail().equals(email));
     }
 
     @Override
-    public Person get(String userId) throws IllegalAccessException {
+    public Person get(String email) throws IllegalAccessException {
         for (Person p: persons) {
-            if(p.getUserId().equals(userId)){
+            if(p.getEmail().equals(email)){
                 return p;
             }
         }

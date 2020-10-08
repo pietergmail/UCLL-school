@@ -1,6 +1,6 @@
-package controller;
-import db.PersonRepositoryStub;
-import domain.Person;
+package main.java.controller;
+import main.java.domain.Person;
+import main.java.db.PersonRepositoryStub;
 
 import javax.jws.WebService;
 import javax.servlet.annotation.WebServlet;
@@ -22,8 +22,8 @@ public class Controller extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        ArrayList<Person> persons = new ArrayList<>();
-        persons = personRepository.getAll();
+        String persons;
+        persons = personRepository.toJson();
         response.setContentType("application/json");
         response.getWriter().write(String.valueOf(persons));
     }
