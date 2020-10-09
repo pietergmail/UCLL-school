@@ -21,7 +21,7 @@ public class Controller extends HttpServlet {
         personRepository = new PersonRepositoryStub();
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response){
         ProcessRequest(request, response);
     }
 

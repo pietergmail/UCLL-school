@@ -4,11 +4,11 @@ let getNewPersonRequest = new XMLHttpRequest();
 let addNewPersonRequest = new XMLHttpRequest();
 
 function getPersons(){
+    //let information = "command=getpersons";
     //console.log("this is data so javascript works i hope")
-    getNewPersonRequest.open("POST", "/Controller", true);
+    getNewPersonRequest.open("GET", "/Controller" + "?" + "command=getpersons", true);
     getNewPersonRequest.onreadystatechange = showPersons;
-    let information = "command=getpersons";
-    getNewPersonRequest.send(information);
+    getNewPersonRequest.send();
 }
 
 function showPersons (){
