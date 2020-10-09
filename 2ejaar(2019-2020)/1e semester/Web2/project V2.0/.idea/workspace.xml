@@ -6,17 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16a53dda-d7ed-43c2-a253-d1df5d5e17e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/js/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/js/Persons.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/js/Persons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/js/Persons.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/js/Persons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/search.html" afterDir="false" />
-    </list>
+    <list default="true" id="16a53dda-d7ed-43c2-a253-d1df5d5e17e9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,6 +86,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571861002622" />
@@ -103,7 +94,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -291,7 +282,16 @@
       <workItem from="1574690942639" duration="12000" />
       <workItem from="1592295096213" duration="43000" />
       <workItem from="1602245227082" duration="612000" />
+      <workItem from="1602265227636" duration="647000" />
     </task>
+    <task id="LOCAL-00001" summary="Controller is now a switch, needs to be made into factory">
+      <created>1602266730630</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602266730630</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,6 +308,24 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Controller is now a switch, needs to be made into factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Controller is now a switch, needs to be made into factory" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="536" y="88" key="CommitChangelistDialog2" timestamp="1602266729625">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="536" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602266729625" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1602266751090">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602266751090" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602266731958">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602266731958" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
