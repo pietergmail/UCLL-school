@@ -22,19 +22,46 @@ public class Controller extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        String persons;
-        persons = personRepository.toJson();
-        response.setContentType("application/json");
-        response.getWriter().write(String.valueOf(persons));
+        ProcessRequest(request, response);
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response){
-        String fname = (String)request.getParameter("fname");
-        String lname = (String)request.getParameter("lname");
-        String email = (String)request.getParameter("email");
-        String GSM = (String)request.getParameter("GSM");
-        String date = (String)request.getParameter("date");
-        String room = (String)request.getParameter("room");
+        ProcessRequest(request, response);
+    }
+
+    protected void ProcessRequest(HttpServletRequest request, HttpServletResponse response){
+        String command = "";
+        if (request.getParameter("command") != null){
+            command = request.getParameter("command");
+        }
+        switch (command){
+            case "getpersons":
+                getPersons(request, response);
+                break;
+            case "addperson":
+                addPerson(request, response);
+                break;
+        }
+    }
+
+    private void getPersons(HttpServletRequest request, HttpServletResponse response){
+        String persons;
+        persons = personRepository.toJson();
+        response.setContentType("application/json");
+        try {
+            response.getWriter().write(String.valueOf(persons));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void addPerson(HttpServletRequest request, HttpServletResponse response){
+        String fname = request.getParameter("fname");
+        String lname = request.getParameter("lname");
+        String email = request.getParameter("email");
+        String GSM = request.getParameter("GSM");
+        String date = request.getParameter("date");
+        String room = request.getParameter("room");
         Person person = new Person(email, fname, lname, date, room, GSM);
         try {
             personRepository.add(person);

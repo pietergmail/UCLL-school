@@ -7,7 +7,11 @@
     <script src="js/Persons.js"></script>
 </head>
 <body>
-    <h1>Contact Tracing @Campus Proximus</h1>
+    <header>
+        <h1>Contact Tracing @Campus Proximus</h1>
+        <p><a href="index.html">home</a></p>
+        <p><a href="search.html">search</a></p>
+    </header>
 
     <h2>Contact Overview</h2>
     <div class="flex-container">
@@ -50,15 +54,15 @@
          <input type="text" id="GSM" name="GSM">
          <br>
 
-         <label for="Date">Date:</label>
-         <input type="text" id="Date" name="Date">
+         <label for="date">Date:</label>
+         <input type="text" id="date" name="date">
          <br>
 
-         <label for="Room">Room:</label>
-         <input type="text" id="Room" name="Room">
+         <label for="room">Room:</label>
+         <input type="text" id="room" name="room">
          <br>
 
-         <input type="submit" value="Submit">
+         <input type="button" value="button" onclick="addPerson()">
      </form>
 </body>
 </html>

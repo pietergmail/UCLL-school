@@ -5,9 +5,10 @@ let addNewPersonRequest = new XMLHttpRequest();
 
 function getPersons(){
     //console.log("this is data so javascript works i hope")
-    getNewPersonRequest.open("GET", "/Controller", true);
+    getNewPersonRequest.open("POST", "/Controller", true);
     getNewPersonRequest.onreadystatechange = showPersons;
-    getNewPersonRequest.send();
+    let information = "command=getpersons";
+    getNewPersonRequest.send(information);
 }
 
 function showPersons (){
@@ -48,10 +49,10 @@ function addPerson(){
         "&email=" + encodeURIComponent(emailtext) +
         "&GSM=" + encodeURIComponent(GSMtext) +
         "&date=" + encodeURIComponent(datetext) +
-        "&room=" + encodeURIComponent(roomtext);
+        "&room=" + encodeURIComponent(roomtext) +
+        "&command=addperson";
 
     addNewPersonRequest.open("POST", "/Controller", true);
     addNewPersonRequest.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded' )
     addNewPersonRequest.send(information);
-    console.log("button works.");
 }
