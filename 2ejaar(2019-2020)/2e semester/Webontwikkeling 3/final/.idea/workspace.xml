@@ -8,14 +8,13 @@
   <component name="ChangeListManager">
     <list default="true" id="df2dab6c-2d7a-46d5-909c-20b15cf078af" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/controller/delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/js/delete.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/db/PersonRepositoryStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/db/PersonRepositoryStub.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/js/Persons.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/js/Persons.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/js/Persons.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/js/Persons.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
