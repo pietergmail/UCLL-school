@@ -34,8 +34,8 @@ public class PersonRepositoryStub implements PersonRepository {
                 if(p == person){
                     throw new IllegalAccessException("person already exists.");
             }
-            persons.add(person);
         }
+        persons.add(person);
     }
 
     @Override
