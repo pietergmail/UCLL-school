@@ -8,7 +8,7 @@ public class getpersons extends RequestHandler{
     @Override
     public void handleRequest(HttpServletRequest request, HttpServletResponse response) {
         String Jpersons;
-        Jpersons = persons.toJson();
+        Jpersons = persons.toJson(persons.getAll());
         response.setContentType("application/json");
         try {
             response.getWriter().write(String.valueOf(Jpersons));

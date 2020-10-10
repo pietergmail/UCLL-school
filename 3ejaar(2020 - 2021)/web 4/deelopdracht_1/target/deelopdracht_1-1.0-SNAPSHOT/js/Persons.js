@@ -4,8 +4,6 @@ let getNewPersonRequest = new XMLHttpRequest();
 let addNewPersonRequest = new XMLHttpRequest();
 
 function getPersons(){
-    //let information = "command=getpersons";
-    //console.log("this is data so javascript works i hope")
     fetch("/Controller?command=getpersons")
         .then(resp => resp.json())
         .then(function (data){
@@ -25,14 +23,6 @@ function getPersons(){
             }
             setInterval(getPersons, 10000)
         })
-    /*getNewPersonRequest.open("GET", "/Controller" + "?" + "command=getpersons", true);
-    getNewPersonRequest.onreadystatechange = showPersons;
-    getNewPersonRequest.send();*/
-}
-
-function showPersons (data){
-    //console.log("does it reach the person request?")
-
 }
 
 function addPerson(){
@@ -51,8 +41,6 @@ function addPerson(){
         "&date=" + encodeURIComponent(datetext) +
         "&room=" + encodeURIComponent(roomtext) +
         "&command=addperson";
-
-    fetch
 
     addNewPersonRequest.open("POST", "/Controller", true);
     addNewPersonRequest.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded' )

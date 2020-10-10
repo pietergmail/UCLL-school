@@ -19,11 +19,13 @@ public class PersonRepositoryStub implements PersonRepository {
         Person test3 = new Person("test@ucll.be", "test3", "testl3", "1971/07/08", "E103", "0497327892");
         Person test4 = new Person("test@ucll.be", "test4", "testl4", "1972/07/08", "E102", "0497325892");
         Person test5 = new Person("test@ucll.be", "test5", "testl5", "1973/07/08", "E103", "0497327892");
+        Person t = new Person("t","t","t","t","t", "t");
         persons.add(test);
         persons.add(test2);
         persons.add(test3);
         persons.add(test4);
         persons.add(test5);
+        persons.add(t);
     }
     @Override
     public void add(Person person) throws IllegalAccessException {
@@ -70,13 +72,13 @@ public class PersonRepositoryStub implements PersonRepository {
         }
     }
 
-    public String toJson(){
+    public String toJson(ArrayList<Person> people){
         try {
             final ByteArrayOutputStream out = new ByteArrayOutputStream();
             final ObjectMapper mapper = new ObjectMapper();
 
 
-            mapper.writeValue(out, persons);
+            mapper.writeValue(out, people);
 
             final byte[] data = out.toByteArray();
             return new String(data);

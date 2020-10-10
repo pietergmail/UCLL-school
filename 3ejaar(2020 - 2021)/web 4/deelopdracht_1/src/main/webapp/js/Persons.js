@@ -42,8 +42,6 @@ function addPerson(){
         "&room=" + encodeURIComponent(roomtext) +
         "&command=addperson";
 
-    fetch
-
     addNewPersonRequest.open("POST", "/Controller", true);
     addNewPersonRequest.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded' )
     addNewPersonRequest.send(information);
