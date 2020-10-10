@@ -7,19 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df2dab6c-2d7a-46d5-909c-20b15cf078af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/controller/search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1e semester/Web2/project V2.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1e semester/Web2/project V2.0/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/controller/delete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/js/delete.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/controller/getpersons.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/controller/getpersons.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/db/PersonRepositoryStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/db/PersonRepositoryStub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/js/Persons.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/js/Persons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/js/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/js/Persons.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/js/Persons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,6 +213,7 @@
       <workItem from="1592318982358" duration="2996000" />
       <workItem from="1602325289072" duration="3107000" />
       <workItem from="1602336783894" duration="24000" />
+      <workItem from="1602348697888" duration="966000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1588352259999</created>

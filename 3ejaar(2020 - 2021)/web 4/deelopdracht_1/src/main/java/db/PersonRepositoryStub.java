@@ -38,8 +38,8 @@ public class PersonRepositoryStub implements PersonRepository {
     }
 
     @Override
-    public void delete(String email) {
-        persons.removeIf(p -> p.getEmail().equals(email));
+    public void delete(String fname) {
+        persons.removeIf(p -> p.getFirstName().equals(fname));
     }
 
     @Override

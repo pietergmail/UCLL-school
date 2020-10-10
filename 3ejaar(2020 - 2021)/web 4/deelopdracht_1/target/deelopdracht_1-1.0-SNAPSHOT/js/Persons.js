@@ -1,16 +1,23 @@
 window.onload = getPersons;
 
-let getNewPersonRequest = new XMLHttpRequest();
 let addNewPersonRequest = new XMLHttpRequest();
+let deletePersonRequest = new XMLHttpRequest();
 
 function getPersons(){
     fetch("/Controller?command=getpersons")
         .then(resp => resp.json())
         .then(function (data){
             let persons = data;
+            let length;
             console.log(persons)
             document.getElementById("tbody").innerHTML = "";
-            for(let i = 0; i < persons.length; i++){
+            if(persons.length <= 20){
+                length = persons.length;
+            }else{
+                length = 20;
+            }
+
+            for(let i = 0; i < length; i++){
                 let a = "<tr>" +
                     "<td>"+persons[i]["firstName"]+"</td>" +
                     "<td>"+persons[i]["lastname"]+"</td>" +
@@ -18,6 +25,7 @@ function getPersons(){
                     "<td>"+persons[i]["room"]+"</td>" +
                     "<td>"+persons[i]["email"]+"</td>" +
                     "<td>"+persons[i]["gsm"]+"</td>" +
+                    "<td><a onclick='deleteperson(this.id)' href='#' id='"+persons[i]["firstName"]+"'>delete</a></td>" +
                     "</tr>";
                 document.getElementById("tbody").innerHTML += a;
             }
@@ -45,4 +53,16 @@ function addPerson(){
     addNewPersonRequest.open("POST", "/Controller", true);
     addNewPersonRequest.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded' )
     addNewPersonRequest.send(information);
+
+}
+
+function deleteperson(id) {
+    console.log(id)
+    let information =
+        "id=" + id +
+        "&command=delete";
+
+    deletePersonRequest.open("POST", "/Controller", true);
+    deletePersonRequest.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    deletePersonRequest.send(information);
 }
