@@ -11,14 +11,11 @@ import java.util.*;
 public class PersonRepositoryStub implements PersonRepository {
 
     ObjectMapper mapper = new ObjectMapper();
-
     private ArrayList<Person> persons = new ArrayList<Person>();
-
-
 
     public PersonRepositoryStub () {
         Person test = new Person("test@ucll.be", "test", "testl", "1970/07/08", "E102", "0497327862");
-        Person test2 = new Person("test@ucll.be", "test2", "testl2", "1974/07/08", "E102", "0497357892");
+        Person test2 = new Person("test@ucll.be", "test2", "testl2", "1970/07/08", "E102", "0497357892");
         Person test3 = new Person("test@ucll.be", "test3", "testl3", "1971/07/08", "E103", "0497327892");
         Person test4 = new Person("test@ucll.be", "test4", "testl4", "1972/07/08", "E102", "0497325892");
         Person test5 = new Person("test@ucll.be", "test5", "testl5", "1973/07/08", "E103", "0497327892");

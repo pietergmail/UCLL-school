@@ -4,20 +4,11 @@ let getNewPersonRequest = new XMLHttpRequest();
 let addNewPersonRequest = new XMLHttpRequest();
 
 function getPersons(){
-    //let information = "command=getpersons";
-    //console.log("this is data so javascript works i hope")
-    getNewPersonRequest.open("GET", "/Controller" + "?" + "command=getpersons", true);
-    getNewPersonRequest.onreadystatechange = showPersons;
-    getNewPersonRequest.send();
-}
-
-function showPersons (){
-    //console.log("does it reach the person request?")
-    if (getNewPersonRequest.readyState === 4){
-        if (getNewPersonRequest.status === 200){
-            //console.log("it does")
-
-            let persons = JSON.parse(getNewPersonRequest.responseText);
+    fetch("/Controller?command=getpersons")
+        .then(resp => resp.json())
+        .then(function (data){
+            let persons = data;
+            console.log(persons)
             document.getElementById("tbody").innerHTML = "";
             for(let i = 0; i < persons.length; i++){
                 let a = "<tr>" +
@@ -31,8 +22,7 @@ function showPersons (){
                 document.getElementById("tbody").innerHTML += a;
             }
             setInterval(getPersons, 10000)
-        }
-    }
+        })
 }
 
 function addPerson(){
@@ -51,6 +41,8 @@ function addPerson(){
         "&date=" + encodeURIComponent(datetext) +
         "&room=" + encodeURIComponent(roomtext) +
         "&command=addperson";
+
+    fetch
 
     addNewPersonRequest.open("POST", "/Controller", true);
     addNewPersonRequest.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded' )
