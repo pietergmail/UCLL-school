@@ -8,6 +8,8 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.websocket.Session;
+import javax.websocket.server.ServerEndpoint;
 
 @WebServlet("/Controller")
 public class Controller extends HttpServlet {
@@ -34,5 +36,13 @@ public class Controller extends HttpServlet {
                 servletException.printStackTrace();
             }
         }
+    }
+}
+
+@ServerEndpoint("/echo")
+class CovidServer {
+
+    public void onOpen(Session session){
+        System.out.println();
     }
 }

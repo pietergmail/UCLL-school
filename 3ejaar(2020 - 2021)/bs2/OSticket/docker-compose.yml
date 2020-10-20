@@ -1,3 +1,4 @@
+
 version: '3.4'
 
 services:
@@ -13,9 +14,11 @@ services:
       MYSQL_PASSWORD: t
     ports:
       - 3306:3306
+    volumes:
+      - /opt/mysql_data:/var/lib/mysql
 
   osticket:
-    image: campbellsoftwaresolutions/osticket
+    image: campbellsoftwaresolutions/osticket:1.12
     container_name: fau_osticket
     environment:
       MYSQL_HOST: mysql
@@ -26,3 +29,5 @@ services:
     restart: on-failure
     ports:
       - 8080:80
+    volumes:
+      - /var/log/nginx:/var/log/nginx

@@ -7,17 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16a53dda-d7ed-43c2-a253-d1df5d5e17e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/controller/search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/controller/getpersons.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/controller/getpersons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/db/PersonRepositoryStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/db/PersonRepositoryStub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/js/Persons.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/js/Persons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/js/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/js/Persons.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/js/Persons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/bs2/OSticket/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../3ejaar(2020 - 2021)/bs2/OSticket/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,6 +286,7 @@
       <workItem from="1602245227082" duration="612000" />
       <workItem from="1602265227636" duration="647000" />
       <workItem from="1602336773432" duration="34000" />
+      <workItem from="1602848186401" duration="31000" />
     </task>
     <task id="LOCAL-00001" summary="Controller is now a switch, needs to be made into factory">
       <created>1602266730630</created>

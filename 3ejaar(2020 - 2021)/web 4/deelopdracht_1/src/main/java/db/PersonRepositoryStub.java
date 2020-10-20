@@ -72,7 +72,8 @@ public class PersonRepositoryStub implements PersonRepository {
         }
     }
 
-    public String toJson(ArrayList<Person> people){
+    //move to controller
+    /*public String toJson(ArrayList<Person> people){
         try {
             final ByteArrayOutputStream out = new ByteArrayOutputStream();
             final ObjectMapper mapper = new ObjectMapper();
@@ -86,7 +87,7 @@ public class PersonRepositoryStub implements PersonRepository {
             e.printStackTrace();
         }
         return null;
-    }
+    }*/
 
 
     @Override
