@@ -1,7 +1,7 @@
-package main.java.controller;
+package controller;
 
-import main.java.db.PersonRepository;
-import main.java.db.PersonRepositoryStub;
+import db.PersonRepository;
+import db.PersonRepositoryStub;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -39,10 +39,3 @@ public class Controller extends HttpServlet {
     }
 }
 
-@ServerEndpoint("/echo")
-class CovidServer {
-
-    public void onOpen(Session session){
-        System.out.println();
-    }
-}

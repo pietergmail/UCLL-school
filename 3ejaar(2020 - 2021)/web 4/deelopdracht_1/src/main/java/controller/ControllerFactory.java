@@ -1,6 +1,6 @@
-package main.java.controller;
+package controller;
 
-import main.java.db.PersonRepositoryStub;
+import db.PersonRepositoryStub;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -16,7 +16,7 @@ public class ControllerFactory {
             handlerName = "home";
         }
         try{
-            Class handlerClass = Class.forName("main.java.controller."+ handlerName);
+            Class handlerClass = Class.forName("controller."+ handlerName);
             Object handlerObject = handlerClass.newInstance();
             handler = (RequestHandler) handlerObject;
             handler.setModel(model);

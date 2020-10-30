@@ -1,7 +1,7 @@
-package main.java.controller;
+package controller;
 
-import main.java.db.PersonRepository;
-import main.java.db.PersonRepositoryStub;
+import db.PersonRepository;
+import db.PersonRepositoryStub;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

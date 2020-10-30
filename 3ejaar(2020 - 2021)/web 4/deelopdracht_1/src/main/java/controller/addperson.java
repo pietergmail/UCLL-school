@@ -1,6 +1,6 @@
-package main.java.controller;
+package controller;
 
-import main.java.domain.Person;
+import domain.Person;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

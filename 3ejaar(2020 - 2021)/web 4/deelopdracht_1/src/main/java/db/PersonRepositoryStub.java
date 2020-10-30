@@ -1,7 +1,7 @@
-package main.java.db;
+package db;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import main.java.domain.Person;
+import domain.Person;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.ByteArrayOutputStream;

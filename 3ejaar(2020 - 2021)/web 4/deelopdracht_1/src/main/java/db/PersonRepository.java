@@ -1,6 +1,6 @@
-package main.java.db;
+package db;
 
-import main.java.domain.Person;
+import domain.Person;
 
 import java.util.ArrayList;
 

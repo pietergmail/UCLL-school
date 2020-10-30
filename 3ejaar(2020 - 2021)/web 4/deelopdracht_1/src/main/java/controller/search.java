@@ -1,7 +1,7 @@
-package main.java.controller;
+package controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import main.java.domain.Person;
+import domain.Person;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
