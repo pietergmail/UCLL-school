@@ -65,7 +65,28 @@
     <input type="text" id="room" name="room">
     <br>
 
+    <label for="password">Password:</label>
+    <input type="text"  id="password" name="password">
+    <br>
+
     <input type="button" value="button" onclick="addPerson()">
+
 </form>
+<div id="login">
+<h2>Log in</h2>
+<form>
+
+    <label for="Loginemail">Your email</label>
+    <input type="text" id="Loginemail" name="Loginemail">
+    <br>
+
+    <label for="Loginpassword">Your password</label>
+    <input type="text" id="Loginpassword" name="Loginpassword">
+    <br>
+
+    <input type="button" value="button" onclick="LoginPerson()">
+
+</form>
+</div>
 </body>
 </html>
