@@ -9,8 +9,9 @@
 <body>
 <header>
     <h1>Contact Tracing @Campus Proximus</h1>
-    <p><a href="index.html">home</a></p>
+    <p><a href="index.jsp">home</a></p>
     <p><a href="search.html">search</a></p>
+    <p><a href="SignUp.html">Sign Up</a></p>
     <p><a href="covid-19.html">covid-19</a></p>
 </header>
 
