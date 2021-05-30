@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Tracing</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/Persons.js"></script>
+</head>
+<body>
+<header>
+    <h1>Contact Tracing @Campus Proximus</h1>
+    <p><a href="index.html">home</a></p>
+    <p><a href="search.html">search</a></p>
+    <p><a href="covid-19.html">covid-19</a></p>
+</header>
+
+<h2>Contact Overview</h2>
+<div class="flex-container">
+    <table>
+        <thead>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>Date</th>
+        <th>Room</th>
+        <th>Email</th>
+        <th>GSM</th>
+        <th>Delete</th>
+        </thead>
+        <tbody id="tbody">
+        <tr>
+            <td>dummy</td>
+            <td>dummy</td>
+            <td>dummy</td>
+            <td>dummy</td>
+            <td>dummy</td>
+            <td>dummy</td>
+            <td>dummy</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<form action="">
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname">
+    <br>
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname">
+    <br>
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email">
+    <br>
+
+    <label for="GSM">GSM:</label>
+    <input type="text" id="GSM" name="GSM">
+    <br>
+
+    <label for="date">Date:</label>
+    <input type="text" id="date" name="date">
+    <br>
+
+    <label for="room">Room:</label>
+    <input type="text" id="room" name="room">
+    <br>
+
+    <input type="button" value="button" onclick="addPerson()">
+</form>
+</body>
+</html>

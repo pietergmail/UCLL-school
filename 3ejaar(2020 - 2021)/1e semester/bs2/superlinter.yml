@@ -1,0 +1,41 @@
+name:  main
+
+on: 
+  push:
+    branches: main
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check the repo
+        uses: actions/checkout@v2
+      
+      - name: Use The JDK 1.8 and set it up
+        uses: actions/setup-java@v1
+        with:
+          java-version: 1.8
+      
+      - name: Build the project with mavenyl
+        run: mvn -B package --file pom.xml
+      
+      - name: Push the project to Docker Hub
+        uses: docker/build-push-action@v1
+        with:
+          username: ${{ secrets.username }}
+          password: ${{ secrets.password }}
+          repository: rayguy64/bs3
+          tag_with_ref: true
+      
+      - name: create release
+        uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: true
+          title: "Development Build"
+          files: |
+            LICENSE.txt
+            *.jar

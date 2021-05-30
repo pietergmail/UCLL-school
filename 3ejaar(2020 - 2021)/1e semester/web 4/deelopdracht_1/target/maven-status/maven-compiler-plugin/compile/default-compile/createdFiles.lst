@@ -1,0 +1,14 @@
+controller\delete.class
+domain\PersonService.class
+controller\Controller.class
+controller\LogIn.class
+db\PersonRepositoryStub.class
+controller\ControllerFactory.class
+controller\RequestHandler.class
+controller\getpersons.class
+controller\PushServer.class
+db\PersonRepository.class
+controller\addperson.class
+domain\Person.class
+controller\Home.class
+controller\search.class

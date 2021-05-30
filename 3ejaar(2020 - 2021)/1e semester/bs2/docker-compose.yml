@@ -1,0 +1,42 @@
+version: '3.2'
+services:
+ prometheus:
+ 
+ image: prom/prometheus:latest
+ ports:
+ - 9090:9090
+ 
+ command:
+ - --config.file=/etc/prometheus/prometheus.yml
+ 
+ volumes:
+ - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
+ 
+ cadvisor:
+ image: gcr.io/google-containers/cadvisor:latest
+ ports:
+ - 8080:8080
+
+ github-exporter:
+ image: infinityworks/github-exporter:latest
+ ports:
+ - 9171:9171
+ environment:
+ - REPOS=Tiebevn/BS2_Labo7, torvalds/linux
+ - GITHUB_TOKEN=309ab0cf02f0cc727a64fe2a22a606e1d54406fd
+ 
+ volumes:
+ - /:/rootfs:ro
+ - /var/run:/var/run:rw
+ - /sys:/sys:ro
+ - /var/lib/docker/:/var/lib/docker:ro
+ 
+ grafana:
+ image: grafana/grafana
+ 
+ ports:
+ - 3000:3000
+ volumes:
+ - grafana-storage:/var/lib/grafana
+ volumes:
+ grafana-storage:

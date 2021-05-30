@@ -1,0 +1,148 @@
+<head>
+    <meta charset="utf-8">
+    <title>Orange Report</title>
+
+    <style>
+    html, body, table {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        margin:0px;
+        padding:0;
+        border:0 none;
+    }
+
+    h1, h2 , h3, h4, h5 {
+       padding: 1px;
+       font-size:100%;
+    }
+
+    h1 {
+        color: white;
+        background-color: black;
+        padding: 4px;
+        margin-top: 12px;
+        margin-bottom: 6px;
+    }
+
+    h2 {
+        border-bottom: 1px solid black;
+        padding-left: 2px;
+    }
+
+    ul, table, p {
+        padding: 10px;
+    }
+
+    table {
+        margin-left: -6px;
+    }
+
+    span.timestamp {
+        position: absolute;
+        right: 40px;
+        color:#ddd;
+    }
+
+    div.selected, div.normal {
+        margin: 5px;
+    }
+
+    div.selected {
+        background: #ddd;
+    }
+    @media print{
+        div.selected {
+            background: inherit;
+        }
+        ::-webkit-input-placeholder {
+            color: transparent;
+        }
+    }
+
+    div.content {
+        margin-left: 15px;
+    }
+
+    th, td {
+        text-align: left;
+        padding: 2px 6px 2px 6px;
+    }
+
+    .caption {
+        text-align: center;
+        font-size: 90%;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        max-height: 20cm;
+    }
+
+    span.legend-square {
+        width: 1em;
+        height: 1em;
+        margin-right: 6px;
+        display: inline-block;
+    }
+
+    span.legend-item {
+        margin-right: 24px;
+    }
+
+    textarea {
+        border: none;
+        font-style: italic;
+        width: 100%;
+        height: 4em;
+    }
+
+    .textwrapper {
+        padding: 15px;
+    }
+
+    div.normal textarea:invalid {
+        display: none;
+    }
+
+    div.selected textarea {
+        display: block;
+    }
+
+    @media print{
+        section.section, img {
+            page-break-inside: avoid;
+        }
+    }
+    </style>
+
+
+</head><body>
+
+ 
+
+<div id="140403416009176" class="normal" onclick="pybridge._select_item(this.id)"><section class="section"><h1>Test &amp; Score <span class="timestamp">Tue Mar 15 16, 16:26:00</span></h1><div class="content">
+<h2>Settings</h2><ul><b>Sampling type:</b> No sampling, test on testing data<br><b>Target class:</b> Average over classes<br></ul><h2>Scores</h2><table>
+  <tbody><tr>
+    <th>Method</th><th>AUC</th><th>CA</th><th>F1</th><th>Precision</th><th>Recall</th></tr>
+  <tr>
+    <td>Majority</td><td>0.500</td><td>0.333</td><td>0.167</td><td>0.111</td><td>0.333</td></tr>
+  <tr>
+    <td>kNN</td><td>0.962</td><td>0.950</td><td>0.950</td><td>0.951</td><td>0.950</td></tr>
+  <tr>
+    <td>knn</td><td>0.975</td><td>0.967</td><td>0.967</td><td>0.970</td><td>0.967</td></tr>
+</tbody></table></div></section>
+
+<div class="textwrapper"><textarea required="required" placeholder="Write a comment..." oninput="pybridge._add_comment(this.parentNode.parentNode.id, this.value)"></textarea></div></div><div id="140403867651528" class="selected" onclick="pybridge._select_item(this.id)"><section class="section"><h1>Test &amp; Score <span class="timestamp">Tue Mar 15 16, 16:27:30</span></h1><div class="content">
+<h2>Settings</h2><ul><b>Sampling type:</b> No sampling, test on testing data<br><b>Target class:</b> Iris-versicolor<br></ul><h2>Scores</h2><table>
+  <tbody><tr>
+    <th>Method</th><th>AUC</th><th>CA</th><th>F1</th><th>Precision</th><th>Recall</th></tr>
+  <tr>
+    <td>Majority</td><td>0.500</td><td>0.667</td><td>0.000</td><td>0.000</td><td>0.000</td></tr>
+  <tr>
+    <td>kNN</td><td>0.938</td><td>0.950</td><td>0.923</td><td>0.947</td><td>0.900</td></tr>
+  <tr>
+    <td>knn</td><td>0.950</td><td>0.967</td><td>0.947</td><td>1.000</td><td>0.900</td></tr>
+</tbody></table></div></section>
+
+<div class="textwrapper"><textarea required="required" placeholder="Write a comment..." oninput="pybridge._add_comment(this.parentNode.parentNode.id, this.value)"></textarea></div></div></body>
