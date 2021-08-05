@@ -1,175 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34387952-dac5-40b6-ac65-4acfd8e466e4" name="Default Changelist" comment="">
+    <list default="true" id="c8424cc7-529e-4a73-8635-425ee7c5610c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/UCLL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UCLL.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2ejaar(2019-2020)/2e semester/Webontwikkeling 3/final/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2ejaar(2019-2020)/2e semester/Webontwikkeling 3/final/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2ejaar(2019-2020)/2e semester/Webontwikkeling 3/final/final.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2ejaar(2019-2020)/2e semester/Webontwikkeling 3/final/final.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2ejaar(2019-2020)/2e semester/Webontwikkeling 3/final/src/domain/db/ProductdbSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/2ejaar(2019-2020)/2e semester/Webontwikkeling 3/final/src/domain/db/ProductdbSql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/Operationele Analyse/exponentiele.ods" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/Operationele Analyse/les 1.ods" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/Operationele Analyse/oef exponentiele 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/Operationele Analyse/oef exponentiele.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/Statistiek/H8 Oef_stud.ods" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/Statistiek/H8 Oef_stud.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/Statistiek/H9_oef .ods" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/Statistiek/H9_oef gebruik excel_stud 2021.ods" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/Statistiek/kansboom oef 12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/bs2/OSticket/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/bs2/config.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/bs2/dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/bs2/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/bs2/dockerfile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/bs2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/bs2/minecraft/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/bs2/minecraft/eula.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/bs2/minecraft/server.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/bs2/prometheus.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/bs2/superlinter.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/bs2/tomcat/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/bs2/tomcat/web_war.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/test/7 principles of testing.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/.idea/libraries/jackson_annotations_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/.idea/libraries/jackson_core_2_7_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/.idea/libraries/jackson_databind_2_7_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/.idea/libraries/selenium_server_standalone_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/deelopdracht1.1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/src/main/java/controller/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/src/main/java/db/PersonRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/src/main/java/db/PersonRepositoryStub.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/src/main/java/domain/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/target/classes/controller/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/target/classes/db/PersonRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/target/classes/db/PersonRepositoryStub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/target/classes/domain/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/target/deelopdracht1_1-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/target/deelopdracht1_1-1.0-SNAPSHOT/WEB-INF/classes/controller/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/target/deelopdracht1_1-1.0-SNAPSHOT/WEB-INF/classes/db/PersonRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/target/deelopdracht1_1-1.0-SNAPSHOT/WEB-INF/classes/db/PersonRepositoryStub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/target/deelopdracht1_1-1.0-SNAPSHOT/WEB-INF/classes/domain/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/target/deelopdracht1_1-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/target/deelopdracht1_1-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/target/deelopdracht1_1-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht1.1/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/artifacts/deelopdracht_1_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/artifacts/deelopdracht_1_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/artifacts/unnamed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/libraries/Maven__javax_websocket_javax_websocket_api_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/libraries/com_fasterxml_jackson_datatype_jackson_datatype_hibernate3_2_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/libraries/com_guicedee_services_javax_servlet_api_1_0_2_0_jre8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/libraries/javax_websocket_javax_websocket_api_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/.idea/webContexts.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/deelopdracht_1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/controller/AddFriend.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/controller/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/controller/ControllerFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/controller/Home.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/controller/LogIn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/controller/LogOut.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/controller/PushServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/controller/Register.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/controller/RequestHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/controller/addperson.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/controller/delete.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/controller/getpersons.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/controller/search.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/db/PersonRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/db/PersonRepositoryStub.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/domain/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/java/domain/PersonService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/SignUp.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/covid-19.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/friends.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/js/Covid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/js/Persons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/js/search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/search.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/src/main/webapp/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/js/Persons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/deelopdracht_1/target/deelopdracht_1-1.0-SNAPSHOT/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/jackson-annotations-2.7.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/jackson-core-2.7.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/jackson-databind-2.7.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/maven-demo/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/maven-demo/.idea/artifacts/maven_demo_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/maven-demo/.idea/artifacts/maven_demo_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/maven-demo/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/maven-demo/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/maven-demo/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/maven-demo/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/maven-demo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/maven-demo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/maven-demo/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/maven-demo/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/maven-demo/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/maven-demo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/maven-demo/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/maven-demo/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/maven-demo/maven-demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/maven-demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/maven-demo/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/maven-demo/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/maven-demo/target/maven-demo-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/maven-demo/target/maven-demo-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/maven-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/maven-demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3ejaar(2020 - 2021)/web 4/selenium-server-standalone-3.141.59.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mobiele" beforeDir="false" afterPath="$PROJECT_DIR$/Mobiele" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projektwerk git/r0745616" beforeDir="false" afterPath="$PROJECT_DIR$/Projektwerk git/r0745616" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projektwerk git/r0745616/oa/ciw/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projektwerk git/r0745616/oa/ciw/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projektwerk git/r0745616/oa/les 5_MM3.ods" beforeDir="false" afterPath="$PROJECT_DIR$/Projektwerk git/r0745616/oa/les 5_MM3.ods" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projektwerk git/r0745616/oa/les 5_MX1.ods" beforeDir="false" afterPath="$PROJECT_DIR$/Projektwerk git/r0745616/oa/les 5_MX1.ods" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot_Basics/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot_Basics/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot_Basics/src/main/java/com/example/demo/PatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot_Basics/src/main/java/com/example/demo/PatientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web 4.5" beforeDir="false" afterPath="$PROJECT_DIR$/web 4.5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_Basics" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/SpringBoot_BiDirectionalOnetoMany" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/landing-page" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projektweek/Frontend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projektweek/hybrid-cloud-bruh-sound-effect-2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web 4.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web 4.5 react/ReactTeam1SpelerFrontend" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,40 +27,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Projektwerk git/r0745616" />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
-  </component>
-  <component name="ProjectId" id="1sToevVP3okAhvNYwCKMO82rILx" />
+  <component name="ProjectId" id="1ti8xFcugqRqSTzirBbR330lfqq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="UCLL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UCLL" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -221,10 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/2ejaar(2019-2020)/OOP/examen/oplossing_proefexamen" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Projektwerk git/r0745616/oa/ciw/main.py" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -234,9 +47,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\herre\PycharmProjects\pythonProject\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Projektwerk git/r0745616/oa/ciw" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -256,96 +69,22 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="34387952-dac5-40b6-ac65-4acfd8e466e4" name="Default Changelist" comment="" />
-      <created>1573298317549</created>
+      <changelist id="c8424cc7-529e-4a73-8635-425ee7c5610c" name="Default Changelist" comment="" />
+      <created>1623240800039</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573298317549</updated>
-      <workItem from="1573298319917" duration="27000" />
-      <workItem from="1577886777667" duration="39000" />
-      <workItem from="1577985920758" duration="40000" />
-      <workItem from="1578068869998" duration="577000" />
-      <workItem from="1578081663015" duration="4000" />
-      <workItem from="1620906044889" duration="4381000" />
-      <workItem from="1620981729668" duration="595000" />
-      <workItem from="1621169307926" duration="653000" />
-      <workItem from="1621934546132" duration="1093000" />
-      <workItem from="1621952949484" duration="2069000" />
+      <updated>1623240800039</updated>
+      <workItem from="1623240803165" duration="1061000" />
+      <workItem from="1623338825402" duration="1257000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="687000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2713348" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1621955005061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projektwerk git/r0745616/oa/ciw" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken/chapters/tetris/student.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>10</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <SUITE FILE_PATH="coverage/UCLL$main.coverage" NAME="main Coverage Results" MODIFIED="1623338881229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projektwerk git/r0745616/oa/ciw" />
   </component>
 </project>

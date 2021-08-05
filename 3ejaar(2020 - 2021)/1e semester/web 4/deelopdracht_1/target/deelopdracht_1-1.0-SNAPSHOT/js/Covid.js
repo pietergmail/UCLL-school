@@ -1,4 +1,5 @@
 let webSocket;
+let results = document.getElementsByClassName("table")
 
 load = openSocket();
 
@@ -22,7 +23,7 @@ function openSocket(){
 function send(){
     let Nametext = document.getElementById("name").value;
     let Datetext = document.getElementById("date").value;
-    let a = Nametext + "." + Datetext;//merges the 2 items to make a single object
+    let a = Nametext + " " + Datetext;
 
     webSocket.send(a);
 }
@@ -31,12 +32,10 @@ function closeSocket(){
     webSocket.close();
 }
 
-function writeResponse(text) {
-    let array = text.split(".");//used to split the 2 items
+function writeResponse(text){
     let a = "<tr>" +
-        "<td>" + array[0] + "</td>" +
-        "<td>" + array[1] + "</td>" +
-        "</tr>";
+        "<td>" + text + "</td>"
+    "</tr>";
 
     document.getElementById("tbody").innerHTML += a;
 

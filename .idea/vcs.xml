@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/1ejaar(2018-2019)/1e semester/Algoritmisch denken/oefeningen/algoritmisch-denken" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/1ejaar(2018-2019)/2e semester/Bomen en Grafen/Bomen_Grafen_facebook" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/1ejaar(2018-2019)/2e semester/project 2/groep3_19" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Mobiele" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Projektwerk git/r0745616" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/SpringBoot_Basics" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/example/SpringBoot_BiDirectionalOnetoMany" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/landing/landing-page" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/projektweek/Frontend" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/projektweek/hybrid-cloud-bruh-sound-effect-2" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/web 4.5" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/web 4.5 react/ReactTeam1SpelerFrontend" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/web 4.5 react/ucll-ip-minor-speler-frontend" vcs="Git" />
   </component>
 </project>

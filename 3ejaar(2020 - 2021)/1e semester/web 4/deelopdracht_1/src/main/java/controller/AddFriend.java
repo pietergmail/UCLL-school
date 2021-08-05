@@ -1,3 +1,3 @@
 package controller;
-public class AddFriends {
+public class AddFriend {
 }

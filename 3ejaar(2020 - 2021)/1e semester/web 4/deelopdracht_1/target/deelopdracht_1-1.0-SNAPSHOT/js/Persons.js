@@ -2,7 +2,54 @@ window.onload = getPersons;
 
 let addNewPersonRequest = new XMLHttpRequest();
 let deletePersonRequest = new XMLHttpRequest();
+let getPersonsRequest = new XMLHttpRequest();
 
+
+/*old version fo getPersons()*/
+function getPersons(){
+    getPersonsRequest.open("GET","/Controller?command=getpersons");
+    getPersonsRequest.onreadystatechange = showPersons;
+    getPersonsRequest.send();
+}
+
+function showPersons(){
+    if (getPersonsRequest.readyState === 4){
+        if (getPersonsRequest.status === 200){
+            let persons = JSON.parse(getPersonsRequest.responseText);
+            let length;
+            document.getElementById("tbody").innerHTML = "";
+            document.getElementById("count").innerHTML = "";
+
+            document.getElementById("count").innerHTML = "Count: " + persons.length;
+
+            if(persons.length <= 20){
+                length = persons.length;
+            }else{
+                length = 20;
+            }
+            document.getElementById("tbody").innerHTML = "";
+            for (let i = 0; i < length; i++) {
+                let a = "<tr>" +
+                    "<td>" + persons[i]["firstName"] + "</td>" +
+                    "<td>" + persons[i]["lastname"] + "</td>" +
+                    "<td>" + persons[i]["date"] + "</td>" +
+                    "<td>" + persons[i]["room"] + "</td>" +
+                    "<td>" + persons[i]["email"] + "</td>" +
+                    "<td>" + persons[i]["gsm"] + "</td>" +
+                    "<td><a onclick='deleteperson(this.id)' href='#' id='"+persons[i]["firstName"]+"'>delete</a></td>" +
+                    "</tr>";
+                document.getElementById("tbody").innerHTML += a;
+            }
+        }
+    }
+    setInterval(getPersons, 10000)
+    
+}
+
+
+
+
+/*fetch version of getPersons, should work identically
 function getPersons(){
     fetch("/Controller?command=getpersons")
         .then(resp => resp.json())
@@ -11,6 +58,10 @@ function getPersons(){
             let length;
             console.log(persons)
             document.getElementById("tbody").innerHTML = "";
+            document.getElementById("count").innerHTML = "";
+
+            document.getElementById("count").innerHTML = "Count: " + persons.length;
+
             if(persons.length <= 20){
                 length = persons.length;
             }else{
@@ -31,7 +82,7 @@ function getPersons(){
             }
             setInterval(getPersons, 10000)
         })
-}
+}*/
 
 function addPerson(){
     let fnametext = document.getElementById("fname").value;

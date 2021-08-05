@@ -1,4 +1,0 @@
-domain\Person.class
-controller\Controller.class
-db\PersonRepository.class
-db\PersonRepositoryStub.class

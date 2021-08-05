@@ -72,6 +72,21 @@ public class PersonRepositoryStub implements PersonRepository {
         }
     }
 
+    public ArrayList<Person> searchdate(String Date) throws IllegalAccessException {
+        ArrayList<Person> ret = new ArrayList<Person>();
+
+        for (Person p: persons) {
+            if (p.getDate().equals(Date)){
+                ret.add(p);
+            }
+        }
+        if(ret.isEmpty()){
+            throw new IllegalArgumentException("no matches found.");
+        }else{
+            return ret;
+        }
+    }
+
     //move to controller
     /*public String toJson(ArrayList<Person> people){
         try {

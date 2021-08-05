@@ -5,9 +5,53 @@ src="/path/to/jquery.js"
 
 let addNewPersonRequest = new XMLHttpRequest();
 let deletePersonRequest = new XMLHttpRequest();
+let getPersonsRequest = new XMLHttpRequest();
 let logInRequest = new XMLHttpRequest();
 
+/*old XMLHttpRequest implementation*/
 function getPersons(){
+    getPersonsRequest.open("GET","/Controller?command=getpersons", true);
+    getPersonsRequest.onreadystatechange = showPersons;
+    getPersonsRequest.send();
+}
+
+function showPersons(){
+    if (getPersonsRequest.readyState === 4){
+        if (getPersonsRequest.status === 200){
+            let persons = JSON.parse(getPersonsRequest.responseText);
+            let length;
+            document.getElementById("tbody").innerHTML = "";
+            document.getElementById("count").innerHTML = "";
+
+            document.getElementById("count").innerHTML = "Count: " + persons.length;
+
+            if(persons.length <= 20){
+                length = persons.length;
+            }else{
+                length = 20;
+            }
+
+            mostfrequent(persons);
+
+            document.getElementById("tbody").innerHTML = "";
+            for (let i = 0; i < length; i++) {
+                let a = "<tr>" +
+                    "<td>" + persons[i]["firstName"] + "</td>" +
+                    "<td>" + persons[i]["lastname"] + "</td>" +
+                    "<td>" + persons[i]["date"] + "</td>" +
+                    "<td>" + persons[i]["room"] + "</td>" +
+                    "<td>" + persons[i]["email"] + "</td>" +
+                    "<td>" + persons[i]["gsm"] + "</td>" +
+                    "<td><a onclick='deleteperson(this.id)' href='#' id='"+persons[i]["firstName"]+"'>delete</a></td>" +
+                    "</tr>";
+                document.getElementById("tbody").innerHTML += a;
+            }
+        }
+    }
+    setInterval(getPersons, 10000)
+}
+
+/*function getPersons(){
     fetch("/Controller?command=getpersons")
         .then(resp => resp.json())
         .then(function (data){
@@ -15,6 +59,10 @@ function getPersons(){
             let length;
             console.log(persons)
             document.getElementById("tbody").innerHTML = "";
+            document.getElementById("count").innerHTML = "";
+
+            document.getElementById("count").innerHTML = "Count: " + persons.length;
+
             if(persons.length <= 20){
                 length = persons.length;
             }else{
@@ -37,7 +85,7 @@ function getPersons(){
             }
             setInterval(getPersons, 10000)
         })
-}
+}*/
 
 function addPerson(){
     let fnametext = document.getElementById("fname").value;
@@ -133,5 +181,3 @@ function mostfrequent(persons){
     console.log(item1, item2, item3);
     $('#most_common').html(a);
 }
-
-

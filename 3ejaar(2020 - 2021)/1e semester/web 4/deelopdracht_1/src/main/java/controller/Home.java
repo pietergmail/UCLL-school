@@ -1,2 +1,3 @@
-package controller;public class Home {
+package controller;
+public class Home {
 }

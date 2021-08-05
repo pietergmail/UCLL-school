@@ -39,5 +39,4 @@ function writeResponse(text) {
         "</tr>";
 
     document.getElementById("tbody").innerHTML += a;
-
 }
