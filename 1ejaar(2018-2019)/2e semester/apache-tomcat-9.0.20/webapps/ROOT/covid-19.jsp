@@ -53,7 +53,7 @@
     <input type="text" id="date" name="date" class="form-control">
     <br>
 
-    <input type="button" value="button" onclick="send()" class="btn btn-primary">
+    <input type="button" value="Send" onclick="send()" class="btn btn-primary">
 </form>
 </main>
 </body>

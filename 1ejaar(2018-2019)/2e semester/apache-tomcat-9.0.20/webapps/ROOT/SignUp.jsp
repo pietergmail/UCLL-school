@@ -63,6 +63,6 @@
         <input value="Sign Up" type="submit" class="btn btn-primary">
 
     </form>
-</main>
 </body>
+</main>
 </html>
